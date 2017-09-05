@@ -1,0 +1,10 @@
+(1) double-dot is the same as no not.
+
+git diff feature_maint master = git diff feature_maint..master
+
+(2) triple-dot is Diff from the common ancestor(merge base) of feature_maint and master to tip of master.
+The merge base is the last commit in common between those two branches.
+
+reference: https://stackoverflow.com/questions/7251477/what-are-the-differences-between-double-dot-and-triple-dot-in-git-dif
+
+
