@@ -1,0 +1,13 @@
+.bash_profile is executed for login shells, while .bashrc is executed for interactive non-login shells.
+
+(1).bash_profile
+
+when I login via console, (locally or remotely) .bash_profile is executed before the initial command prompt
+
+(2) .bashrc
+
+if I already logged into a machine and open a new terminal window inside it. .bashrc is executed before the window command prompt.
+.bashrc is also run when I start a new bash instance by typing /bin/bash in a terminal.
+
+
+reference: http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
