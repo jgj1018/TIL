@@ -1,0 +1,32 @@
+1-4
+
+if the first word of the command line does not correspont to a built-in shell command, then the shell assumes that it is the name
+of an executable file that it should load and run.
+
+(1) Buses
+Running throughout the system is a collection of electrical conduits called buses that carry bytes of information back and forth
+between the components. Buses are typically designed to transfer fixed-sized chunks of bytes known as words(64 or 32) which is a
+fundamental system parameter that varies across systems.
+
+(2) I/O Devices
+Input/Output devices are the system's connection to the external world.
+
+(3) Main memory 
+it is a temporary storage device that holds both a program and the data it manipulates while the processor is executing the program.
+
+(4) Processor
+The central processing unit(CPU), is the engine that interprets (or executes) instructions stored in main memory.
+The processor reads the instruction from memory pointed at by the program counter(PC), interprets the bits in the instruction,
+performs some simple oeration dictated by the instruction, and then updates the PC to point to the next instruction, which may or
+may not be contiguous in memory to the instruction that was just executed.
+
+
+1-5
+
+The processor can read data from the register file almost 100 times faster than from memory. this processor-memory gap
+continues to increase. It is easier and cheaper to make processors run faster than it is to make main memory run faster.
+To deal with the gap, system designers include smaller and faster storage devices called cache memories that serve as
+temporary staging areas for information that the processor is likely to need in the near future.
+
+By setting up caches to hold data that is likely to be accessed often, we can perform most memory operations using the fast caches.
+
