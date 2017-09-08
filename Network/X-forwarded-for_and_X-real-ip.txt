@@ -1,0 +1,13 @@
+﻿X-forwarded-for X-real-ip (When it comes to Nginx)
+
+both of them are a kind of HTTP header.
+
+X-forwarded-for is used for when you want to specify where the request is from when load balancer or proxy is working.
+
+X-real-ip is also a kind of header, it is basically working the same as X-forwarded-for.
+but x-forwarded-for can be more than two, but X-real-ip can't (on Nginx)
+
+reference: 
+
+remote_addrとかx-forwarded-forとかx-real-ipとか : http://christina04.hatenablog.com/entry/2016/10/25/190000
+HTTPクライアントの接続元IPアドレスを知る : http://3.1415.jp/kc47fh1k/
