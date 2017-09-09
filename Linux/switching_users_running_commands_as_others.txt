@@ -1,0 +1,22 @@
+su [username] Change user ID or become superuser
+
+Excuting su without any options is the same thing as executing "su root"
+
+(1) '-' = '-l', '--login'
+
+A hyphen is used to provide an envirionment similar to what the user would expect had the user logged in directly.
+Make the shell a login shell, This means the following. Unset all environment variables except TERM, HOME, and SHELL
+(which are set as described above) and USER and LOGNAME (which are set, even for the super-user, as described above),
+and set PATH to a compiled-in default value. Change to user's home directory. Prepenr '-' to the shell's name. intended
+to make it read its login startup file(s).
+
+
+--------------------------------------------------------------------------------------------------------
+
+sudo -u root command  : Run command as root
+sudo -u user command  : Run as user
+
+sudo su -          : switch to the superuser account with root's environment
+sudo su - username : switch to the username account with the user's environment
+
+
