@@ -1,0 +1,60 @@
+1-6 Storage devices form a hierarchy
+
+As we move from the top of the hierarchy to the bottom, the devices become slower, larger, and less costly per byte.
+
+Register -> L1 cache(SRAM) -> L2 cache(SRAM) -> L3 cache (SRAM) -> Main memory (DRAM) -> Local secondary storage(local disks)
+-> Remote secondary storage(distrubited file systems, Web server)
+
+The main idea of a memory hierarch is that storage at one level serves as a cache for storage at the next lower level.
+Thus, the register file is a cache for the L1 cache.
+
+1-7 The operating system manages the hardware
+
+We can think of the operating system as a layer of software interposed between the application program and the hardware.
+The operating system has two primary purposes.
+
+(1) to protect the hardware from misuse by ranaway applications
+(2) to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different
+low-level hardware devices.
+
+files are abstractions for I/O devices, virtual memory is an abstraction for both the main memory and disk I/O divices.
+and processes are abstrctions for the processor, main memory, and I/O devices.
+
+1.7.1 Processes
+
+A process is the operating system's abstraction for a running program. Multiple porcesses ca nrun concurrently on the same system,
+and each process appears to have exclusive use of the hardware.
+
+The operating system keeps track of all the state information that the process needs in order to run.
+
+There are two concurrent processes in our example scenario: the shell process and the hello process, Initially, the shell
+process is running alone, waiting for input on the command line. When we ask it to run the hello program, the shell carries
+out our request by invoking a special function known as a system call that passes control to the operating system.
+The operating system saves the shell's context, create a new hello process and its context, and then passes control to the
+new hello process. Afther hello terminates, the operating system restores the context of the shell process and passes control
+back to it. where it waits for the next command line input.
+
+1.7.2 Threads
+
+Although we normally think of a process as having a single control flow, in modern systems a process can actually consist 
+of multiple execution units, called threads, each running in the context of the process and sharing the same code and global data.
+
+it is easier to share data between multiple threads than between multiple processes, and threads are typically more
+effcient than processes.
+
+1.7.3 Virtual memory
+
+Virtual memory is an abstraction that provides each process with the illusion that it has exclusive use of the main memory.
+Each process has the same uniform view of memory, which is known as its virtual address space
+In Linux, the topmost regison of the address space is reserved for code and data in the operating system that is common to all
+processes, The lower regsion of the address space holds the code and data defined by the user's process. Note that addresses
+in the figure increase from the bottom to the top.
+
+The basic idea is to store the contents of a prcess's virtual memory on disk, and then use the main memory as a cache for the disk.
+
+
+1.7.4 Files
+
+A file is a sequence of bytes, nothing more and nothing less. Every I/O device, including disks, keyboards, displays, and even
+networks, is modeled as a file.All input and output in the system is performed by reading and writing files, using a small set
+of system calls known as Unix I/O
