@@ -1,0 +1,38 @@
+1-8 Systems communicate with other systems using networks.
+
+In practice, mordern systems are often linked to other systems by networks.
+
+Example 
+
+(1) User types "hello" at the ketboard
+(2) Client sends "hello" string to telnet server
+(3) Server sends "hello" string to the shell, which run the hello program and passes the output to the telnet server
+(4) Telnet server sends "hello, world\n" string to client
+(5) Client prints "hello, world\n" to string on display
+
+1-9 Important Themes
+
+1.9.1 Concurrency and Parallelism
+
+Thread-level Concurrency
+
+Until recently, most actual computing was done by a single processor, even if that processor had to switch among multiple tasks.
+This configuration is known as a uniprocessor system.
+Multi-core processors have several CPUs(referred to as cores) intergrated onto a single intergrated-circuit chip.
+Hyperthreading, sometimes called simultaneous multi-threading, is a technique that allows a single CPU to execute multiple flows of control.
+
+1.9.2 The Importance of Abstractions in Computer Systems.
+
+-
+
+1.10
+
+The operating system kernel serves as an intermediary between the application and the hardware.
+It provides three funcdamental abstractions.
+
+(1) Files are abstractions for I/O devices.
+(2) Virtual memory is an abstarction for both main memory and disks
+(3) Processes are abstractions for the processor, main memory, and I/O devices.
+
+Finally, networks provides ways for computer systems to communicate with one another. From the viewpoint of a particular
+system, the network is just another I/O device.
