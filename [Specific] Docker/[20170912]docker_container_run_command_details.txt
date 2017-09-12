@@ -1,0 +1,15 @@
+docker container run
+
+run : run a command in a new container
+: docker run command first creates a writeable container layer over the specified image, and then 
+starts it using the specifed command. 
+
+(1) Looks for that image locally in image cache, doesn't find anything
+(2) The looks in remote image repository(defaults to Docker Hub)
+(3) Downloads the latest version (nginx:latest by default)
+(4) Create new container based on the image and prepares to start
+(5) Gives it a virtual IP on a private network to port 80 in container
+(6) Opens up port 80 on host and forwards to port 80 in container
+(7) Starts container by using the CMD in the image Dockerfile 
+
+docker container run --published 8080:80 --name webhost -d nginx:1.11 nginx -T
