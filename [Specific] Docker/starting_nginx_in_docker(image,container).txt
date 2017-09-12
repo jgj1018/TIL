@@ -1,0 +1,39 @@
+docker command format
+
+docker <command> <sub_command> {option}
+
+========================================================================
+
+image vs container
+
+An Image is the application we want to run
+A Container is an instance of that image running as a process
+I can have many containers running off the same image
+
+docker container run --publish 80:80 nginx
+
+(1) Downloaded image 'nginx' from Docker Hub
+(2) Started a new container from that image
+(3) Opened port 80 on the host IP
+(4) Routes that traffic to the container IP, port 80
+
+--detached 
+-> run backgraound
+
+docker container ls
+-> only show running container
+
+docker container ls -a
+-> show all the containers
+
+--name {name}
+-> give name to a container
+
+docker container logs {name}
+-> show logs (when you run a container background)
+
+docker container top
+
+docker container rm {container id}
+-> remove container
+
