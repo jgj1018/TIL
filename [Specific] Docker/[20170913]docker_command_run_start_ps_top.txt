@@ -1,0 +1,32 @@
+different between run and start
+
+run  : runs an image
+start: starts a container
+
+The docker run command first creates a writeable container layer over the specified image,
+and then starts it using the specified command.
+
+That is, docker run is equivalent to the API /containers/create then /containers/(id)/start
+
+and it means, I can create N clone of the same image by using run command.
+
+===================================================================================================
+
+docker run --name mongo -d mongo
+docker ps
+docker top mongo
+
+docker ps : List containers
+-> show all containers(default shows just running)
+
+we can check the process run by docker by using "ps aux show all running processes" on Linux prompt
+Container is just nothing more than a process.
+
+docker top {name}
+
+
+
+
+
+
+
