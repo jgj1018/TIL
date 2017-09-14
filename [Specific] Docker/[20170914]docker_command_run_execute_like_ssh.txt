@@ -1,0 +1,46 @@
+
+docker container run -it : start new container interactively
+docker container exec -it : run additional command in existing container
+
+-t (--tty)
+
+: allocate a pseudo-TTY
+  simulates a real terminal like what ssh does
+   
+
+-i (--interactive)
+
+: keep STDIN open even if not attached
+  keep session open to receive terminal input
+
+
+*exec
+
+exec dommand runs a new command in a runnig container.
+the command started using docker exec only runs while the container's primary process is running, and it is not
+restarted if the container is restarted.
+Command will run in the default directory of the container. 
+
+
+
+============================================================================================================
+
+
+docker container run -it --name proxy nginx bash
+
+bash shell
+
+: if run with -it, it will give you a terminal inside the running container
+
+
+============================================================================================================
+
+docker start -ai
+
+-a (--attach)
+: Attach stdout/stderr and forward signals
+
+-i (--interactive)
+: Attach container's STDIN
+
+
