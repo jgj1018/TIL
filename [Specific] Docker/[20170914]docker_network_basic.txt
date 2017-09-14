@@ -1,0 +1,22 @@
+Docker Networks Defaults
+
+Each container connected to a private virtual network "bridge"
+Each virtual network routes through NAT firewall on host IP
+All containers on a virtual network can talk to each other without -p
+Best practice is to create a new virtual network for each app
+-network "my_web_app" for mysql and php/apache containers
+-network "my_api" for mongo and nodejs container.
+
+====================================================================
+
+bridge network represents the docker0. the docker daemon connects containers to this network by default.
+I can see this bridge as part of a host's network stack by using the ifconfig command on the host.
+
+The host network adds a container on the host's network stack, As for as the network is concerned. there is no isolation
+between the host machine and the container. 
+
+I can configure the default bridge network, as well as my own user-defined bridge networks.
+
+Containers connected to the default bridge network can communicate with each other by IP address.
+Docker does not support automatic service discovery on the default bridge network. If I want containers to be able to resolve
+IP addresses by container name, I should use use-defined networks instead.
