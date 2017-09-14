@@ -1,0 +1,13 @@
+Along with an IP address(which is networks software), there's also a hardware address.
+Typically it is tied to a key connection device in my computer called the network interface card, or NIC.
+The NIC is essentially a computer circuit card that makes it possible for my computer to connect to a network.
+An NIC turns data into an electrical signal that can be transmitted over the network.
+
+Every NIC has a hardware address that's known as a MAC.
+MAC addresses are linked to the hardware of network adapters.
+Something called ARP(Address Resolution Protocal) translates an IP address into a MAC address.
+
+The MAC address is a string of usually six sets of two-digits or characters, seperated by colons.
+
+MAC addresses are useful for network diagnosis because they never change. For a network administrator,
+that makes a MAC address a more reliable way to identify senders and receivers of data on the network.
