@@ -29,7 +29,7 @@ when I delete ./git/logs/ all the datas of Reflog will be removed either. There 
 
 ```
 // this show all the commits which doesn't belong to anywhere.
-git fask --full 
+git fsck --full 
 dangling blob d670460b4b4aece5915caf5c68d12f560a9fe3e4
 dangling commit ab1afef80fac8e34258ff41fc1b867c702daa24b
 dangling tree aea790b9a58f6cf6f2804eeac9f0abbe9631e4c9
