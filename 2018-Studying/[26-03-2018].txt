@@ -1,0 +1,7 @@
+## (1) Today I do
+
+- To make Load test guideline in English version for my department
+
+## (2) Today I read or studied
+
+- [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
