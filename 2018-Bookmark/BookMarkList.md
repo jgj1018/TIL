@@ -7,3 +7,7 @@
 ## 2018.3
 
 - [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+
+## 2018.4
+
+- [git diff を徹底攻略！よく使う便利オプションまとめ、完全版。](http://www-creators.com/archives/755)
