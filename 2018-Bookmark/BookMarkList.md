@@ -11,3 +11,4 @@
 ## 2018.4
 
 - [git diff を徹底攻略！よく使う便利オプションまとめ、完全版。](http://www-creators.com/archives/755)
+- [HTTPS explained with carrier pigeons](https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351)
