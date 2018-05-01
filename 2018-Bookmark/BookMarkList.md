@@ -12,3 +12,7 @@
 
 - [git diff を徹底攻略！よく使う便利オプションまとめ、完全版。](http://www-creators.com/archives/755)
 - [HTTPS explained with carrier pigeons](https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351)
+
+## 2018.5
+
+- [PostgreSQL 튜닝워크샵 (2017년8월)](https://www.slideshare.net/SiyeonAcademy/postgresql-20178?qid=4f54b28c-57ba-4528-a42b-45b8fb0dbcc0&v=&b=&from_search=1)
