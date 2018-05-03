@@ -1,0 +1,6 @@
+## (1) Today I do
+
+## (2) Today I read or studied
+
+- [Testing in Django](https://docs.djangoproject.com/en/2.0/topics/testing/)
+- [Writing and running tests](https://docs.djangoproject.com/en/2.0/topics/testing/overview/)
