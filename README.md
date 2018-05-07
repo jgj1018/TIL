@@ -1,23 +1,28 @@
-## TIL
+## The purpose of TIL(Today I Learned)
 
-Only to improve myself.
-TIL can be broke into two parts.
+To improve myself continuously.
+Excellence is the gradual result of always striving to do better.
 
-- (1) One is normal `daily TIL`.
-- (2) The other one is `bookmark`.
+
+### YYYY-Studying 
+
+The place for "daily TIL"
   
 Speaking of `daily TIL`, The basic format of it is below
 
-## (1) Today I do
-
-- github commit link in other repository.
-- some other description about what I've done.
+- (1) Today I do
+- coding
  
-## (2) Today I read
-
+- (2) Today I read
 - links that I read completely. I don't add any link I half-read or something I totally couldn't understand. 
-- pages of books I'm reading. I can add more memo to recap.
+- title of books which I'm reading.
 
 
-And `bookmark` is just a list of links which I want to read again and again.
+### Bookmark 
+
+just a list of links which I want to read again and again.
+
+### Memo
+
+bunch of memo from books or lectures.
 
