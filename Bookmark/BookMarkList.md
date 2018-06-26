@@ -17,3 +17,7 @@
 
 - [PostgreSQL 튜닝워크샵 (2017년8월)](https://www.slideshare.net/SiyeonAcademy/postgresql-20178?qid=4f54b28c-57ba-4528-a42b-45b8fb0dbcc0&v=&b=&from_search=1)
 - [Redis 2017](https://www.slideshare.net/charsyam2/redis-2017?qid=1f2294e8-5e3c-4f2c-b625-27af02ad777e&v=&b=&from_search=2)
+
+## 2018.6
+
+- [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
