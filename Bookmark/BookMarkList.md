@@ -21,3 +21,7 @@
 ## 2018.6
 
 - [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
+
+## 2018.7
+
+- [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk&t=1899s&list=WL&index=15)
