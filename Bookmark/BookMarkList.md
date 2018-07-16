@@ -28,3 +28,5 @@
 - [2018년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)](https://d2.naver.com/helloworld/7495331)
 - [2018년과 이후 JavaScript의 동향 - 라이브러리와 프레임워크](https://d2.naver.com/helloworld/3259111)
 - [2018년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript](https://d2.naver.com/helloworld/5644368)
+- [REST API 이해와 설계 - #2 API 설계 가이드](http://bcho.tistory.com/954)
+- [Building an API with Django REST Framework and Class-Based Views](https://codeburst.io/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396)
