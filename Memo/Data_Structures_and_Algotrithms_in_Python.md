@@ -8,3 +8,33 @@
 
 * Python also supports the use of negative indices, which denote a distance from the end of the sequence; index -1 denotes the last element. index =2 the second to last.
 
+
+* the built-in function, divmod(a, b), returns the pair of values (a // b, a % b) associated with an integer division. Although the caller can consider the return value to be a single tuple, it is possible to write.
+
+```Python
+quotient, remainder = divmod(a, b)
+```
+
+* When using a simultaneous assignment, all of the expressions are evaluated on the right-hand side before any of the assignments are made to the left-hand variables. This is significant, as it provides a convenient means for swapping the values associated with two variables. With this command, j will be assigned to the old value of k, and k will be assigned to the old value of j. 
+
+```Python
+j, k = k, j
+```
+
+* fibonacci example
+
+```Python
+def fibonacci():
+ a, b = 0, 1
+ while True:
+  yield a
+  a, b = b, a+b
+```
+
+* first-class objects are instances of a type that can be assigned to an identifier, passed as a parameter, or returned by a function. In Python, functions and classes are also treated as first-class objects. 
+
+
+```Python
+scream = print  # assign name ‘scream’ to the function denoted as ‘print’
+scream(‘Hello’) # call that function
+```
