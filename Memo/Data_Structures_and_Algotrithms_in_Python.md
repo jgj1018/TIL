@@ -9,6 +9,26 @@
 * Python also supports the use of negative indices, which denote a distance from the end of the sequence; index -1 denotes the last element. index =2 the second to last.
 
 
+* This example demonstrates the subtle difference between the list semantics for the syntax beta += foo versus beta = beta + foo.
+
+```Python
+alpha = [1, 2, 3]
+beta = alpha                       # an alias for alpha
+beta += [4, 5]                     # extends the original list with two more elements
+beta = beta + [6, 7]               # reassigns beta to a new list [1, 2, 3, 4, 5, 6, 7]
+print(alpha)                       # will be [1, 2, 3, 4, 5]
+```
+
+*  handling the exceptional case requires slightly more time when using a try-except structure than with a standard conditional statement. For this reason, the try-except clause is best used when there is reason to believe that the exceptional case is relatively unlikely, or when it is prohibitively expensive to proactively evaluate a condition to avoid the exception.
+
+
+
+* An iterator is an object that manages an iteration through a series of values. If variable, i, identifies an iterator object, then each call to the built-in function, next(i), produces a subsequent element from the underlying series, with a StopIteration exception raised to indicate that there are no further elements.
+
+
+* An iterable is an object, obj, that produces an iterator via the syntax iter(obj).
+
+
 * the built-in function, divmod(a, b), returns the pair of values (a // b, a % b) associated with an integer division. Although the caller can consider the return value to be a single tuple, it is possible to write.
 
 ```Python
