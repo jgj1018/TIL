@@ -30,3 +30,7 @@
 - [2018년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript](https://d2.naver.com/helloworld/5644368)
 - [REST API 이해와 설계 - #2 API 설계 가이드](http://bcho.tistory.com/954)
 - [Building an API with Django REST Framework and Class-Based Views](https://codeburst.io/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396)
+
+## 2018.8
+
+- [PostgreSQL HA with pgpool-II](https://www.fatdragon.me/blog/2016/05/postgresql-ha-pgpool-ii-part-1)
