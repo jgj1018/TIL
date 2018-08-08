@@ -169,3 +169,32 @@ fractions.Fraction(".25")
 
 
 
+#### Tuples
+
+* It is important to remember to use a trailing comma when creating a tuple with one element, for example:
+
+```python
+t = ('a',) 
+```
+
+* An important use of tuples is to allow us to assign more than one variable at a time by placing a tuple on the left-hand side of an assignment, for example:
+
+```python
+l=['one', 'two']
+x, y = l
+```
+
+* We can actually use this multiple assignment to swap values in a tuple, for example:
+
+
+```python
+x,y = y,x
+```
+
+* A ValueError will be thrown if the number of values on each side of the assignment are not the same.
+
+#### Dictionaries
+
+* Dictionaries themselves are mutable; however, their index keys must be immutable.
+
+* In contrast to the list object, when the in operator is applied to dictionaries, it uses a hashing algorithm and this has the effect of the increase in time for each lookup almost independent of the size of the dictionary. This makes dictionaries extremely useful as a way to work with large amounts of indexed data.
