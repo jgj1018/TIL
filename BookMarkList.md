@@ -34,3 +34,4 @@
 ## 2018.8
 
 - [PostgreSQL HA with pgpool-II](https://www.fatdragon.me/blog/2016/05/postgresql-ha-pgpool-ii-part-1)
+- [L4 장비의 동작과 서비스 배포시 유의점](http://tech.kakao.com/2014/05/30/l4/)
