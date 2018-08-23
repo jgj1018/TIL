@@ -12,3 +12,7 @@
 * [Consul の Check definitions 研究](https://inokara.hateblo.jp/entry/2015/03/12/010201)
 * [여러 호스트에 Consul 설치 후 연동하기](http://teddykwon.com/2017/01/18/consul-install.html)
 * [consul 서비스 설치 및 TIP](http://rootkey.tistory.com/12)
+
+* [オーケストレーションツールとしてのConsulの使い方](https://qiita.com/foostan/items/954f73173ea34eb361da)
+* [consul watchの変な挙動](http://u0sa0.hateblo.jp/entry/2015/06/28/001300)
+* [Consulを頑張って理解する](https://www.slideshare.net/ssuser07ce9c/consul-58146464)
