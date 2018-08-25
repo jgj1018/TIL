@@ -198,3 +198,141 @@ x,y = y,x
 * Dictionaries themselves are mutable; however, their index keys must be immutable.
 
 * In contrast to the list object, when the in operator is applied to dictionaries, it uses a hashing algorithm and this has the effect of the increase in time for each lookup almost independent of the size of the dictionary. This makes dictionaries extremely useful as a way to work with large amounts of indexed data.
+
+#### Sorting dictionaries
+
+* The sorted() method has two optional arguments that are of interest: key and reverse. The key argument has nothing to do with the dictionary keys, but rather is a way of passing a function to the sort algorithm to determine the sort order. For example, in the following code, we use the __getitem__ special method to sort the dictionary keys according to the dictionary values:
+
+
+```python
+sorted(list(d))
+# ['five', 'four', 'one', 'two', 'three', 'two']
+
+sorted(list(d.values))
+# [1, 2, 3, 4, 5, 6]
+
+sorted(list(d), key = d.__getitem__)
+# ['one', 'two', 'three', 'four', 'five', 'six']
+```
+
+* since dictionaries do not have a method to return a key by using its value, the equivalent of the list.index method for lists, using the optional key argument to do this is a little tricky. An alternative approach is to use a list comprehension, as the following example demonstrates:
+
+```python
+[value for (key, value) in sorted(d.items())]
+#[5, 4, 1, 6, 3, 2]
+```
+
+* The sorted() method also has an optional reverse argument, and unsurprisingly, this does exactly what it says, reverses the order of the sorted list, for example:
+
+```python
+sorted(list(d), key=d.__getitem__, reverse=True)
+['six', 'five', 'four', 'three', 'two', 'one']
+```
+
+
+* We can, of course, define our own custom method that we can use as the key argument to the sorted method. For example, here we define a function that simply returns the last letter of a string:
+
+```python
+d2 ={'one':'uno' , 'two':'deux', 'three':'trois', 'four': 'quatre', 'five': 'cinq', 'six':'six'}
+
+def corder(string):
+	return(string[len(string - 1])
+    
+sorted(d2.values(), key=corder)
+#['quatre', 'uno', 'cinq', 'trois', 'deux', 'six']
+```
+
+#### Dictionaries for text analysis.
+
+```python
+filtered = {key:value for key, value in items if value < 20 and value > 15}
+```
+
+* Note the use of the dictionary comprehension used to construct the filtered dictionary.
+
+#### Sets
+
+```python
+s1= {'ab', 3, 4, (5,6)}
+s2= {'ab', 7, (7,6)}
+
+s1 - s2 # same as s1.difference(s2)
+# {(5, 6), 3, 4}
+
+s1.intersection(s2)
+# {'ab'}
+
+s1.union(s2)
+# {3, 4, 'ab', 7, (5,6), (7,6)}
+```
+
+* Notice that the set object does not care that its members are not all of the same type, as long as they are all immutable. If you try to use a mutable object such as a list or dictionaries in a set, you will receive an unhashable type error. Hashable types all have a hash value that does not change throughout the lifetime of the instance. All built-in immutable types are hashable. All built-in mutable types are not hashable, so they cannot be used as elements of sets or keys to dictionaries.
+
+
+* Notice also in the preceding code that when we print out the union of s1 and s2, there is only one element with the value 'ab'. This is a natural property of sets in that they do not include duplicates.
+
+#### Immutable sets
+
+* since normal sets are mutable and therefore not hashable, they cannot be used as members of other sets. The frozenset, on the other hand, is immutable and therefore able to be used as a member of a set
+
+
+#### Deques
+
+* Double-ended queues, or deques (usually pronounced decks), are list-like objects that support thread-safe, memory-efficient appends. Deques are mutable and support some of the operations of lists, such as indexing. Deques can be assigned by index, for example, dq[1] = z; however, we cannot directly slice deques. For example, dq[1:2] results in a TypeError (we will look at a way to return a slice from a deque as a list shortly).
+
+
+* The major advantage of deques over lists is that inserting items at the beginning of a deque is much faster than inserting items at the beginning of a list, although inserting items at the end of a deque is very slightly slower than the equivalent operation on a list.
+
+* We can use the rotate(n) method to move and rotate all items of n steps to the right for positive values of the integer n, or left for negative values of n the left, using positive integers as the argument,
+
+```python
+from collections import deque
+dq = deque('abcd')
+#deque(['a', 'b', 'c', 'd'])
+dq.rotate(2)
+#deque(['c', 'd', 'a', 'b'])
+dq.rotate(-2)
+#deque(['a', 'b', 'c', 'd'])
+
+```
+
+* A useful feature of deques is that they support a maxlen optional parameter that restricts the size of the deque. This makes it ideally suited to a data structure known as a circular buffer. This is a fixed-size structure that is effectively connected end to end and they are typically used for buffering data streams. The following is a basic example:
+
+```python
+dq2 = deque([], maxlen=3)
+for i in range(6):
+	dq2.append(i)
+    print(dq2)
+    
+#deque([0] , maxlen=3)
+#deque([0, 1] , maxlen=3)
+#deque([0, 1, 2] , maxlen=3)
+#deque([1, 2, 3] , maxlen=3)
+#deque([2, 3, 4] , maxlen=3)
+#deque([3, 4, 5] , maxlen=3)
+```
+
+#### Counter objects
+
+* Counter is a subclass of a dictionary where each dictionary key is a hashable object and the associated value is an integer count of that object
+
+```python
+from collections import Counter
+ct = Counter()
+ct.update('abcd')
+# Counter({'a': 2, 'b': 1, 'c': 1})
+ct.update({'a':3})
+# Counter({'a': 5, 'b': 1, 'c': 1})
+```
+
+* The most notable difference between counter objects and dictionaries is that counter objects return a zero count for missing items rather than raising a key error
+
+
+#### Ordered dictionaries
+
+* The important thing about ordered dictionaries is that they remember the insertion order, so when we iterate over them, they return values in the order they were inserted. (...) with an OrderedDict, the insertion order is also considered An equality test between two OrderedDicts with the same keys and values but a different insertion order will return False:
+
+
+#### defaultdict
+
+* with an OrderedDict, the insertion order is also considered An equality test between two OrderedDicts with the same keys and values but a different insertion order will return False:
