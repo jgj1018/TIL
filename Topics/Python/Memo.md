@@ -1,0 +1,1 @@
+- [lambda, map and filter in Python](https://medium.com/@happymishra66/lambda-map-and-filter-in-python-4935f248593)
