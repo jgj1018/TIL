@@ -283,6 +283,7 @@ s1.union(s2)
 
 * The major advantage of deques over lists is that inserting items at the beginning of a deque is much faster than inserting items at the beginning of a list, although inserting items at the end of a deque is very slightly slower than the equivalent operation on a list.
 
+
 * We can use the rotate(n) method to move and rotate all items of n steps to the right for positive values of the integer n, or left for negative values of n the left, using positive integers as the argument,
 
 ```python
@@ -336,3 +337,63 @@ ct.update({'a':3})
 #### defaultdict
 
 * with an OrderedDict, the insertion order is also considered An equality test between two OrderedDicts with the same keys and values but a different insertion order will return False:
+
+
+#### Arrays
+
+* The array module defines a datatype array that is similar to the list datatype except for the constraint that their contents must be of a single type of the underlying representation, as is determined by the machine architecture or underlying C implementation.
+
+
+* Using arrays, as opposed to lists, is a much more efficient way of storing data that is all of the same type. In the following example, we have created an integer array of the digits from 0 to 1 million minus 1, and an identical list. Storing 1 million integers in an integer array requires around 45% of the memory of an equivalent list:
+
+
+```python
+import array
+ba = array.array('i', range(10**6))
+bl = list(range(10**6))
+import sys
+100 * sys.getsizeof(ba) / sys.getsizeof(bl)
+45.46534532014713
+```
+
+* It should be noted that when performing operations on arrays that create lists, such as list comprehensions, the memory efficiency gains of using an array in the first place will be negated. When we need to create a new data object, a solution is to use a generator expression to perform the operation.
+
+
+#### Recursion and backtracking
+
+* At the core of a recursive function are two types of cases: base cases, which tell the recursion when to terminate, and recursive cases that call the function they are in. A simple problem that naturally lends itself to a recursive solution is calculating factorials. The recursive factorial algorithm defines two cases: the base case when n is zero, and the recursive case when n is greater than zero. A typical implementation is the following:
+
+```python
+def factorial(n):
+	f = 0
+	if n==0:
+    	return 1
+        f= n*factorial(n-1)
+    print(f)
+    return(f)
+    
+factorial(4)
+```
+
+* This code prints out the digits 1, 2, 4, 24. To calculate 4 requires four recursive calls plus the initial parent call. On each recursion, a copy of the methods variables is stored in memory. Once the method returns it is removed from memory.
+
+
+* Recursive calls are stored in memory, whereas iterations are not. This creates a trade off between processor cycles and memory usage, so choosing which one to use may depend on whether the task is processor or memory intensive.
+
+Recursion|Iteration
+---|---
+Terminates when a base case is reached|Terminates when a defined condition is met
+Each recursive call requires space in memory|Each iteration is not stored in memory
+An infinite recursion results in a stack overflow error|An infinite iteration will run while the hardware is powered
+Some problems are naturally better suited to recursive solutions|Iterative solutions may not always be obvious
+
+
+#### Backtracking
+
+* Backtracking is a form of recursion that is particularly useful for types of problems such as traversing tree structures, where we are presented with a number of options at each node, from which we must choose one. Subsequently we are presented with a different set of options, and depending on the series of choices made either a goal state or a dead end is reached. If it is the latter, we must backtrack to a previous node and traverse a different branch. Backtracking is a divide and conquer method for exhaustive search. Importantly backtracking prunes branches that cannot give a result.An example of back tracking is given in the following example. Here, we have used a recursive approach to generating all the possible permutations of a given string, s, of a given length n:
+
+```
+def bitStr(n,s):
+	if n == 1: return s
+    return [digit + bits for digit in bitStr(1,s) for bits in bitStr(n-1, s)]
+```
