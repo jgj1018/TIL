@@ -397,3 +397,9 @@ def bitStr(n,s):
 	if n == 1: return s
     return [digit + bits for digit in bitStr(1,s) for bits in bitStr(n-1, s)]
 ```
+
+#### Runtime analysis
+
+* Worst case analysis. Make no assumptions on the input data.
+* Ignore or suppress constant factors and lower order terms. At large inputs higher order terms dominate.
+* Focus on problems with large input sizes.
