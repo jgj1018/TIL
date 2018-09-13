@@ -1,1 +1,2 @@
 - [lambda, map and filter in Python](https://medium.com/@happymishra66/lambda-map-and-filter-in-python-4935f248593)
+- [ログ出力のための print と import logging はやめてほしい](https://qiita.com/amedama/items/b856b2f30c2f38665701)
