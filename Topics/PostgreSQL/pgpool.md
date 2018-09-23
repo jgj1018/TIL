@@ -1,0 +1,1 @@
+- [Pgpool-II内部情報セミナー](http://www.pgpool.net/pgpool-web/contrib_docs/pgpool-II-internal-1.pdf)
