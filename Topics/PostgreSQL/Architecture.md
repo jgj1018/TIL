@@ -1,3 +1,10 @@
+#### Architecture
+
+- [How does MVCC (Multi-Version Concurrency Control) work](https://vladmihalcea.com/how-does-mvcc-multi-version-concurrency-control-work/)
+- [PostgreSQL: Exploring how SELECT Queries can produce disk writes](https://blog.okmeter.io/postgresql-exploring-how-select-queries-can-produce-disk-writes-f36c8bee6b6f)
+- [Postgres Transactions Aren’t Fully Isolated](http://malisper.me/postgres-transactions-arent-fully-isolated/)
+
+
 #### HA
 
 - [High Availability, Load Balancing, and Replication](https://www.postgresql.org/docs/9.6/static/high-availability.html)
