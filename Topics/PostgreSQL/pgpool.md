@@ -9,3 +9,8 @@
 
 - [pgpool load balancing is sending all queries only to master](https://dba.stackexchange.com/questions/119941/pgpool-load-balancing-is-sending-all-queries-only-to-master) 
 - [Pgpool master-slave replication with load balancing - prepared statement “S_380” does not exist](https://stackoverflow.com/questions/46640790/pgpool-master-slave-replication-with-load-balancing-prepared-statement-s-380)
+
+
+#### etc
+
+- [PgBouncer and Pgpool – Essential for Scaling PostgreSQL](https://www.linkedin.com/pulse/pgbouncer-pgpool-essential-scaling-postgresql-torrejon-castrillo/)
