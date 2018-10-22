@@ -7,6 +7,7 @@
 
 #### pgpool issues
 
+- [0000435: Unexpected movement on load balancing (master slave mode)](https://www.pgpool.net/mantisbt/view.php?id=435&nbn=12#bugnotes)
 - [pgpool load balancing is sending all queries only to master](https://dba.stackexchange.com/questions/119941/pgpool-load-balancing-is-sending-all-queries-only-to-master) 
 - [Pgpool master-slave replication with load balancing - prepared statement “S_380” does not exist](https://stackoverflow.com/questions/46640790/pgpool-master-slave-replication-with-load-balancing-prepared-statement-s-380)
 
