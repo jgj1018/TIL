@@ -1,0 +1,2 @@
+- [(SDS 사내 기고) Microservices Architecture 란?](https://kihoonkim.github.io/2017/01/27/Microservices%20Architecture/[SDS%EC%82%AC%EB%82%B4%20%EA%B8%B0%EA%B3%A0]%20Microservice%20Architecture%EB%9E%80/)
+- [마이크로서비스 아키텍처의 장단점](https://www.popit.kr/why-microservice/)
