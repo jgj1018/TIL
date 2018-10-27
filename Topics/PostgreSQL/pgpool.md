@@ -3,7 +3,7 @@
 - [Pgpool-II内部情報セミナー](http://www.pgpool.net/pgpool-web/contrib_docs/pgpool-II-internal-1.pdf)
 - [Architectural Fundamentals](http://www.pgpool.net/docs/latest/en/html/tutorial-arch.html)
 - [A Little Respect for PGpool II](https://www.enterprisedb.com/ko/blog/little-respect-pgpool-ii)
-
+- [pgpool-online-recovery](https://github.com/abessifi/pgpool-online-recovery)
 
 #### pgpool issues
 
