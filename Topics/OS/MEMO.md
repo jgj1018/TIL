@@ -1,0 +1,1 @@
+- [Computer Architecture: Why is context switching expensive on intel x86 chips?](https://www.quora.com/Computer-Architecture-Why-is-context-switching-expensive-on-intel-x86-chips)
