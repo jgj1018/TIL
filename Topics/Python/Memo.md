@@ -11,5 +11,5 @@
 - [python generator(제너레이터) 란 무엇인가](http://bluese05.tistory.com/56)
 - [3. Generators](https://ddanggle.gitbooks.io/interpy-kr/ch3-generators.html)
 
-
+- [파이썬 데코레이터(Python Decorator) 를 이해하고 잘 써보기](https://blog.jonnung.com/python/2015/08/17/python-decorator/)
 - [*args and **kwargs](https://ddanggle.gitbooks.io/interpy-kr/ch1-args-kwargs.html)

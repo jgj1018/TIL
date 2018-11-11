@@ -1,3 +1,4 @@
 *.idea/
 *node_modules/
+*Topics/Algorithm/.ipynb_checkpoints/
 package-lock.json
