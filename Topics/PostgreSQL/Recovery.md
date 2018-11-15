@@ -1,6 +1,8 @@
 #### Backup
 
 - [PostgreSQLが提供するバックアップ機能](https://qiita.com/U_ikki/items/3158bf7c9e550ed0eeae)
+- [What does pg_start_backup() do?](https://blog.2ndquadrant.com/what-does-pg_start_backup-do/)
+- [物理バップアップの概要](https://lets.postgresql.jp/documents/technical/backup/3)
 
 #### Recovery
 
