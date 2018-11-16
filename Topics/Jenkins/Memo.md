@@ -1,2 +1,3 @@
 - [Catching up with Allure. Part 4: integration with Jenkins](http://overtest.me/catching-up-with-allure-part-4-integration-with-jenkins/)
 - [Jenkins의 Blue ocean을 활용하여 배포 관리하기](https://novemberde.github.io/devops/2017/10/21/Jenkins.html)
+- [Setting up Jenkins with Codeception](https://codeception.com/02-04-2015/setting-up-jenkins-with-codeception.html)
