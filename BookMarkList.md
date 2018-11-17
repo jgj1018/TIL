@@ -35,3 +35,12 @@
 
 - [PostgreSQL HA with pgpool-II](https://www.fatdragon.me/blog/2016/05/postgresql-ha-pgpool-ii-part-1)
 - [L4 장비의 동작과 서비스 배포시 유의점](http://tech.kakao.com/2014/05/30/l4/)
+
+## 2018.10
+
+- [PostgreSQL: Exploring how SELECT Queries can produce disk writes](https://blog.okmeter.io/postgresql-exploring-how-select-queries-can-produce-disk-writes-f36c8bee6b6f)
+
+## 2018.11
+
+- [Understanding caching in Postgres - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/)
+- [빠르게 훑어보는 구글 클라우드 플랫폼](http://www.hanbit.co.kr/lib/ebookFreeDown.php?p_code=E5359426070&format=pdf&ed_isbn=9788968488399)
