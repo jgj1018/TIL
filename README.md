@@ -1,4 +1,6 @@
-## The purpose of TIL(Today I Learned)
+## TIL(Today I Learned)
 
-To improve myself continuously.
-Excellence is the gradual result of always striving to do better.
+The purpose if this repo is to improve myself continuously.
+and to be able to recap when I forget things. 
+
+"Excellence is the gradual result of always striving to do better."
