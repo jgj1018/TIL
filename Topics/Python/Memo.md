@@ -13,3 +13,5 @@
 
 - [파이썬 데코레이터(Python Decorator) 를 이해하고 잘 써보기](https://blog.jonnung.com/python/2015/08/17/python-decorator/)
 - [*args and **kwargs](https://ddanggle.gitbooks.io/interpy-kr/ch1-args-kwargs.html)
+
+- [Why are Python lambdas useful? [closed]](https://stackoverflow.com/questions/890128/why-are-python-lambdas-useful)
