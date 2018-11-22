@@ -15,3 +15,4 @@
 - [*args and **kwargs](https://ddanggle.gitbooks.io/interpy-kr/ch1-args-kwargs.html)
 
 - [Why are Python lambdas useful? [closed]](https://stackoverflow.com/questions/890128/why-are-python-lambdas-useful)
+- [【Tips】Lambda(Python)でハンドラーのeventを全て辞書型だと思っていたらハマったこと](https://dev.classmethod.jp/cloud/aws/lambda-python-tips-all-events-are-not-dict/)
