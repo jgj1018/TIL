@@ -1,0 +1,1 @@
+- [Redis performance on a multi core CPU](https://stackoverflow.com/questions/21304947/redis-performance-on-a-multi-core-cpu)
