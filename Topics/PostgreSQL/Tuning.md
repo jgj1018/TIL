@@ -10,3 +10,7 @@
 - [PostgreSQL - INDEXES](https://www.tutorialspoint.com/postgresql/postgresql_indexes.htm)
 - [PostgreSQLにおけるUNIQUE制約とUNIQUE INDEXの違い？](http://nfnoface.hatenablog.com/entry/2016/11/17/123000)
 - [Efficient Use of PostgreSQL Indexes](https://devcenter.heroku.com/articles/postgresql-indexes)
+
+#### Performance
+
+- [大規模DBを見据えたPostgreSQLの性能検証](https://www.pgecons.org/wp-content/uploads/2013/06/WG1-2012.pdf)
