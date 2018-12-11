@@ -1,2 +1,3 @@
 - [Allure Test Report](http://allure.qatools.ru/)
 - [Regression Testing: What It Is and How to Use It](https://airbrake.io/blog/what-is/regression-testing)
+- [Regression Testing Guide](https://www.ranorex.com/resources/testing-wiki/regression-testing/)
