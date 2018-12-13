@@ -11,3 +11,6 @@
 - [24.3. Continuous Archiving and Pint-in-Time Recovery (PITR)](https://www.postgresql.org/docs/9.1/static/continuous-archiving.html)
 - [Backup recovery with PostgreSQL](https://www.slideshare.net/FedericoCampoli/backup-recovery-with-postgresql)
 
+#### etc
+
+- [PostgreSQL Copy Database Made Easy](http://www.postgresqltutorial.com/postgresql-copy-database/)
