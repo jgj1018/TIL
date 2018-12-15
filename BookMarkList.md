@@ -44,3 +44,7 @@
 
 - [Understanding caching in Postgres - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/)
 - [빠르게 훑어보는 구글 클라우드 플랫폼](http://www.hanbit.co.kr/lib/ebookFreeDown.php?p_code=E5359426070&format=pdf&ed_isbn=9788968488399)
+
+## 2018.12
+
+- [CONTINUOUS INTEGRATION ESSENTIALS](https://codeship.com/continuous-integration-essentials)
