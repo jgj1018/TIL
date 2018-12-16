@@ -1,1 +1,2 @@
+- [Blocking-NonBlocking-Synchronous-Asynchronous](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)
 - [Computer Architecture: Why is context switching expensive on intel x86 chips?](https://www.quora.com/Computer-Architecture-Why-is-context-switching-expensive-on-intel-x86-chips)
