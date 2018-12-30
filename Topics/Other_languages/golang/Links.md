@@ -9,3 +9,6 @@
 - [Go 언어 웹 프로그래밍 철저 입문](https://thebook.io/006806/)
 - [7. 고루틴과 채널](https://mingrammer.com/go-codelab/goroutine-and-channel/)
 
+#### etc
+
+- [https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65](https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65)
