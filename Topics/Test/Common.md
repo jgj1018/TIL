@@ -1,5 +1,4 @@
-
-###Selenium
+#### Selenium
 
 - [Selenium WebDriver: What is it?](https://www.joecolantonio.com/selenium-webdriver/)
 
@@ -21,3 +20,7 @@
 #### Codeception
 
 - [Codeception Quickstart Guide](https://codeception.com/quickstart)
+
+#### etc
+
+- [PythonTestingToolsTaxonomy](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
