@@ -24,3 +24,4 @@
 #### etc
 
 - [PythonTestingToolsTaxonomy](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
+- [cypress how it works](https://www.cypress.io/how-it-works/)
