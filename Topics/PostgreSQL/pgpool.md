@@ -16,3 +16,4 @@
 
 - [Improved performance in extended query protocol](http://pgpool.net/mediawiki/index.php/pgpool-II_3.5_features)
 - [PgBouncer and Pgpool – Essential for Scaling PostgreSQL](https://www.linkedin.com/pulse/pgbouncer-pgpool-essential-scaling-postgresql-torrejon-castrillo/)
+- [Step By Step: Manually process failover with PostgreSQL and pgpool](https://medium.com/@zzdjk6/step-by-step-manually-process-failover-with-postgresql-and-pgpool-b5489aed1267)
