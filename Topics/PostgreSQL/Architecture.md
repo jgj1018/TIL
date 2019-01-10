@@ -21,3 +21,4 @@
 
 - [Ten Tips for Going into Production with PostgreSQL](https://severalnines.com/blog/ten-tips-going-production-postgresql)
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
+- [Understanding And Reading the PostgreSQL System Catalog](https://severalnines.com/blog/understanding-and-reading-postgresql-system-catalog)
