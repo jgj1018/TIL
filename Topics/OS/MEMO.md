@@ -1,2 +1,3 @@
 - [Blocking-NonBlocking-Synchronous-Asynchronous](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)
 - [Computer Architecture: Why is context switching expensive on intel x86 chips?](https://www.quora.com/Computer-Architecture-Why-is-context-switching-expensive-on-intel-x86-chips)
+- [Fetch Decode Execute Cycle in more detail](https://www.youtube.com/watch?v=jFDMZpkUWCw&list=PLVY-K994wkS0uvkeiONx40NjHItMWr8YH&index=6&t=0s)
