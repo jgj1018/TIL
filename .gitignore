@@ -2,3 +2,5 @@
 *node_modules/
 *Topics/Algorithm/.ipynb_checkpoints/
 package-lock.json
+*cmake-build-debug/
+*CMakeLists.txt

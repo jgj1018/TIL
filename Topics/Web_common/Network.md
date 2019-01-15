@@ -5,3 +5,4 @@
 - [TCP/IP 네트워크 스택 이해하기](https://d2.naver.com/helloworld/47667)
 - [이더넷(Ethernet) 이란 무엇인가? (IEEE 803.2 Standard)](https://blog.naver.com/c_and_c/220770480864)
 - [CLOSE_WAIT & TIME_WAIT 최종 분석](http://tech.kakao.com/2016/04/21/closewait-timewait/)
+- [TCP 통신 TIME_WAIT, CLOSE_WAIT의 차이점](http://luyin.tistory.com/424)
