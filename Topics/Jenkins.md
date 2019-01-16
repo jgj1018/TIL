@@ -2,3 +2,4 @@
 - [Jenkins의 Blue ocean을 활용하여 배포 관리하기](https://novemberde.github.io/devops/2017/10/21/Jenkins.html)
 - [Setting up Jenkins with Codeception](https://codeception.com/02-04-2015/setting-up-jenkins-with-codeception.html)
 - [Scheduling the Jenkins Job with CRON](https://www.codeproject.com/Articles/1242604/Scheduling-the-Jenkins-Job-with-CRON)
+- [https://cardano.github.io/blog/2018/03/01/microsoft-teams-jenkins-connector](https://cardano.github.io/blog/2018/03/01/microsoft-teams-jenkins-connector)
