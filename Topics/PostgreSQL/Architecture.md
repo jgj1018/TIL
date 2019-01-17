@@ -15,6 +15,7 @@
 
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af)
 - [Streaming Replication](http://www.interdb.jp/pg/pgsql11.html)
+- [Postgresqlレプリケーション ストリーミングレプリケーション仕組みメモ](http://d.hatena.ne.jp/ttshrk/20110421/1303380112)
 
 
 #### etc
