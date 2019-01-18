@@ -53,3 +53,4 @@
 ## 2019.01
 
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university#prerequisite-knowledge)
+- [Know your TCP system call sequences](https://www.ibm.com/developerworks/aix/library/au-tcpsystemcalls/index.html)
