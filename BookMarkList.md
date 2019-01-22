@@ -54,3 +54,5 @@
 
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university#prerequisite-knowledge)
 - [Know your TCP system call sequences](https://www.ibm.com/developerworks/aix/library/au-tcpsystemcalls/index.html)
+- [Linux Load Averages: Solving the Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html)
+

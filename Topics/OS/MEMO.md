@@ -1,3 +1,6 @@
 - [Blocking-NonBlocking-Synchronous-Asynchronous](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)
 - [Computer Architecture: Why is context switching expensive on intel x86 chips?](https://www.quora.com/Computer-Architecture-Why-is-context-switching-expensive-on-intel-x86-chips)
 - [Fetch Decode Execute Cycle in more detail](https://www.youtube.com/watch?v=jFDMZpkUWCw&list=PLVY-K994wkS0uvkeiONx40NjHItMWr8YH&index=6&t=0s)
+- [Linux Load Averages: Solving the Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html)
+- [LinuxのI/OやCPUの負荷とロードアベレージの関係を詳しく見てみる](https://qiita.com/kunihirotanaka/items/21194f77713aa0663e3b)
+- [sarコマンドでLinuxサーバのシステムモニタリングを行う方法](http://naoberry.com/tech/sar/#i-2)
