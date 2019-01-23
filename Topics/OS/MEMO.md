@@ -4,3 +4,4 @@
 - [Linux Load Averages: Solving the Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html)
 - [LinuxのI/OやCPUの負荷とロードアベレージの関係を詳しく見てみる](https://qiita.com/kunihirotanaka/items/21194f77713aa0663e3b)
 - [sarコマンドでLinuxサーバのシステムモニタリングを行う方法](http://naoberry.com/tech/sar/#i-2)
+- [Understanding a Context Switching Benchmark](https://www.linuxjournal.com/article/2941)
