@@ -13,3 +13,8 @@
 
 - [PostgreSQL SQL Tricks](https://postgres.cz/wiki/PostgreSQL_SQL_Tricks)
 - [Why is PostgreSQL Running Slow? Tips & Tricks to Get to the Source](https://severalnines.com/blog/why-postgresql-running-slow-tips-tricks-get-source)
+
+
+#### etc
+
+- ["no transaction in progress" warnings](https://github.com/jeremyevans/sequel/issues/1318)

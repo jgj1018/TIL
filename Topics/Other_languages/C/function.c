@@ -5,7 +5,7 @@ void function_without_return();
 int function_with_return();
 void function_with_parameters(int num1, int num2, int num3);
 
-int main(void) {
+int main_function(void) {
     int num = 2;
     p(num);
     function_without_return();
