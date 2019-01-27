@@ -10,6 +10,7 @@
 - [障害発生に備えて設定すべき3つのログ関連パラメーター](https://www.ashisuto.co.jp/db_blog/article/20151117_logging_parameter.html)
 - [24.3. Continuous Archiving and Pint-in-Time Recovery (PITR)](https://www.postgresql.org/docs/9.1/static/continuous-archiving.html)
 - [Backup recovery with PostgreSQL](https://www.slideshare.net/FedericoCampoli/backup-recovery-with-postgresql)
+- [PostgreSQL 9.6.3で時刻指定のPITR(Point In Time Recovery)を実行する](http://ossfan.net/setup/postgresql-37.html)
 
 #### etc
 
