@@ -3,3 +3,4 @@
 - [Setting up Jenkins with Codeception](https://codeception.com/02-04-2015/setting-up-jenkins-with-codeception.html)
 - [Scheduling the Jenkins Job with CRON](https://www.codeproject.com/Articles/1242604/Scheduling-the-Jenkins-Job-with-CRON)
 - [https://cardano.github.io/blog/2018/03/01/microsoft-teams-jenkins-connector](https://cardano.github.io/blog/2018/03/01/microsoft-teams-jenkins-connector)
+- [how-to-use-file-parameter-in-jenkins](https://stackoverflow.com/questions/42224691/how-to-use-file-parameter-in-jenkins)
