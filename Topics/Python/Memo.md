@@ -14,5 +14,7 @@
 - [파이썬 데코레이터(Python Decorator) 를 이해하고 잘 써보기](https://blog.jonnung.com/python/2015/08/17/python-decorator/)
 - [*args and **kwargs](https://ddanggle.gitbooks.io/interpy-kr/ch1-args-kwargs.html)
 
-- [Why are Python lambdas useful? [closed]](https://stackoverflow.com/questions/890128/why-are-python-lambdas-useful)
+- [Why are Python lambdas useful?](https://stackoverflow.com/questions/890128/why-are-python-lambdas-useful)
 - [【Tips】Lambda(Python)でハンドラーのeventを全て辞書型だと思っていたらハマったこと](https://dev.classmethod.jp/cloud/aws/lambda-python-tips-all-events-are-not-dict/)
+
+- [Python에서 데이터 시각화하는 다양한 방법](https://zzsza.github.io/development/2018/08/24/data-visualization-in-python/)
