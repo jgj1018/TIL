@@ -1,0 +1,93 @@
+#### Array
+
+- Array: Contiguous area of memory consisting of equal-size elements indexed by contiguous intengers.
+
+- Advantage: Constant-time access (to read or write)
+- array_addr + elem_size x (i - first_index)
+
+- arrays are great if you want or remove at the end. But it's expensive if you want to add or remove in the middle or at the beginning
+- We have constant time access to any element, constant time to add or remove at the end and linear time to add and remove at any arbitrary location.
+
+
+#### Singly-Linked Lists
+
+* PushFront O(1)
+* PopFront O(1)
+* PushBack(without tail) O(n) : it's going to be a fairly expensive operation. We're going to have to start at the head and walk our way down the list until we get to the end, and add a node there, so that's going to be O(n) time.
+* PopBack(without tail) O(n) 
+* PushBack (with tail) O(1) : If we had a tail pointer, some of these will become simpler. Okay, so, we're going to have both a head pointer that points to the head element and a tail pointer that points to the tail element. So, that way, getting the first element is cheap. Getting the last element is cheap.
+* PopBack (with tail) O(n) : If we want to pop the back however that's a little bit of an expensive operation. Okay. We are going to need to update the tail to point from 8 to 13 so we're at 8 right now we want to go to 13, the problem is how do we get to 13? Okay. We don't have a pointer from 8 to 13 we have a pointer from 13 to 8. And that pointer doesn't help us going back. So what we've got to do is, again, start at the head, walk our way down until we find the 13 node that then points to the current tail, and then update our tail pointer to point to that, and then update the next pointer to be nil. 
+
+
+```
+Addafter(node, key)
+node2 <- new node
+node2.key <- key
+node2.next = node.next
+node.next = node2
+if tail = node:
+    tail <- node2
+```
+
+* PushFront(Key) O(1)
+* TopFront() O(1)
+* PopFront() O(1)
+* PushBack(Key) O(1)
+* TopBack() O(n)
+* PopBack() O(n)
+* Find(Key) O(n)
+* Erase(Key) O(n)
+* Empty() O(1)
+* AddBefore(Node, Key) O(n)
+* AddAfter(Node, Key)  O(1)
+
+
+#### Doubly-linked List
+
+* PopBack() O(1)
+* AddBefore(Node, Key) O(1)
+
+
+```
+Pushback(Key)
+
+node <- new node
+node.key <- key; node.next = nil
+if tail = nil:
+    head <- tail <- node
+    node.prev <- nil
+else:
+    tail.next <- node
+    node.prev <- tail
+    tail <- node
+```
+
+* Constant time to insert at or remove or from the front
+* With tail and doubly-linked, constatnt time to insert at or remove from the back
+* O(n) time to find arbitrary element
+* List elements need not be contiguous.
+* With doubly-linked list, constant time to insert between nodes or remove a node.
+
+
+
+#### Stacks
+
+```
+IsBalanced(str)
+
+Stack stack
+for char in str:
+    if char in ['(', '[']:
+        stack.Push(char)
+    else:
+        if stack.Empty(): 
+            return False
+        top <- stack.Pop()
+        if (top = '[' and char != ']') or (top = '(' and char != ')'):
+            return False
+return stack.Empty()
+```
+
+* one disadvantage--one limitation--of the array is that we have a maximum size, based on the array we initially allocated.
+* The other potential problem is that we have potentially wasted space. So if we allocated a very large array, to allow a possibly large stack, we didn't actually use much of it, all the rest of it is wasted. 
+* (Stack Implementation with Linked list) There's an overhead though, like in the array, we have each element size, is just big enough to store our key. Here we've got the overhead of storing a pointer as well. On the other hand there's no wasted space in terms of allocated space that isn't actually being used. So we keep pushing, is it empty? No, because the head is not nil.
