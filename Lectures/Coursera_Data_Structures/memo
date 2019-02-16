@@ -114,3 +114,64 @@ if tree = nil:
 return 1 + Max(Height(tree.left), Height(tree.right))
 
 ```
+
+
+#### Tree Treversal
+
+* Often we want to visit the nodes of a tree in a particular order. For example, print the nodes of the tree.
+* Depth-first: We completely traverse one sub-tree before exploring a silibing sub-tree
+* Breadth-first: We traverse all nodes at one level before progressing to the next level
+* Tree wlaks: DFS(pre-order, in-order, post-order) and BFS.
+* When working with a tree, recursive algorithms are common.
+
+```
+// Depth-first
+// this traversal really is only defined for a binary tree
+InorderTraversal(tree)
+if tree = nil:
+    return
+InOrderTraversal(tree.left)
+Print(tree.key)
+InOrderTraversal(tree.right)
+```
+
+
+```
+// Depth-first
+// Not just for binary tree, but for general arbitrary number of children trees.
+
+PreOrderTraversal(tree)
+if tree = nil:
+    return
+Print(tree.key)
+PreOrderTraversal(tree.left)
+PreOrderTraversal(tree.right)
+```
+
+```
+// Depth-first
+PostOrderTraversal(tree)
+if tree = nil:
+    return
+PostOrderTraversal(tree.left)
+PostOrderTraversal(tree.right)
+Print(tree.key)
+```
+
+
+* Breadth-first, we're going to actually use a queue instead of a stack.
+
+```
+LevelTraversal(tree)
+if tree = nil: 
+    return
+Queue q
+q.Enqueue(tree)
+while not q.Empty():
+    node <- q.Dequeue()
+    Print(node)
+    if node.left != nil:
+        q.Enqueue(node.left)
+    if node.right != nil:
+        q.Enqueue(node.right)
+```
