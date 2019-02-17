@@ -18,3 +18,4 @@
 - [【Tips】Lambda(Python)でハンドラーのeventを全て辞書型だと思っていたらハマったこと](https://dev.classmethod.jp/cloud/aws/lambda-python-tips-all-events-are-not-dict/)
 
 - [Python에서 데이터 시각화하는 다양한 방법](https://zzsza.github.io/development/2018/08/24/data-visualization-in-python/)
+- [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)

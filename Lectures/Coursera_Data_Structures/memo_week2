@@ -1,0 +1,46 @@
+#### Dynamic Arrays
+
+* Problem: static arrays are static. 
+
+```
+int my_array[100];
+```
+
+* Semi-solution: dynamically-allocated arrays. The problem is it might not know max size when allocating an array.
+
+```
+int *my_array = new int[size];
+```
+
+* Solution: dynamic arrays (also known as resizable arrays)
+* idea: store a pointer to a dynamically allocated array, and replace it with a newly-allocated array as needed
+
+```
+PushBack(val)
+if size == capacity:
+    allocate new_array[2 x capacity]
+    for i from 0 to size - 1:
+        new_arr[i] <- arr[i]
+    free arr
+    arr <- new_arr; capacity <- 2 x capacity
+arr[size] <- val
+size <- size + 1 
+```
+
+* Appending a new element to a dynamic array is often constant time, but can take O(n)
+* Some space is wasted, In our case, if I'm resizing by a factor of two, at most half of the space is wasted.
+
+#### Amortized Analysis: Aggregate Method
+
+* Amortized cost : given a sequence of n operations, the amortized cost is : Cost(n operations) / n
+
+#### Amortized Analysis: Banker's Method
+
+* Charge extra for each cheap operation
+* Save the extra charge as tokens in my data structure(conceptually)
+* Use the tokens to pay for expensive operations like an amortizing loan.
+* Dynamic array : n calls to PushBack. Charge 3 for each insertion. 1 coin is the raw cost for insertion.
+* Resize needed: To pay for mopving the elements, use the coin that's present on each element that needs to move.
+* Place one coin on the newly-inserted element, and one coin capacity / 2 elements prior.
+
+#### Amortized Analysis: Physicist's Method
