@@ -1,0 +1,22 @@
+#### Introduction (Priority queue)
+
+* Definition : priority queue is an abstract data type supporing the following main operations.
+* Insert(p) adds a new element with priority p
+* ExtractMax() extracts an element with maximum priority.
+
+#### Naive Implementations of Priority Queues
+
+* inserting an element into a sorted array is expensive because to insert an element into the middle we need to shift all elements to the right of this position by one. So, this makes the running time of the insertion procedure linear. 
+
+*  to keep the list sorted takes already a linear amount of work. And for this reason, inserting into a sorted list still takes a linear amount of work.
+
+|   |Insert|ExtractMax|
+|---|---|---|
+|Unsorted array/list|O(1)|O(n)|
+|Sorted array/list|O(n)|O(1)|
+|Binary heap|O(log n)|O(log n)|
+
+#### Binary Trees
+
+* Binary max-heap is a binary tree(each node has zero, one or two children) where the value of each node is at least the values of its children.
+* For each edge of the tree, the value of the parent is at least the value of the child.
