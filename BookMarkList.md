@@ -56,3 +56,7 @@
 - [Know your TCP system call sequences](https://www.ibm.com/developerworks/aix/library/au-tcpsystemcalls/index.html)
 - [Linux Load Averages: Solving the Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html)
 
+
+## 2019.02
+
+- [파이썬 코딩의 기술](https://thebook.io/006764/)
