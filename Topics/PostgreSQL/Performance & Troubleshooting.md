@@ -2,3 +2,12 @@
 
 - [大規模DBを見据えたPostgreSQLの性能検証](https://www.pgecons.org/wp-content/uploads/2013/06/WG1-2012.pdf)
 - [DETECTING PERFORMANCE PROBLEMS EASILY IN POSTGRESQL](https://www.cybertec-postgresql.com/en/detecting-performance-problems-easily-in-postgresql/)
+
+#### Vacuum
+
+- [Basic Understanding of Bloat and VACUUM in PostgreSQL](https://www.percona.com/blog/2018/08/06/basic-understanding-bloat-vacuum-postgresql-mvcc/)
+- [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
+
+#### Trouble shooting
+
+- [PostgreSQL: 실행중인 쿼리 확인 및 실행 취소 방법](https://blog.gaerae.com/2015/09/postgresql-pg-stat-activity.html)
