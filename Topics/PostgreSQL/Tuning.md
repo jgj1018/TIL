@@ -14,3 +14,7 @@
 #### Performance
 
 - [大規模DBを見据えたPostgreSQLの性能検証](https://www.pgecons.org/wp-content/uploads/2013/06/WG1-2012.pdf)
+
+#### etc
+
+- [Visualizing & Tuning Postgres Autovacuum](https://pganalyze.com/blog/visualizing-and-tuning-postgres-autovacuum)
