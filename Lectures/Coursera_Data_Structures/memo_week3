@@ -30,3 +30,12 @@
 
 * GetMax works in time O(1), all other operations work in time O(tree height)
 * We definitely want a tree to be shallow.
+
+
+#### Complete Binary Trees
+
+* A binary tree is complete if all its levels are filled except possibly the last one which is filled from left to right.
+* A complete binary tree with n nodes has height at most O(log n)
+* Which binary heap operations modify the shape of the tree? Only Insert and ExtractMax ( Remove changes the shape by calloing ExtractMax)
+* To insert an element, insert it as a leaf in the leftmost vacant position in the last level and let it sift up
+* To extract the maximum value, replace the root by the last leaf and let it sift down
