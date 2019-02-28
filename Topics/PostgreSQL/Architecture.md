@@ -4,6 +4,7 @@
 - [PostgreSQL: Exploring how SELECT Queries can produce disk writes](https://blog.okmeter.io/postgresql-exploring-how-select-queries-can-produce-disk-writes-f36c8bee6b6f)
 - [Postgres Transactions Aren’t Fully Isolated](http://malisper.me/postgres-transactions-arent-fully-isolated/)
 - [Understanding caching in Postgres - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/)
+- [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
 
 #### HA
 
