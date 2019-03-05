@@ -4,3 +4,4 @@
 - [Scheduling the Jenkins Job with CRON](https://www.codeproject.com/Articles/1242604/Scheduling-the-Jenkins-Job-with-CRON)
 - [https://cardano.github.io/blog/2018/03/01/microsoft-teams-jenkins-connector](https://cardano.github.io/blog/2018/03/01/microsoft-teams-jenkins-connector)
 - [how-to-use-file-parameter-in-jenkins](https://stackoverflow.com/questions/42224691/how-to-use-file-parameter-in-jenkins)
+- [Kubernetes? Docker? What is the difference?](https://blog.containership.io/k8svsdocker/)
