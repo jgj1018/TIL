@@ -99,3 +99,24 @@ if p > oldp:
 else:
 SiftDown(i)
 ```
+
+#### Heap Sort
+
+```
+HeapSort(A[1...n])
+create an empty priority queue
+from i from 1 to n:
+    Insert(A[i])
+for i from n downto 1:
+    A[i] <- ExtractMax()
+````
+
+
+* Turn Array into a Heap
+
+```
+BuildHeap(A[1...n])
+size <- n
+for i from [n/2] downto 1:
+    SiftDown(i)
+```
