@@ -18,3 +18,4 @@
 #### etc
 
 - [Visualizing & Tuning Postgres Autovacuum](https://pganalyze.com/blog/visualizing-and-tuning-postgres-autovacuum)
+- [Basics of Tuning Checkpoints](https://blog.2ndquadrant.com/basics-of-tuning-checkpoints/)
