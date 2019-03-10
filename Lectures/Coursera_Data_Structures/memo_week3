@@ -120,3 +120,30 @@ size <- n
 for i from [n/2] downto 1:
     SiftDown(i)
 ```
+
+
+#### Final Remark
+
+* Priority queue supports two main operations: Insert and ExtractMax
+* In an array/list implementation one operation is very fast O(1) but the other one is very slow O(n)
+* Binary heap gives an implementation where both operation take O(logN) time.
+* Can be made also space efficient
+
+
+
+#### Disjoint set - Overview
+
+* MakeSet(x) - creates a singleton set {x}
+* Find(x) - returns ID of the set containing x: if x and y lie in the same set, then Find(x) = Find(y), otherwise Find(x) != Find(y)
+* Union(x,y) - merge two sets containing x and y.
+
+```
+Preprocess(maze)
+for each cell c in maze:
+    MakeSet(c)
+for each cell c in maze:
+    for each neighbor n of c:
+        Union(c,n)
+```
+```
+   
