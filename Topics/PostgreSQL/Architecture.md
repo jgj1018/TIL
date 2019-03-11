@@ -19,6 +19,11 @@
 - [Postgresqlレプリケーション ストリーミングレプリケーション仕組みメモ](http://d.hatena.ne.jp/ttshrk/20110421/1303380112)
 
 
+#### Autovacuum & Vacuum
+
+- [Autovacuum Tuning Basics](https://blog.2ndquadrant.com/autovacuum-tuning-basics/)
+- [When autovacuum does not vacuum](https://blog.2ndquadrant.com/when-autovacuum-does-not-vacuum/)
+
 #### etc
 
 - [Ten Tips for Going into Production with PostgreSQL](https://severalnines.com/blog/ten-tips-going-production-postgresql)
