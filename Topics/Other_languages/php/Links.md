@@ -5,6 +5,7 @@
 - [あなたのサイトの PHPは，CGI方式ですか？ Module方式ですか？](https://www.fumi.org/neta/201205sv.html)
 - [phpenv + php-buildでPHPを複数バージョン利用する方法](https://liginc.co.jp/web/programming/php/126863)
 - [Building PHP extensions](http://www.phpinternalsbook.com/build_system/building_extensions.html)
+- [PHPで出来てしまうが控えたほうががいい書き方](https://qiita.com/shinkuFencer/items/48718f0c8d203ca513db)
 
 
 
