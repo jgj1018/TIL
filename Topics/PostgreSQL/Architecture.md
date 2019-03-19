@@ -31,3 +31,4 @@
 - [Understanding And Reading the PostgreSQL System Catalog](https://severalnines.com/blog/understanding-and-reading-postgresql-system-catalog)
 - [Deep dive into PostgreSQL statistics.](https://www.slideshare.net/alexeylesovsky/deep-dive-into-postgresql-statistics-54594192)
 - [PostgreSQLは20年間どのようにfsyncを間違って使っていたか - 聴講メモ -](https://masahikosawada.github.io/2019/02/17/PostgreSQL-fsync-issue/)
+- [How Twitch uses PostgreSQL](https://blog.twitch.tv/how-twitch-uses-postgresql-c34aa9e56f58)
