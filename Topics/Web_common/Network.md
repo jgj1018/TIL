@@ -7,3 +7,4 @@
 - [CLOSE_WAIT & TIME_WAIT 최종 분석](http://tech.kakao.com/2016/04/21/closewait-timewait/)
 - [TCP 통신 TIME_WAIT, CLOSE_WAIT의 차이점](http://luyin.tistory.com/424)
 - [Know your TCP system call sequences](https://www.ibm.com/developerworks/aix/library/au-tcpsystemcalls/index.html)
+- [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff8023)
