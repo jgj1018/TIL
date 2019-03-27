@@ -144,6 +144,36 @@ for each cell c in maze:
 for each cell c in maze:
     for each neighbor n of c:
         Union(c,n)
-```
+
+IsReachable(A,B)
+return Find(A) = Find(B)
 ```
    
+#### Naive Implementations
+
+* Use the smallest element of a set as its ID
+* Use array smallest[1...n]: smallest[i] stores the smallest element in the set i belongs to
+
+
+````
+MakeSet(i)
+    smallest[i] <- i
+
+Find(i)
+    return smallest[i]
+
+Union(i, j)
+    i_id <- Find(i)
+    j_id <- Find(j)
+    if i_id = j_id:
+        return
+    m <- min(i_id, j_id)
+    for k from 1 to n:
+        if smallest[k] in {i_id, j_id}:
+            smallest[k] <- m
+````
+
+* -> Current bottleneck : Union -> What basic data structure allows for efficient merging? Linked list
+* Idea: represent a set as a linked list, use the list tail as ID of the set. Running time of Union is O(1). We just change one pointer.
+* But Running time of Find is O(n) as we need to traverse the list to find its tail.
+* And Union(x,y) works in time O(1) only if we can get the tail of the list of x and the head of the list of y in constant time!
