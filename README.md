@@ -76,3 +76,7 @@ The links below are my favorite posts.
 
 - [파이썬 코딩의 기술](https://thebook.io/006764/)
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
+
+## 2019.03
+
+- [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
