@@ -177,3 +177,69 @@ Union(i, j)
 * Idea: represent a set as a linked list, use the list tail as ID of the set. Running time of Union is O(1). We just change one pointer.
 * But Running time of Find is O(n) as we need to traverse the list to find its tail.
 * And Union(x,y) works in time O(1) only if we can get the tail of the list of x and the head of the list of y in constant time!
+
+
+#### Trees for Disjoint Sets
+
+* Represent each set as a rooted tree
+* ID of a set is the root of the tree
+* Use array parent[1...n]: parent[i] is the parent of i, or i if it is the root.
+
+```
+MakeSet(i)
+    parent[i] <- i
+    
+    
+Find(i)
+    while i != parent[i]:
+        i <- parent[i]
+    return i
+```
+
+* When merging, a tree whose height is smaller under the root of the true whose height is larger. 
+  We would like to keep the trees shallow.
+  
+  
+#### Union by Rank
+
+* To quickly find a height of a tree, we will keep the height of each subtree in an array rank[1...n]: rank[i] is the height of the subtree whose root is i.
+
+```
+MakeSet(i)
+    parent[i] = i
+    rank[i] = 0 
+    
+    
+Find(i)
+    while i != parent[i]:
+        i = parent[i]
+    return i
+
+Union{i, j)
+    i_id = Find(i)
+    j_id = Find(j)
+    if i_id = j_id:
+        return
+    if rank[i_id] > rank[j_id]:
+        parent[j_id] = i_id
+    else:
+        parent[i_id] = j_id
+        if rank[i_id] = rank[j_id]
+            rank[j_id] = rank[j_id] + 1
+
+```
+
+* For any node i, rank[i] is equal to the height of the tree rooted at i.
+* The union by rank heuristic guarantees that union and find work in time O(log N)
+
+
+#### Path Compression
+
+```
+Find(i)
+    if i != parent[i]:
+        parent[i] = Find(parent[i])
+    return parent[i]
+```
+
+* Definition : The iterated logarithm of n, log*N is the number of times the logarithm function needs to be applied to n before the result is less or equal than 1.
