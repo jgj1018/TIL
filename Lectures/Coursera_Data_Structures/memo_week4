@@ -1,0 +1,60 @@
+
+#### Applications of Hashing
+
+#### IP Addresses
+
+
+```
+Main Loop
+
+log - array of log lines (time, IP)
+C - mapping from IPs to counters.
+i - first unprocessed log line
+j - first line in current 1h window
+i = 0
+j = 0
+C = null
+Each second
+    UpdateAccessList(log, i, j, C)
+    
+    
+UpdateAccessList(log, i, j, C)
+    while log[i].time <= Now():
+        C[log[i].IP] = C[log[i].IP] + 1
+        i++
+    while log[j].time <= Now() - 3600:
+        C[log[i].IP] = C[log[i].IP] - 1
+        j++
+        
+AccessedLastHour(IP, C)
+    return C[IP] > 0
+    
+```
+
+#### Direct Addressing
+
+```
+int(IP)
+    return IP[1]*2^24 + IP[2]*2^16 + IP[3]*2^8 + IP[4]
+
+UpdateAccessList(log, i, j, A)
+    while log[i].time <= Now():
+        A[int(log[i].IP)] = A[int(log[i].IP)] + 1
+        i++
+    while log[j].time <= Now() - 3600:
+        A[int(log[i].IP)] = A[int(log[i].IP)] - 1
+        j++
+        
+AccessedLastHour(IP)
+    return A[int(IP)] > 0
+    
+```
+
+* UpdateAccessList is O(1) per log line
+* AccessLastHour is O(1)
+* Bue need 2^32 memory even for few IPs.
+* IPv6: 2^128 won't fit in memory.
+* In general: O(N) memory 
+
+
+

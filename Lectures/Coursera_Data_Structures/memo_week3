@@ -243,3 +243,18 @@ Find(i)
 ```
 
 * Definition : The iterated logarithm of n, log*N is the number of times the logarithm function needs to be applied to n before the result is less or equal than 1.
+
+#### Analysis (Optional)
+
+- Height <= Rank : When using path compression, rank[i] is on longer equal to the height of the subtree rooted at i. Still the height of the subtree rooted at i is at most rank[i]
+- And It is still true that a root node of rank k has at least 2^k nodes in its subtree: a root node is not affected by path compression.
+
+##### Important properties
+
+- There are at most n/2^k nodes of rank k
+- For any node i, rank[i] < rank[parent[i]]
+- Once an internal node, always an internal node.
+
+
+```
+```
