@@ -57,4 +57,44 @@ AccessedLastHour(IP)
 * In general: O(N) memory 
 
 
+#### List-based Mapping
 
+- Direct addressing requires too much memory
+- Let's store only active IPs.
+- Store them in a list sorted by time of access
+
+```
+UpdateAccessList(log, i, L)
+while log[i].time <= Now():
+    L.Append(log[i])
+    i = i + 1
+while L.Top().time <= Now - 3600:
+    L.pop()
+    
+AccessLastHour(IP, L)
+    return L.FindByIP(IP) != null
+
+AccessCountLastHour(IP, L)
+    return L.CountIP(IP)
+```
+
+- AccessLastHour, AccessCountLastHour are still O(n)
+
+
+#### Hash Functions
+
+- Definition: For any set of objects S and any integer m > 0, a function h : S -> {0, 1 ..., M-1} is called a hash function.
+- m is called the cardinality of hash function h.
+
+- h should be fast to compute
+- Different values for different objects.
+- Direct addressing with O(m) memory.
+- Want to small cardinality m
+- Impossible to have all different values if number of objects |S| is more than m.\
+- When h(o1) = h(o2) and o1 != o2, this is a collision.
+
+
+#### Chaining Scheme
+
+- Map: Store mapping from objects to other objects.
+- Definition: Map from S to V is a data structure with methods HasKey(O), get(O), Set(O, v) where O (= S, v (= V.
