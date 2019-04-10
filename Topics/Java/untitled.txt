@@ -1,0 +1,1 @@
+-[1. Spring Batch 가이드 - 배치 어플리케이션이란?](https://jojoldu.tistory.com/324?category=635883)
