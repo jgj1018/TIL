@@ -98,3 +98,63 @@ AccessCountLastHour(IP, L)
 
 - Map: Store mapping from objects to other objects.
 - Definition: Map from S to V is a data structure with methods HasKey(O), get(O), Set(O, v) where O (= S, v (= V.
+
+#### Chaining Implementation and Analysis
+
+```
+HasKey(O)
+    l = A[h(O)]
+    for (01, v1) in L:
+        if O1 == O:
+            return true
+    return false
+
+
+Get(O)
+    l = A[h(O)]
+    for (01, v1) in L:
+        if O1 == O:
+            return v1
+    return n/a
+    
+Set(O, v)
+    L = A[h(O}]
+    for p in L:
+        if p.O == O:
+            p.v = v
+            return
+    L.Append(O,v)
+          
+```
+
+
+#### Hash Table
+
+
+```
+Find(O)
+L = A[h(O)]
+    for  O1 in L:
+        if O1 == O:
+            return true
+    return false
+    
+Add(O)
+    L = A[h(O)]
+        for O1 in L:
+            If O1 == O:
+                return
+        L.Append(O)
+  
+Remove(O)
+    if not Find(O):
+        return
+    L = A[h(O)]
+    L.Erase(O)
+````
+
+- Hash table Definition : An implementation of a set or a map using hashing is called a hash table
+- Chaining is a technique to implement a hash table
+- Memory consumption is O(n + m)
+- Operations work in time O(c + 1)
+
