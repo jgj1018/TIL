@@ -21,3 +21,4 @@
 - [Pgpool-IIの接続性能の改善](https://lets.postgresql.jp/documents/technical/pgpool-II-tcp-tuning/1)
 - [blog pgpool-IIを使ってPostgreSQLのアクティブ・スタンバイ(1+1構成)を試してみた](https://hnakamur.github.io/blog/2016/09/15/experiment-postgresql-active-standby-using-pgpool-ii/)
 - [PostgreSQLクラスタ環境の管理機能を大幅に強化](https://www.sraoss.co.jp/event_seminar/2018/Pgpool-II-4-20180925.pdf)
+- [Pgpool-IIの子プロセス関連のパラメータを調べた](https://qiita.com/U_ikki/items/a33a3a4dceb02e839ddf)
