@@ -159,7 +159,160 @@ Remove(O)
 - Operations work in time O(c + 1)
 
 
-####
+####　Phone Book Problem
 
-- Phone Book Problem
-- Direct Addressi
+- n : phone numbers stored
+- m : cardinality of the hash function
+- c : length of the longest chain
+- O(n+m) memory is used
+- n/m is called load factor
+- Operations run in time O(c+1)
+- You want small m and c!
+
+
+* Good Hash function
+
+- Deterministic
+- Fast to compute
+- Distributes keys well into different cells
+- Few collisions.
+
+
+#### Universal Family
+
+- Definition Let 8 be the universe - the set of all possible keys.
+- If h is chosen randomly from a universal family, the average length of the longest chain c is O(1 + a), where a = n/m is the load factor of the hash table.
+- If h is from universal family, operations with hash table run on average in time O(1+a)
+- Ideally, load factor 0.5 < a < 1.
+
+```
+Rehash(T)
+    loadfactor = t.numberofkeys / t.size
+    if loadfactor > 0.9:
+        create tnew of size 2 x t.size
+        choose h.new with cardinality t.new.size
+        for each object o in t:
+            insert o in new.t using h.new
+        t = t.new
+        h = h.new
+```
+
+- You should call rehash after each operation with the hash table.
+- Similarly to dynamic arrays, single rehashing takes 0(n) time, but amortized running time of each operation with hash table is still O(1) on average, because rehashing will be rare.
+
+
+#### Hashing Integers
+
+- Define maximum length L of a phone number
+- Convert phone numbers to integers from 0 to 10L - 1
+- Choose prime number p > 10L
+- Choose hash table size m
+- Choose random hash function from universal family Hp 
+
+#### Hashing Strings
+
+- Now we need to implement the Map from names to phone numbers
+- Denote by |s| is the length of string s
+- Given a string S, compute its hash value
+- S = S[0]S[1]...S[|s|-1], where S[i] - individual characters.
+- We should use all the characters in the hash function
+- Otherwise, there will be many collisions.
+- For example, if S[0] is not used, h('s') = h('ba') = ...
+- Convert each character S[i] to integer code.
+- Choose big prime number p
+
+
+```
+PolyHash (S, p, x)
+hash = 0
+for i in |S| -1 down to 0:
+    hash = (hash x x + S[i]) mod p
+return hash
+
+```
+
+#### Hashing Strings - Cardinality Fix
+
+- For use in a hash table of size m, we need a hash function of cardinality m.
+- First apply random h from Pp and then hash the resulting value again using integer hashing. Denote the resulting function by hm
+
+
+#### Search Pattern in Text
+
+- Given a text T (book, website, facebook profile) and a pattern P (word, phrase, sentence), find all occurrences of P in T.
+- For each position i from 0 to |T| - |P| check character-by-character whether T[i..i + |P| - 1] = P or not. If yes, append i to the result
+
+```
+AreEquals(s1,s2)
+if |s1| != |s2|:
+    return false
+for i from 0 to |s1| - 1:
+    if s1[i] != s2[i]:
+        return false
+return true
+
+FindPatternNaive(T, P)
+    result = []
+    for i from 0 to |T| - |P|:
+        if AreEqual(T[i..i + |P| - 1], P):
+            result.Append(i)
+    return result
+````
+
+#### Rabin-Karp's Algorithm
+
+- Need to compare P with all substrings S of T of length |P|
+- idea: use hashing to quickly compare P with substrings of T
+- if h(P) != h(S), then definitely P != S.
+- if h(P) == h(S), call AreEqual(P, S)
+
+```
+RakinKarp(T, P)
+p = big prime
+x = random (1, p-1)
+result = []
+
+pHash = PolyHash(P, p, x)
+for i from 0 to |T| - |P|:
+    thash = PolyHash(T[i..i+|P| -1],p,x)
+    if pHash != tHash:
+        continue
+    if AreEqual(T[i..i + |P| - 1], P):
+        result.Append(i)
+return result
+```
+
+- "False alarm" is the event when P is compared with T[i..i + |P| - 1], but P != T[i..i + |P| - 1].
+- AreEqual is computed in O(|P|)
+- AreEqual is called only when h(p) == h(T[i..i + |P| - 1]), meaning that either an occurrence of P is found or a "false alarm" happened.
+
+
+#### Optimization: Implementation and Analysis
+
+```
+PrecomputeHashes(T, |P|, p,x)
+    H = len(|T| - |P| + 1) * []
+    S = T[|T| - |P| .. |T| - 1]
+    H[|T| - |P|] = PolyHash(S, p,x)
+    y = 1
+    for i from 1 to |P|:
+        y = (y x x) mod p
+    for i from |T| -|P| - 1 down to 0:
+        H[i] = (xH[i + 1] + T[i] - yT[i + |P|] mod p
+    return H
+
+
+RakinKarp(T, P)
+p = big prime
+x = random (1, p-1)
+result = []
+pHash = PolyHash(P, p, x)
+H = PrecomputeHashes(T, |P|, p, x)
+for i from 0 to |T| - |P|:
+    if pHash != H[i]:
+        continue
+    if AreEqual(T[i..i + |P| - 1], P):
+        result.Append(i)
+return result
+```
+
