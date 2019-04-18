@@ -24,3 +24,4 @@
 
 
 - [unpack operator in Python](https://codeyarns.com/2012/04/26/unpack-operator-in-python/)
+- [파이썬 데코레이터(Python Decorator) 를 이해하고 잘 써보기](https://blog.jonnung.com/python/2015/08/17/python-decorator/)
