@@ -22,6 +22,5 @@
 - [psycopg2 でよくやる操作まとめ](https://qiita.com/hoto17296/items/0ca1569d6fa54c7c4732)
 - [Python3 + google-api-python-clientで、Gmail APIを使ってメールを送信する](http://thinkami.hatenablog.com/entry/2016/06/10/065731)
 
-
 - [unpack operator in Python](https://codeyarns.com/2012/04/26/unpack-operator-in-python/)
 - [이터레이터와 제너레이터](https://mingrammer.com/translation-iterators-vs-generators/)
