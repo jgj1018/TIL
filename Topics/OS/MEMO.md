@@ -5,3 +5,4 @@
 - [LinuxのI/OやCPUの負荷とロードアベレージの関係を詳しく見てみる](https://qiita.com/kunihirotanaka/items/21194f77713aa0663e3b)
 - [sarコマンドでLinuxサーバのシステムモニタリングを行う方法](http://naoberry.com/tech/sar/#i-2)
 - [Understanding a Context Switching Benchmark](https://www.linuxjournal.com/article/2941)
+- [Why is swap being used even though I have plenty of free RAM?](https://askubuntu.com/questions/157793/why-is-swap-being-used-even-though-i-have-plenty-of-free-ram)
