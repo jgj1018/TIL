@@ -27,3 +27,4 @@
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)
 
 - [Pythonの真偽値bool型（True, False）と他の型との変換・判定](https://note.nkmk.me/python-bool-true-false-usage/)
+- [Pythonのデコレータにはwrapsをつけるべきという覚え書き](https://qiita.com/moonwalkerpoday/items/9bd987667a860adf80a2)
