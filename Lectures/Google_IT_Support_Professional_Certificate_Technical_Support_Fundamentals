@@ -1,0 +1,72 @@
+#### Technical Support Fundamentals.
+
+- Information technology (IT) : The use of digital technology, like computers and the Internet, to store and process data into useful information.
+
+- Computer : A device that stores and processes data by performing calculations.
+
+- Algorithm : A series of steps that solve specific problems.
+
+- Banary system : The communication that a computer uses, also known as a base-2 numeral system.
+
+- A group of 8 bits is referred to as a byte.
+
+- Each byte can store one character, and we can have 256 possible values thanks to the base-2 system(2^8)
+
+- Character encoding : Assigns our binary values to characters, so that we as humans can read them.
+
+- Logic gates: Allow our transistors to do more complex tasks, like decide where to send electrical signals depending on logical conditions.
+
+- Abstraction : To take a relatively complex system and simplify it for our use.
+
+
+##### Four layers.
+
+- Hardware layer : Made up of the physical components of a computer.
+
+- Operating system : Allows hardware to communicate with the system.
+
+- Software layter : How we as humans interact with our computer
+
+- User : Interacts with the computer
+
+
+#### Hardwares
+
+- Ports: Connection points that we can connect devices to that extend the functionality of our computer.
+
+- CPU(Central processing unit) : The brain of our computer, it does all the calculations and data processing.
+
+- RAM(Random access memory): our computer's short-term memory.
+
+- Hard drive : Holds all of our data, which includes all of our music, pictures, applications.
+
+- Motherboard : The body or circulatory system of the computer that connects all the pieces together.
+
+- Power supply : convert electricity from our wall outlet onto a format that our computer can use.
+
+- Programs: Instructions that tell the computer what to do
+
+- MCC: a bridge between the CPU and the RAM, a nerve in your brain connecting to your memories.
+
+- There are 3 different cache levels in a CPU: L1, L2 and L3. L1 is the smallest and fastest cache.
+
+- Clock speed : The maximum number of clock cycles that it can handle in a certain time period.
+
+
+##### CPU
+
+- When you select your CPU, you'll need to make sure it's compatible with your motherboard - the circute board that connects all your components together.
+
+##### RAM
+
+- There are lots of types of RAM, and the one that's commonly found in computeres is DRAM, or dynamic random-access memory.
+- There are also different types of memory sticks that DRAM chips can be put on. The more modern DIMM sticks, which usually stands for Dual Inline Memory Module, have different sizes of pins on them.
+- In today's system, we use another type of RAM, called double data rate SDRAM or DDR SDRAM for short.
+
+##### Motherboard
+
+- Peripherals : External devices we connect to our computer, like a mouse, keyboard, and monitor.
+- Expansion slots : give us the ability to increase the functionality of our computer.
+
+##### Storage
+
