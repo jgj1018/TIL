@@ -70,3 +70,44 @@
 
 ##### Storage
 
+##### Power supply
+
+- As a general rule, be sure to use the proper voltage for your electronics.
+- Wattage : The amount of volts and amps that a device needs. 
+
+##### Peripherals
+
+- Anything that you connect to your computer externally that adds functionality.
+- MB is megabyte or unit of data storage, while Mb/s is a megabit per second, which is a unit of data transfer rate.
+- Remember that 1 byte is 8 bits, so to transfer a 1MB file in a second, you need an 8 Mb/s connection speed.
+
+
+- Standoffs are used to raise and attach your motherboard to the case.
+
+
+### Operating system
+
+- Operating system : The whole package that manages our computer's resources and lets us interact with it.
+- Our kernal optimizes memory usage and makes sure our applciations have enough memory to run.
+- I/O management: Anything that can give us input, or that we can use for output of data.
+- We write data to our hard drive in the form of data blocks.
+- Block storage : Improves faster handling of data because the data isn't stored as one long piece and can be accessed quicker.
+- File extension : The appended part of a filename that tells us what type of file it is in certain operating systems. 
+- Process : A program that's executing, like our internet browser or text editor.
+- Program : An application that we can run, like Chrome.
+- Time slice : A very short interval of time that gets allocated to a process for CPU exection.
+- Kernal : creates processes, efficiently schedules them, and manages how processes are terminated.
+- virtual memory : the combination of hard drive space and RAM that acts like memory that our processes can use.
+- I/O devices : Devices that perform input and output.
+- When you're troubleshooting or solving a problem with a slow machine, it's usually some sort of hardware resource deficiency.
+- BIOS/UEFI : A low-level software that initializes our computer's hardware to makesure everything is good to go.
+- Bootloader : A small program that loads the operating system.
+
+### Network
+
+- The Internet : The physical connection of computers and wires around the world.
+- The Web : The information on the internet. The world wide web isn't the only way we can access to Internet.
+- When you send or receive data through a network you need to have both an IP and a MAC address.
+- Router : Connects lots of different devices together and helps route network traffic.
+- Network stack : A set of hardware or software that provides the infrastructure for a computer.
+- Network Address Translation (NAT) : Lets organizations use one public IP address and many private IP addresses within the network.
