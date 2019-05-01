@@ -111,3 +111,23 @@
 - Router : Connects lots of different devices together and helps route network traffic.
 - Network stack : A set of hardware or software that provides the infrastructure for a computer.
 - Network Address Translation (NAT) : Lets organizations use one public IP address and many private IP addresses within the network.
+
+### Software
+
+- Software: How we, as users directly interact with our computer.
+- If hardware is the physical stuff that you can pick up and hold, software is the intangible instructions that tell the hardware what to do.
+- Coding : Translating one language to another.
+- Scripting: Coding in a scripting language.
+- Scripts : Mainly used to perform a single or limited range task.
+- Programming : Coding in a programming language.
+- Programming language : Special languages that software developers use to write instructions for computer to execute.
+- Application sofrware: Any sofrware created to fulfilled a specific need, like a text editor, web browser, or graphic editor.
+- System sofrware: software used to keep our core system running, like operating system tools and utilities.
+- Firmware : software that's permanently stored on a computer component.
+- Complied programming language : Uses human readable instructions, then sends them through a complier.
+- interpreted languages : The script is run by an interpreter, which interprets the code into CPU instructions just in time to run them.
+
+
+### Troubleshooting 
+
+- Troubleshooting: The ability to diagnose and resolve a problem
