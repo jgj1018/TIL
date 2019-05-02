@@ -1,0 +1,11 @@
+- Not every Region is priced the same, because each different country has their own set of tax laws, their own financial situations, you'll find the exact same services in different Regions may have different costs.
+
+- In which case you might be required by law, based on the type of load you're running, that you must run in the Frankfurt data center. While you'll have great latency because your customers are in Germany anyway, that this compliance outweighs any other consideration because of legal restrictions. 
+
+- a region is made up of multiple availability zones. And you don't have to worry about the distance between them because AWS connects those availability zones with a proprietary high speed fiber network, multiple lines between every availability zone so you can treat it as a single area.
+
+- To build the VPC, you only have to declare two specific things: what Region you're selecting, and then the IP range for the private IPs of everything that's going to run inside this VPC.
+
+- S3 is what we call object-level storage, whereas RDS runs on block-level storage. Object-level storage works like this. If you have an image, like we have here, and you want to update that image, you have to update the entire file. So the whole file's going to change. In contrast, databases like Amazon RDS run on top of block-level storage. How this works is if we wanted to change the location for a contact, we could just change the corresponding blocks. We do not need to update the entire data file for every single change.
+
+- Sometimes you might have a slightly different block storage need, where you need to have a single store of, let's say, a shared file system that maybe multiple EC2 instances need to connect to. Remember, EBS only attaches to one EC2 at a time. Introducing Elastic File System, or EFS, and the elastic file system for AWS EFS is designed to be a regionally distributed, meaning it doesn't live inside any one subnet, a regionally distributed file store that can automatically attach to multiple EC2 instances simultaneously, many EC2 instances, including the instances in different VPCs.
