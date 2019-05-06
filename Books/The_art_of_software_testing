@@ -20,3 +20,5 @@
 
 
 *  modifying an existing program is a process that is more error prone (in terms of errors per statement written) than writing a new program. 
+
+* The programmer narrates, statement by statement, the logic of the program. During the discourse, other participants should raise questions, which should be pursued to determine whether errors exist. It is likely that the programmer, rather than the other team members, will find many of the errors identified during this narration. In other words, the simple act of reading aloud a program to an audience seems to be a remarkably effective error-detection technique.
