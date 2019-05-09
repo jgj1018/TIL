@@ -80,3 +80,7 @@ The links below are my favorite posts.
 ## 2019.03
 
 - [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
+
+## 2019.05
+
+- [Design Patterns](https://sourcemaking.com/design_patterns)
