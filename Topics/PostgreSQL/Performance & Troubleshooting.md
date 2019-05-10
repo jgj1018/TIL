@@ -21,3 +21,4 @@
 
 - [ADDING AN INDEX CAN DECREASE SELECT PERFORMANCE](https://www.cybertec-postgresql.com/en/index-decreases-select-performance/)
 - [Efficient Use of PostgreSQL Indexes](https://devcenter.heroku.com/articles/postgresql-indexes)
+- [An Overview of Database Indexing in PostgreSQL](https://severalnines.com/blog/postgresql-database-indexing-overview)
