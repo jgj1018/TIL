@@ -81,6 +81,10 @@ The links below are my favorite posts.
 
 - [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
 
+## 2019.04
+
+- [Spring Batch 가이드](https://jojoldu.tistory.com/324?category=635883)
+
 ## 2019.05
 
 - [Design Patterns](https://sourcemaking.com/design_patterns)
