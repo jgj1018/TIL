@@ -88,3 +88,4 @@ The links below are my favorite posts.
 ## 2019.05
 
 - [Design Patterns](https://sourcemaking.com/design_patterns)
+- [Leading a Culture of Effective Testing](https://www.infoq.com/articles/culture-effective-testing)

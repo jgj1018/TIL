@@ -27,3 +27,4 @@
 - [cypress how it works](https://www.cypress.io/how-it-works/)
 - [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
 - [Proposal: Fix corporate proxy issues](https://github.com/cypress-io/cypress/issues/1469)
+- [어떻게 하면 사람들이 즐겁게 테스트를 작성하도록 할 수 있을까?](http://www.moreagile.net/2015/01/LeadingaCultureofEffectiveTesting.html?m=0)
