@@ -89,3 +89,4 @@ The links below are my favorite posts.
 
 - [Design Patterns](https://sourcemaking.com/design_patterns)
 - [Leading a Culture of Effective Testing](https://www.infoq.com/articles/culture-effective-testing)
+- [네트워크 쉽게 이해하기 시리즈](https://mindnet.tistory.com/category/IT%20Study/Network%20%EC%89%BD%EA%B2%8C%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)

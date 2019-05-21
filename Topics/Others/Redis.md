@@ -1,1 +1,2 @@
 - [Redis performance on a multi core CPU](https://stackoverflow.com/questions/21304947/redis-performance-on-a-multi-core-cpu)
+- [memcached, Redis 何をどう使う](https://ave-h.hateblo.jp/entry/2018/08/09/234051)
