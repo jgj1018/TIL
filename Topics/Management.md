@@ -1,0 +1,8 @@
+- [Project Climbing : PM이 되고자 할 때 알아야 하는 9가지](https://story.pxd.co.kr/641)
+- ["PM力"向上に効く、6つのケーススタディ](https://news.mynavi.jp/series/pm2)
+- [기술적 부채에 대처하는 자세 Ver2.0](http://www.moreagile.net/2013/10/blog-post.html)
+- [How to use RAG Status Reporting For your Project?](http://www.projectaccelerator.co.uk/how-to-use-rag-status-reporting-for-your-project/)
+- [What is Critical Path Method For in Project Management?](https://hygger.io/blog/what-is-critical-path-method-for-in-project-management/)
+- [systems thinking](https://searchcio.techtarget.com/definition/systems-thinking)
+- [Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
+- [What is Design Thinking and Why Is It So Popular?](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular)
