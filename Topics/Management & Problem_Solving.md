@@ -6,3 +6,5 @@
 - [systems thinking](https://searchcio.techtarget.com/definition/systems-thinking)
 - [Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
 - [What is Design Thinking and Why Is It So Popular?](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular)
+- [디자인씽킹의 이해(Design Thinking)](https://www.slideshare.net/MatthewLee/design-thinking-87168604)
+- [시스템과 사고](https://brunch.co.kr/@minnation/1012)
