@@ -29,3 +29,4 @@
 - [Proposal: Fix corporate proxy issues](https://github.com/cypress-io/cypress/issues/1469)
 - [어떻게 하면 사람들이 즐겁게 테스트를 작성하도록 할 수 있을까?](http://www.moreagile.net/2015/01/LeadingaCultureofEffectiveTesting.html?m=0)
 - [단위 테스트란 무엇인가? 왜 단위 테스트를 해야하는가? 왜 pytest를 사용해야 하는가?](https://cjh5414.github.io/why-pytest/)
+- [The Difference Between Mocks and Stubs](https://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs)
