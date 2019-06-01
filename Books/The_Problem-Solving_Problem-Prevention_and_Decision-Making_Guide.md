@@ -66,4 +66,60 @@
 
 - Whereas the run chart answers the questions of if and when a change has occurred, the Pareto chart is more of a comparative tool. That is, if we suspect differences in performance between things like machines, people, or even days of the week, then we can visualize these differences with a Pareto chart.
 
+- Pareto charts are really quite simple to create. Along the horizontal or x-axis, we simply place what we are comparing (e.g., operators, machines), and then place whatever we are measuring along the vertical or y-axis.
+
+- It’s never easy to eat an elephant or an apple in one single bite, but if we take one bite at a time, we have a much better chance of succeeding. Multilevel Pareto charts help the team focus and prioritize its efforts.
+
 - Remember, the primary purpose of a causal chain is to develop a stepwise chain of events that explains why a particular performance shortfall exists. Once this is complete, hypotheses or theories can be formulated as to why a problem exists. 
+
+##### A Structured Approach to Problem Solving
+
+- systematic approach keeps the team focused and helps discourage a team from wandering aimlessly.
+- using a structured approach helps the team understand what information is needed, and then facilitates the organization of data, thoughts, and information.
+- by using and following a systematic approach, with its logical progression of tasks and activities, the probability of finding the true root cause increases significantly.
+-  by using a structured approach in a team setting, the maximum utilization of resources will be achieved in the shortest period of time. 
+
+| Six Sigma Element | Problem Solving Roadmap Step | Toyota’s Practical Problem Solving |
+|:--------|:--------:|--------:|
+| Define | I. Define, describe, and appraise the problem | 1.	Initial problem perception 2.	Clarify the problem (the “real” problem) 3.	Locate area/point of cause (where the problem physically occurs) |
+| Measure | II. Collect data |  |
+| Analyze | Analyze 3. Investigate, organize, and analyze the data IV. Formulate and test a causal theory V. Select the most probable cause | 4.	Investigation of the root cause by using 5 Whys |
+| Improve | VI. Develop, test, and implement countermeasures | 5.	Develop countermeasures 6.	Evaluate |
+| Control | VII. Implement, document, and celebrate | 7.	Standardize |
+
+
+##### Define, Describe, and Appraise the Problem
+
+- This is an important first step because all of the work that follows will be focused on solving and correcting the problem as we have defined it.
+- Peter Drucker’s opening quote sums up what we have to do in this chapter: Ask the right questions. Just what are these right questions? First, they are basic questions that will help the team develop a complete definition of the problem and allow the team to move forward. 
+
+- What is the problem? That is, what specifically isn’t working as we would like it to be, and what specifically is the defect or malfunction?
+
+- Where is the problem? With this question, we are attempting to define where the performance problem is geographically, and where on the object we are observing the problem.
+
+- When does the problem occur? Here we are looking for the timing of the problem from its inception, subsequent appearances of the problem, and specifically when in the operating cycle is the problem observed. (...) The most effective tool to utilize here is the trend or run chart, which has an axis (x-axis) for time and an axis (y-axis) for monitoring the level of the problem.
+
+- How many units or items have the problem? Since we are trying to define the magnitude of the problem, we need to know the extent to which the problem exists. (...) Here you make note that only machine A is impacted. The most effective tool to answer this question is the Pareto chart. The Pareto chart provides a graphical representation of the problem for everyone to see.
+
+- Who has the problem? If there are humans involved (i.e., operators), then we need to define exactly who the operators are with the problem. Here we can use a Pareto chart or a simple matrix of operators.
+
+- Is the problem change-related, or is it a launch-related problem, or is it a hybrid of a change- and launch-related problem? This is important to determine, because our approach to solving the problem is uniquely different. In a change-related problem, we focus most of our efforts and attention on determining exactly what changed and when the change occurred. In a launch-related problem, the answer to the problem lies in accurately determining the differences or distinctions between where or when the problem occurs compared to when or where it doesn’t. 
+
+- In a change-related problem, our primary tool is a trend or run chart, while in a launch-related problem we utilize Pareto charts or matrices as a means of comparison. Of course, in a hybrid type problem, we use both the run chart and the Pareto chart.
+
+- What is the trend of the problem? That is, is the problem increasing, decreasing, or remaining constant? The trend or run chart developed earlier will answer this question.
+
+- Develop a problem statement. The final step in the definition of the problem is to develop a problem statement that incorporates all of the information we have just developed (i.e., the what, the where, the when, the who, the magnitude/frequency, and the trend) into a single statement that fully describes the problem we are trying to solve.
+
+##### Investigate, Organize, and Analyze the Data
+
+- When we attempt to solve a problem, we are, in effect, crime scene investigators. We look at the symptoms of the problem, and then try to logically tie what we find to some reasonable explanation of the causal chain of events.
+
+- My recommendation is that you collect as much information as is available, as close to the onset of the problem as possible. In the end, it may not be needed, but if it isn’t collected and it is needed later, there isn’t much you can do about it. The guidelines for collecting this data are simple. If there is even a remote possibility that it could contribute to the problem, then collect it. Having said this, let me give a word of caution. Don’t ever let the desire to collect data interfere with the problem-solving process. Too often I have seen an inordinate amount of effort placed on data collection and too little placed on solving the problem.
+
+- The machines or people who are performing closer to or at the expected level of performance are called defect-free configurations (DFCs). 
+
+-  DFCs tell us that there is something uniquely different about where or when you see the problem compared to where or when you don’t. If you can pinpoint these differences, then you are on the road to problem resolution.
+
+- we are only looking for differences and not the reason why the difference might be important. This is an extremely important thing to remember, because differences should only be discounted or accepted after discussions later in the process.
+
