@@ -1,0 +1,8 @@
+- [The What, Why, and How of a Microservices Architecture](https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9)
+- [(SDS 사내 기고) Microservices Architecture 란?](https://kihoonkim.github.io/2017/01/27/Microservices%20Architecture/[SDS%EC%82%AC%EB%82%B4%20%EA%B8%B0%EA%B3%A0]%20Microservice%20Architecture%EB%9E%80/)
+- [마이크로서비스 아키텍처의 장단점](https://www.popit.kr/why-microservice/)
+- [잘가요 마이크로서비스: 100개의 문제점 투성이를 1개의 슈퍼스타로](https://tech.ssut.me/goodbye-microservice/)
+- [대용량 웹서비스를 위한 마이크로 서비스 아키텍쳐의 이해](https://bcho.tistory.com/948)
+- [쿠팡의 MSA — Part 1](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61)
+- [쿠팡의 MSA — Part 2](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572)
+- [In search of agile software architecture](https://www.infoworld.com/article/3075880/microservice-architecture-is-agile-software-architecture.html)

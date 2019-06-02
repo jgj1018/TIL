@@ -123,3 +123,18 @@
 
 - we are only looking for differences and not the reason why the difference might be important. This is an extremely important thing to remember, because differences should only be discounted or accepted after discussions later in the process.
 
+- Solving a problem is very much like putting together a jigsaw puzzle with pieces of information that fit together to form a logical cause.
+
+- The cause-and-effect diagram is a good visual representation of cause-and-effect relationships that aid in the development of potential causes that produce the observed effect.
+
+- It is important not to reject any idea that a team member presents, even though it may seem irrelevant, simply because a rejection during a brainstorming session can have a negative effect on the team’s creative juices and harmony.
+
+- Eliminating possible causes from the cause-and-effect diagram, must only come through analyzing data, uncovering facts, having discussions, and achieving a consensus among team members.
+
+##### Formulate and Test a Causal Theory
+
+- To develop a hypothesis is to develop a theory as to the sequence of events that led to the reason or reasons why a problem appeared. Of the tools available to the team, the causal chain is, for me, the most effective. 
+
+- In creating the causal chain, we are attempting to not only find the cause or causes of the effect we have observed, but also the series, or string of events, that happened to create the problem.
+
+- When creating causal chains, or developing hypotheses, we always start our journey with the symptoms of the problem, but we also have to consider the impact of changes, defect-free configurations (DFCs), and distinctions. Our theory or theories must satisfy or explain what we have listed in each of these categories of information.
