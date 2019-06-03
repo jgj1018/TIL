@@ -6,3 +6,4 @@
 - [쿠팡의 MSA — Part 1](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61)
 - [쿠팡의 MSA — Part 2](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572)
 - [In search of agile software architecture](https://www.infoworld.com/article/3075880/microservice-architecture-is-agile-software-architecture.html)
+- [MSA에서 Service discovery 패턴](https://bcho.tistory.com/1252)
