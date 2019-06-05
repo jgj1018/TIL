@@ -34,3 +34,4 @@
 
 - [Googleが嫌う重複コンテンツって？重複を避けてサイト運営する方法](https://service.plan-b.co.jp/blog/seo/8539/)
 - [Duplicate Content and SEO – Learn how to Deal with Duplicate Content](http://cultofweb.com/blog/duplicate-content-seo/)
+- [Web - 쿠키와 세션의 차이, 용도, 사용법(cookie,session)](https://jeong-pro.tistory.com/80)
