@@ -3,3 +3,4 @@
 - [쿠버네티스 #2 - 개념 이해 (1/2)](https://bcho.tistory.com/1256?category=731548)
 - [쿠버네티스 #3- 개념이해 (2/2) 컨트롤러](https://bcho.tistory.com/1257?category=731548)
 - [SpringBootをKubernetes上で動かしてみる](https://qiita.com/Yuki10/items/bdd7a3f197371d573f51)
+- [Using Spring Batch To Orchestrate Jobs On Openshift](http://nullendpoint.com/openshift/2018/05/01/using-spring-batch-to-orchestrate-jobs-on-openshift/)

@@ -2,3 +2,4 @@
 - [자바의 동시성 #2 - 동시성 프로그래밍에서 발생할 수 있는 문제점과 volatile, synchrozied 키워드](https://badcandy.github.io/2019/01/14/concurrency-02/)
 - [What is the Spring framework really all about?](https://www.youtube.com/watch?v=gq4S-ovWVlM&t=270s)
 - [LINEのOpenJDK導入レポート：互換性の確認から注意事項まで](https://engineering.linecorp.com/ja/blog/line-open-jdk/)
+- [Spring Scheduling 작동 주기 동적으로 설정하기](http://tech.javacafe.io/2018/05/30/dynamic_scheduling/)
