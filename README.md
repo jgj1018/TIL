@@ -90,3 +90,7 @@ The links below are my favorite posts.
 - [Design Patterns](https://sourcemaking.com/design_patterns)
 - [Leading a Culture of Effective Testing](https://www.infoq.com/articles/culture-effective-testing)
 - [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery)
+
+## 2019.06
+
+- [MonolithFirst](https://martinfowler.com/bliki/MonolithFirst.html)
