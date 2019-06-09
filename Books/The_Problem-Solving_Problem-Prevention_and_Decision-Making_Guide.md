@@ -138,3 +138,31 @@
 - In creating the causal chain, we are attempting to not only find the cause or causes of the effect we have observed, but also the series, or string of events, that happened to create the problem.
 
 - When creating causal chains, or developing hypotheses, we always start our journey with the symptoms of the problem, but we also have to consider the impact of changes, defect-free configurations (DFCs), and distinctions. Our theory or theories must satisfy or explain what we have listed in each of these categories of information.
+
+##### Choose the Most Probable Cause
+
+- Forcing the pieces to fit the puzzle. Although this trap seems difficult to believe, a team can actually force fit information to a problem profile that fits a problem cause without ever realizing it is happening. This usually happens when one person has a preconceived notion of what caused the problem. In order to guard against this trap, always check your logic to make certain that no puzzle pieces are missing.
+
+- It is important to remember that sometimes problems have more than one cause, but typically a single root cause results in the problem.
+
+##### Develop, Test, and Implement Solutions
+
+- The old expression “there’s more than one way to skin a cat” is really true when it concerns developing solutions to problems.
+
+- Timing is very important, so we don’t want a solution that takes days or weeks to implement. The solution needs to be implemented as soon as possible, so that the performance improves as quickly as possible.
+
+- Developing a solution for a launch-related problem requires more creativity and a more in-depth review of alternatives.
+
+- Hybrid problems, you will recall, are those that combine the elements of both a change- and launch-related problem, so the solutions are logically a combination of both. There is no simple formula for determining a solution, but my suggestion is simple: Take care of reversing the change first and then attack the rest. Just follow the advice I gave you for both the change-related and launch-related problem solutions and good luck.
+
+- After the solution has been tested, there are several other things that must occur. Communication of the solution to everyone who needs to know is absolutely imperative if the solution is going to be lasting.
+
+- As a matter of fact, no solution is really complete without a control to monitor the performance of the process. 
+
+##### Implement, Document, and Celebrate
+
+- No problem-solving event should ever be considered complete until some kind of safeguard is put in place to minimize the probability of a recurrence of the problem.
+
+- It is important to remember that the purpose of a control is to give an advanced warning that something may be wrong before it is actually wrong
+
+- One final and important activity to complete is to document your success. Documenting how your team successfully solved the problem does several things for the organization. First, it reinforces that the use of a structured and systematic approach to problems really does work. Second, your report is there for future problem-solving teams to follow as a roadmap. Third, if the problem you have solved should ever return (God forbid!), then your team’s report is available as a ready reference.
