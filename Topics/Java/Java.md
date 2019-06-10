@@ -3,3 +3,4 @@
 - [What is the Spring framework really all about?](https://www.youtube.com/watch?v=gq4S-ovWVlM&t=270s)
 - [LINEのOpenJDK導入レポート：互換性の確認から注意事項まで](https://engineering.linecorp.com/ja/blog/line-open-jdk/)
 - [Spring Scheduling 작동 주기 동적으로 설정하기](http://tech.javacafe.io/2018/05/30/dynamic_scheduling/)
+- [운영 자동화#1 — 빌드 자동화 by Gradle](https://medium.com/@goinhacker/%EC%9A%B4%EC%98%81-%EC%9E%90%EB%8F%99%ED%99%94-1-%EB%B9%8C%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94-by-gradle-7630c0993d09)

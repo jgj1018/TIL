@@ -84,3 +84,116 @@
 ### Chapter 2. Implementing SLOs
 
 - Service level objectives (SLOs) specify a target level for the reliability of your service. Because SLOs are key to making data-driven decisions about reliability, they’re at the core of SRE practices.
+
+
+- Their day-to-day tasks and projects are driven by SLOs: ensuring that SLOs are defended in the short term and that they can be maintained in the medium to long term. One could even claim that without SLOs, there is no need for SREs.
+
+
+- SLOs are a tool to help determine what engineering work to prioritize.
+
+
+- There are SLOs that all stakeholders in the organization have approved as being fit for the product.
+
+
+- The people responsible for ensuring that the service meets its SLO have agreed that it is possible to meet this SLO under normal circumstances.
+
+
+- The organization has committed to using the error budget for decision making and prioritizing. This commitment is formalized in an error budget policy.
+
+
+- There is a process in place for refining the SLO.
+
+
+- Once you have an SLO target below 100%, it needs to be owned by someone in the organization who is empowered to make tradeoffs between feature velocity and reliability.
+
+
+- SLI is an indicator of the level of service that you are providing.
+
+
+- we generally recommend treating the SLI as the ratio of two numbers: the number of good events divided by the total number of events.
+
+
+- the SLO is a target percentage and the error budget is 100% minus the SLO.
+
+
+- a single SLI specification might have multiple SLI implementations, each with its own set of pros and cons in terms of quality (how accurately they capture the experience of a customer), coverage (how well they capture the experience of all customers), and cost.
+
+- hoose one application for which you want to define SLOs. If your product comprises many applications, you can add those later.
+
+
+- Decide clearly who the “users” are in this situation. These are the people whose happiness you are optimizing.
+
+
+- Consider the common ways your users interact with your system—common tasks and critical activities.
+
+
+- Draw a high-level architecture diagram of your system; show the key components, the request flow, the data flow, and the critical dependencies. Group these components into categories listed in the following section (there may be some overlap and ambiguity; use your intuition and don’t let perfect be the enemy of the good).
+
+
+- Rolling windows are more closely aligned with user experience: if you have a large outage on the final day of a month, your user doesn’t suddenly forget about it on the first day of the following month. We recommend defining this period as an integral number of weeks so it always contains the same number of weekends.
+
+
+- Calendar windows are more closely aligned with business planning and project work. For example, you might evaluate your SLOs every quarter to determine where to focus the next quarter’s project headcount. 
+
+
+- In order for a proposed SLO to be useful and effective, you will need to get all stakeholders to agree to it. 
+
+
+- Once you have an SLO, you can use the SLO to derive an error budget. In order to use this error budget, you need a policy outlining what to do when your service runs out of budget.
+
+
+- Remember that lowering the SLOs also lowers the number of situations to which the SREs will respond; the product manager needs to understand this tradeoff.
+
+
+- When we talk about enforcing an error budget, we mean that once you exhaust your error budget (or come close to exhausting it), you should do something in order to restore stability to your system.
+
+
+- This policy should cover the specific actions that must be taken when a service has consumed its entire error budget for a given period of time, and specify who will take them
+
+
+- The development team gives top priority to bugs relating to reliability issues over the past four weeks.
+
+
+- The development team focuses exclusively on reliability issues until the system is within SLO. This responsibility comes with high-level approval to push back on external feature requests and mandates.
+
+
+- To reduce the risk of more outages, a production freeze halts certain changes to the system until there is sufficient error budget to resume changes.
+
+
+- Sometimes a service consumes the entirety of its error budget, but not all stakeholders agree that enacting the error budget policy is appropriate. If this happens, you need to return to the error budget policy approval stage.
+
+
+- When starting out, you should probably review the SLO frequently—perhaps every month. Once the appropriateness of the SLO becomes more established, you can likely reduce reviews to happen quarterly or even less frequently.
+
+
+- If some of your outages and ticket spikes are not captured in any SLI or SLO, or if you have SLI dips and SLO misses that don’t map to user-facing issues, this is a strong sign that your SLO lacks coverage. This situation is totally normal and should be expected. Your SLIs and SLOs should change over time as realities about the service they represent change. Don’t be afraid to examine and refine them over time!
+
+
+- Sometimes you determine that you need a tighter SLO to make your users happy, but improving your product to meet that SLO will take some time. If you implement the tighter SLO, you’ll be permanently out of SLO and subject to your error budget policy. In this situation, you can make the refined SLO an aspirational SLO—measured and tracked alongside your current SLO, but explicitly called out in your error budget policy as not requiring action. This way you can track your progress toward meeting the aspirational SLO, but you won’t be in a perpetual state of emergency.
+
+
+- The obvious decisions start from what to do when you’re not meeting your SLO—that is, when you’ve exhausted your error budget. As already discussed, the appropriate course of action when you exhaust your error budget should be covered by the error budget policy.
+
+
+- You can use critical user journeys to help capture the experience of your customers. A critical user journey is a sequence of tasks that is a core part of a given user’s experience and an essential aspect of the service.
+
+
+- Once you identify user-centric events, you can solve the problem of measuring them. You might measure them by joining distinct log events together, using advanced JavaScript probing, using client-side instrumentation, or using some other process. Once you can measure an event, it becomes just another SLI, which you can track alongside your existing SLIs and SLOs. Critical user journeys can improve your recall without affecting your precision.
+
+
+- We need a way to distinguish certain classes of requests from others. You can use bucketing to accomplish this—that is, adding more labels to your SLIs, and then applying different SLOs to those different labels.
+
+
+- While your prime concern is implementing a user-centric SLO that covers the entire stack, SLOs can also be a useful way to coordinate and implement reliability requirements between different components in the stack. 
+
+
+- There are two schools of thought regarding how an error budget policy should address a missed SLO when the failure is caused by a dependency that’s handled by another team: Your team should not halt releases or devote more time to reliability, as your system didn’t cause the issue. You should enact a change freeze in order to minimize the chances of future outages, regardless of the cause of that outage. The second approach will make your user
+
+
+- <span style="color:red"> SLOs are the tool by which you measure your service’s reliability.</span>
+
+
+- <span style="color:red"> Error budgets are a tool for balancing reliability with other engineering work, and a great way to decide which projects will have the most impact.</span>
+
+
+- You should start using SLOs and error budgets today.
