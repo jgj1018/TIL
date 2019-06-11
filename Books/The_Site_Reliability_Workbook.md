@@ -197,3 +197,28 @@
 
 
 - You should start using SLOs and error budgets today.
+
+
+### Chapter 3. SLO Engineering Case Studies
+
+
+- It does not try to transform operations engineers into application developers, or vice versa. Instead, it gives both a common frame of reference. In our experience, an error budget/SLO approach has led both teams to make similar decisions when presented with the same facts, as it removes a good deal of subjectivity from the conversation.
+
+
+- We use the SLO/error budget concept as a method to allocate resources going forward. For example, if we missed the SLO for last month, that behavior helps us prioritize relevant fixes, improvements, and bug fixes. 
+
+
+- In addition to our monthly Evernote/Google review of SLO performance, we’ve settled on a six-month SLO review cycle, which strikes the right balance between changing SLOs too often and letting them become stale. In revising our SLOs, we’ve also learned that it’s important to balance what you would like to measure with what’s possible to measure.
+
+
+- Armed with an easy-to-remember acronym, we set out to evangelize SLOs to the enterprise:
+- Why SLOs are important
+- How SLOs support our “freedom and responsibility” culture
+- What should be measured
+- What to do with the results
+
+
+- Since developers were now responsible for the operation of their software, they needed to establish SLOs to demonstrate their ability to build and support reliable software, and also to communicate with the consumers of their services and product managers for customer-facing services. However, most of this audience was unfamiliar with concepts like SLAs and SLOs, so they needed to be educated 
+
+
+- As we needed to secure executive backing for our move to SLOs, our education campaign started with senior leadership. We then met with development teams one by one to espouse the values of SLOs. We encouraged teams to move from their custom metric-tracking mechanisms (which were often manual)
