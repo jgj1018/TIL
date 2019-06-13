@@ -89,3 +89,35 @@
 ### Part II: The Office Environment
 
 - There are a million ways to lose a workday, but not even a single way to get one back.
+
+
+### 8. “You Never Get Anything Done around Here between 9 and 5.”
+
+- A disturbing possibility is that overtime is not so much a means to increase the quantity of work time as to improve its average quality
+
+
+- All the more discouraging is that the manager wasn’t even particularly embarrassed about failing to take steps to improve the environment
+
+
+- People who had ten years of experience did not outperform those with two years of experience. 
+
+
+- There was a very weak relationship between salary and performance
+
+
+- While this 10 to 1 productivity differential among programmers is understandable, there is also a 10 to 1 difference in productivity among software organizations.
+
+
+-  Over the whole sample, the best organization (the one with the best average performance of its representatives) worked more than ten times faster than the worst organization. 
+
+
+- The top quartile, those who did the exercise most rapidly and effectively, work in space that is substantially different from that of the bottom quartile.
+
+
+- The data presented above does not exactly prove that a better workplace will help people to perform better. It may only indicate that people who perform better tend to gravitate toward organizations that provide a better workplace.
+
+
+### 9. Saving Money on Space
+
+
+- the savings of a cost-reduced workplace are attractive, but compared to what? The obvious answer is that the savings have to be compared to the risk of lost effectiveness.
