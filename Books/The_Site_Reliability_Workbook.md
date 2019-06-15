@@ -222,3 +222,47 @@
 
 
 - As we needed to secure executive backing for our move to SLOs, our education campaign started with senior leadership. We then met with development teams one by one to espouse the values of SLOs. We encouraged teams to move from their custom metric-tracking mechanisms (which were often manual)
+
+
+### Chapter 4. Monitoring
+
+- At the most basic level, monitoring allows you to gain visibility into a system, which is a core requirement for judging service health and diagnosing your service when things go wrong.
+
+
+- When choosing a monitoring system, it is important to understand and prioritize the features that matter to you
+
+
+- Different organizations will have different needs when it comes to the freshness of data and the speed of data retrieval.
+
+
+- Data more than four to five minutes stale might significantly impact how quickly you can respond to an incident.
+
+
+- Without a long-term view of your data, you cannot analyze long-term trends like system growth.
+
+
+- The metrics you retain about events or resource consumption should ideally be monotonically incrementing counters.
+
+
+- A robust monitoring system should allow you to concisely display time-series data in graphs, and also to structure data in tables or a range of chart styles.
+
+
+- For each set of dashboards, displaying the same types of data consistently is valuable for communication.
+
+
+- When one of your service dependencies has a firing alert (e.g., a slow backend), you don’t need to alert for error rates of your service.
+
+
+- You also need to be able to ensure alerts are no longer suppressed once the event is over.
+
+
+- The real-time nature of our metrics-based monitoring system means that engineers can be notified of problems very rapidly. We tend to use logs to find the root cause of an issue, as the information we need is often not available as a metric.
+
+
+- When reporting isn’t time-sensitive, we often generate detailed reports using logs processing systems because logs will nearly always produce more accurate data than metrics.
+
+
+- Every alert required an explicit triage step to determine if it was user-facing, which slowed down response time.
+
+
+- Once alerts were directly tied to SLOs, they were more clearly actionable, so the false-positive rate decreased significantly.
