@@ -51,7 +51,6 @@
 
 
 ##### Compare and Contrast
-
 - DevOps and SRE are both contingent on an acceptance that change is necessary in order to improve.
 
 
@@ -266,3 +265,56 @@
 
 
 - Once alerts were directly tied to SLOs, they were more clearly actionable, so the false-positive rate decreased significantly.
+
+
+- SLI metrics are the first metrics you want to check when SLO-based alerts trigger.
+
+
+- When investigating the cause of an SLO violation, you will most likely not get enough information from the SLO dashboards. These dashboards show that you are violating the SLO, but not necessarily why.
+
+
+- Even if your service didn’t change, any of its dependencies might change or have problems, so you should also monitor responses coming from direct dependencies.
+
+
+- Aim to monitor and track the usage of every resource the service relies upon. Some resources have hard limits you cannot exceed, like RAM, disk, or CPU quota allocated to your application. 
+
+
+- In an ideal world, monitoring and alerting code should be subject to the same testing standards as code development.
+
+
+- It’s very likely that your alerting rules will not fire for months or years after you configure them, and you need to have confidence that when the metric passes a certain threshold, the correct engineers will be alerted with notifications that make sense.
+
+
+### Chapter 5. Alerting on SLOs
+
+
+- The proportion of events detected that were significant. Precision is 100% if every alert corresponds to a significant event. Note that alerting can become particularly sensitive to nonsignificant events during low-traffic periods 
+
+
+- Reset time : How long alerts fire after an issue is resolved. Long reset times can lead to confusion or to issues being ignored.
+
+
+- To improve upon the previous solution, you want to create an alert with good detection time and high precision. To this end, you can introduce a burn rate to reduce the size of the window while keeping the alert budget spend constant. Burn rate is how fast, relative to the SLO, the service consumes the error budget.
+
+
+- Your alerting logic can use multiple burn rates and time windows, and fire alerts when burn rates surpass a specified threshold. This option retains the benefits of alerting on burn rates and ensures that you don’t overlook lower (but still significant) error rates. It’s also a good idea to set up ticket notifications for incidents that typically go unnoticed but can exhaust your error budget if left unchecked—for example, a 10% budget consumption in three days. This rate of errors catches significant events, but since the rate of budget consumption provides adequate time to address the event, you don’t need to page someone. We recommend 2% budget consumption in one hour and 5% budget consumption in six hours as reasonable starting numbers for paging, and 10% budget consumption in three days as a good baseline for ticket alerts.
+
+
+- Multiple burn rates allow you to adjust the alert to give appropriate priority based on how quickly you have to respond. If an issue will exhaust the error budget within hours or a few days, sending an active notification is appropriate. Otherwise, a ticket-based notification to address the alert the next working day is more appropriate
+
+
+- To avoid multiple alerts from firing if all conditions are true, you need to implement alert suppression. For example: 10% budget spend in five minutes also means that 5% of the budget was spent in six hours, and 2% of the budget was spent in one hour. This scenario will trigger three notifications unless the monitoring system is smart enough to prevent it from doing so.
+
+
+- We can enhance the multi-burn-rate alerts in iteration 5 to notify us only when we’re still actively burning through the budget—thereby reducing the number of false positives. To do this, we need to add another parameter: a shorter window to check if the error budget is still being consumed as we trigger the alert. A good guideline is to make the short window 1/12 the duration of the long window.
+
+
+- One technique for managing a large number of SLOs is to group request types into buckets of approximately similar availability requirements.
+
+
+- The techniques for alerting on significant events range from alerting when your error rate goes above your SLO threshold to using multiple levels of burn rate and window sizes. In most cases, we believe that the multiwindow, multi-burn-rate alerting technique is the most appropriate approach to defending your application’s SLOs.
+
+
+### Chapter 6. Eliminating Toil
+
+- we’ll define toil as the repetitive, predictable, constant stream of tasks related to maintaining a service. Toil is seemingly unavoidable for any team that manages a production service. (...) Google limits the time SRE teams spend on operational work (including both toil- and non-toil-intensive work) at 50% 
