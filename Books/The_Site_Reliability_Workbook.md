@@ -318,3 +318,15 @@
 ### Chapter 6. Eliminating Toil
 
 - we’ll define toil as the repetitive, predictable, constant stream of tasks related to maintaining a service. Toil is seemingly unavoidable for any team that manages a production service. (...) Google limits the time SRE teams spend on operational work (including both toil- and non-toil-intensive work) at 50% 
+
+
+- Toil can slowly deflate team morale. Time spent working on toil is generally time not spent thinking critically or expressing creativity; reducing toil is an acknowledgment that an engineer’s effort is better utilized in areas where human judgment and expression are possible.
+
+
+- It’s not always clear that a certain chunk of work is toil. Sometimes, a “creative” solution—writing a workaround—is not the right call. Ideally, your organization should reward root-cause fixes over fixes that simply mask a problem.
+
+
+- Usually, teams must choose a toil-reduction project from several candidates. An objective measure of toil allows your team to evaluate the severity of the problems and prioritize them to achieve maximum return on engineering investment. Before beginning toil reduction projects, it’s important to analyze cost versus benefit and to confirm that the time saved through eliminating toil will (at minimum) be proportional to the time invested in first developing and then maintaining an automated solution
+
+
+- Estimate the amount of time you’ll spend on toil reduction efforts, and make sure that the benefits outweigh the cost 
