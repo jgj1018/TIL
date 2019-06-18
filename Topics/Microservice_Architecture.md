@@ -9,3 +9,5 @@
 - [MSA에서 Service discovery 패턴](https://bcho.tistory.com/1252)
 - [Using API Gateways to Facilitate Your Transition from Monolith to Microservices](https://itnext.io/using-api-gateways-to-facilitate-your-transition-from-monolith-to-microservices-c08fe3489237)
 - [MonolithFirst](https://martinfowler.com/bliki/MonolithFirst.html)
+- [Microservice architecture is agile software architecture](https://www.infoworld.com/article/3075880/microservice-architecture-is-agile-software-architecture.html)
+- [Agile팀의 MSA(Micro service Architecture) 적용 고군 분투기 - Techtonic 2018 IoT, Security & SW Eng. Track](https://www.youtube.com/watch?v=1SgmZQsUurE)
