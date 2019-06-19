@@ -11,3 +11,5 @@
 - [MonolithFirst](https://martinfowler.com/bliki/MonolithFirst.html)
 - [Microservice architecture is agile software architecture](https://www.infoworld.com/article/3075880/microservice-architecture-is-agile-software-architecture.html)
 - [Agile팀의 MSA(Micro service Architecture) 적용 고군 분투기 - Techtonic 2018 IoT, Security & SW Eng. Track](https://www.youtube.com/watch?v=1SgmZQsUurE)
+- [Building a reporting service in Microservice architecture](Building a reporting service in Microservice architecture)
+- [Handling Distributed Transactions in the Microservice world](https://medium.com/@sohan_ganapathy/handling-transactions-in-the-microservice-world-c77b275813e0)
