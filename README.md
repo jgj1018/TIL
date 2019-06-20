@@ -94,5 +94,5 @@ The links below are my favorite posts.
 ## 2019.06
 
 - [MonolithFirst](https://martinfowler.com/bliki/MonolithFirst.html)
-- [Building a reporting service in Microservice architecture](Building a reporting service in Microservice architecture)
 - [Handling Distributed Transactions in the Microservice world](https://medium.com/@sohan_ganapathy/handling-transactions-in-the-microservice-world-c77b275813e0)
+- [About Pool Sizing](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)

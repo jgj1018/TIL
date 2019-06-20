@@ -7,4 +7,6 @@
 - A more common approach is to start with a monolith and gradually peel off microservices at the edges. Such an approach can leave a substantial monolith at the heart of the microservices architecture, but with most new development occurring in the microservices while the monolith is relatively quiescent. 
 
 
+##### https://medium.com/swlh/how-to-avoid-common-agile-pitfalls-350a4534544b
 
+- Like anyone new to Agile, to start off with it was all a big illusion. Buzz words and phrases are being thrown around like “death of documentation”, “no more governance and red tape” and “we’re reacting because we’re agile now”. When looking back at this, no-one had no idea what it meant and none of these things were particularly true. However they are said so often, usually by people who don’t understand or really want it to take off, that people start to take them as gospel. One reason this can happen is because Agile is imposed on a team without them understanding why. No team is going to do something just because they are told they must, it should be an organic process where the benefits of Agile make the team want to use it.
