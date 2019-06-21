@@ -13,3 +13,4 @@
 - [Agile팀의 MSA(Micro service Architecture) 적용 고군 분투기 - Techtonic 2018 IoT, Security & SW Eng. Track](https://www.youtube.com/watch?v=1SgmZQsUurE)
 - [Building a reporting service in Microservice architecture](Building a reporting service in Microservice architecture)
 - [Handling Distributed Transactions in the Microservice world](https://medium.com/@sohan_ganapathy/handling-transactions-in-the-microservice-world-c77b275813e0)
+- [스타트업 관점에서 본 마이크로서비스](https://engineering.huiseoul.com/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C-%EB%B3%B8-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4-862405dd88d2)
