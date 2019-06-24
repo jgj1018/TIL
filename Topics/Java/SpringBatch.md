@@ -1,0 +1,2 @@
+- [@StepScope 사용시 주의사항](https://jojoldu.tistory.com/132)
+- [영속성 컨텍스트 문제(processor에서 lazyException 발생할때)](https://jojoldu.tistory.com/146)
