@@ -32,6 +32,7 @@
 - [Troubleshooting PostgreSQL Streaming Replication](https://www.slideshare.net/alexeylesovsky/troubleshooting-postgresql-streaming-replication)
 - [Is Your Postgres Query Starved for Memory?](https://dzone.com/articles/is-your-postgres-query-starved-for-memory)
 - [Basic Understanding of Bloat and VACUUM in PostgreSQL](https://www.percona.com/blog/2018/08/06/basic-understanding-bloat-vacuum-postgresql-mvcc/)
+- [Troubleshooting Daily Write Spikes on Cermati’s PostgreSQL RDS](https://medium.com/cermati-tech/troubleshooting-daily-write-spikes-on-cermatis-postgresql-rds-9016d7a0c2e4)
 
 #### Recovery
 

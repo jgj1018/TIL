@@ -44,3 +44,4 @@
 - [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 - [어떻게 공부할까? 프로그래머를 위한「공부론」](https://okky.kr/article/398880)
 - [LINEポイントの大規模な処理改善を行いました](https://engineering.linecorp.com/ja/blog/internship-2019-line-point/)
+- [Pair Programming: The Good, The Bad, and The Ugly](https://medium.com/the-non-traditional-developer/pair-programming-the-good-the-bad-and-the-ugly-5fc3f9c3663c)
