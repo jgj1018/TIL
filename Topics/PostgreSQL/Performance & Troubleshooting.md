@@ -21,9 +21,7 @@
 - [ADDING AN INDEX CAN DECREASE SELECT PERFORMANCE](https://www.cybertec-postgresql.com/en/index-decreases-select-performance/)
 - [Efficient Use of PostgreSQL Indexes](https://devcenter.heroku.com/articles/postgresql-indexes)
 - [An Overview of Database Indexing in PostgreSQL](https://severalnines.com/blog/postgresql-database-indexing-overview)
-- [PostgreSQL - INDEXES](https://www.tutorialspoint.com/postgresql/postgresql_indexes.htm)
 - [PostgreSQLにおけるUNIQUE制約とUNIQUE INDEXの違い？](http://nfnoface.hatenablog.com/entry/2016/11/17/123000)
-- [Efficient Use of PostgreSQL Indexes](https://devcenter.heroku.com/articles/postgresql-indexes)
 - [The Postgres Performance Tuning Manual: Indexes](https://blog.gojekengineering.com/the-postgres-performance-tuning-manual-indexes-19a1bdfe28ba)
 
 #### Trouble shooting
