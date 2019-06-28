@@ -19,6 +19,8 @@
 - [Streaming Replication](http://www.interdb.jp/pg/pgsql11.html)
 - [Postgresqlレプリケーション ストリーミングレプリケーション仕組みメモ](http://d.hatena.ne.jp/ttshrk/20110421/1303380112)
 - [High availability and scalable reads in PostgreSQL](https://medium.com/timescale/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af)
+- [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+- [Sharding with PostgreSQL](https://blog.dbi-services.com/sharding-with-postgresql/)
 
 ### Vacuum
 
