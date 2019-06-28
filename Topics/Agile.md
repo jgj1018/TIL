@@ -5,3 +5,4 @@
 - [In search of agile software architecture](https://www.infoworld.com/article/3075880/microservice-architecture-is-agile-software-architecture.html)
 
 - [How to avoid common Agile pitfalls](https://medium.com/swlh/how-to-avoid-common-agile-pitfalls-350a4534544b)
+- [Effective Processes for Agile Product Design Teams](https://tech.decisiv.com/effective-design-systems-for-agile-teams-46b2823ebcae)
