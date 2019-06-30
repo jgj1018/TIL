@@ -1,0 +1,2 @@
+- [What is a PWA and why should you care?](https://blog.bitsrc.io/what-is-a-pwa-and-why-should-you-care-388afb6c0bad)
+- [How to Design for the Web in 2019](https://medium.com/commitlog/how-to-design-for-the-web-in-2019-a0be4d6702e2)
