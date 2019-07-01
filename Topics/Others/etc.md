@@ -46,3 +46,4 @@
 - [LINEポイントの大規模な処理改善を行いました](https://engineering.linecorp.com/ja/blog/internship-2019-line-point/)
 - [Pair Programming: The Good, The Bad, and The Ugly](https://medium.com/the-non-traditional-developer/pair-programming-the-good-the-bad-and-the-ugly-5fc3f9c3663c)
 - [3 Great Additions for your Jupyter Notebooks](https://towardsdatascience.com/three-great-additions-for-your-jupyter-notebooks-cd7373b00e96)
+- [Tech HR 컨퍼런스 참석 후기](https://jojoldu.tistory.com/163)
