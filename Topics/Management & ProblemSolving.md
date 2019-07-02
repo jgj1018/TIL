@@ -8,3 +8,4 @@
 - [What is Design Thinking and Why Is It So Popular?](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular)
 - [디자인씽킹의 이해(Design Thinking)](https://www.slideshare.net/MatthewLee/design-thinking-87168604)
 - [시스템과 사고](https://brunch.co.kr/@minnation/1012)
+- [Design Thinking vs Systems Thinking](https://circa-navigate.corsairs.network/design-thinking-vs-systems-thinking-58927d7cce4a)
