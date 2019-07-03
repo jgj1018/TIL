@@ -1,3 +1,5 @@
 - [우아한 객체지향](https://www.slideshare.net/baejjae93/ss-150432699)
 - [애플리케이션 아키텍처와 객체지향](https://www.slideshare.net/baejjae93/ss-55571345?next_slideshow=1)
 - [1. 아키텍쳐 설계 프로세스](https://www.slideshare.net/Byungwook/1-61487378)
+- [확장성 있는 웹 아키텍처와 분산 시스템](https://d2.naver.com/helloworld/206816)
+- [Cold Storage 소개](https://d2.naver.com/helloworld/526125)
