@@ -1,0 +1,1 @@
+- [1. Availability and Scalability](https://medium.com/swlh/3-common-misconceptions-of-the-cloud-68d26f45f76c)
