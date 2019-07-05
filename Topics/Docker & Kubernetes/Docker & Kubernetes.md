@@ -5,3 +5,4 @@
 - [SpringBootをKubernetes上で動かしてみる](https://qiita.com/Yuki10/items/bdd7a3f197371d573f51)
 - [Using Spring Batch To Orchestrate Jobs On Openshift](http://nullendpoint.com/openshift/2018/05/01/using-spring-batch-to-orchestrate-jobs-on-openshift/)
 - [Kubernetes — Operating Gracefully](https://medium.com/@dkeightley/kubernetes-operating-gracefully-4a21d3ab1b2c)
+- [무중단배포 rolling update strategy](https://skarlsla.github.io/2018/08/04/kubernetest_rolling/)
