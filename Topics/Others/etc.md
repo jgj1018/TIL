@@ -48,3 +48,4 @@
 - [3 Great Additions for your Jupyter Notebooks](https://towardsdatascience.com/three-great-additions-for-your-jupyter-notebooks-cd7373b00e96)
 - [Tech HR 컨퍼런스 참석 후기](https://jojoldu.tistory.com/163)
 - [When to use gradle.properties vs. settings.gradle?](https://stackoverflow.com/questions/45387971/when-to-use-gradle-properties-vs-settings-gradle)
+- [The Non-Technical AI Guide](https://towardsdatascience.com/the-non-technical-guide-to-artificial-intelligence-e9e5da1a15c5)
