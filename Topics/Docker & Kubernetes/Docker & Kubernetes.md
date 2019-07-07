@@ -6,3 +6,4 @@
 - [Using Spring Batch To Orchestrate Jobs On Openshift](http://nullendpoint.com/openshift/2018/05/01/using-spring-batch-to-orchestrate-jobs-on-openshift/)
 - [Kubernetes — Operating Gracefully](https://medium.com/@dkeightley/kubernetes-operating-gracefully-4a21d3ab1b2c)
 - [무중단배포 rolling update strategy](https://skarlsla.github.io/2018/08/04/kubernetest_rolling/)
+- [Dockerizing Spring boot application](https://medium.com/swlh/dockerizing-spring-boot-application-df5ae7dd1e37)
