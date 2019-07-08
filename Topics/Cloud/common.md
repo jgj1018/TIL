@@ -1,1 +1,2 @@
 - [1. Availability and Scalability](https://medium.com/swlh/3-common-misconceptions-of-the-cloud-68d26f45f76c)
+- [Serverless. You Keep Using That Word. I Do Not Think It Means What You Think It Means.](https://medium.com/better-programming/serverless-you-keep-using-that-word-i-do-not-think-it-means-what-you-think-it-means-c7d5516a5ecc)
