@@ -121,3 +121,19 @@
 
 
 - the savings of a cost-reduced workplace are attractive, but compared to what? The obvious answer is that the savings have to be compared to the risk of lost effectiveness.
+
+
+### 10. Brain Time versus Body Time
+
+- If you’re a manager, you may be relatively unsympathetic to the frustrations of being in no-flow. After all, you do most of your own work in interrupt mode—that’s management—but the people who work for you need to get into flow. Anything that keeps them from it will reduce their effectiveness and the satisfaction they take in their work. It will also increase the cost of getting the work done.
+
+
+- What matters is not the amount of time you’re present, but the amount of time that you’re working at full potential.
+
+
+- If you buy the idea that a good environment ought to afford workers the possibility of working in flow, the collection of uninterrupted-hour data can give you some meaningful metric evidence of just how good or bad your environment is.
+
+
+### 14. The Hornblower Factor
+
+- People usually don’t stay put long enough, and the manager just doesn’t have enough leverage to make a difference in their nature. So the people who work for you through whatever period will be more or less the same at the end as they were at the beginning. If they’re not right for the job from the start, they never will be. All of this means that getting the right people in the first place is all-important. 
