@@ -166,3 +166,12 @@
 - It is important to remember that the purpose of a control is to give an advanced warning that something may be wrong before it is actually wrong
 
 - One final and important activity to complete is to document your success. Documenting how your team successfully solved the problem does several things for the organization. First, it reinforces that the use of a structured and systematic approach to problems really does work. Second, your report is there for future problem-solving teams to follow as a roadmap. Third, if the problem you have solved should ever return (God forbid!), then your team’s report is available as a ready reference.
+
+##### Failing at Problem Solving
+
+- If you do fail, then Kepner and Tregoe tell us that there are two primary reasons: The team has insufficient identification of key distinctions and changes. The team has allowed assumptions to distort its judgment during the testing step.
+
+- Although the two reasons for failure just listed are the most common, there are other reasons why people fail to solve problems: Treatment of symptoms instead of the root cause (...) Failure to look at problems holistically (...) Failure to use a structured and systematic approach
+
+
+- Conversely, people will actively avoid problem-solving opportunities if they lack the proper skills to be successful at problem solving, when they aren’t appreciated when they do solve problems, or when they feel threatened by the situation.
