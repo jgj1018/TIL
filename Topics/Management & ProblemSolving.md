@@ -10,4 +10,3 @@
 - [시스템과 사고](https://brunch.co.kr/@minnation/1012)
 - [Design Thinking vs Systems Thinking](https://circa-navigate.corsairs.network/design-thinking-vs-systems-thinking-58927d7cce4a)
 - [15 Things You Should Know About Product Managers](https://medium.com/@johnpcutler/15-things-you-should-know-about-product-managers-f488513d246)
-- [6 Product Manager Career Paths](https://medium.com/pminsider/product-manager-career-paths-8c0f2a92d98e)
