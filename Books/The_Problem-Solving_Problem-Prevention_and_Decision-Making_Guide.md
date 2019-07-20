@@ -173,5 +173,28 @@
 
 - Although the two reasons for failure just listed are the most common, there are other reasons why people fail to solve problems: Treatment of symptoms instead of the root cause (...) Failure to look at problems holistically (...) Failure to use a structured and systematic approach
 
-
 - Conversely, people will actively avoid problem-solving opportunities if they lack the proper skills to be successful at problem solving, when they aren’t appreciated when they do solve problems, or when they feel threatened by the situation.
+
+##### A Message for Leadership
+
+- the key to success for these companies is that they refuse to reward fire fighting.
+
+- Although structured and systematic problem solving appears to take longer than “gut feel” techniques, in reality the exact opposite is true.
+
+- Don’t tolerate patching. I cannot overemphasize this point, but enforcing this requires the support and commitment of management at all levels. If lower-level employees see that patching is no longer acceptable from an organizational perspective, they will no longer do so.
+
+- Don’t push to meet deadlines at all costs. One of the root causes of creating a fire-fighting environment is unreasonable and inflexible deadlines. Your organization must give your problem solvers ample time to study the problem, determine potential root cause, study alternative solutions, and time to implement the best solutions under control.
+
+- Don’t reward fire fighting. I cannot emphasize enough how critical this is if you want to experience a cultural change. On the other hand, the people that should be rewarded are managers who don’t have fires to put out. Those who practice problem prevention should be held in the highest esteem and praised and honored for doing so.
+
+##### A Structured Approach to Problem Prevention
+
+- it makes much more sense to tie up resources working on preventing negative performance than it does spending time trying to understand why the negative performance happened in the first place. Being a preventive organization has so many more benefits than being a reactive organization. 
+
+- Prevention is being proactive rather than being reactive.
+
+##### Defining High-Risk Areas
+
+- Living at risk is jumping off the cliff and building your wings on the way down.
+
+##### Identifying the Highest Total Risk Problem
