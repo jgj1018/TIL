@@ -1,3 +1,4 @@
+- [The Fundamentals of User Stories and Product Backlogs](https://medium.com/swlh/user-stories-and-the-product-backlog-in-scrum-c87d36df4b96)
 - [｢OODAループ｣と｢PDCA｣の違い](http://iandco.jp/%E6%88%A6%E7%95%A5%E3%83%A2%E3%83%87%E3%83%AB/pdca%E3%81%A8ooda%E3%81%AE%E6%AF%94%E8%BC%83/)
 - [프로젝트 관리 기법 - 타임박싱(Timeboxing) 관리 기법](http://www.moreagile.net/2014/01/timeboxing.html?m=0)
 - [회고에 대한 고찰 - KPT 진행의 노하우에 대하여](http://www.moreagile.net/2016/04/kpt.html?m=0)
