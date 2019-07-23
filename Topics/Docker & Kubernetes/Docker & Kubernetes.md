@@ -8,3 +8,4 @@
 - [무중단배포 rolling update strategy](https://skarlsla.github.io/2018/08/04/kubernetest_rolling/)
 - [Dockerizing Spring boot application](https://medium.com/swlh/dockerizing-spring-boot-application-df5ae7dd1e37)
 - [쿠버네티스 pod 구성 패턴](https://arisu1000.tistory.com/27863)
+- [Dockerfile Entrypoint 와 CMD의 올바른 사용 방법](https://bluese05.tistory.com/77)
