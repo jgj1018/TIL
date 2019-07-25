@@ -5,3 +5,4 @@
 - [운영 자동화#1 — 빌드 자동화 by Gradle](https://medium.com/@goinhacker/%EC%9A%B4%EC%98%81-%EC%9E%90%EB%8F%99%ED%99%94-1-%EB%B9%8C%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94-by-gradle-7630c0993d09)
 - [Gradle을 이용한 jar 파일 업로드(publish)](https://blog.leocat.kr/notes/2018/11/01/nexus-publish-jar-artifact-with-gradle)
 - [Spring Batch - Reference Documentation](https://docs.spring.io/spring-batch/4.1.x/reference/html/index.html)
+- [스프링부트 애노테이션 정리, annotation 간단 요약 (자세한 내용은 검색해서 확인하고 용도 파악하기)](https://jeong-pro.tistory.com/151)
