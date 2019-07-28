@@ -78,3 +78,14 @@
 
 - Noisy alerts that systematically generate more than one alert per incident should be tweaked to approach a 1:1 alert/incident ratio. Doing so allows the on-call engineer to focus on the incident instead of triaging duplicate alerts.
 
+
+### Chapter 12. Effective Troubleshooting
+
+
+- Ineffective troubleshooting sessions are plagued by problems at the Triage, Examine, and Diagnose steps, often because of a lack of deep system understanding.
+
+
+- we should remember that correlation is not causation:6 some correlated events, say packet loss within a cluster and failed hard drives in the cluster, share common causes—in this case, a power outage, though network failure clearly doesn’t cause the hard drive failures nor vice versa.
+
+
+- In practice, of course, troubleshooting is never as clean as our idealized model suggests it should be. 
