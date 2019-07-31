@@ -89,3 +89,34 @@
 
 
 - In practice, of course, troubleshooting is never as clean as our idealized model suggests it should be. 
+
+
+- An effective report should tell you the expected behavior, the actual behavior, and, if possible, how to reproduce the behavior.
+
+
+- Injecting known test data in order to check that the resulting output is expected (a form of black-box testing) at each step can be especially effective, as can injecting data intended to probe possible causes of errors. Having a solid reproducible test case makes debugging much faster(...)
+
+
+- Once you’ve come up with a short list of possible causes, it’s time to try to find which factor is at the root of the actual problem.
+
+
+- Once you’ve found the factors that caused the problem, it’s time to write up notes on what went wrong with the system, how you tracked down the problem, how you fixed the problem, and how to prevent it from happening again.
+
+
+- Typically a sudden increase in latency and resource usage indicates either an increase in traffic sent to the system or a change in system configuration.
+
+
+### Chapter 13. Emergency Response
+
+
+- A proper response takes preparation and periodic, pertinent, hands-on training. Establishing and maintaining thorough training and testing processes requires the support of the board and management, in addition to the careful attention of staff. All of these elements are essential in fostering an environment in which teams can spend money, time, energy, and possibly even uptime to ensure that systems, processes, and people respond efficiently during an emergency.
+
+
+- There is no better way to learn than to document what has broken in the past. History is about learning from everyone’s mistakes.
+
+
+- When it comes to failures, theory and reality are two very different realms. Until your system has actually failed, you don’t truly know how that system, its dependent systems, or your users will react. Don’t rely on assumptions or what you can’t or haven’t tested.
+
+
+### Chapter 14. Managing Incidents
+
