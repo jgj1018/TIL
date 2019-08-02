@@ -198,3 +198,7 @@
 - Living at risk is jumping off the cliff and building your wings on the way down.
 
 ##### Identifying the Highest Total Risk Problem
+
+- The numbers between 1 and 10 will be used to estimate how certain or uncertain you are, but remember, be conservative. Logically, if you have no idea whether the problem will occur, then you might rate the problem as a 5.
+
+##### Developing the Preventive Measures Plan
