@@ -50,3 +50,4 @@
 - [When to use gradle.properties vs. settings.gradle?](https://stackoverflow.com/questions/45387971/when-to-use-gradle-properties-vs-settings-gradle)
 - [The Non-Technical AI Guide](https://towardsdatascience.com/the-non-technical-guide-to-artificial-intelligence-e9e5da1a15c5)
 - [오픈소스를 활용한 Batch_처리_플랫폼_공유](https://www.slideshare.net/knight1128/batch-8508863)
+- [Apache Kafka in Depth](https://medium.com/@sonusharma.mnnit/apache-kafka-in-depth-49aae1e844be)
