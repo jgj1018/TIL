@@ -8,3 +8,4 @@
 - [How to avoid common Agile pitfalls](https://medium.com/swlh/how-to-avoid-common-agile-pitfalls-350a4534544b)
 - [Effective Processes for Agile Product Design Teams](https://tech.decisiv.com/effective-design-systems-for-agile-teams-46b2823ebcae)
 - [How to reward individual performance in Agile teams](https://medium.com/unboxing-product-management/how-to-reward-individual-performance-in-agile-teams-21dd7bc1a4e2)
+- [LeSS Agile, More Productive — Part 1: Pain](https://medium.com/responsetap-engineering/less-agile-more-productive-part-1-bd9f354837f8)
