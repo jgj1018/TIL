@@ -7,3 +7,4 @@
 - [Understanding a Context Switching Benchmark](https://www.linuxjournal.com/article/2941)
 - [Why is swap being used even though I have plenty of free RAM?](https://askubuntu.com/questions/157793/why-is-swap-being-used-even-though-i-have-plenty-of-free-ram)
 - [Linuxでのswap領域の解放、メモリのキャッシュ領域の解放](http://atomiyama.com/linux/page/swap-and-mem-chahe-kaihou/)
+- [Linux의 Segmentation Fault(Segfault) 분석 방법](https://doitnow-man.tistory.com/98)
