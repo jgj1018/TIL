@@ -16,3 +16,18 @@
 - Like anyone new to Agile, to start off with it was all a big illusion. Buzz words and phrases are being thrown around like “death of documentation”, “no more governance and red tape” and “we’re reacting because we’re agile now”. When looking back at this, no-one had no idea what it meant and none of these things were particularly true. However they are said so often, usually by people who don’t understand or really want it to take off, that people start to take them as gospel. One reason this can happen is because Agile is imposed on a team without them understanding why. No team is going to do something just because they are told they must, it should be an organic process where the benefits of Agile make the team want to use it.
 
 
+##### (Books) Site Reliability Engineering
+
+```
+
+BEST PRACTICES FOR INCIDENT MANAGEMENT
+
+- Prioritize. Stop the bleeding, restore service, and preserve the evidence for root-causing.
+- Prepare. Develop and document your incident management procedures in advance, in consultation with incident participants.
+- Trust. Give full autonomy within the assigned role to all incident participants.
+- Introspect. Pay attention to your emotional state while responding to an incident. If you start to feel panicky or overwhelmed, solicit more support.
+- Consider alternatives. Periodically consider your options and re-evaluate whether it still makes sense to continue what you’re doing or whether you should be taking another tack in incident response.
+- Practice. Use the process routinely so it becomes second nature.
+- Change it around. Were you incident commander last time? Take on a different role this time. Encourage every team member to acquire familiarity with each role.
+```
+

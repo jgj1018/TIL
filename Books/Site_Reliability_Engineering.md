@@ -120,3 +120,40 @@
 
 ### Chapter 14. Managing Incidents
 
+
+- It’s important to make sure that everybody involved in the incident knows their role and doesn’t stray onto someone else’s turf. Somewhat counterintuitively, a clear separation of responsibilities allows individuals more autonomy than they might otherwise have, since they need not second-guess their colleagues.
+
+
+- The incident commander’s most important responsibility is to keep a living incident document. This can live in a wiki, but should ideally be editable by several people concurrently. 
+
+
+- It is better to declare an incident early and then find a simple fix and close out the incident than to have to spin up the incident management framework hours into a burgeoning problem.
+
+
+- if any of the following is true, the event is an incident: Do you need to involve a second team in fixing the problem? Is the outage visible to customers? Is the issue unsolved even after an hour’s concentrated analysis?
+
+
+- Prioritize. Stop the bleeding, restore service, and preserve the evidence for root-causing.
+
+
+- Prepare. Develop and document your incident management procedures in advance, in consultation with incident participants.
+
+
+- Trust. Give full autonomy within the assigned role to all incident participants.
+
+
+- Introspect. Pay attention to your emotional state while responding to an incident. If you start to feel panicky or overwhelmed, solicit more support.
+
+
+- Consider alternatives. Periodically consider your options and re-evaluate whether it still makes sense to continue what you’re doing or whether you should be taking another tack in incident response.
+
+
+- Practice. Use the process routinely so it becomes second nature.
+
+
+- Change it around. Were you incident commander last time? Take on a different role this time. Encourage every team member to acquire familiarity with each role.
+
+
+
+### Chapter 15. Postmortem Culture: Learning from Failure
+
