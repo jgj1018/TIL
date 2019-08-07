@@ -157,3 +157,26 @@
 
 ### Chapter 15. Postmortem Culture: Learning from Failure
 
+- The primary goals of writing a postmortem are to ensure that the incident is documented, that all contributing root cause(s) are well understood, and, especially, that effective preventive actions are put in place to reduce the likelihood and/or impact of recurrence.
+
+
+- Blameless postmortems are a tenet of SRE culture. For a postmortem to be truly blameless, it must focus on identifying the contributing causes of the incident without indicting any individual or team for bad or inappropriate behavior.
+
+
+- You can’t “fix” people, but you can fix systems and processes to better support people making the right choices when designing and maintaining complex systems.
+
+
+- When an outage does occur, a postmortem is not written as a formality to be forgotten. Instead the postmortem is seen by engineers as an opportunity not only to fix a weakness, but to make Google more resilient as a whole. While a blameless postmortem doesn’t simply vent frustration by pointing fingers, it should call out where and how services can be improved.
+
+
+- Blameless postmortems can be challenging to write, because the postmortem format clearly identifies the actions that led to the incident. Removing blame from a postmortem gives people the confidence to escalate issues without fear. It is also important not to stigmatize frequent production of postmortems by a person or team. An atmosphere of blame risks creating a culture in which incidents and issues are swept under the rug, leading to greater risk for the organization
+
+
+- Our goal is to share postmortems to the widest possible audience that would benefit from the knowledge or lessons imparted.
+
+
+- In the spirit of nurturing the postmortem culture, SREs proactively create activities that disseminate what we learn about system infrastructure.
+
+
+- One of the biggest challenges of introducing postmortems to an organization is that some may question their value given the cost of their preparation. The following strategies can help in facing this challenge: Ease postmortems into the workflow. A trial period with several complete and successful postmortems may help prove their value, in addition to helping to identify what criteria should initiate a postmortem. Make sure that writing effective postmortems is a rewarded and celebrated practice, both publicly through the social methods mentioned earlier, and through individual and team performance management.
+

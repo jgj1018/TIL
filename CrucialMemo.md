@@ -31,3 +31,5 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - Change it around. Were you incident commander last time? Take on a different role this time. Encourage every team member to acquire familiarity with each role.
 ```
 
+- You can’t “fix” people, but you can fix systems and processes to better support people making the right choices when designing and maintaining complex systems.
+
