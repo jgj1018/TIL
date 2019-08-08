@@ -9,3 +9,5 @@
 - [Know your TCP system call sequences](https://www.ibm.com/developerworks/aix/library/au-tcpsystemcalls/index.html)
 - [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff8023)
 - [WebSocket Simplified](https://medium.com/me/list/queue)
+- [CLOSE_WAIT 문제 해결](http://docs.likejazz.com/close-wait/)
+- [TIME_WAIT 상태란 무엇인가](http://docs.likejazz.com/time-wait/)
