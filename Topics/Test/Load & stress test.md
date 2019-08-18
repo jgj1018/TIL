@@ -1,0 +1,4 @@
+- [Performance testing tips from the greats](https://searchsoftwarequality.techtarget.com/tip/Performance-testing-tips-from-the-greats)
+- [Understanding the difference between total users and concurrent users.](https://www.automai.com/blog/understanding-the-difference-between-total-users-and-concurrent-users)
+- [The Difference Between Load Testing, Stress Testing, and Performance Testing](https://www.soapui.org/learn/load-testing/load-testing-vs-stress-testing-vs-performance-testing.html)
+- [Gatling login example and showing how to pull out the HTTP authorization header into a variable](https://gist.github.com/alanphil/52d03338ba85c9ee0bd894b73ee3f999)
