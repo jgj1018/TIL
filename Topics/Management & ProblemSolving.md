@@ -11,3 +11,4 @@
 - [Design Thinking vs Systems Thinking](https://circa-navigate.corsairs.network/design-thinking-vs-systems-thinking-58927d7cce4a)
 - [15 Things You Should Know About Product Managers](https://medium.com/@johnpcutler/15-things-you-should-know-about-product-managers-f488513d246)
 - [프로덕트 매니저(Product Manager)](https://sungmooncho.com/2012/01/16/product-manager/)
+- [PMI PMBOK과 Agile Practice Guide Glossary/용어해설 통합본](https://projectresearch.co.kr/2018/01/13/pmi-pmbok과-agile-practice-guide-glossary-용어해설-통합본/)
