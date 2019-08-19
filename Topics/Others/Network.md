@@ -13,3 +13,4 @@
 - [TIME_WAIT 상태란 무엇인가](http://docs.likejazz.com/time-wait/)
 - [HTTPS Tutorial](https://www.tutorialsteacher.com/https)
 - [How To Use nslookup Command & Dig Command For DNS Check Test](https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/troubleshooting-dns-with-dig-and-nslookup)
+- [SSL(Secure Sockets Layer)을 사용하여 통신 보안](https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_9.0.5/com.ibm.websphere.base.doc/ae/csec_sslsecurecom.html)
