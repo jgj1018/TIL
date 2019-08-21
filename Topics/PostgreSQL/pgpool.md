@@ -23,3 +23,4 @@
 - [PostgreSQLクラスタ環境の管理機能を大幅に強化](https://www.sraoss.co.jp/event_seminar/2018/Pgpool-II-4-20180925.pdf)
 - [Pgpool-IIの子プロセス関連のパラメータを調べた](https://qiita.com/U_ikki/items/a33a3a4dceb02e839ddf)
 - [More reliability and support for PostgreSQL 10: Introducing Pgpool-II 3.7](https://www.sraoss.co.jp/event_seminar/2017/Pgpool-II-3.7-en.pdf)
+- [PGPool tuning](http://www.sraoss.jp/pipermail/pgpool-general/2014-January/002431.html)
