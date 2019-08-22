@@ -9,3 +9,4 @@
 - [Dockerizing Spring boot application](https://medium.com/swlh/dockerizing-spring-boot-application-df5ae7dd1e37)
 - [쿠버네티스 pod 구성 패턴](https://arisu1000.tistory.com/27863)
 - [Dockerfile Entrypoint 와 CMD의 올바른 사용 방법](https://bluese05.tistory.com/77)
+- [Kubernetes: Running Background Tasks With Batch-Jobs](https://medium.com/google-cloud/kubernetes-running-background-tasks-with-batch-jobs-56482fbc853)
