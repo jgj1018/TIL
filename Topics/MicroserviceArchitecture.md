@@ -16,3 +16,4 @@
 - [스타트업 관점에서 본 마이크로서비스](https://engineering.huiseoul.com/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C-%EB%B3%B8-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4-862405dd88d2)
 - [11번가 MSA 개발 사례 공유](https://www.youtube.com/watch?v=Hj2Md-8-Ok4)
 - [Service Mesh 란?](https://medium.com/dtevangelist/service-mesh-%EB%9E%80-8dfafb56fc07)
+- [Microservice Coordination at a High Level](https://medium.com/@jacobsee/microservice-coordination-at-a-high-level-f588917bc7e7)
