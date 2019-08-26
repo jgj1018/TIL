@@ -17,3 +17,4 @@
 - [11번가 MSA 개발 사례 공유](https://www.youtube.com/watch?v=Hj2Md-8-Ok4)
 - [Service Mesh 란?](https://medium.com/dtevangelist/service-mesh-%EB%9E%80-8dfafb56fc07)
 - [Microservice Coordination at a High Level](https://medium.com/@jacobsee/microservice-coordination-at-a-high-level-f588917bc7e7)
+- [Centralized logging in Kubernetes](https://medium.com/@maanadev/centralized-logging-in-kubernetes-d5a21ae10c6e)
