@@ -1,0 +1,183 @@
+## 1. Project Management Framework
+
+### Basic Concepts in Project Management
+
+- Project. A project is a work effort made over a finite period of time with a start and a finish to create a unique product, service, or result. Because a project has a start and an end, it is also called a temporary effort or endeavor.
+
+- Project Phase. A project phase is a set of logically related activities that usually completes one or more major deliverables of the project. The phases are generally completed in sequence; however, an overlap is possible in some situations. Depending on its size and complexity, a project may have one or more phases.
+
+- Project Life Cycle. It is the full project duration from beginning to end, including all project stages: initiating, planning, executing, monitoring and controlling, and closing. If projects have multiple phases, all of these stages are repeated in each phase.
+
+- Process Groups . These are the technical names for the project stages: initiating, planning, executing, monitoring and controlling, and closing.
+
+
+### Understanding Projects
+
+-  An operation is an ongoing and repetitive set of tasks, whereas a project has a lifecycle—a beginning and an end.
+
+- “a project is a temporary endeavor undertaken to create a unique product, service, or result.” So, a project has two defining characteristics: it is temporary, and it creates a unique product.
+
+- It is important to understand that projects and operations share some characteristics, such as the following: Both require resources, including human resources, i.e., people. Both are constrained to limited, as opposed to unlimited, resources. Both are managed—that is, planned, executed, and controlled. Both have objectives and contribute to meeting the company’s strategic objectives. Both can have and share stakeholders.
+
+- Operations are generally ongoing and repetitive. Although both projects and operations have objectives, a project ends when its objectives are met, whereas an operation continues contributing to objectives
+
+
+### ORIGINS OF PROJECTS: WHERE DO PROJECTS COME FROM?
+
+- Projects are originated by organizational leaders in response to one or more situations the organization is facing. These situations, or factors acting on the organization, may fall into one of the following four categories: Business/legal requirements, Stakeholder requests or needs, Business or technological strategies, Products, processes, or services. (...) the project may fall into more than one of these categories.
+
+- The factors discussed in this section not only influence the organization’s current business strategies but also its current operations because operations are there to serve business strategies or objectives.
+
+### Understanding Project Management
+
+- Project management is the application of knowledge, skills, tools, and techniques to project activities to meet the project requirements.
+
+### UNDERSTANDING PROGRESSIVE ELABORATION
+
+- The clearer the vision you have of the unique product that you want from the project, the more accurate the project plan will be. So, you move toward the project plan in incremental steps as the ideas about the final product are refined and as you get more and more information about the requirements in a progressive fashion. This procedure of defining (or planning) a project is called progressive elaboration.
+
+- Progressive elaboration, in general, means developing something in incremental steps. The project plan will be broadly defined to start and will get more accurate, detailed, and explicit in an incremental fashion as better understanding about the project deliverables and objectives develops. It involves successive iterations of the planning process, which result in a more accurate and complete plan.
+
+### UNDERSTANDING A PROCESS
+
+-  a process, in general, is a set of interrelated activities performed to obtain a specified set of products, results, or services. A project management process, (...) always consists of three parts: input, tools and techniques, and output.
+
+- 1. Iterations. Some processes, such as Develop Project Charter and Close Project, are run only once or at predetermined points in the process, while others, such as Conduct Procurements and Acquire Recourses, may be periodically run depending on the project size. Yet processes like Define Activities may be even more frequently performed.
+
+- 2. Process Interconnect. Processes are connected with other processes by input or output. An output item of a process becomes an input to an other process or a terminal output; i.e., a project or phase deliverable.
+
+- 3. Overlapping. Some of the input items may appear in multiple projects. This is also true for tools or techniques. From this, you can see that processes may overlap in their activities.
+
+### Understanding the Project Lifecycle
+
+- The timespan from the project’s beginning to its end is called the project lifecycle.
+
+- In the standard terminology, a project is initiated, planned, executed, monitored and controlled, and closed.
+
+- From initiation/authorization to completion/closure, a project goes through a whole lifecycle that includes defining the project objectives, planning the work to achieve those objectives, performing the work, monitoring and controlling the progress, and closing the project after receiving product acceptance.
+
+### INITIATING A PROJECT
+
+-  The central purpose of this stage is to align the project’s purpose with the business needs and the organization’s business strategy on one hand and with the stakeholders’ expectations on the other.
+
+- It is good policy to involve customers and other important stakeholders in the initiating stage of the project. It will give them a feeling of shared ownership that will greatly contribute to the success of the project by positively influencing factors such as acceptance of deliverables and stakeholder satisfaction.
+
+- The processes in the initiating process group, just like those in any other process group, can also be used to initiate a phase of a project that has multiple phases.
+
+### PLANNING THE PROJECT
+
+- In this stage, you, the project manager, along with the project management team , develop the project scope, define and refine the project objectives, and develop activities to meet those objectives. 
+
+- The approved scope plan, schedule plan, and cost plan are called the scope baseline, schedule baseline, and cost baseline, respectively. These three baselines together are called the project baseline or the performance measurement baseline (PMB). The project performance at any time is assessed by comparing the results from project execution against this performance measurement baseline (PMB). 
+
+### EXECUTING THE PROJECT
+
+- In this stage, you, the project manager, manage the execution of the project as planned in the project management plan.
+
+- The processes in this group are used to accomplish a three-pronged goal: Coordinate people and resources used to perform the project activities. Integrate and manage the project activities being performed. Ensure the implementation of the project scope and approved changes.
+
+- The lion’s share of project resources is consumed in performing processes from the executing process group.
+
+- In general, the execution of the project needs to be monitored and controlled to ensure the project stays on the planned track.
+
+### MONITORING AND CONTROLLING THE PROJECT
+
+- You monitor and control the project throughout its lifecycle, including during the executing stage. The purpose of monitoring and controlling is to make sure that the project stays on track. To accomplish this, you continually perform the following steps:
+
+- 1. Collect the actual project performance data.
+
+- 2. Analyze it to compare the results against the project performance baseline to measure project deviation from the plan.
+
+- 3. Based on deviation, generate change requests, e.g.; recommend preventive and corrective actions, and process them for approval followed by implementation.
+
+### CLOSING THE PROJECT
+
+- In this stage, you verify that all the required project processes are complete, all project-related contracts are closed, the outcome of the project is turned over to another group, and you can bring the project to an end by disbanding the project team. Closing the project also includes conducting a project review for lessons learned.
+
+- What we refer to as project stages here are not the project phases. A project phase is a part of the whole project in which certain milestones or project deliverables are completed. All these stages, technically called process groups, can be applied to any phase of a project that is divided into multiple phases.
+
+- The processes of the closing process group can be used to close a project, as well as to close a phase of a project.
+
+- Each process is a two-dimensional entity. It belongs to both a certain project stage (group) and a specific process knowledge area.
+
+
+### Understanding Project Management Knowledge Areas
+
+- To manage projects, you use project management knowledge, which is categorized into multiple aspects; each category is called a project management knowledge area.
+
+- Project integration management. The project is initiated, planned, and executed in pieces using different knowledge areas, and all those pieces are related to each other and need to be come together. That is where integration management comes in.
+
+- Project scope management. The primary purpose of project scope management is to ensure that all the required work, and only the required work, is performed to complete the project. 
+
+- Project schedule management. The primary purpose of project schedule management is to develop and manage the project schedule so as to complete the project in time as planned. 
+
+- Project resource management. The primary purpose of project resource management is to identify, obtain, and manage the resources needed to complete the project. The term resources resources refers to both human resources and physical resources
+
+- Project cost management. The primary task of project cost management is to estimate and control the project costs, and the primary goal is to complete the project within the approved budget. 
+
+- Project stakeholder management. The primary purpose of project stakeholder management is to identify project stakeholders and manage and monitor their engagement in the project. 
+
+- Project communication management. It is absolutely imperative for the success of the project that project information is generated and distributed, i.e., communicated, in a timely fashion. Some would say communication is the most important aspect of a project and the most important skill for a project manager to have. 
+
+- Project quality management. This process group offers three processes to manage quality: plan quality to determine the quality requirements and standards that are relevant to the project at hand; manage quality to ensure that the planned quality requirements and standards are applied; and control quality to verify that the project and its deliverables meet the quality requirements and conform to the quality standards.
+
+- Project risk management. A project risk is an event that, if it occurs, has a positive or negative effect on meeting the project objectives. The primary purpose of project risk management is to identify risks and respond to them should they occur. 
+
+- Project procurement management. The primary purpose of procurement management is to manage the acquisition of products (that is, products, services, or results) from outside the project team in order to complete the project.
+
+- As you have seen, managing a project largely means performing a set of processes at various stages of the project, such as initiating and planning. Accordingly, processes are grouped corresponding to these stages, and these groups are called process groups. Processes are also part of the knowledge required to manage projects. Each of these processes belongs to one of the ten knowledge areas identified in the PMBOK Guide, Sixth Edition. So, a process has a dual membership—one in a process group, indicating at what stage of the project the process is performed, and the other in a knowledge area,
+
+
+### Triangular Relationship: Project, Program, and Portfolio
+
+
+- Program. A program may be defined as a set of interrelated projects all working toward the same set of objectives. These projects are put into a program to reap the benefits of managing them in a coordinated way that would not be available by managing them individually. 
+
+- Portfolio. A portfolio is a higher-level structure that may contain projects, programs, subportfolios, and operations and is managed by a portfolio manager. These components are put together in a portfolio to facilitate effective management in order to implement the strategic business plan of the organization.
+
+- Portfolio management focuses on making sure that programs and projects are prioritized for resources to serve the organization’s strategy. Therefore, investment decisions are usually made at the portfolio level. One task of portfolio management is to select the optimal set of programs and projects to meet the strategic objectives, on one hand, and to increase the likelihood of realizing the desired return on investment, on the other hand. It also provides centralized management of the aggregate risk of all profile components.
+
+- Even if an organization does not have any programs and has only individual projects, all these projects can be grouped into one or more portfolios.
+
+- If an organization has programs and no individual projects external to all programs, all these programs can be grouped into one or more portfolios.
+
+- If an organization has some programs and some individual projects, all these programs and projects can be grouped into one or more portfolios.
+
+- As compared to projects and programs, a portfolio is closer to an organization’s business objectives, and therefore this is where most of the investment decisions are made.
+
+### PROBABILITY-RELATED CONCEPTS
+
+### GLOBAL PROJECT VARIABLES
+
+- Cost and number of team members (staff). This is low in the beginning because the project is just in the preparation stage, reaches a maximum when the project is being executed—that is, when most work is done—and drops rapidly when the project draws to a close because most of the work has already have done.
+
+- Ability to influence the characteristics of the project product. Your or any other stakeholder’s ability to influence the project product characteristics without significantly changing the cost is the highest in the beginning because not much has been done yet in any direction. However, this ability gradually decreases as the project progresses because we have already invested in a given direction.
+
+- Risk and uncertainty. This is highest in the beginning because there are plenty of unknowns and assumptions. It decreases as the project progresses as unknowns start disappearing and details start appearing as a result of the principle of progressive elaboration. This is true about both risk and uncertainty, as risks arise from uncertainty, which at least partially arises from assumptions.
+
+- The project baseline is defined as the approved plan for certain aspects of the project, such as the cost, schedule, and scope of the project. The project performance is measured against this baseline.
+
+### Big Picture of Project Management
+
+- A project, whether standalone or part of a program or a portfolio, is performed to contribute to meeting the strategic objectives of an organization.
+
+- The project lifecycle consists of five stages, technically called process groups: initiating, planning, executing, monitoring and controlling, and closing. Depending on the project, these stages may repeat in different phases.
+
+- The project processes that are performed to manage projects make up ten project management knowledge areas: integration management, scope management, time management, cost management, resource management, communication management, stakeholder management, quality management, risk management, and procurement management.
+
+- The big picture of project management: the aspects of a project that need to be managed at different stages of the project lifecycle by using processes
+
+
+## 2. Project Environment
+
+- Although you use your knowledge in terms of processes to manage projects, the management will be greatly influenced by the environment in which the project runs, such as the structure and culture of the performing organization. Projects also originate from their environments.
+
+- a given project is performed in a certain environment; e.g.; it runs in an organization with its own structure and culture, in a certain location with its own culture and laws. This part of the environment is called the enterprise environment factors (EEF). Now, the organization has some assets, such as knowledge, policy and procedures, and processes, to start the project and support it through its lifecycle. This part of the project environment is called the organizational process assets (OPA).
+
+- Think of influence like a force, and when a force is applied to anything, it has an impact on that thing.
+
+- Enterprise Environment Factors (EEF) . Enterprise environmental factors are factors that are related to the environment either internal or external to the performing organization and that can influence and potentially impact the project. Some examples are the organization’s structure and culture and any city culture conditions external to the organization. The EEF are external to the project.
+
+- Organizational Project Assets (OPA) . These are the processes or process-related assets of the project-performing organization that can be used to help the project succeed. Procedures, templates, and lessons-learned databases developed from previous projects are some examples. The OPA are internal to the organization and external to the project.
+
+- Project Stakeholders . Stakeholders can be both internal and external to the organization and the project. The project team and project sponsor in the organization are examples of internal stakeholders, and customers the external.
