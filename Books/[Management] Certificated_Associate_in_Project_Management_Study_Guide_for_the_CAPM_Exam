@@ -193,3 +193,73 @@
 - Project stakeholders are individuals and organizations whose interests are affected (positively or negatively) by the project execution and completion. 
 
 - If we consider, for simplicity, only two cases: a project stakeholder has something to gain from the project or something to lose to the project. Accordingly, these stakeholders fall into two categories—positive stakeholders, who will normally benefit from the success of the project, and negative stakeholders, who will see some kind of disadvantage coming from the project.
+
+- Do not confuse the project management team with the project team. The project management team consists of individuals involved in the project management tasks. It is a subset of the project team, which includes members of the project management team and also other members, such as those who perform the actual work of the project.
+
+### LEADERSHIP SKILLS
+
+- In a traditional organizational structure, such as a functional structure, project managers do not have formal authority over the project team members who perform the team’s work. So, you have no other choice than to manage by leadership and not by authority or power. The good news is that managing by leadership is overall more effective and productive than managing by authority anyway
+
+- Visionary. Visualize the product and how it fits into the big picture of the organization’s strategy, and be able to translate this vision for the team. Have a holistic big-picture view of the project , accounting for all internal and external factors.
+
+### PROJECT BUSINESS CASE
+
+- This document makes the case for the would-be project from a business perspective by providing necessary information that can be used to assess whether the expected project outcome is worth the required investment. It includes the business need, project objectives, and success criterion. 
+
+- In summary, a business case presents and analyzes a problem or an opportunity in the context of the organization’s strategy; proposes alternative courses of action and the criterion of how to select one out of these; based on this criterion, recommend one and state how to measure the benefits and success of the project that would come out of the recommended course of action.
+
+### PROJECT BENEFIT MANAGEMENT PLAN
+
+- The project benefit management plan document describes what, when, and how project benefits would be delivered, as well as how they would be measured. 
+
+- The project manager must keep the general management approach in harmony with the theme of the business case and the project benefit management plan documents, which are interdependent and are developed iteratively and maintained through the project lifecycle.
+
+### Summary
+
+- In an organization, a project is born out of the need to address a problem or an opportunity while staying in alignment with the organization’s strategy. The project is born and performed in a certain environment constituted by three components: enterprise environmental factors (EEF), organizational process assets (OPA), and project stakeholders. EEFs are environmental factors, which can be internal to the organization, such as organizational structure and culture, or external to the organization, such as the law of the land where the organization is located. However, OPAs are only internal to the organization and of two types: processes, policy, and procedures; and knowledge database repositories. The project manager cannot change policy and procedures but can add to the knowledge databases. Enterprise environmental factors are related to how the performing organization does its business, whereas organizational process assets are specific to how the organization runs its projects.
+
+- Project environment influences and hence impacts the project. As a project is being influenced and impacted by its environment, it or its outcome influence and impact back some element of the environment. The goal of project management is to manage the influence of the environment on the project in such a way that the project influences back to change the business-value state of the organization to a higher level.
+
+## 3. Project Integration Management
+
+### Integration Management: Big Picture
+
+- By now, we already know that most of project management is performed through processes. However, project management is not just a collection of processes that you run one after the other and then are done. These processes depend on each other—i.e., they are logically linked to each other by outputs and input—and many of them need to be iterated several times based on the need. This implies that we need to oversee or coordinate the processes that we run to perform the day-to-day project management. The integration management knowledge area offers processes to accomplish just that; in other words, to define, identify, coordinate, and integrate various activities and processes within each project management process group
+
+- It is noteworthy that integration management is the only knowledge area to have processes in every process group; i.e., in all stages of the project lifecycle.
+
+- The project charter is a document that contains the high-level project information, such as the project’s purpose, objectives, and preapproved financial resources. The single most important reason why this document is produced—using the Develop Project Charter process—is to receive the formal authorization for the project. To accomplish this, it is necessary that the charter clearly shows the business need for the project and that the project objectives align with the organization’s strategic objectives. For this purpose,
+
+### Developing the Project Charter
+
+- The project charter is the document that formally authorizes a project, and includes naming the project manager, determining the authority level of the project manager, and allowing the project manager to start using organizational resources on the project.
+
+- To summarize, the input items to developing the project charter may include two business documents—project business case and project benefit management plan—enterprise environmental factors, organizational process assets, and possibly a contract or some other form of agreement. You take the available inputs and apply the relevant tools and techniques to develop the project charter.
+
+### OUTPUT OF DEVELOP PROJECT CHARTER
+
+- The output of the Develop Project Charter process contains two items—assumptions log and project charter—
+
+- Assumptions Log . This item contains assumptions and constraints mostly at a strategic and operational level. They are usually recorded in the business case document and can also come from expert judgment. When the project starts, the assumptions log grows as lower-level assumptions are made due to a lack of details that affect cost estimate, schedule, plans, and so on. Assumptions are important as they give rise to risks. An assumption is a factor that you consider to be true without any proof or verification.
+
+- Project Charter. It is a high-level document that summarizes information about the project and its intended outcome. 
+
+- the project charter provides the project manager with the authority to use organizational resources to run the project. Remember that, formally speaking, project charters are prepared external to project management by an individual, a committee in the organization, or the PMO. In other words, project management starts where the project charter ends.
+
+- Once you have the project charter, you know the high-level product requirements that the project will satisfy. However, a high-level requirement written in a certain way might mean different things to different stakeholders. So, after you get the project charter, one of your next tasks will be to develop a common understanding of the project among the project stakeholders. You accomplish this by drawing or explaining boundaries around the project at a lower level—that is, what is included and what is not—thereby spelling out what exactly the deliverables are. By doing this, you are determining the scope of the project at the lower level.
+
+### Developing the Project Management Plan
+
+- So, once the project has been initiated, it is time to do some planning. Project planning starts with the process of Develop Project Management Plan, which defines, prepares, coordinates, and integrates all subsidiary plans, such as scope and risk management plans, into one plan called the project management plan. 
+
+- One necessary item in the plan is the baseline for at least the following project features: scope, time, and cost.
+
+- The project management plan provides the basis of all the needed project work and how it will be performed.
+
+### Directing and Managing Project Work
+
+- The project work defined and scheduled in the project management plan is performed using the Direct and Manage Project Execution process. 
+
+- The three main functions of directing and managing project work are as follows: (1) Execute the planned project activities to produce deliverables in order to meet the project objectives. (2) Produce work performance and related change requests. (3) Implement the approved changes, defect repairs, and other actions.
+
+### INPUT TO DIRECTING AND MANAGING PROJECT WORK
