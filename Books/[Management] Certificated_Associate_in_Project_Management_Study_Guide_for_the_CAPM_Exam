@@ -1,4 +1,4 @@
-## 1. Project Management Framework
+# 1. Project Management Framework
 
 ### Basic Concepts in Project Management
 
@@ -168,7 +168,7 @@
 - The big picture of project management: the aspects of a project that need to be managed at different stages of the project lifecycle by using processes
 
 
-## 2. Project Environment
+# 2. Project Environment
 
 - Although you use your knowledge in terms of processes to manage projects, the management will be greatly influenced by the environment in which the project runs, such as the structure and culture of the performing organization. Projects also originate from their environments.
 
@@ -220,9 +220,9 @@
 
 - Project environment influences and hence impacts the project. As a project is being influenced and impacted by its environment, it or its outcome influence and impact back some element of the environment. The goal of project management is to manage the influence of the environment on the project in such a way that the project influences back to change the business-value state of the organization to a higher level.
 
-## 3. Project Integration Management
+# 3. Project Integration Management
 
-### Integration Management: Big Picture
+## Integration Management: Big Picture
 
 - By now, we already know that most of project management is performed through processes. However, project management is not just a collection of processes that you run one after the other and then are done. These processes depend on each other—i.e., they are logically linked to each other by outputs and input—and many of them need to be iterated several times based on the need. This implies that we need to oversee or coordinate the processes that we run to perform the day-to-day project management. The integration management knowledge area offers processes to accomplish just that; in other words, to define, identify, coordinate, and integrate various activities and processes within each project management process group
 
@@ -230,7 +230,7 @@
 
 - The project charter is a document that contains the high-level project information, such as the project’s purpose, objectives, and preapproved financial resources. The single most important reason why this document is produced—using the Develop Project Charter process—is to receive the formal authorization for the project. To accomplish this, it is necessary that the charter clearly shows the business need for the project and that the project objectives align with the organization’s strategic objectives. For this purpose,
 
-### Developing the Project Charter
+## Developing the Project Charter
 
 - The project charter is the document that formally authorizes a project, and includes naming the project manager, determining the authority level of the project manager, and allowing the project manager to start using organizational resources on the project.
 
@@ -248,7 +248,7 @@
 
 - Once you have the project charter, you know the high-level product requirements that the project will satisfy. However, a high-level requirement written in a certain way might mean different things to different stakeholders. So, after you get the project charter, one of your next tasks will be to develop a common understanding of the project among the project stakeholders. You accomplish this by drawing or explaining boundaries around the project at a lower level—that is, what is included and what is not—thereby spelling out what exactly the deliverables are. By doing this, you are determining the scope of the project at the lower level.
 
-### Developing the Project Management Plan
+## Developing the Project Management Plan
 
 - So, once the project has been initiated, it is time to do some planning. Project planning starts with the process of Develop Project Management Plan, which defines, prepares, coordinates, and integrates all subsidiary plans, such as scope and risk management plans, into one plan called the project management plan. 
 
@@ -256,10 +256,81 @@
 
 - The project management plan provides the basis of all the needed project work and how it will be performed.
 
-### Directing and Managing Project Work
+## Directing and Managing Project Work
 
 - The project work defined and scheduled in the project management plan is performed using the Direct and Manage Project Execution process. 
 
 - The three main functions of directing and managing project work are as follows: (1) Execute the planned project activities to produce deliverables in order to meet the project objectives. (2) Produce work performance and related change requests. (3) Implement the approved changes, defect repairs, and other actions.
 
 ### INPUT TO DIRECTING AND MANAGING PROJECT WORK
+
+- The project work defined and scheduled in the project management plan is performed using the Direct and Manage Project Execution process.
+
+- In a nutshell, the project management plan and approved change requests are the major inputs to directing and managing project work because executing the project is all about implementing the project management plan along with the approved change requests.
+
+### OUTPUT OF DIRECTING AND MANAGING PROJECT WORK
+
+- Deliverables. A deliverable is a unique and identifiable project outcome (i.e., product, service, or result) identified in the project management plan that must be generated to complete the project. The core purpose of executing the project management plan is to produce deliverables.
+
+- Issue Log . Throughout the project, you will face issues, e.g.; problems, inconsistencies, and conflicts. These issues need to be resolved so they do not start impacting the project negatively. To start the process, you enter an issue into an issue log with the following information: issue type, who raised the issue and when, issue description, priority, who the issue is assigned to, target resolution date, status, and final resolution.
+
+- These change requests might come from inside or outside the performing organization and can be optional or mandated legally or contractually. These change requests must be approved before they can be processed and implemented
+
+- The key benefit of the Direct and Manage Project Work process is that it provides overall management of the project work and the resulting deliverables in an integrated way. This improves the odds of project success.
+
+### MONITORING AND CONTROLLING PROJECT WORK
+
+- The most important overall goal of the Monitor and Control Project Work process is to make sure that the project remains aligned with the organization’s business need from which it originated.
+
+### Input to Monitor and Control Project Work
+
+- The major inputs to this process are the project management plan, to look for any aspect of the project, and work performance data for analysis that comes from directing and managing the project work. We also have project documents, including 1) milestone list with scheduled dates for specific milestones to check if they are being met; 2) project schedule forecasts to determine if the project is within defined schedule tolerance ranges; 3) basis of estimates for information on how the various estimates are made and how they can be used to determine responses to variances; 4) cost forecasts for project’s past performance, used to determine if the project is within the defined budget tolerance ranges and to identify any necessary change requests; 5) issue log shows who is responsible for resolving specific issues by a target date; 6) assumptions log for information on assumptions and constraints identified as affecting the project; 7) change log that contains the status of all change requests; 8) risk register for information on threats and opportunities that could possibly impact project execution; 9) risk report for information on the overall project risks and also on specific individual risks, such as risk sources; 10) quality reports for information on quality management issues, corrective actions, recommendations for project, processes, and product improvements, and summary of findings from the Control Quality process; 11) lessons learned register for information on effective responses for variances, as well as corrective and preventive actions.
+
+### Output for Monitor and Control Project Work
+
+- Original change requests, such as in project scope, product scope, or cost line, if approved, can trigger other changes, such as those to the project management plan, project documents, or product deliverables.
+
+## Performing Integrated Change Control
+
+- The Perform Integrated Change Control process is all about processing change requests, which includes evaluating them; deferring, rejecting, or approving them; and managing the implementation of approved changes and the changes resulting from this implementation.
+
+- Regardless of where they originate, it is the project manager’s responsibility to manage all the changes, which includes getting the changes rejected or approved, ensuring the approved changes get implemented, and changing the affected plans and documents accordingly.
+
+- The Perform Integrated Change Control process is used to manage changes to the project from project initiation through project closure.
+
+- The key benefit of this process is that the changes get documented; they are considered, deferred, rejected, or approved; approved ones are implemented in the entire context of the project; and changes resulting from the implementation are managed. This reduces the risk that would prevail absent this process.
+
+### OUTPUT FROM INTEGRATED CHANGE CONTROL
+
+- Approved Change Requests. You must make sure not only that the approved change requests are implemented through the Direct and Manage Project Work process, but also that the status or info about the deferred and rejected change requests are communicated to the stakeholders who requested the change.
+
+## Managing Project Knowledge
+
+- The Manage Project Knowledge process is used to help meet the project objectives and contribute to organizational knowledge and learning by creating new knowledge and using existing knowledge.
+
+- From the definition of Manage Project Knowledge, it should be clear that managing knowledge is not just about recording or documenting the knowledge to share it, nor is it just about yielding the lessons learned to be used in the future projects.
+
+- In fact, the most important task and challenge of knowledge management is to create an environment where people trust each other and are motivated to learn and share knowledge.
+
+### OUTPUT OF MANAGING PROJECT KNOWLEDGE
+
+- The key benefits of the Manage Project Knowledge process is that new knowledge is created or existing organizational knowledge is improved, and in the process of this creation or improvement the existing knowledge is used. Moreover, the created or improved knowledge is used in the organization’s operations and in future projects or future phases of the current project.
+
+## Performing Project Closure
+
+- Project closure includes ensuring that all the planned work is completed, the planned outcome has been delivered, the project or phase information is archived with the organization, and team resources are released. You also need to determine and coordinate the procedures required for verifying and documenting the project deliverables.
+
+### INPUT TO THE CLOSE PROJECT PROCESS
+
+- It’s important to understand the flow of project deliverables through different processes. They are generated by the Direct and Manage Project Work process, verified through the Quality Control process, accepted by the customer through the Validate Scope process, and transitioned to the appropriate party through the Close Project or Phase process.
+
+## Summary
+
+- The project is initiated, planned, and executed in pieces, and all those pieces are related to each other and need to come together. That is where integration management comes in, which includes developing the project charter, developing the project management plan, directing and managing project work, monitoring and controlling project work, performing integrated change control, managing project knowledge, and closing the project or a phase of the project. You develop the project charter based on two business documents, namely business case and project benefit management plan, hence interfacing the project with the organization’s business need and with the project charter. Then, you develop the project management plan by taking the project charter and output of many other planning processes as input. The project management plan becomes an input to all other integration processes. This virtually means that executing, monitoring and controlling, and closing the project are equivalent to implementing the project management plan.
+
+- As a project manager, you manage project execution using the Direct and Manage Project Work process, which will generate change requests that must be processed through the Perform Integrated Change Control process that in turn sends approved change requests back to the Direct and Manage Project Work process for implementation. The Direct and Manage Project Work process also produces the work performance data that is used by the Monitor and Control Project Work process to generate performance reports and more change requests. These and the change requests directly from stakeholders also must be processed though the Perform Integrated Change Control process. Moreover, directing and managing project work also generates deliverables, which, after verification and validation, become input to the Close Project or Phase process.
+
+- The lessons learned are the output of two processes: Manage Project Knowledge and Close Project or Phase. The lessons are learned throughout the project by performing the Manage Project Knowledge process, and not only at the end of the project or phase.
+
+
+# 4. Project Scope Management
