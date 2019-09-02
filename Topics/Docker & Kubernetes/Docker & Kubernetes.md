@@ -11,3 +11,4 @@
 - [Dockerfile Entrypoint 와 CMD의 올바른 사용 방법](https://bluese05.tistory.com/77)
 - [Kubernetes: Running Background Tasks With Batch-Jobs](https://medium.com/google-cloud/kubernetes-running-background-tasks-with-batch-jobs-56482fbc853)
 - [Top 20 Docker Security Tips](https://towardsdatascience.com/top-20-docker-security-tips-81c41dd06f57)
+- [The basics of deploying Logstash pipelines to Kubernetes](https://towardsdatascience.com/the-basics-of-deploying-logstash-pipelines-to-kubernetes-94a470ad34d9)
