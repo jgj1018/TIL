@@ -1,6 +1,6 @@
 # 1. Project Management Framework
 
-### Basic Concepts in Project Management
+## Basic Concepts in Project Management
 
 - Project. A project is a work effort made over a finite period of time with a start and a finish to create a unique product, service, or result. Because a project has a start and an end, it is also called a temporary effort or endeavor.
 
@@ -11,7 +11,7 @@
 - Process Groups . These are the technical names for the project stages: initiating, planning, executing, monitoring and controlling, and closing.
 
 
-### Understanding Projects
+## Understanding Projects
 
 -  An operation is an ongoing and repetitive set of tasks, whereas a project has a lifecycle—a beginning and an end.
 
@@ -28,7 +28,7 @@
 
 - The factors discussed in this section not only influence the organization’s current business strategies but also its current operations because operations are there to serve business strategies or objectives.
 
-### Understanding Project Management
+## Understanding Project Management
 
 - Project management is the application of knowledge, skills, tools, and techniques to project activities to meet the project requirements.
 
@@ -48,7 +48,7 @@
 
 - 3. Overlapping. Some of the input items may appear in multiple projects. This is also true for tools or techniques. From this, you can see that processes may overlap in their activities.
 
-### Understanding the Project Lifecycle
+## Understanding the Project Lifecycle
 
 - The timespan from the project’s beginning to its end is called the project lifecycle.
 
@@ -101,7 +101,7 @@
 - Each process is a two-dimensional entity. It belongs to both a certain project stage (group) and a specific process knowledge area.
 
 
-### Understanding Project Management Knowledge Areas
+## Understanding Project Management Knowledge Areas
 
 - To manage projects, you use project management knowledge, which is categorized into multiple aspects; each category is called a project management knowledge area.
 
@@ -127,9 +127,7 @@
 
 - As you have seen, managing a project largely means performing a set of processes at various stages of the project, such as initiating and planning. Accordingly, processes are grouped corresponding to these stages, and these groups are called process groups. Processes are also part of the knowledge required to manage projects. Each of these processes belongs to one of the ten knowledge areas identified in the PMBOK Guide, Sixth Edition. So, a process has a dual membership—one in a process group, indicating at what stage of the project the process is performed, and the other in a knowledge area,
 
-
-### Triangular Relationship: Project, Program, and Portfolio
-
+## Triangular Relationship: Project, Program, and Portfolio
 
 - Program. A program may be defined as a set of interrelated projects all working toward the same set of objectives. These projects are put into a program to reap the benefits of managing them in a coordinated way that would not be available by managing them individually. 
 
@@ -157,7 +155,7 @@
 
 - The project baseline is defined as the approved plan for certain aspects of the project, such as the cost, schedule, and scope of the project. The project performance is measured against this baseline.
 
-### Big Picture of Project Management
+## Big Picture of Project Management
 
 - A project, whether standalone or part of a program or a portfolio, is performed to contribute to meeting the strategic objectives of an organization.
 
@@ -182,11 +180,11 @@
 
 - Project Stakeholders . Stakeholders can be both internal and external to the organization and the project. The project team and project sponsor in the organization are examples of internal stakeholders, and customers the external.
 
-### Identifying Environmental Factors and Process Assets and Their Influence on Process
+## Identifying Environmental Factors and Process Assets and Their Influence on Process
 
 - Identifying the environmental factors is only part of the job, as you must effectively use the positive factors to help the project and try to take action to minimize the effect of negative factors on the project. Note that environmental factors can be internal to the performing organization, such as the organization’s culture, or external to the organization, such as market conditions. However, the organizational process assets are internal only.
 
-### Introducing the Project Stakeholders
+## Introducing the Project Stakeholders
 
 ### IDENTIFYING PROJECT STAKEHOLDERS
 
@@ -214,7 +212,7 @@
 
 - The project manager must keep the general management approach in harmony with the theme of the business case and the project benefit management plan documents, which are interdependent and are developed iteratively and maintained through the project lifecycle.
 
-### Summary
+## Summary
 
 - In an organization, a project is born out of the need to address a problem or an opportunity while staying in alignment with the organization’s strategy. The project is born and performed in a certain environment constituted by three components: enterprise environmental factors (EEF), organizational process assets (OPA), and project stakeholders. EEFs are environmental factors, which can be internal to the organization, such as organizational structure and culture, or external to the organization, such as the law of the land where the organization is located. However, OPAs are only internal to the organization and of two types: processes, policy, and procedures; and knowledge database repositories. The project manager cannot change policy and procedures but can add to the knowledge databases. Enterprise environmental factors are related to how the performing organization does its business, whereas organizational process assets are specific to how the organization runs its projects.
 
@@ -334,3 +332,155 @@
 
 
 # 4. Project Scope Management
+
+- you need to collect requirements based on the needs and expectations of the stakeholders and in line with the project objectives. Once you have defined the scope based on these requirements, it needs to be broken down into concrete, manageable tasks that can be assigned and performed. This is accomplished through what is called the work breakdown structure (WBS).
+
+- The primary purpose of project scope management is to ensure that the required work (and only the required work) is performed to complete the project successfully.
+
+## Managing Scope: Big Picture
+
+- The project scope is defined as the work that must be performed to deliver a product with a given scope. The product scope is the set of functions and features that characterize a product to be delivered by the project. 
+
+- The major goal of scope management is to ensure that the required work and only the required work is included and performed in the project.
+
+### DEVELOPING THE PROJECT SCOPE MANAGEMENT PLAN
+
+- Before performing the five scope management processes, you must develop the scope management plan, a blueprint that will show how to develop, control, and validate the scope. As mentioned previously, this plan is developed using the Plan Scope Management process
+
+- You must develop this plan in the context of the purpose of the project, which is documented in the project charter, where you will also find a high-level project description and high-level requirements along with other relevant information, such as assumptions and constraints. Also, you will need the project management plan in the input for the quality management plan, details of the project lifecycle, and a development approach. All three will impact how you plan the scope management. Development approach refers to the development approach or approaches adapted for this project, such as agile, waterfalls, or iterative. The plan scope management process will also be influenced by EEFs (Enterprise Environmental Factors) like personnel administration, culture, and infrastructure of the organization, along with marketing conditions. Of course, speaking of OPAs (Organizational Process Assets), this plan will be developed by following the organizational policies and procedures, and you will make use of historical information, including lessons learned from past projects.
+
+### REQUIREMENT MANAGEMENT PLAN AND SCOPE MANAGEMENT PLAN
+
+- The requirement management plan basically describes the collect requirements process: how to collect, determine, and document the project and product requirements and plan to manage those requirements.
+
+- Similarly, the scope management plan describes the “how to” details regarding the rest of the scope management processes: define scope, create work breakdown structure, control scope, and validate scope.
+
+- It’s important to realize that product scope and project scope are not independent. Product scope is the set of functions and features that fully define the product, and project scope is the work required to deliver the product. So, the product scope more or less determines the project scope.
+
+## Collecting Requirements for the Project
+
+- A requirement is a condition, characteristic, or capability that a specific outcome of the project must have. 
+
+- How effective you are in capturing requirements will determine how effective you are in getting agreement on these requirements from the stakeholders and in managing the stakeholders’ expectations and needs. Also, these requirements go right into the foundations of the WBS, along with the deliverables. Therefore, collecting requirements effectively is critical for the success of the project.
+
+### TOOLS AND TECHNIQUES FOR COLLECTING REQUIREMENTS
+
+#### Prototyping
+
+- Prototypes can also be used to collect requirements by experimenting with the prototype and letting stakeholders experiment with it and offer feedback. It’s more tangible than the abstract idea of a product. Prototypes can be improved and modified based on the feedback from the stakeholders. In this way, prototypes support the progressive elaboration process of developing requirements.
+
+### OUTPUT OF COLLECTING REQUIREMENTS
+
+#### Requirement Documentation
+
+- This documentation consists of a list of requirements and any necessary details for each item in the list.
+
+- Business Requirements. It describes the business need for which the process was started; e.g.; the overall purpose of the project, such as the opportunity being seized or the business problem being solved.
+
+- Project Requirements. These are about the project-related processes, needs, and conditions, such as milestone data and other conditions in the contract.
+
+- Solution Requirements. These are of two types: 1) functional requirements, referring to the functionality of the project outcome—e.g.; what the product does, its feature; and 2) non-functional requirements, such as compliance, compatibility, support, reliability, safety, and performance.
+
+- Stakeholder Requirements are based on the needs of all or part of the stakeholders.
+
+- Quality Requirements such as not allowing more than three bugs per software module.
+
+- Support and Training Requirements such as the product will be released with a manual.
+
+- Impact of the Requirements. This element describes the impact of requirements on the project and on entities external to the project, such as different groups in the organization.
+
+## Defining the Project Scope
+
+### INPUT TO SCOPE DEFINITION
+
+- The purpose of the Define Scope process is to figure out the detailed descriptions of the project and its product.
+
+### OUTPUT OF SCOPE DEFINITION
+
+- Depending on the input, the scope definition process can generate two kinds of output: the project scope statement, which contains the original scope definition, and approved updates to some project documents. Recall that the project scope statement is a component of the baseline used to manage change requests to the project.
+
+- The project scope statement contains both the project scope and the project product scope.
+
+#### Project Scope Statement
+
+- The key output item of the Define Project process is the project scope statement, which includes the project scope as well as the product scope
+
+- Product Scope Description. Product scope is defined as description of features, functions, and other characteristics a project product.
+
+- Product Acceptance Criteria. This defines the process, criteria, and conditions for accepting the completed products that the project will deliver.
+
+- Project Assumptions and Constraints. Assumptions and constraints are initially included in the project charter. However, at this stage, you have more information about the project and therefore can revisit the initial assumptions and constraints; you might be able to identify more assumptions and constraints. You should document the specific assumptions related to the project scope and also analyze their impact in case they turn out to be false. Due to the uncertainty built into them, assumptions are potential sources of risk.
+
+- Constraints related to the project scope must also be documented in the scope statement. Because constraints limit the team’s options, the constraints’ impact on the project must be evaluated. The constraints can come from various sources, such as a predetermined deadline (also called hard deadline) for the completion of the project or a milestone, limits on the funds available for the project, and contractual provisions.
+
+- Project Deliverables. A deliverable is a unique and verifiable project outcome, such as a product, a capability to provide a service, or a result. It may be required to be produced to complete a project, a process, or a phase of the project. The deliverables may also include related material, such as manuals and other documentation. The scope statement provides the list of deliverables and their descriptions.
+
+- Project Exclusions. This involves drawing boundaries around the project by specifying what is included and what is not, especially focusing on the gray areas where stakeholders may make their own assumptions, different from each other’s. It generally identifies what is excluded from the project, which helps to manage stakeholder expectations.
+
+- You must be able to make a distinction between objectives, deliverables, and requirements. For example, in a project to launch a website, the site is a deliverable. That the site must print a warning message at the login time is a requirement, and that the site should increase the company revenue by 3 percent is an objective.
+
+- It serves as a component of the baseline that will be used to evaluate whether a request for a change or additional work falls within or beyond the scope of the project; hence, helps with avoiding scope creep.
+
+- In general, it helps with making project decisions throughout the lifecycle of the project.
+
+- By providing a common understanding of the project scope, the scope statement helps bring the stakeholders onto the same page in their expectations.
+
+- Because the scope statement describes the deliverables and the work required to create those deliverables, it is used to create a WBS, which helps in scheduling the project.
+
+- It serves as a guide for the project team to do more-detailed planning.
+
+- From the perspective of actually performing the work, the scope statement is still a high-level document. To be able to schedule the project, identify and assign resources, and manage the project successfully, these deliverables need to be broken down into manageable tasks. This is accomplished by creating an entity called the work breakdown structure (WBS).
+
+## Creating a Work Breakdown Structure (WBS)
+
+- a WBS is a deliverable-oriented hierarchy of the work that must be performed to accomplish the objectives of and create the deliverables for the project.
+
+### DECOMPOSITION
+
+- Decomposition is a technique for subdividing the project deliverables into smaller, manageable tasks called work packages. 
+
+- 1.Identify the deliverables and the work involved by analyzing the project scope statement and requirement documentation. 
+- 2.Understand the relationships among the deliverables. 
+- 3.Structure and organize the first level (just below the root of the hierarchical tree) of the WBS hierarchy. Based on the project at hand, you can use one of the following approaches; e.g.; use the deliverables as the components in the first level or use the phases of the project as the components in the first level. 
+- 4.Decompose the upper level into more-detailed components for the lower level. 
+- 5.Keep decomposing to lower levels until necessary and sufficient decomposition has been achieved. 
+- 6.Assign identification codes to the WBS components.
+
+- excessive decomposition leads to inefficient use of management and other resources. Necessary and sufficient decomposition is the key.
+
+- While using the technique of decomposition, remember a useful concept or trick: rolling wave planning. It’s a fancy term that refers to handling a deliverable or its subcomponent that cannot be decomposed further currently because we don’t know the details about it yet; (...) We leave the decomposition of such a deliverable at a level allowed by the available information and wait on further decomposition until more information becomes available. 
+
+### OUTPUT OF CREATING WBS
+
+#### SCOPE BASELINE
+
+- Project Scope Statement. This document includes project and product scope description, project deliverables, product acceptance criteria, and project assumptions and constraints.
+
+- Work Breakdown Structure. As explained earlier, the WBS is a deliverable-oriented hierarchical structure that decomposes the project scope and deliverables into the work packages that will be executed by the project team to create the planned deliverables and in this way accomplish the planned project objectives. The project manager creates this document with the help of the project team.
+
+- Work Packages and Control Account. Remember, at the lowest part of each branch in WBS we have work packages, each of which is assigned a unique identifier. To this identifier is attached information about schedule, resources, and cost for this work package, and it acts as a code of account. In other words, each work package represents a deliverable or a component of it, with schedule, resources, and cost attached. Using one or more such points or codes of account, information on schedule, resources, and cost for a group of work packages can be summed or integrated and managed. This way, each package control point becomes a part of what is called the control account for that group of work packages. A control account represents a control management point where scope, schedule, and cost are integrated for the purpose of monitoring and controlling the performance; e.g.; comparing with earned value.
+
+- A control account may contain one or more work packages, but a work package can have membership in only one control account. This means that a control account is in some package above the work packages and contains all the work packages below it in the branch to which it belongs.
+
+- the end goal of the WBS is to specify the project scope in terms of work packages; this is what distinguishes the WBS from other information breakdown structures.
+
+- The approved version of the scope baseline becomes a component of the project management plan and can be changed only through the formal change control procedure, i.e., running the processes. It plays a crucial role in determining many aspects of the project, such as schedule, cost, quality, and procurement.
+
+## Controlling Scope
+
+- Controlling the project scope is all about keeping a tab on the status of the project scope and product scope as well as managing changes to the scope baseline.
+
+- Watch out for scope creep. Determine whether it has happened and correct the situation. Scope creep refers to scope changes applied without processing them though the change control process.
+
+- Process the scope change requests through the integrated change control process for approval.
+
+- Manage the implementation of scope changes after approval, as well as their impact across the project.
+
+## Validating the Scope of Project Deliverables
+
+- Validating scope is the process of formally accepting the completed project deliverables, which have already been verified for their correctness by using the control quality process. Before you hand over the project deliverables to the appropriate party mentioned in the project management plan, such as the customer or the sponsor, you need to validate with the party that the deliverables actually meet the planned scope.
+
+- Do not confuse scope validation with quality control or scope verification performed using quality control, which is primarily focused on checking the correctness of the deliverables and other quality requirements; scope validation is about ensuring that the entire scope with the requirements with have implicated.
+
+
+# 5. Project Schedule Management
