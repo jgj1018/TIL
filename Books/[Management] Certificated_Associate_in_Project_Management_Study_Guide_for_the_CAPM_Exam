@@ -484,3 +484,267 @@
 
 
 # 5. Project Schedule Management
+
+- the overall project work—i.e., the project scope—is broken down into smaller, more manageable components. These components in the WBS are called work packages. However, a work package might not be a suitable item to assign to an individual to perform. So, work packages can be rearranged or decomposed into smaller components called activities . A project schedule contains not only the activities to be performed, but also the order, or sequence, in which the activities will be performed and the start and finish dates. The sequencing of activities is constrained by the dependencies among the activities. A realistic project schedule can be created from the bottom up by identifying the activities, estimating the resources needed for the activities, and determining the time that each activity will take with the given resources available. The schedule, once developed and approved, needs to be controlled to stay on track. All these tasks belong to what is called project schedule management.
+
+## Project Schedule Management : Big Picture
+
+- Developing and controlling the project schedule so as to complete the project work in time is what schedule management all about.
+
+- To complete a project, you need to perform some activities to produce the project deliverables. To make that happen, you need to estimate resources for the activities and schedule the activities. But before all this can happen, you need to identify the activities. One thing more: all this should happen as planned.
+
+- Activity. A component of project work.
+
+- Activity Duration. The time measured in calendar units between the start and finish of a schedule activity.
+
+- Schedule Activity. A scheduled task (component of work) performed during the lifecycle of a project.
+
+- Logical Relationship. A dependency between two project schedule activities or between a schedule activity and a schedule milestone.
+
+- Schedule Milestone. A milestone is a significant point (or event) in the life of a project, and a schedule milestone is a milestone on the project schedule. A milestone refers to the completion of an activity, marking possibly the completion of a set of activities, and therefore has zero duration. The completion of a major deliverable is an example of a milestone.
+
+- Plan Schedule Management. Plans how to develop, execute, and control the project schedule.
+
+- Define Activities. Identifies the specific schedule activities, or pieces of work, that must be performed to produce the project deliverables.
+
+- Sequence Activities. Puts the activities to be scheduled in a sequence by identifying the dependencies among them.
+
+- Estimate Activity Duration. Estimates the time in units of work periods required for each schedule activity’s completion. A work period is a measurement of time when the work is in progress; it is measured in hours, days, or months, depending upon the size of the activity. This estimate is performed for given resources.
+
+- Develop Schedule. Develops the project schedule by analyzing schedule activity sequences, schedule activity durations, resource requirements, and schedule constraints.
+
+- Control Schedule. Monitors the status of the project’s progress to manage the resulting changes in project schedule and hence in the schedule baseline.
+
+- The underlying philosophy of project management for schedule development is to first develop the schedule based on the work required to complete the project tasks, and then see how you can make it conform to other constraints, calendar requirements, and strategic goals of the organization. 
+
+## Planning Schedule Management
+
+- the Plan Schedule Management process is about planning how to develop, execute, and control the project schedule. 
+
+## Schedule Management Plan
+
+- The schedule management plan document records how to develop, execute, and control the project schedule.
+
+- The time-boxed periods are used in projects with adaptive lifecycles. They help you avoid scope creep by making the team focus on essential works within the scope.
+
+## Defining Activities
+
+- Activities are pieces of work that need to be performed to produce the project deliverables. However, first we need to identify them, and we do that using the Define Activities process
+
+- This process identifies activities, or pieces of work, that will need to be completed in order to deliver the project outcome. In the previous chapter, we covered WBS all the way up to work packages; that is where identifying project activities starts. So, the starting point for defining activities is the lowest level of the WBS that contains work packages. Basically, each work package is broken down into one or more activities.
+
+- Project Scope Baseline. The following three components of the project scope baseline are needed to define activities:
+WBS and WBS dictionary. The work packages in the WBS are decomposed into project activities. To define activities in detail so that you can assign appropriate resources to them, you need details about the work packages, which are provided in the WBS dictionary.
+
+- Project Scope Statement. The WBS is built from the project scope statement. While dealing with the WBS, you might need to go back to the project scope statement. The following elements of the project scope statement are especially important to consider while identifying activities:
+Assumptions related to the activities or schedule planning, such as work hours per week
+
+- Constraints that will limit the schedule options, such as predetermined deadlines on project milestones
+
+- Project deliverables, to ensure everything is covered in the WBS work packages
+
+### GENERATING THE OUTPUT OF DEFINING ACTIVITIES
+
+- The key output item of the activity definition process is a comprehensive list of all the activities that need to be performed to produce the project deliverables.
+
+- The Define Activities process generates the final output as activities and not deliverables. Therefore, ideally speaking, the WBS and the WBS dictionary should be generated before defining activities. However, practically speaking, the activity list, the WBS, and the WBS dictionary can be developed concurrently.
+
+- Deliverables are broken down into work packages, which are subsequently broken down into activities in a rolling wave or progressive elaboration fashion. This may create the need to modify the baseline, which may affect the cost baseline. But, to make a change to any baseline, you must create a change request, which would be processed through the Perform Integrated Change Control process. If the change is approved and implemented, the scope baseline and cost baseline documents may need to be updated accordingly.
+
+- Before you can schedule them, the identified activities need to be arranged in the correct order, which is called sequencing .
+
+## Sequencing Activities
+
+- The activity sequencing process is used to arrange the schedule activities in the appropriate order, which takes into account the dependencies among the activities
+
+- One main advantage of sequencing activities is that it is a way to handle project constraints in the most efficient manner.
+
+### TOOLS AND TECHNIQUES FOR GENERATING PROJECT SCHEDULE NETWORK DIAGRAMS
+
+#### Determining and Integrating Dependencies
+
+- Logical relationships can be displayed in schematic diagrams, called project schedule network diagrams , or just network diagrams for brevity. A common method used to develop network diagrams is called the precedence diagramming method (PDM) .
+
+#### Precedence Diagramming Method ( PDM )
+
+- Finish to Start. The initiation of the successor activity depends upon the completion of the predecessor activity—that is, the successor activity cannot be started until the predecessor activity has already been completed.
+
+- Finish to Finish. The completion of the successor activity depends upon the completion of the predecessor activity—that is, the successor activity cannot be completed until the predecessor activity has already been completed.
+
+- Start to Start. The initiation of the successor activity depends upon the initiation of the predecessor activity—that is, the successor activity cannot be initiated until the predecessor activity has already been initiated.
+
+- Start to Finish. The completion of the successor activity depends upon the initiation of the predecessor activity—that is, the successor activity cannot be completed until the predecessor activity has already been initiated.
+
+-  In general, PDM supports all four kinds of precedence relationships discussed earlier, but the most commonly used dependency relationship in PDM is finish-to-start. The start-to-finish relationship is rarely used.
+
+- Applying Leads and Lags: Applying a lead means you allow the successor activity to start before the predecessor activity finishes, and applying a lag means you start the successor activity a few days after the predecessor activity finishes. Sometimes, you might need to make such adjustments in the schedule for effectiveness and efficiency. Of course, leads and lags are measured in units of time, such as days.
+
+- Once the activities have been identified and the resources required to perform them have been gathered, as shown in the next chapter, you have enough information to begin estimating the time needed to complete each activity, which is called the activity duration.
+
+## Estimating Activity Duration
+
+- Activity duration is the time between the start and finish of an activity. Activity duration is estimated in work periods by using the Estimate Activity Durations process for the given resources assigned to the activity. A work period is a measurement of time when the work is in progress; it is measured in hours, days, or months, depending upon the size of the activity. This estimate can be converted to calendar units of time by factoring in the resource’s passive time, such as holidays.
+
+### ACTIVITY AND RESOURCES INFORMATION FOR DURATION ESTIMATION
+
+- Some assumptions and constraints in the project scope statement, another component of the scope baseline, can affect activity duration estimates as well.
+
+- Sometimes assigning additional resources might reduce the overall efficiency and productivity. For example, think of two engineers with different skill levels assigned to work on interrelated components of an activity.
+
+- Most of the activities have a threshold beyond which assigning additional resources does not help. For example,
+
+- Resource Breakdown Structure, Resource Calendar, and Team Assignments . Resource Breakdown Structure (RBS ) is a hierarchical structure that displays the identified resources by category and type. The resource calendar, finalized (or modified) during the activity resource estimating, contains the type, quantity, availability, and capability of each resource, including the skills of a human resource, which must be considered during activity duration estimating. 
+
+- Also, capability and quantity of available resources, both human and material, can affect the activity duration estimate. For example, if an activity will take four work days for an engineer to finish, and the engineer can work only four hours a day on this activity, it will take eight calendar days to finish.
+
+### TOOLS AND TECHNIQUES FOR ACTIVITY DURATION ESTIMATING
+
+- The project schedule depends upon the activity duration estimates. The duration estimates of activities on the critical path will determine the finish date of a project for a given start date. However, there might be many uncertainties involved in the estimate. For example, two programmers, due to the differences in their experience, will take different amounts of time to write the same program.
+
+- Analogous Estimating. Analogous estimating techniques estimate the duration of an activity based on the duration of a similar activity in a previous project. The accuracy of the estimate depends upon how similar the activities are and whether the team member who will perform the activity has the same level of expertise and experience as the team member from the previous project. 
+
+- Three-point Estimating. This method addresses the issue of uncertainty in estimating the activity duration. The spread of these three estimates determines the uncertainty. The resultant duration is calculated by taking the average of the three estimates. (Most-likely Scenario, Optimistic Scenario, Pessimistic Scenario)
+
+- In general, the duration value is obtained by adding the three values and dividing by three. However, the most-likely scenario may be given more weight than the other two scenarios.
+
+- Bottom-up Technique . This technique is used when it’s difficult to estimate the duration of an activity; for example, it’s big in size or complicated. This technique decomposes the activity into smaller pieces, estimates the durations of those pieces, and aggregates all those duration values into one final value.
+
+- By using the various processes discussed in this chapter, you have identified activities, arranged them in proper sequence, determined resource requirements for them as discussed in next chapter, and estimated their durations. All these tasks and accomplishments are a means to an end called project schedule development.
+
+## Developing the Project Schedule
+
+### COLLECTING INFORMATION FOR SCHEDULE DEVELOPMENT
+
+- Global Information. The WBS and WBS dictionary will provide detail about the project deliverables, which are the real reason for the schedule. The schedule development plan will show “how” and what type of information—e.g.; what method and tools—should be used to create the schedule. Don’t lose sight of this big picture while figuring out the schedule details.
+
+- Activity Relationship–Related Information. The information about dependencies among the activities and in which order they should be performed can be extracted from: 1) Schedule network diagrams; 2) milestones list with hardcoded, i.e., fixed, dates; and 3) resource calendars showing the availability of resources along the timeline.
+
+- Risk-Related Information. This can be extracted from scheduled assumptions in the assumptions log, which may lead to risk, and schedule-related risks in the risk register. This information will help with risk mitigation by applying the contingency reserve, explained earlier in the chapter, in the project schedule.
+
+### APPLYING TOOLS AND TECHNIQUES FOR SCHEDULE DEVELOPMENT
+
+- Starting with network diagrams and activity duration, you move to put the information pieces together while dealing with issues like the following: (1) The actual start date (2) Uncertainty on the availability of resources (3) Identification of and preparation for activities on the critical path (4) Risks involved, or “what if” scenarios (5) The hard start/finish dates for activities or for the project that came down the pipeline from very important stakeholders
+
+#### Critical Path Method
+
+- The critical path is the longest path (sequence of activities) in a project schedule network diagram. Because it is the longest path, it determines the duration of the project, and hence the finish date of the project given the start date. 
+
+- The second important step of the critical path method is to identify the flexibility in the project schedule by calculating the early and late start and finish dates of each activity on each path. The schedule flexibility of an activity is measured by the positive difference between the late start date and the early start date for the activity; this is called float time or total float.
+
+- Each activity on a critical path has zero float time, and therefore poses a schedule risk. Therefore, you must monitor the activities on all critical paths very closely during the execution of the project.
+
+#### Resource Optimization
+
+- Resource optimization refers to optimizing the use of available resources to finish the project within the planned start and finish dates.
+
+- Resource Leveling. Resource leveling is applied to the schedule that has already been analyzed using other methods, such as the critical path method, and hence we know the project start and finish dates, as well as start and finish dates and floats for activities. This techniques adjusts the start and finish dates of activities, using the already assigned resources to finish the project within the planned start and finish dates. 
+
+- Due to the change in the activity durations, resource leveling can result in a change of critical paths. Resource smoothing may not always optimize the use of resources.
+
+#### Simulations and “What if” Scenario Analysis
+
+- “What if” Scenario Analysis. The purpose of “what if” scenario analysis is to calculate the effects of a specific scenario on the schedule (...) Because a “what if” scenario by definition represents uncertainty, this analysis often leads to risk planning, which might include changing the schedule or changing the network diagram to get a few activities out of harm’s way if possible.
+
+- As you have seen, the critical path method is used to develop a schedule for given resources, whereas a method called the critical method that method factors in the uncertainty of the availability of the resources. The resource leveling technique is used to move the resources around to meet the resource needs of the activities that must be accomplished by a specific date. In other words, in an ideal world in which the required (or planned) resources are guaranteed, you do not need the critical chain method and resource leveling; just the critical path method will do.
+
+- Let’s assume you have used the critical path method to determine the schedule for a project. You have also applied other techniques, such as the critical chain method and resource leveling. The final realistic schedule that you have come up with has an unacceptable project duration (the length of the critical path). What do you do? This is where the schedule compression technique comes to your rescue.
+
+#### Schedule Compression
+
+- Schedule compression is an attempt to shorten the project schedule without changing the project scope. It may be necessary in order to deal with schedule-related constraints and objectives. It is true that you, the project manager, build the schedule through cold, hard mathematical analysis and you don’t just accept whatever schedule goals come down the pipeline from elsewhere, such as from the customer or the project sponsor. However, once you have the schedule built through analysis, you can attempt to accommodate some critical stakeholder expectations or hard deadlines, such as a predetermined project finish date. I have already discussed one such method, called resource leveling, to accommodate hard deadlines for activities. In this section, I will discuss two more methods for schedule compression: crashing and fast tracking.
+
+- Crashing . This is a schedule compression technique in which cost and schedule tradeoffs are analyzed to decrease the project duration with minimal additional cost. A number of alternatives are analyzed, including the assignment of additional resources. Approving overtime is another example of crashing. This option may increase the cost.
+
+- Fast Tracking . This is a schedule compression technique used to decrease the project duration by performing project phases or some schedule activities within a phase in parallel that would normally be performed in sequence. For example, testing of a product can start when some of its components are finished, rather than waiting for the whole product to be completed.
+
+- Crashing usually involves assigning more resources, hence increasing the cost. However, guard yourself against the misconception that additional resources will linearly improve the performance. 
+
+### OUTPUT OF THE SCHEDULE DEVELOPMENT PROCESS
+
+- Project Schedule . The project schedule includes a planned start date and a planned finish date for each schedule activity. The schedule will be considered preliminary until the resources have been assigned to perform the activities according to the schedule.
+
+- Schedule Baseline . This is a specific version of the project schedule that is accepted and approved by the appropriate stakeholder, such as the project sponsor. This schedule baseline becomes part of the project plan. The actual project work results are compared against this baseline to measure the project’s progress. Any proposed change to this baseline must go through standard change procedures—the Integrated Change Control process.
+
+- Project schedule development is an iterative process. For example, it might be necessary to review and revise the duration and resource estimates for some activities to create a project schedule that will be approved. The approved project schedule will act as a baseline against which project progress will be tracked.
+
+## Controlling Schedule
+
+- Schedule control has a three-pronged goal: 1) monitor the status of the project to see if it’s progressing according to the planned schedule, and if it’s not, 2) take action, such as changing resources or changing schedule; and 3) manage this change. As a project manager, you should be out in front of the project, performing the following tasks on regular basis:
+
+- Determine the current status of the project schedule.
+- Influence the factors that generate schedule changes.
+- Determine whether the project schedule has changed—for example, if some activities are running late.
+- Manage the changes as they occur.
+- Detect or measure a schedule change by comparing the project execution results—i.e., work performance data—against the schedule baseline;
+
+### PERFORMING THE CONTROL SCHEDULE PROCESS
+
+#### Generating the Work Performance Information: Measuring Variance
+
+- Earned Value Analysis. These techniques are used to calculate the schedule variance (SV) and schedule performance index (SPI) and are discussed in detail in terms of cost in an upcoming chapter on cost management. In this process, you use these quantities to assess the variation from the schedule baseline.
+
+- Variance Analysis. Performing a barebones schedule variance analysis, this technique is crucial to schedule monitoring because it reveals the deviation of the actual start and finish dates from the planned start and finish dates of schedule activities. It also reveals the variations of actual versus planned durations and floats. It might suggest corrective actions to be taken to keep the project on track.
+
+- Performance Reviews. Performance reviews are simple reviews of project progress that compare the performance data with the schedule baseline. These comparisons use start and end dates and percentages of completed and remaining work to analyze the variances.
+
+#### Generating Schedule Forecast
+
+- Schedule forecasts are predictions of the future state of the project if it continues on the current path defined by the current schedule-related work performance information. Forecasts are based on trends extracted from current and past information. The variance analysis technique and PMIS also include the ability to forecast the effect of variances on the project’s future. You can also use trend analysis techniques that compare the work performance data with the schedule baseline over time. One such technique in called an iteration burndown chart.
+
+- After we find out that the project has gone off track by measuring the deviation in terms of variance, the question is how to get the project back on track—in alignment with the schedule baseline.
+
+#### Bringing Project Back on Track: Generating Change Requests and Updates
+
+- Having measured the schedule variations from the schedule baseline, there are only two ways to put the project back on track: 1) align the project with the schedule baseline without updating the baseline; and 2) update the baseline.
+
+- Align the Project with Schedule Baseline Without Updating the Baseline. This can be done by using techniques already discussed while covering the schedule development process. The examples include resource optimization, schedule compression, lag and leads, and what-if scenario analysis.
+
+- Update the Schedule Baseline. A schedule baseline update is an obvious way to align the project schedule with the schedule baseline. You can use trend lines and future forecasts as a guide to updating the baseline. Before the schedule baseline updates can be applied, change requests will need to be created, which must go through the standard approval process. Schedule change request will also trigger other change requests, such as those to the cost baseline. Work performance information produced in this process may also create non–schedule related change requests as well.
+
+- Since schedule variance on the critical or near critical path directly impacts the project finish date, mainly these paths determine the project status. Therefore, the activities on these paths should be closely watched; even a short delay for the critical path may produce a bigger effect on the project end date than bigger delays on non-critical paths.
+
+- Remember that corrective actions are not about going back and fixing past mistakes. Rather, they’re about ensuring that future results match with the plan. You can do this by influencing the future results, such as by expediting the execution or by changing the plan.
+
+- Various schedule management processes are used to produce schedule data—a list of schedule activities and attributes for each activity, such as activity duration, previous and following activity, and also the required resources, determined by a resource management process.
+
+- The schedule data is used to develop the project schedule, which is an iterative process due to the uncertainties in the schedule data and due to the changes made during project execution. Nevertheless, the approved version of the planned schedule is used as a baseline to track the project progress.
+
+- The schedule needs to be controlled to keep the project on the track—i.e., in alignment with the schedule baseline. The major output items of the schedule control process are work performance information, schedule forecasts, and change requests resulting from comparing the schedule-related work performance data with the schedule baseline.
+
+## Summary
+
+- Project schedule development is a journey that begins with decomposing the work packages in the WBS into project activities and ends with an approved schedule for performing those activities, called the schedule baseline. The schedule, once developed, needs to be controlled to keep the actual project execution in sync with this baseline. 
+
+- All the pieces developed by these processes come together to develop the project schedule by using the Develop Schedule process via a host of techniques. You, for example, may start with using the critical path method to develop the project schedule from a network diagram. After you have this schedule, you can use schedule compression methods, such as fast tracking and crashing, to accommodate hard deadlines. Schedule development is an iterative process that can continue throughout the project execution due to approved changes and risk occurrences. However, the approved planned project schedule is used as a baseline to track the project’s progress. You need to control the schedule to keep it aligned with the schedule baseline, which includes monitoring the status of the project’s progress and controlling the changes to the schedule baseline.
+
+# 6. Project Resource Management
+
+- Executing a project requires resources, and executing a project successfully requires the optimal use of those resources. Therefore, coordinating and managing resources, including both human resources—also called team resources—and physical resources—i.e., material, equipment, facilities, and infrastructure—is an integral part of overall project execution. Identifying, acquiring, and managing these resources is called resource management .
+
+- Therefore, for the team to be successful, it has to be effective in both dimensions: its members must be competent in performing their individual assignments, and the interaction among them must be constructive overall. 
+
+## Resource Management: Big Picture
+
+- the Estimate Activity Resources process, a resource management process, generates activity resource requirements, which are an input to the Develop the Project Schedule process, which in turn is used to estimate cost. The cost estimate is an input back to the Estimate Activity Resources process, and also an input to Determine Budget, which generates the cost baseline that is an input to Acquiring Resources. Note here the close connection between resource management and cost management.
+
+- Plan Resource Management. This process is used to develop the resource management plan, which identifies the project roles, assigns responsibilities to these roles, and provides guides to how to perform the rest of the resource management processes.
+
+- Estimate Activity Resources. Estimates the types and amounts of team and physical resources that will be required to perform each schedule activity. Physical resources are non-human resources such as facilities, equipment, material, and supplies.
+
+- Acquire Project Team. The process of obtaining the team and physical resources estimated by the preceding process.
+
+- Develop Team. The process of developing an optimal team by improving the individual competencies and interactions among the individual team members, thereby improving the team environment.
+
+- Manage Project Team. The process of optimizing the team—hence, project performance—by tracking the performance of and providing feedback to the individual team members, managing changes related to the team, and resolving issues.
+
+- Control Resources. The process of keeping planned, assigned (i.e., allotted), and used physical resources synchronized by ensuring that they are allotted, used, and released immediately after use.
+
+- resource management and cost management are closely connected. Also, the project team is a subset of the project stakeholders, so there is obviously an overlap between resource management and stakeholder management.
+
+## Developing the Resource Plan
+
+- The main goal of the Plan Resource Management process is to develop a document that will answer the question: How do you identify the right resources in just the right amount and manage them for the successful completion the project?
+
+### TOOLS AND TECHNIQUES FOR RESOURCE PLANNING
+
+- At the heart of resource planning lies the art of converting the information about work packages or related activities and activity resource requirements into roles and responsibilities. For example, consider an activity in a project—writing a software program. The program will be written by a programmer, which is a human resource, in this case a team resource. However, before you even know the name of the programmer, for planning purposes you can work with this programmer as a role whose main responsibility is to write the program, later assigning a real individual to fill this role. This approach allows for planning before hiring. 
