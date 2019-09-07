@@ -1,3 +1,154 @@
+
+- Project. A project is a work effort made over a finite period of time with a start and a finish to create a unique product, service, or result. 
+
+- Project Life Cycle. It is the full project duration from beginning to end, including all project stages: initiating, planning, executing, monitoring and controlling, and closing. If projects have multiple phases, all of these stages are repeated in each phase.
+
+- Operations are generally ongoing and repetitive. Although both projects and operations have objectives, a project ends when its objectives are met, whereas an operation continues contributing to objectives
+
+-  The central purpose of this stage is to align the project’s purpose with the business needs and the organization’s business strategy on one hand and with the stakeholders’ expectations on the other.
+
+- The approved scope plan, schedule plan, and cost plan are called the scope baseline, schedule baseline, and cost baseline, respectively. These three baselines together are called the project baseline or the performance measurement baseline (PMB). The project performance at any time is assessed by comparing the results from project execution against this performance measurement baseline (PMB). 
+
+- The processes in this group(EXECUTING THE PROJECT) are used to accomplish a three-pronged goal: Coordinate people and resources used to perform the project activities. Integrate and manage the project activities being performed. Ensure the implementation of the project scope and approved changes.
+
+- In general, the execution of the project needs to be monitored and controlled to ensure the project stays on the planned track.
+
+- Identifying the environmental factors is only part of the job, as you must effectively use the positive factors to help the project and try to take action to minimize the effect of negative factors on the project. Note that environmental factors can be internal to the performing organization, such as the organization’s culture, or external to the organization, such as market conditions.
+
+- Project stakeholders are individuals and organizations whose interests are affected (positively or negatively) by the project execution and completion. 
+
+- If we consider, for simplicity, only two cases: a project stakeholder has something to gain from the project or something to lose to the project. Accordingly, these stakeholders fall into two categories—positive stakeholders, who will normally benefit from the success of the project, and negative stakeholders, who will see some kind of disadvantage coming from the project.
+
+- Visionary. Visualize the product and how it fits into the big picture of the organization’s strategy, and be able to translate this vision for the team. Have a holistic big-picture view of the project , accounting for all internal and external factors.
+
+- The project charter is a document that contains the high-level project information, such as the project’s purpose, objectives, and preapproved financial resources. The single most important reason why this document is produced—using the Develop Project Charter process—is to receive the formal authorization for the project. To accomplish this, it is necessary that the charter clearly shows the business need for the project and that the project objectives align with the organization’s strategic objectives. For this purpose,
+
+- The project charter is the document that formally authorizes a project, and includes naming the project manager, determining the authority level of the project manager, and allowing the project manager to start using organizational resources on the project.
+
+- Project Charter. It is a high-level document that summarizes information about the project and its intended outcome.
+
+- Once you have the project charter, you know the high-level product requirements that the project will satisfy. However, a high-level requirement written in a certain way might mean different things to different stakeholders. So, after you get the project charter, one of your next tasks will be to develop a common understanding of the project among the project stakeholders. You accomplish this by drawing or explaining boundaries around the project at a lower level—that is, what is included and what is not—thereby spelling out what exactly the deliverables are. By doing this, you are determining the scope of the project at the lower level.
+
+- So, once the project has been initiated, it is time to do some planning. 
+
+- One necessary item in the plan is the baseline for at least the following project features: scope, time, and cost
+
+- The three main functions of directing and managing project work are as follows: (1) Execute the planned project activities to produce deliverables in order to meet the project objectives. (2) Produce work performance and related change requests. (3) Implement the approved changes, defect repairs, and other actions.
+
+- The most important overall goal of the Monitor and Control Project Work process is to make sure that the project remains aligned with the organization’s business need from which it originated.
+
+- From the definition of Manage Project Knowledge, it should be clear that managing knowledge is not just about recording or documenting the knowledge to share it, nor is it just about yielding the lessons learned to be used in the future projects.
+
+- In fact, the most important task and challenge of knowledge management is to create an environment where people trust each other and are motivated to learn and share knowledge.
+
+- you need to collect requirements based on the needs and expectations of the stakeholders and in line with the project objectives. Once you have defined the scope based on these requirements, it needs to be broken down into concrete, manageable tasks that can be assigned and performed. 
+
+- The primary purpose of project scope management is to ensure that the required work (and only the required work) is performed to complete the project successfully.
+
+- Prototypes can also be used to collect requirements by experimenting with the prototype and letting stakeholders experiment with it and offer feedback. It’s more tangible than the abstract idea of a product. Prototypes can be improved and modified based on the feedback from the stakeholders. In this way, prototypes support the progressive elaboration process of developing requirements.
+
+- excessive decomposition leads to inefficient use of management and other resources. Necessary and sufficient decomposition is the key.
+
+- While using the technique of decomposition, remember a useful concept or trick: rolling wave planning. It’s a fancy term that refers to handling a deliverable or its subcomponent that cannot be decomposed further currently because we don’t know the details about it yet; (...) We leave the decomposition of such a deliverable at a level allowed by the available information and wait on further decomposition until more information becomes available. 
+
+- Before you hand over the project deliverables to the appropriate party mentioned in the project management plan, such as the customer or the sponsor, you need to validate with the party that the deliverables actually meet the planned scope.
+
+- A project schedule contains not only the activities to be performed, but also the order, or sequence, in which the activities will be performed and the start and finish dates
+
+- The time-boxed periods are used in projects with adaptive lifecycles. They help you avoid scope creep by making the team focus on essential works within the scope.
+
+- Sometimes assigning additional resources might reduce the overall efficiency and productivity. 
+
+- Also, capability and quantity of available resources, both human and material, can affect the activity duration estimate. For example, if an activity will take four work days for an engineer to finish, and the engineer can work only four hours a day on this activity, it will take eight calendar days to finish.
+
+- Finish to Start. The initiation of the successor activity depends upon the completion of the predecessor activity—that is, the successor activity cannot be started until the predecessor activity has already been completed.
+
+- Finish to Finish. The completion of the successor activity depends upon the completion of the predecessor activity—that is, the successor activity cannot be completed until the predecessor activity has already been completed.
+
+- Start to Start. The initiation of the successor activity depends upon the initiation of the predecessor activity—that is, the successor activity cannot be initiated until the predecessor activity has already been initiated.
+
+- Start to Finish. The completion of the successor activity depends upon the initiation of the predecessor activity—that is, the successor activity cannot be completed until the predecessor activity has already been initiated.
+
+-  In general, PDM supports all four kinds of precedence relationships discussed earlier, but the most commonly used dependency relationship in PDM is finish-to-start. The start-to-finish relationship is rarely used.
+
+- The critical path is the longest path (sequence of activities) in a project schedule network diagram. Because it is the longest path, it determines the duration of the project, and hence the finish date of the project given the start date. 
+
+- The critical path is the longest path (sequence of activities) in a project schedule network diagram. Because it is the longest path, it determines the duration of the project, and hence the finish date of the project given the start date. 
+
+- The second important step of the critical path method is to identify the flexibility in the project schedule by calculating the early and late start and finish dates of each activity on each path. The schedule flexibility of an activity is measured by the positive difference between the late start date and the early start date for the activity; this is called float time or total float.
+
+- Each activity on a critical path has zero float time, and therefore poses a schedule risk. Therefore, you must monitor the activities on all critical paths very closely during the execution of the project.
+
+- Having measured the schedule variations from the schedule baseline, there are only two ways to put the project back on track: 1) align the project with the schedule baseline without updating the baseline; and 2) update the baseline.
+
+- Align the Project with Schedule Baseline Without Updating the Baseline. This can be done by using techniques already discussed while covering the schedule development process. The examples include resource optimization, schedule compression, lag and leads, and what-if scenario analysis.
+
+- Therefore, for the team to be successful, it has to be effective in both dimensions: its members must be competent in performing their individual assignments, and the interaction among them must be constructive overall. 
+
+- RACI chart because it assigns four roles to team members for various activities: responsible (R), accountable (A), consult (C), and inform (I). 
+
+- While negotiating with a functional manager, sometimes it’s important to understand the functional manager’s perspective in light of the politics of the organization and to be able to influence the manager in that context. For example, a functional manager will weigh the benefits (for example, visibility of your project compared to that of competing projects) in determining where to assign the best performers. In this case, it is to your advantage to explain the importance of your project and the activity for which you are requesting the best performer.
+
+- The single goal of team development is to maximize project performance. This is accomplished by introducing three elements: 1.Improve the competencies of team members. 2.Improve the interaction among team members. 3.Improve the overall team environment.
+
+- The resource management plan guides how to develop the project team by providing useful information on team development–related matters such as the following: 1. Feedback and training strategies 2. Using results of performance assessments 3. Disciplinary action 4. Recognition and rewards systems
+
+- A very important management technique is to establish clear expectations at the very beginning of a project. The expectations can be established by implementing a set of ground rules. Early commitment to these guidelines will increase cooperation and productivity by decreasing misunderstandings. Once the rules are clearly established, all team members are responsible for enforcing them. These ground rules are part of the team charter document.
+
+- Expectations. Many of the project team members might not already know you and your management style. You should take this opportunity to set expectations about how the team will function. For example, state that you expect all team members to attend the weekly status meetings. Remind the team to focus on the project goal, to do their part, and to look out for one another in a team spirit.
+
+- Remember that the main purpose of the kickoff meeting is to bring every team member onto the same page regarding the big picture of the project. Don’t get bogged down discussing every item in detail.
+
+- Influencing. Influencing means getting individuals or groups to do what you want them to do without necessarily having formal authority to mandate an outcome from them. It is quite important, as under many formal and informal organizational structures, project managers have no or very little practical authority. So, in that case, to get work done, your only option is to use influencing skills, such as collecting all information about the given issue or situation; understanding all different perspectives on it; listening actively and effectively; clearly explaining your points and perspective while demonstrating consideration and understanding for the other perspective; having the ability to pursue resolution; and reaching an agreement without damaging the ongoing working relationship.
+
+- motivation to do some task plus the ability to do that task is equal to performance. So, a lack of motivation means poor performance. In a project, motivation begins with you, the project manager. You must be motivated for the project and to motivate the project team members.
+
+- To lay the foundations of your project’s success, you must negotiate to acquire 1) the individuals with the right skills and capability of performing the project work effectively and efficiently; and 2) the best options of physical resources.
+
+- It is critical for the project’s success to develop and manage the group of individuals to be a high-performing team.
+
+- Estimating project costs means estimating the costs required to complete the project scope by executing activities. Therefore, you need the scope baseline to ensure all the needed information is accounted for when estimating costs. Recall that the scope baseline is constituted by the scope statement, WBS, and WBS dictionary. All these components of the scope baseline are useful in estimating the project costs. The scope statement will provide the cost-relevant information, such as project- and product-acceptance criteria, assumptions and constraints, product scope description, and project boundaries around the scope.
+
+- Determining the project budget is the process of aggregating the cost estimates for all project activities and assigning a timeline to it.
+
+- Contingency reserves are funds that can be used to deal with the unplanned events that can potentially transpire—e.g.; in case one or more identified risks occur—whereas management reserves are funds that can be used in the case of unplanned changes that are within the project scope but were missed during planning.
+
+- As you delve into EVM, remember there are only three variables or parameters that need to be monitored and developed closely: planned value (PV), earned value (EV), and actual cost (AC).
+
+- Example: Assume you are a project manager for the construction of a 16-mile road. Further assume that the work is uniformly distributed over 12 weeks. The total approved budget for this project is $600,000. At the end of the first four weeks of work, $125,000 has been spent, and four miles of road has been completed.
+
+- EV = BAC × (work completed / total work required) EV = $600,000 (4 miles/16 miles) = $150,000
+
+- Actual Cost (AC) or Actual Cost of Work Performed (ACWP) . This is the total cost actually incurred performing the work for a project until a specific point on the timeline. In our running example, $125,000 has already been used up to this point. 
+
+-  Cost Variance (CV) . This is a measure of cost performance in terms of the deviation of reality from the plan, and it is obtained by subtracting the actual cost (AC) from the earned value (EV)
+
+- CV = EV – AC // CV = $150,000 – $125,000 = $25,000
+
+- Planned Value (PV) or Budgeted Cost for the Work Scheduled (BCWS) . This is the authorized cost for the scheduled work on a project or a project activity up to a given point on the timeline.
+- PV = BAC × (time passed / total schedule time) // PV = $600,000 × (4 weeks / 12 weeks) = $200,000
+
+- Schedule Variance (SV) . This is the deviation of the performed schedule from the planned schedule in terms of cost. No confusion is allowed here because you already know that the schedule can be translated to cost. SV is calculated as the difference between EV and PV
+- SV = EV – PV // SV = $150,000 – $200,000 = – $50,000
+
+- Estimate to Complete (ETC) at Budgeted Rate . This is the prediction about the expected cost to complete the remaining work for the project or for a project activity. The future work is assumed to be completed at the budgeted rate. Therefore, the value of the ETC is obtained by subtracting the earned value (EV) from the budget at completion (BAC)
+- ETC = BAC – EV // ETC = $600,000 – $150,000 = $450,000
+
+- Estimate at Completion (EAC) at the Budgeted Rate . This is the estimate made at the current point in time for how much it will cost to complete the whole project or a project activity from beginning to end. It is assumed that the future work will be performed at the budgeted rate. Therefore, the value of the EAC is obtained by adding the value of ETC at budgeted rate to AC
+
+- EAC = AC + ETC (budgeted rate) // EAC = $125,000 + $450,000 = $575,000
+
+- The nutshell of running a project is delivering the scope according to some schedule, and it’s going to cost someone. Completing a project successfully includes delivering the planned scope according to the planned schedule and within the planned budget. The fundamental parameters for budget and schedule are cost and time, respectively: budget is the cost with a timeline, and schedule is determined from the time estimates for completing the schedule activities defining the scope. So scope, schedule, and cost are the heart of any project. These three project parameters also comprise a triple constraint that is a framework for evaluating competing demands. A triple constraint can be depicted as a triangle, with each side representing one of these three parameters
+
+- This means if one of these parameters changes, at least one of the other two must change as well
+
+- One of the key project management focuses on which project success depends is achieving stakeholder satisfaction by meeting their needs and expectations while remaining aligned with project objectives.
+
+-  project stakeholders are individuals and organizations whose interests are affected (positively or negatively) by the project’s execution and completion and/or who can influence or impact the project. In other words, a project stakeholder has something to gain from the project or something to lose to the project. Accordingly, stakeholders fall into two broad categories: positive stakeholders, who will normally benefit from the success of the project, and negative stakeholders, who see some kind of disadvantage coming from the project. 
+
+- Negative stakeholders are often overlooked by the project manager and the project team, which increases the project risk. Ignoring positive or negative project stakeholders will have a damaging impact on the project. Therefore, it’s important that you, as a project manager, start identifying the project stakeholders early on in the project. 
+
+
 * 기술에 대한 이해 + 상품에 대한 이해 + 개발 사이클에 대한 이해 
 * why + what + how
 

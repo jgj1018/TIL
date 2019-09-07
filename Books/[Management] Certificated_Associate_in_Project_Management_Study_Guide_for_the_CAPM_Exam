@@ -242,6 +242,28 @@
 
 - Project Charter. It is a high-level document that summarizes information about the project and its intended outcome. 
 
+- The project charter provides the interface between the project and the organization’s strategic objectives.
+
+- The Project Purpose and Justification. This includes the purpose of the project and high-level project justification, including business need for the project and return on investment.
+
+- High-level Project Description. This includes key deliverables and scope, i.e., boundaries around the project.
+
+- High-level Project Requirements. These are based on the needs of the customer, the sponsor, and other stakeholders.
+
+- Project Objectives and Success Criteria. This explains what exactly will be accomplished to meet the purpose—that is, what the outcome of the project will be. Each objective should be measurable and have a success criterion assigned to it.
+
+- High-level Risks. This is overall high-level project risk. The lower-level risks will be identified during project planning.
+
+- Milestone Schedule. The charter should include a high-level schedule, such as a milestone schedule.
+
+- A Budget Summary. A high-level summary of the project budget—that is, how much money is required and at what times during the project.
+
+- Project Manager. Assign a project manager with specified responsibility and authority level.
+
+- Project Sponsor. The name and authority level of the project sponsor authorizing the project charter.
+
+- Project Exit Criteria. This states the conditions that have to be met before closing or cancelling the entire project or project phase.
+
 - the project charter provides the project manager with the authority to use organizational resources to run the project. Remember that, formally speaking, project charters are prepared external to project management by an individual, a committee in the organization, or the PMO. In other words, project management starts where the project charter ends.
 
 - Once you have the project charter, you know the high-level product requirements that the project will satisfy. However, a high-level requirement written in a certain way might mean different things to different stakeholders. So, after you get the project charter, one of your next tasks will be to develop a common understanding of the project among the project stakeholders. You accomplish this by drawing or explaining boundaries around the project at a lower level—that is, what is included and what is not—thereby spelling out what exactly the deliverables are. By doing this, you are determining the scope of the project at the lower level.
@@ -591,7 +613,7 @@ Assumptions related to the activities or schedule planning, such as work hours p
 
 - Sometimes assigning additional resources might reduce the overall efficiency and productivity. For example, think of two engineers with different skill levels assigned to work on interrelated components of an activity.
 
-- Most of the activities have a threshold beyond which assigning additional resources does not help. For example,
+- Most of the activities have a threshold beyond which assigning additional resources does not help.
 
 - Resource Breakdown Structure, Resource Calendar, and Team Assignments . Resource Breakdown Structure (RBS ) is a hierarchical structure that displays the identified resources by category and type. The resource calendar, finalized (or modified) during the activity resource estimating, contains the type, quantity, availability, and capability of each resource, including the skills of a human resource, which must be considered during activity duration estimating. 
 
@@ -966,7 +988,7 @@ Assumptions related to the activities or schedule planning, such as work hours p
 
 - Estimate at Completion (EAC) at the Budgeted Rate . This is the estimate made at the current point in time for how much it will cost to complete the whole project or a project activity from beginning to end. It is assumed that the future work will be performed at the budgeted rate. Therefore, the value of the EAC is obtained by adding the value of ETC at budgeted rate to AC
 
-- EAC = AC+ ETC (budgeted rate) // EAC = $125,000 + $450,000 = $575,000
+- EAC = AC + ETC (budgeted rate) // EAC = $125,000 + $450,000 = $575,000
 
 ## Scope, Schedule, and Cost: The Triple Constraint
 
@@ -978,7 +1000,7 @@ Assumptions related to the activities or schedule planning, such as work hours p
 
 - While considering the cost-schedule-scope constraint, you should also remember techniques like resource leveling and smoothing, applying leads and lags, and schedule compression techniques, such as crashing and fast tracking
 
--  The triple constraint is also a good example of how one change can give rise to other changes across the project. This highlights the importance of managing and controlling changes.
+- The triple constraint is also a good example of how one change can give rise to other changes across the project. This highlights the importance of managing and controlling changes.
 
 - Changes to scope, schedule, and cost are controlled using the Control Scope, Control Schedule, and Control Cost processes, respectively. These three processes are at the center of the project action
 
