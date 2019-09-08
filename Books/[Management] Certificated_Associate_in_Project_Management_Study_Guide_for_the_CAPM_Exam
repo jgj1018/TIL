@@ -1055,3 +1055,19 @@ Assumptions related to the activities or schedule planning, such as work hours p
 - Identification. For example, name, location, organizational position, project role (if any), and contact information
 
 - Assessment. Requirements and expectations coming from this stakeholder, the part or phase of the project that is of most interest to this stakeholder, and assessment of potential influence and impact on the project
+
+# 10. Project Quality Management
+
+- Project work is incomplete without implementing quality, and an incomplete project is obviously a failed project. Quality refers to the degree to which a set of completed characteristics of project deliverables and objectives fulfills the project and product requirements. It is about delivering the complete and correct product in the right way. The “right way” refers to the project quality—according to planned schedule and cost. In other words, the core objective of quality management is to ensure that the project will satisfy the needs and requirements for which it was undertaken. 
+
+- Grade and Quality . Grade is a category assigned to products with the same overall functional use but differing technical characteristics and features, whereas quality is the degree to which the inherent characteristics of a product meet the requirements. A number of defects is an example of poor quality, whereas a limited number of features is an example of low grade.
+
+- Precision and Accuracy . Precision is the spread of different measurements of the same quantity, constant, or variable, such as gravity or cost. The smaller the spread of measured values the better the precision is. Accuracy is a measure of how close the measured values are to the true value of the quantity. The closer the measured value is to the actual (or true) value, the better the accuracy of the measurements is.
+
+- Prevention and Inspection . Prevention is a direction to perform an activity that will keep an error from entering the product and the process. Inspection is a technique to examine whether an activity, component, product, result, or service complies with the planned requirements. So, the goal of inspection is to ensure that errors do not reach the customer.
+
+- Continuous Improvement . Continuous improve­ment means to keep improving the quality through a process of planning for quality, implementing quality, auditing quality, and re-planning based on lessons learned or auditing. So, really, quality improvement is an endless cycle, called the plan-do-check-act cycle, as defined by Shewhart and modified by Deming. Performing organizations can also use techniques such as Six Sigma TQM to improve the quality.
+
+- Customer Satisfaction . Customer satisfaction can be a very vague notion that could mean different things to different parties. However, in project management and quality management, customer satisfaction means planned customer requirements are met. In order to achieve customer satisfaction in the real world, you need to understand, define, and evaluate customer expectations and also manage those expectations, in addition to meeting the planned requirements. Otherwise, you might meet the planned requirements, and the customer may still be dissatisfied. Bypassing the proper quality procedure will cost customer satisfaction and lead to more costs on rework.
+
+- Prevention over Inspection. One of the fundam­ental tenets of modern quality management is: plan, design, and build in quality as opposed to inspect in quality. The cost of preventing mistakes is much less than finding them through inspections and then fixing them. Therefore, the cost of quality (COQ) is less in prevention than through inspection. The COQ is defined as the total cost of quality-related efforts throughout the product lifecycle.

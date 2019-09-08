@@ -1,0 +1,2 @@
+- [성공적인 데이터 드리븐 마케팅을 위한 6가지 질문](http://magazine.ditoday.com/%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9D%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%93%9C%EB%A6%AC%EB%B8%90-%EB%A7%88%EC%BC%80%ED%8C%85%EC%9D%84-%EC%9C%84%ED%95%9C-6%EA%B0%80%EC%A7%80-%EC%A7%88%EB%AC%B8/)
+- [애드테크](https://terms.naver.com/entry.nhn?docId=3582200&cid=59088&categoryId=59096#TABLE_OF_CONTENT5)
