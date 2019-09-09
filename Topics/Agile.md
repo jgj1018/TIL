@@ -10,4 +10,4 @@
 - [How to reward individual performance in Agile teams](https://medium.com/unboxing-product-management/how-to-reward-individual-performance-in-agile-teams-21dd7bc1a4e2)
 - [LeSS Agile, More Productive — Part 1: Pain](https://medium.com/responsetap-engineering/less-agile-more-productive-part-1-bd9f354837f8)
 - [About that Scrum Master/Agile Project manager role…](https://medium.com/serious-scrum/about-that-scrum-master-agile-project-manager-role-8200a801f253)
-
+- [What the Scrum Guide Doesn’t Say](https://medium.com/serious-scrum/what-the-scrum-guide-doesnt-say-56ef9447b961)
