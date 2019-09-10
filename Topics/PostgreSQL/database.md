@@ -1,0 +1,2 @@
+- [LINE Manga 데이터베이스 샤딩 – 데이터베이스 엔지니어 편](https://engineering.linecorp.com/ko/blog/line-manga-database/)
+- [LINE Manga 데이터베이스 샤딩 – 서버 엔지니어 편](https://engineering.linecorp.com/ko/blog/line-manga-server-side/)
