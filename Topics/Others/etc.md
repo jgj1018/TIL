@@ -53,4 +53,5 @@
 - [Apache Kafka in Depth](https://medium.com/@sonusharma.mnnit/apache-kafka-in-depth-49aae1e844be)
 - [Database Optimisation on Cassandra](https://blog.gojekengineering.com/database-optimisation-on-cassandra-50d1fe635f6e)
 - [블록체인 한 번에 이해하기](https://homoefficio.github.io/2017/11/19/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%95%9C-%EB%B2%88%EC%97%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/)
--[데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024)
+- [데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024)
+- [Gradle の compile, api, implementation とかについて](https://qiita.com/opengl-8080/items/6ad642e0b016465891de)
