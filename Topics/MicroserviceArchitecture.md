@@ -20,3 +20,5 @@
 - [Centralized logging in Kubernetes](https://medium.com/@maanadev/centralized-logging-in-kubernetes-d5a21ae10c6e)
 - [Microservice Architecture at Medium](https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f)
 - [GraphQL Server Design @ Medium](https://medium.engineering/graphql-server-design-medium-34862677b4b8)
+- [도메인 주도 설계 개요](https://cyberx.tistory.com/57)
+- [Domain Driven Design - Modeling](https://bcho.tistory.com/360)

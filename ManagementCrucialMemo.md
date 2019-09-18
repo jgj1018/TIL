@@ -1,13 +1,9 @@
 
 - Project. A project is a work effort made over a finite period of time with a start and a finish to create a unique product, service, or result. 
 
-- Project Life Cycle. It is the full project duration from beginning to end, including all project stages: initiating, planning, executing, monitoring and controlling, and closing. If projects have multiple phases, all of these stages are repeated in each phase.
-
 - Operations are generally ongoing and repetitive. Although both projects and operations have objectives, a project ends when its objectives are met, whereas an operation continues contributing to objectives
 
 -  The central purpose of this stage is to align the project’s purpose with the business needs and the organization’s business strategy on one hand and with the stakeholders’ expectations on the other.
-
-- The approved scope plan, schedule plan, and cost plan are called the scope baseline, schedule baseline, and cost baseline, respectively. These three baselines together are called the project baseline or the performance measurement baseline (PMB). The project performance at any time is assessed by comparing the results from project execution against this performance measurement baseline (PMB). 
 
 - The processes in this group(EXECUTING THE PROJECT) are used to accomplish a three-pronged goal: Coordinate people and resources used to perform the project activities. Integrate and manage the project activities being performed. Ensure the implementation of the project scope and approved changes.
 
@@ -70,8 +66,6 @@
 - Start to Finish. The completion of the successor activity depends upon the initiation of the predecessor activity—that is, the successor activity cannot be completed until the predecessor activity has already been initiated.
 
 -  In general, PDM supports all four kinds of precedence relationships discussed earlier, but the most commonly used dependency relationship in PDM is finish-to-start. The start-to-finish relationship is rarely used.
-
-- The critical path is the longest path (sequence of activities) in a project schedule network diagram. Because it is the longest path, it determines the duration of the project, and hence the finish date of the project given the start date. 
 
 - The critical path is the longest path (sequence of activities) in a project schedule network diagram. Because it is the longest path, it determines the duration of the project, and hence the finish date of the project given the start date. 
 
