@@ -6,3 +6,4 @@
 - [Gradle을 이용한 jar 파일 업로드(publish)](https://blog.leocat.kr/notes/2018/11/01/nexus-publish-jar-artifact-with-gradle)
 - [Spring Batch - Reference Documentation](https://docs.spring.io/spring-batch/4.1.x/reference/html/index.html)
 - [스프링부트 애노테이션 정리, annotation 간단 요약 (자세한 내용은 검색해서 확인하고 용도 파악하기)](https://jeong-pro.tistory.com/151)
+- [JVM 동작원리 및 기본개념](https://steady-snail.tistory.com/67)
