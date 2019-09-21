@@ -6,3 +6,4 @@
 - [What Does a DevOps Engineer Do?](https://intellipaat.com/blog/what-does-a-devops-engineer-do/)
 - [DevOpsとSREの違いとは?](https://tech.bizreach.co.jp/posts/240/class_sre_implements_devops/)
 - [What is the difference between continuous integration and continuous deployment?](https://www.quora.com/What-is-the-difference-between-continuous-integration-and-continuous-deployment)
+- [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)

@@ -60,3 +60,23 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - 채널이 달라지고 디지털 마케팅으로 패러다임이 바뀌었지만 여전히 마케팅을 주도하는 것은 기술이 아니라 고객과의 지속적인 관계를 추구하는 기업의 의지이다. 기술은 목적이 아니라 도구이기 떄문이다. 
 
 - 분석된 데이터 자체는 중립적이다. (...) 데이터가 다루는 층위는 매우 다양하여 하나의 원리에서 자동적으로 결론이 도출될 수는 없다. (...) 결과를 해석할 수 있는 인간의 깊이 있는 통찰이 요구된다. 그러므로 복잡한 데이터 분석 결과를 의사 결정에 활용할 수 있도록 간결하게 시각화할 줄 알아야 하고, 나아가 각각의 데이터를 만들어 낸 개별 고객을 위한 마케팅 메시지를 어떤 형태로 개인화하여 디지털 채널에 재전송할 것인가 고민해야 한다. 
+
+#### Continuous Integration Versus Continuous Delivery Versus Continuous Deployment
+
+- Continuous here implies automation—automation in transforming source code into deliverables, in testing and validation, and even in installing and configuring software.
+
+- Continuous here also implies that a change can proceed, without human intervention, through the stages of builds, testing, packaging, and so on. Combined, these stages form a “pipeline” of processes and applications to take source code changes and turn them into a releasable product
+
+- In the continuous integration (CI) phase, individual changes from a developer are merged and tested. The goal of CI is to quickly validate individual code changes that have been submitted for inclusion in the code base. An intended consequence of this is quickly identifying any problems in the code and automatically notifying the developer of problems so that the code base is not broken any longer than necessary.
+
+- In the continuous delivery cycle, the isolated changes merged and validated during CI can be combined with the remaining product code. Then, the set is put through progressively more encompassing types of testing. The goal of continuous delivery is not necessarily to deploy the end result, but to prove that the end result is deployable. 
+
+- Continuous deployment is a process that can be added on at the end of the continuous delivery pipeline. The idea is that since the continuous delivery pipeline has proven the latest changes to be deployable, we should automate the deployment process and go ahead and deploy the result.
+
+
+#### https://www.martinfowler.com/articles/continuousIntegration.html
+
+- If a clash occurs between two developers, it is usually caught when the second developer to commit builds their updated working copy. If not the integration build should fail. Either way the error is detected rapidly. At this point the most important task is to fix it, and get the build working properly again. In a Continuous Integration environment you should never have a failed integration build stay failed for long. A good team should have many correct builds a day. Bad builds do occur from time to time, but should be quickly fixed.
+
+- The result of doing this is that there is a stable piece of software that works properly and contains few bugs. Everybody develops off that shared stable base and never gets so far away from that base that it takes very long to integrate back with it. Less time is spent trying to find bugs because they show up quickly.
+
