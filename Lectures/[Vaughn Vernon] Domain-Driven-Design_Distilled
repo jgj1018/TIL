@@ -1,0 +1,56 @@
+## 1 Good, Bad and Effective Design
+
+- Some use "The task-board shuffle"
+- Some economize with "No design", but there is no such thing as "No design".
+- There is only "Good" and "Bad" design
+- One of scrum's most important tenets: "Knowledge Acquisition"
+
+### Insidiout problems in Software Industry
+
+- Software development is considered a cost center, rather than a profit center
+- Developers trying to throw technology at business problems; chasing "shiny objects"
+- Database and data model given priority over business process and operations
+- Developers not placing proper emphasis on naming objects and operations with a business focus.
+- Poor collaboration betweenb stakeholders and developers: the "Specifications Divide"
+- Project estimates given too much attention and cause delays in productive development
+- "Task-board shuffle" and "No design" lead to developing a big ball of mud
+- Developers house business logic in the user interface and persistence code. This leads to slow queires and locking block database results.
+- Wrong model abstractions lead to wrong solutions that miss the concrete business needs.
+- Strong couping between services make systems difficult to maintain
+- Failed coupling between services leads to failed business operations and unreconciled data within the whole system
+
+### We model software, intentionally or not.
+
+- "Economy" of "No design" is a fallacy
+- It fools many into thinking that they can deliver quality software faster without thoughtful design.
+- The resulting software diverges from the business goals and is hard to maintain
+
+### Effective design is Best
+
+- Meet the needs of the business and distinguishes the business from its competition.
+- Forces the business to understand what it must excel at.
+- Helps developers create correct model
+
+
+## 2 Strategic Design with Bounded Contexts and the Ubiquitous Languages
+
+- You can think of a ubiquitous language as the model within a specific service, The service being bounded context.
+- Think of bounded context also as deviding nuances of meanings, or different words for the same thing.
+- A boundary context helps us to model what is in context. Semantically, what belongs in our bounded context according to our ubiquitous language.
+
+### Ubiquitous Compared to Human languages
+
+- German is spoken in Germany, French in Franch, and Italian in Italy.
+- When you cross a national border, the official language changes
+- The same is true for context boundaries and uniquitous languages
+- The bounded context makes the boundary where an official language is spoken.
+
+- The domain expert has a focus in a specific area of the business and they've been charged to carry a vision about the area of the business.
+- A vision will result in a software that will distinguish the organization from all others and give it competitive advantage..
+
+### 2.5 Developing a ubiquitous language
+
+- developing scenario : how specific objects or concepts within your domain model collaborate with other concepts within the domain model to accomplish a specific scenario goal.
+- We can use BDD (behavior-driven development) based on a developing scenario (Given-When-Then)
+
+

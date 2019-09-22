@@ -1,0 +1,9 @@
+### What is web service
+
+- software system designed to support interoperable machine-to-machine interaction over a network. (W3D definition)
+
+#### 3 keys
+
+- Designed for machine-to-machine (or application-to-application) interaction
+- Should be interoperable - Not platform dependent
+- Should allow communication over a network
