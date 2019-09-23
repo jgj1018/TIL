@@ -1,4 +1,4 @@
-## 1 Good, Bad and Effective Design
+## 1. Good, Bad and Effective Design
 
 - Some use "The task-board shuffle"
 - Some economize with "No design", but there is no such thing as "No design".
@@ -32,7 +32,7 @@
 - Helps developers create correct model
 
 
-## 2 Strategic Design with Bounded Contexts and the Ubiquitous Languages
+## 2. Strategic Design with Bounded Contexts and the Ubiquitous Languages
 
 - You can think of a ubiquitous language as the model within a specific service, The service being bounded context.
 - Think of bounded context also as deviding nuances of meanings, or different words for the same thing.
@@ -53,4 +53,53 @@
 - developing scenario : how specific objects or concepts within your domain model collaborate with other concepts within the domain model to accomplish a specific scenario goal.
 - We can use BDD (behavior-driven development) based on a developing scenario (Given-When-Then)
 
+
+## 3. Strategic Design with Subdomains
+
+- We always have multiple bounded contexts within a core domain project.
+- The most optimal modeling composition is when there is just one bounded context per subdomain.
+- A subdomain is a subportion of the business domain.
+
+### Sub-Part of your Business Domain
+
+- Whole business domain is too complex to reason about
+- Divide up whole business domain into logical Subdomains.
+- Only consider Subdomains used in your specific problem space.
+
+### Subdomains in a DDD setting
+
+- Domain expert participating
+- One clean bounded context as the core domain
+- Other supporting bounded contexts.
+
+### Core Domain
+
+- Where your organization is making strategic investment in software
+- Among highest priority projects
+- Addresses at what your organization must excel by means of software
+- How your organization will distinguish itself from all others.
+
+### Supporting Domain
+
+- Necessary to support a core domain
+- Requires custom development because an off-the-shelf product doesn't exist
+- However, this software doesn't deserve the investment the core domain gets
+- Consider outsourcing to avoid heavy investment
+
+### Generic subdomain
+
+- Necessary, but generic
+- Avoid investing heavily in this software.
+- May be possible to purchase as off-the-shelf product or be outsourced.
+- If developed in-house, don't assign developers with elite skills, such as with core domain team.
+
+## 4. Strategic Design with Context Mapping
+
+- Partnership : very heavy relationship. they have to coordinate, their deliveries together, they have to release at the same time, because they are supporting each other.
+- Shared kernal ; at least two team have a very similar software model. 
+- A customoer-supplier : it is where there is a definite upstream, downstream relationship between two teams. A change in upstream has impact on downstream.
+- Confomist : it is where there is a definite upstream, downstream relationship where team 1 has an upstream model that will directly impact and influence the downstream team 2 model slavishly consume the model of team 1 and conform to it.
+- Anti-corruption layer : it is where there are two teams with two separate models, but the downstream team does not want to be influenced by the upstream model unnecessarily. It's the opposite of the conformist pattern.
+
+- If you do have to integrate with a big ball of mud, try to use an anti-corruption layer between your downstream bounded context which is no doubt a clean core domain and the upstream big ball of mud. This will allow you to consume the big ball of mud
 
