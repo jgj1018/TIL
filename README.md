@@ -96,3 +96,7 @@ The links below are my favorite posts.
 - [MonolithFirst](https://martinfowler.com/bliki/MonolithFirst.html)
 - [Handling Distributed Transactions in the Microservice world](https://medium.com/@sohan_ganapathy/handling-transactions-in-the-microservice-world-c77b275813e0)
 - [About Pool Sizing](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)
+
+## 2019.09
+
+- [Domain-Driven Design Essence](http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf)

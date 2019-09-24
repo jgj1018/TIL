@@ -7,3 +7,4 @@
 - [DevOpsとSREの違いとは?](https://tech.bizreach.co.jp/posts/240/class_sre_implements_devops/)
 - [What is the difference between continuous integration and continuous deployment?](https://www.quora.com/What-is-the-difference-between-continuous-integration-and-continuous-deployment)
 - [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
+- [지속적인 통합이란](http://pds16.egloos.com/pds/201002/17/18/1.Continuous_Integration.pdf)

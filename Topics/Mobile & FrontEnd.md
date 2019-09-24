@@ -1,2 +1,4 @@
 - [What is a PWA and why should you care?](https://blog.bitsrc.io/what-is-a-pwa-and-why-should-you-care-388afb6c0bad)
 - [How to Design for the Web in 2019](https://medium.com/commitlog/how-to-design-for-the-web-in-2019-a0be4d6702e2)
+- [2019년에도 변하지 않을 UI / UX 트렌드 일곱가지](https://www.emotion.co.kr/2019에도변하지않을uiux트렌드일곱가지/)
+- [【UI/UXとは？】UIとUXの違いとデザインの改善案](https://digitalidentity.co.jp/blog/ad/uiux-design.html)
