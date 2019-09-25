@@ -198,3 +198,39 @@ P- lan to change your model; don’t get too attached as a breakthrough in knowl
 - A domain vision statement reveals a shared understanding of what is core to the success of a product. Use domain experts, project initiation documents, and business strategy presentations to help inform the domain vision statement.
 - Plan to change the model within the core domain as you learn more about the problem. Don’t get too attached to a solution—your core domain may change over time.
 - Not all of a system will be well designed. Focus effort on the core domain. For legacy BBoM systems define an anti-corruption boundary to avoid new code becoming tangled within the mess of old.
+
+# 4. Model-Driven Design
+
+- it is important to implement in code the analysis model that was produced during knowledge-crunching sessions; i.e., the model that the business understands. 
+
+- DDD acknowledges the need to produce a single model that serves as an analysis model for business people to understand and which is implemented using the same terminology and concepts in code.
+
+- This process is known as Model-Driven Design and is heavily dependent on Ubiquitous Language to tie the technical implementation of the model to the analysis model and keep them in sync throughout the lifetime of the system.
+
+## What Is a Domain Model?
+
+- The domain model, (...) is at the center of Domain-Driven Design (DDD). It is formed first as an analysis model through the collaboration between a development team and business experts during knowledge-crunching sessions. It represents a view, not the reality, of the problem domain designed only to meet the needs of business use cases. 
+
+-  Its usefulness comes from its ability to represent complex logic and polices in the domain to solve business use cases. The model contains only what is relevant to solve problems in the context of the application being created. It needs to constantly evolve with the business to keep itself useful and valid.
+
+- The domain represents the problem area you are working within. It is the firm reality of the situation. The domain model, on the other hand, is an abstraction of the problem domain, expressed as a code implementation that represents a view, not the reality, of the problem. 
+
+- The usefulness of the domain model comes in its ability to represent complex logic and polices in the domain to solve business problems and not how well it reflects reality.
+
+- The model is built from the collaboration between the development team and the business experts. The model contains only what is relevant to solve problems in the context of the application being created. It needs to constantly evolve with the business to keep itself useful and valid. The domain model only exists to help us solve problems; in order to be effective it needs to have clarity and be free of technical complexities. This way both the business and development teams can collaborate on its design.
+
+## Model-Driven Design
+
+- Model-Driven Design is the process of binding an analysis model to a code implementation model, ensuring that both stay in sync and are useful during evolution. 
+
+- Model-Driven Design differs from DDD in that it is focused on implementation and any constraints that may require changes to an initial model, whereas DDD focuses on language, collaboration, and domain knowledge.
+
+- The two complement each other; a Model-Driven Design approach enables domain knowledge and the shared language to be incorporated into a software model that mirrors the language and mental models of the business experts.
+
+- The important aspect of modeling together is the constant feedback the development team gets from the business experts.
+
+- the development team members may come across parts of the model that they thought were useful and could solve a problem but during implementation had to change. This knowledge is fed back to the business experts for clarification and to refine their own understanding of the problem domain. In this process, the code model and analysis model are one, and a change in one will result in a change to the other.
+
+## Using a Ubiquitous Language to Bind the Analysis to the Code Model
+
+- The true value of following the Domain-Driven Design (DDD) philosophy is in the collaboration of developers and domain experts to produce a better understanding of the domain.

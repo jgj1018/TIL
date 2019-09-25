@@ -267,3 +267,192 @@ Services in a microservice architecture are organized around business concerns�
 - Decompose by business capability, which has its origins in business architecture
 - Decompose by subdomain, based on concepts from domain-driven design
 - You can eliminate god classes, which cause tangled dependencies that prevent decomposition, by applying DDD and defining a separate domain model for each service.
+
+# Chapter 3. Interprocess communication in a microservice architecture
+
+- I favor an architecture consisting of loosely coupled services that communicate with one another using asynchronous messaging. Synchronous protocols such as REST are used mostly to communicate with other applications.
+
+## 3.1. OVERVIEW OF INTERPROCESS COMMUNICATION IN A MICROSERVICE ARCHITECTURE
+
+### 3.1.1. Interaction styles
+
+- Request/response— A service client makes a request to a service and waits for a response. The client expects the response to arrive in a timely fashion. It might event block while waiting. This is an interaction style that generally results in services being tightly coupled.
+- Asynchronous request/response— A service client sends a request to a service, which replies asynchronously. The client doesn’t block while waiting, because the service might not send the response for a long time.
+- One-way notifications— A service client sends a request to a service, but no reply is expected or sent.
+
+- The following are the different types of one-to-many interactions:
+- Publish/subscribe— A client publishes a notification message, which is consumed by zero or more interested services.
+- Publish/async responses— A client publishes a request message and then waits for a certain amount of time for responses from interested services.
+
+### 3.1.2. Defining APIs in a microservice architecture
+
+- APIs or interfaces are central to software development. An application is comprised of modules. Each module has an interface that defines the set of operations that module’s clients can invoke. A well-designed interface exposes useful functionality while hiding the implementation. It enables the implementation to change without impacting clients.
+
+- Regardless of which IPC mechanism you choose, it’s important to precisely define a service’s API using some kind of interface definition language (IDL) (...) Only after iterating on the API definition do you then implement the service. 
+
+- The nature of the API definition depends on which IPC mechanism you’re using
+
+- In a microservices-based application, changing a service’s API is a lot more difficult. A service’s clients are other services, which are often developed by other teams. The clients may even be other applications outside of the organization.
+
+### 3.1.3. Evolving APIs
+
+- MAJOR— When you make an incompatible change to the API
+- MINOR— When you make backward-compatible enhancements to the API
+- PATCH— When you make a backward-compatible bug fix
+
+### 3.1.4. Message formats
+
+- The first category is text-based formats such as JSON and XML. An advantage of these formats is that not only are they human readable, they’re self describing.
+
+## 3.2. COMMUNICATING USING THE SYNCHRONOUS REMOTE PROCEDURE INVOCATION PATTERN
+
+### 3.2.1. Using REST
+
+- A key concept in REST is a resource, which typically represents a single business object.
+
+-  a common problem when designing a REST API is how to enable the client to retrieve multiple related objects in a single request. 
+
+- One solution to this problem is for an API to allow the client to retrieve related resources when it gets a resource. 
+
+- it’s often insufficient for more complex scenarios. It’s also potentially time consuming to implement. This has led to the increasing popularity of alternative API technologies such as GraphQL
+
+- A downside of using a text-based messages format is that the messages tend to be verbose, (...) Another drawback is the overhead of parsing text, especially when messages are large.
+
+- It only supports the request/response style of communication.
+
+- Reduced availability. Because the client and service communicate directly without an intermediary to buffer messages, they must both be running for the duration of the exchange.
+
+- Clients must know the locations (URLs) of the service instances(s).
+
+- Fetching multiple resources in a single request is challenging.
+
+- It’s sometimes difficult to map multiple update operations to HTTP verbs.
+
+### 3.2.2. Using gRPC
+
+- As mentioned in the preceding section, one challenge with using REST is that because HTTP only provides a limited number of verbs, it’s not always straightforward to design a REST API that supports multiple update operations
+
+### 3.2.3. Handling partial failure using the Circuit breaker pattern
+
+- Network timeouts+ Using timeouts ensures that resources are never tied up indefinitely.
+
+- Limiting the number of outstanding requests from a client to a service— Impose an upper bound on the number of outstanding requests that a client can make to a particular service.
+
+- Circuit breaker pattern— Track the number of successful and failed requests, and if the error rate exceeds some threshold, trip the circuit breaker so that further attempts fail immediately. A large number of requests failing suggests that the service is unavailable and that sending more requests is pointless. After a timeout period, the client should try again, and, if successful, close the circuit breaker.
+
+-  If the Delivery Service is unavailable, the API gateway should return either a cached version of its data or omit it from the response. 
+
+### 3.2.4. Using service discovery
+
+- Service discovery is conceptually quite simple: its key component is a service registry, which is a database of the network locations of an application’s service instances.
+
+- The service discovery mechanism updates the service registry when service instances start and stop. When a client invokes a service, the service discovery mechanism queries the service registry to obtain a list of available service instances and routes the request to one of them.
+
+- One drawback of application-level service discovery is that you need a service discovery library for every language
+
+- Another drawback of application-level service discovery is that you’re responsible for setting up and managing the service registry, which is a distraction. As a result, it’s usually better to use a service discovery mechanism that’s provided by the deployment infrastructure.
+
+- The deployment platform gives each service a DNS name, a virtual IP (VIP) address, and a DNS name that resolves to the VIP address. A service client makes a request to the DNS name/VIP, and the deployment platform automatically routes the request to one of the available service instances.
+
+- service registration, service discovery, and request routing are entirely handled by the deployment platform.
+
+## 3.3. COMMUNICATING USING THE ASYNCHRONOUS MESSAGING PATTERN
+
+### 3.3.1. Overview of messaging
+
+- A publish-subscribe channel delivers each message to all of the attached consumers. Services use publish-subscribe channels for the one-to-many interaction styles described earlier. For example, an event message is usually sent over a publish-subscribe channel.
+
+### 3.3.2. Implementing the interaction styles using messaging
+
+- Messaging is inherently asynchronous, so only provides asynchronous request/response. But a client could block until a reply is received.
+
+-  the Delivery Service publishes Delivery events to a Delivery channel. A service that’s interested in a particular domain object’s events only has to subscribe to the appropriate channel.
+
+- A client publishes a message that specifies a reply channel header to a publish-subscribe channel. A consumer writes a reply message containing a correlation id to the reply channel. The client gathers the responses by using the correlation id to match the reply messages with the request.
+
+### 3.3.4. Using a message broker
+
+- The brokerless architecture has some benefits:
+- Allows lighter network traffic and better latency, because messages go directly from the sender to the receiver, instead of having to go from the sender to the message broker and from there to the receiver
+- Eliminates the possibility of the message broker being a performance bottleneck or a single point of failure
+- Features less operational complexity, because there is no message broker to set up and maintain
+
+- significant drawbacks:
+- Services need to know about each other’s locations and must therefore use one of the discovery mechanisms
+- It offers reduced availability, because both the sender and receiver of a message must be available while the message is being exchanged.
+- Implementing mechanisms, such as guaranteed delivery, is more challenging.
+
+- An important benefit of using a message broker is that the sender doesn’t need to know the network location of the consumer. Another benefit is that a message broker buffers messages until the consumer is able to process them.
+
+- Each broker makes different trade-offs. For example, a very low-latency broker might not preserve ordering, make no guarantees to deliver messages, and only store messages in memory. A messaging broker that guarantees delivery and reliably stores messages on disk will probably have higher latency
+
+-  many advantages to using broker-based messaging:
+- Loose coupling— A client makes a request by simply sending a message to the appropriate channel. The client is completely unaware of the service instances. It doesn’t need to use a discovery mechanism to determine the location of a service instance.
+- Message buffering— The message broker buffers messages until they can be processed. 
+
+-  some downsides to using messaging:
+- Potential performance bottleneck— There is a risk that the message broker could be a performance bottleneck. Fortunately, many modern message brokers are designed to be highly scalable.
+- Potential single point of failure— It’s essential that the message broker is highly available—otherwise, system reliability will be impacted. Fortunately, most modern brokers have been designed to be highly available.
+
+### 3.3.5. Competing receivers and message ordering
+
+- One challenge is how to scale out message receivers while preserving message ordering.
+- A common solution, used by modern message brokers like Apache Kafka and AWS Kinesis, is to use sharded (partitioned) channels.
+
+### 3.3.6. Handling duplicate messages
+
+- Another challenge you must tackle when using messaging is dealing with duplicate messages. A message broker should ideally deliver each message only once, but guaranteeing exactly-once messaging is usually too costly. Instead, most message brokers promise to deliver a message at least once.
+
+- Ideally, you should use a message broker that preserves ordering when redelivering messages. 
+
+- Another option is for a message handler to record message ids in an application table instead of a dedicated table. This approach is particularly useful when using a NoSQL database that has a limited transaction model
+
+- A simple solution is for a message consumer to track the messages that it has processed using the message id and discard any duplicates.
+
+### 3.3.7. Transactional messaging
+
+- A service often needs to publish messages as part of a transaction that updates the database. 
+
+- A straightforward way to reliably publish messages is to apply the Transactional outbox pattern. This pattern uses a database table as a temporary message queue. (...) a service that sends messages has an OUTBOX database table. 
+
+- The downside is that frequently polling the database can be expensive.
+
+- A sophisticated solution is for MessageRelay to tail the database transaction log (also called the commit log).
+
+- The Transaction Log Miner reads the transaction log entries. It converts each relevant log entry corresponding to an inserted message into a message and publishes that message to the message broker.
+
+- Debezium: An open source project that publishes database changes to the Apache Kafka message broker.
+
+- The challenge is that implementing it requires some development effort. Alternatively, you could use an open source framework such as Debezium that publishes changes made by an application to MySQL, Postgres, or MongoDB to Apache Kafka
+
+## 3.4. USING ASYNCHRONOUS MESSAGING TO IMPROVE AVAILABILITY
+
+### 3.4.1. Synchronous communication reduces availability
+
+- If you want to maximize availability, you must minimize the amount of synchronous communication.
+
+### 3.4.2. Eliminating synchronous interaction
+
+-  there are ways to handle synchronous requests without making synchronous requests.
+
+- Such an architecture would be extremely resilient, because the message broker buffers messages until they can be consumed. The problem, however, is that services often have an external API that uses a synchronous protocol such as REST, so it must respond to requests immediately.
+
+- One way to minimize synchronous requests during request processing is to replicate data. (...) Consumer Service and Restaurant Service publish events whenever their data changes. Order Service subscribes to those events and updates its replica.
+
+- Another way to eliminate synchronous communication during request processing is for a service to handle a request as follows:
+- Validate the request using only the data available locally.
+- Update its database, including inserting messages into the OUTBOX table.
+- Return a response to its client.
+
+- It creates the order and returns immediately before validating the order and authorizing the consumer’s credit card. Consequently, in order for the client to know whether the order was successfully created, either it must periodically poll or Order Service must send it a notification message. As complex as it sounds, in many situations this is the preferred approach—especially because it also addresses the distributed transaction management issues
+
+
+## SUMMARY
+
+- The microservice architecture is a distributed architecture, so interprocess communication plays a key role.
+- It’s essential to carefully manage the evolution of a service’s API. Backward-compatible changes are the easiest to make because they don’t impact clients. If you make a breaking change to a service’s API, it will typically need to support both the old and new versions until its clients have been upgraded.
+- There are numerous IPC technologies, each with different trade-offs. One key design decision is to choose either a synchronous remote procedure invocation pattern or the asynchronous Messaging pattern. Synchronous remote procedure invocation-based protocols, such as REST, are the easiest to use. But services should ideally communicate using asynchronous messaging in order to increase availability.
+- In order to prevent failures from cascading through a system, a service client that uses a synchronous protocol must be designed to handle partial failures, which are when the invoked service is either down or exhibiting high latency. In particular, it must use timeouts when making requests, limit the number of outstanding requests, and use the Circuit breaker pattern to avoid making calls to a failing service.
+- An architecture that uses synchronous protocols must include a service discovery mechanism in order for clients to determine the network location of a service instance. The simplest approach is to use the service discovery mechanism implemented by the deployment platform: the Server-side discovery and 3rd party registration patterns. But an alternative approach is to implement service discovery at the application level: the Client-side discovery and Self registration patterns. It’s more work, but it does handle the scenario where services are running on multiple deployment platforms.
+- A good way to design a messaging-based architecture is to use the messages and channels model, which abstracts the details of the underlying messaging system. You can then map that design to a specific messaging infrastructure, which is typically message broker–based.
+- One key challenge when using messaging is atomically updating the database and publishing a message. A good solution is to use the Transactional outbox pattern and first write the message to the database as part of the database transaction. A separate process then retrieves the message from the database using either the Polling publisher pattern or the Transaction log tailing pattern and publishes it to the message broker.
