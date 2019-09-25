@@ -136,3 +136,29 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - UBIQUITOUS LANGUAGE 상의 용어에 변경이 발생하면 곧 모델, 코드에 대한 변경으로 파급되어야 한다. 역으로 코드에 사용된 어떤 용어가 수정될 경우 변경 사항은 모델과 UBIQUITOUS LANGUAGE 로 파급되어야 한다.
 
 - 개발자들이 도메인에 대한 통찰을 얻기 위해 적용할 수 있는 체계적인 사고 방법이 존재한다. 무질서하게 뻗어 나가는 소프트웨어 애플리케이션에 질서를 부여할 수 있는 설계 기법 역시 존재한다. 이럮 기술을 연맀한다면 익숙하지 않은 도메인을 접하게 될 경우에도 더 가치 있는 개발자로 발전할 수 있게 될 것이다. (Eric Evans, Domain-Driven Design)
+
+#### Patterns, Principles and Practices of the Domain-Driven Design
+
+- Be wary of customers asking for enhancements to existing software, because they will often give you requirements that are based on the constraints of the current systems rather than what they really desire. 
+
+- You are the enabler. Don’t blindly follow the user’s requirements. Business users may not be able to write effective features or effectively express goals. You must share and understand the underlying vision and be aware of what the business is trying to achieve so you can create real business value.
+
+- Ask powerful questions and learn the intent of the business. Don’t simply implement a set of requirements but actively engage with the business; work with them, not for them.
+
+- Experiment in code to prove the usefulness of the model and to give feedback on the compromises that a model needs to make for technical reasons.
+
+- In order to understand the most valuable areas of a problem domain we need to distill it to reveal what is core. By breaking up the large problem domain we can more effectively resource the different areas to ensure the most talented developers are working in the areas of most importance to the business rather than the areas that may be more technically challenging or that utilize new frameworks of infrastructure.
+
+- DDD is all about reducing complexity; a single monothlic model would increase complexity. Instead you should break the problem domain down so that you are able to create smaller models in the solution space.
+
+- Try not to bring technical concerns into conversation when you are analyzing the problem space. Security is a technical concern unless your problem space is security.
+
+- The areas that distinguish your company’s unique product offering from a rival’s and define what gives it a competitive edge in the market are known as your core domains. 
+
+- Don’t waste time and effort on refactoring all of your code—ensure your primary focus is on the core domain. If you end up with working but “messy code” for supporting and generic domains then leave it alone.
+
+- Leaving small silos of BBoM is fine as long as they are within clearly defined boundaries. Perfection is an illusion. Perfection should be reserved for only what is core. The business doesn’t care about quality code for areas that are required but are not key to the system and which are unlikely to be invested in over time.
+
+- If you have areas of an application that resemble the BBoM pattern then the best thing to do is to put a boundary around them to prevent the mud spreading into new areas of the application
+
+- In an ideal world, quality software would always be top of your agenda; however, it’s important to be pragmatic. Sometimes a new system’s core domain could be first to market, or sometimes a business may not be able to tell if a particular idea will be successful and become core to its success. In this instance, the business wants to learn quickly and fail fast without putting in a lot of up-front effort.
