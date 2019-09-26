@@ -234,3 +234,207 @@ P- lan to change your model; don’t get too attached as a breakthrough in knowl
 ## Using a Ubiquitous Language to Bind the Analysis to the Code Model
 
 - The true value of following the Domain-Driven Design (DDD) philosophy is in the collaboration of developers and domain experts to produce a better understanding of the domain.
+
+- A UL enables teams to organize both the mental and the code model with ease.
+
+- The usefulness of creating a UL has an impact that goes beyond its application to the current product under development. It helps define explicitly what the business does, it reveals deeper insights into the process and logic of the business, and it improves business communication.
+
+## Collaborating on a Ubiquitous Language
+
+-  when creating a model of the problem domain and implementing it in code, you may need to create new concepts and terminology. The business may use jargon much in the same way that the IT community does, with some terms proving to be too generic. The development team and domain experts need to create new terms and explicitly define the meaning of existing terms to implement the model in code.
+
+- The team members must communicate with each other using the UL. The development team must use it in code, and the domain experts must use it when talking to the team
+
+
+- The following best practices can help to shape your UL.
+
+- Ensure that you have linguistic consistency. If you are using a term in code that the domain expert doesn’t say, you need to check it with her. It could be that you have found a concept that was required, so it needs to be added to the UL and understood by the domain expert. Alternatively, maybe you misunderstood something that the domain expert said; therefore, you should rectify the code with the correct term.
+- Create a glossary of domain terms with the domain expert to avoid confusion and to help make concepts explicit.
+- Ensure that you use one word for a specific concept. Don’t let the domain expert or developers have two words for something because this can lead to confusion, or there might be two concepts with different contexts.
+- Stay away from overloaded terms like policy, service, or manager. Be explicit even if it means being wordy.
+- Don’t use terms that have a specific meaning in software development, such as design pattern names, because developers may assume its implementation rather than behavior.
+- Naming is very important. Validate your code design by speaking to your business users about classes. Would a business user understand “Query sent to the cache with, users matched using regex to determine if they get discount”. Does your code and concepts make sense when you say them aloud? If not ask your domain expert on how they would name concepts.
+- Name exceptions in terms of the UL.
+- Don’t use the name of a design pattern within your domain model. What does a decorator mean to a business user? Would they understand the role of a factory? Perhaps your business already has the concept of an adapter; the Gang of Four design pattern could confuse them.
+- The UL should be visible everywhere, from namespaces to classes, and from properties to method names. Use the language to drive the design of your code.
+- As you gain a deeper understanding of the domain you are working in, your UL will evolve. Refactor your code to embrace the evolution by using more intention-revealing method names. If you find a grouping of complex logic starting to form, talk through what the code is doing with your domain expert and see if you can define a domain concept for it. If you find one, separate the logical grouping of code into a specification or policy class.
+
+## How to Create Effective Domain Models
+
+- Rich domain models are built to satisfy complex problems, the best way to create effective domain models is to firstly focus on areas of the application that are important to the business. Ignore the parts of a system that simply manage data and where most of the operations are CRUD based. Instead look for the hard parts, the areas in the core domain that the business cares passionately about and often the parts that are key to making or saving money.
+
+- A common misunderstanding is that a domain model should match reality; in fact, you should not look to model real life at all but rather model useful abstractions within the problem domain.
+
+- A domain model is not a model of real life; it is a system of abstractions on reality, an interpretation that only includes aspects of the problem domain that are prevalent to solving specific business use cases. A domain model should exclude any irrelevant details of a domain that do not serve to solve problems. 
+
+- Having a useful model that is rich in the UL is the key to meeting business objectives in the problem domain. Creating a useful domain model is hard and takes lots of exploration, experimentation, collaboration, and learning.
+
+- The domain model exists for one reason: to serve the application under development.
+
+- Remember that you are producing a model to fulfill the needs of a business use case (or set of business use cases), not trying to model real life.
+
+- Remove any behavior that is no longer relevant to avoid noise.
+
+-  It is really important to limit abstractions in your code base and only create them for concepts in your domain that have variations. Don’t seek to abstract every domain concern.
+
+- Remember it is always better to be explicit rather than hiding an important domain concept behind layers of needless abstraction.
+
+## Focus Your Code at the Right Level of Abstraction
+
+- An effective domain model should express the intent of the business use case by aiming code at the right level of abstraction.
+
+- At a low level we should avoid abstraction and instead favor composition of behavior from explicit concrete objects. Abstraction creates a dependency between classes and more dependencies equate to higher code coupling.
+
+- When they do and you find variations of the concept then you can introduce abstractions in the form of interfaces or abstract classes.
+
+- Technical implementations will reveal any problems with the design and will help cement your understanding of a problem domain.
+
+- If you don’t get it right the first time, refactor to a better solution. Constantly refactor to your understanding of the problem domain to produce a more express model. Models will change with more knowledge.
+
+## When to Apply Model-Driven Design
+
+- Simple problems don’t require complex solutions. You don’t need to create a UL for your entire application. Focus your efforts with domain experts on the complex or important core domain.
+
+- Always challenge yourself and ask the questions, “Am I working within the core subdomain? Does this problem require a rich domain? Does the business care about this area of the application? Will it make a difference? Is it important to the business and do they have high expectations of it or do they just want it to work?”
+
+- Try not to create a rich language for your entire domain because many of your supporting and generic domains do not require one and are a waste of effort. Focus your efforts on what gives you value. Try not to create a UL for everything. Areas and subdomains that are not complex will not benefit from a UL, so don’t spread yourself too thin. A core domain is small; focus on it. Creating a UL is costly.
+
+## The Salient Points
+
+- The domain is the reality of the problem. The domain model is a set of abstractions based on a projection of the domain designed to handle specific business use cases.
+- A model is represented as an analysis model and a code model. They are one and the same.
+- A domain model exists as an analysis model and a code model. A Model-Driven Design binds the analysis model and a code model through the use of the shared language.
+- An analysis model is only useful if it stays in synergy with the code model.
+- If you are shaping the analysis or code models, you have to be hands-on and contribute to code. There is a place for architects, but they must be coders as well.
+- Code is the primary form of expression of the model and needs to be bound using the ubiquitous language.
+- The process of developing a UL is the most important of Domain-Driven Design (DDD) because it enables communication and learning.
+- Domain jargon must be explicitly defined to ensure accuracy in meaning because the terminology used in communication is baked into the code implementation.
+- Implicit ideas in the domain that the team needs to understand are made explicit and given names that form the shared ubiquitous language.
+- Domains are full of specialist terms and language that describe complex concepts in a clean, concise manner.
+- Feature stories and scenarios can help you understand the behavior of a system, but a domain expert will help you build a model that can support the specified behavior.
+- The ubiquitous language should be used in tests, namespaces, class names, and methods.
+- It’s important to care about the conversation; a ubiquitous language is about collaboration and not the development team just adopting the language of the business.
+- Use domain scenarios to prove the usefulness of the model and to validate the team’s understanding of the domain.
+- Only apply Model-Driven Design and create a UL for a core domain that will make a difference. Don’t apply these practices to the entire application.
+
+# 5. Domain Model Implementation Patterns
+
+## The Domain Layer
+
+- The domain layer, at the heart of your application, is the area of code that contains your domain model. It isolates the complexities of the domain model from the accidental technical complexities of the application. It is responsible for ensuring that infrastructure concerns, such as managing transactions and persisting state, don’t bleed into the business concerns and blur the rules that exist in the domain. In most cases, the domain layer makes up only a small part of your application
+
+- By not thinking about persistence needs, you can build an expressive model purely focused on the domain problem at hand. Of course you will need to persist it and may need to compromise, but you should not think about this when modelling. This keeps the domain model free of infrastructural code and focused only on domain logic.
+
+- The domain model pattern is no silver bullet as it can be costly to implement. It’s the most technically challenging and requires developers with a good grasp of object-oriented programming.
+
+- What you should not do is try to apply the domain model pattern for everything. 
+
+- If the portion of the application you are working on does not have frequently changing logic and is merely a form of data, it is best not to try to apply the domain model pattern.
+
+- The transaction script pattern follows a procedural style of development rather than an object-oriented approach.
+
+- Transaction script is a simple procedural pattern that is useful for the parts of your domain that have little or no logic
+
+- The problems with the transaction script pattern are revealed when an application grows and the business logic complexities increase. 
+
+- The table module pattern maps the object model to the database model. A single object represents a table or view in the database. The object is responsible for all persistence needs along with business logic behavior.
+
+- for simpler parts of the domain that are isolated by a bounded context and that are simply forms over data, this pattern is a good fit and easier to come to grips with than the domain model pattern. 
+
+- Active record is a variation of the table module pattern that maps objects to rows of a table as opposed to having objects represent the tables themselves.
+
+- The active record pattern is a popular pattern that is especially effective when your underlying database model matches your business model. 
+
+- In the active record pattern, each business object is responsible for its own persistence and related business logic.
+
+## The Salient Points
+
+- The domain layer contains the model of the domain and is isolated from infrastructure and presentation concerns.
+- The domain model can be implemented with multiple domain logic patterns.
+- There may be more than one model at play on a large project and therefore more than a single pattern to represent domain logic.
+- As long as the pattern isolates code representing domain logic from technical code then it is a good fit for DDD.
+- The domain model pattern is a good fit for a complex problem domain. Concepts in the domain are encapsulated as objects containing both data and behavior.
+- The transaction script pattern organizes all domain logic to fulfill a business transaction or use case in a procedural module.
+- The table module pattern represents your data model in object form. The Table Module is useful for data-driven models that closely reflect the underlying data schema.
+- The active record pattern is like the table module pattern in that it is data-driven but it represents rows in tables as opposed to the tables themselves. It’s a good fit for low complexity logic but high CRUD-based models.
+- An anemic model is similar to the domain model pattern; however, the model is devoid of any behavior. It is purely a model of the state of an object all behavior resides in service classes that modify.
+- Functional programming is an equally valid approach to building domain models.
+- When using functional programming, behaviors can be grouped into aggregates (that represent domain concepts) and applied to pure, immutable data structures (that also represent domain concepts).
+
+# 6. Maintaining the Integrity of Domain Models with Bounded Contexts
+
+- with each implementation using an appropriate code design pattern suitable for the complexity of the problem. Ideally you will have a model for each subdomain; however, this might not always be the case as some complex subdomains could contain more than a single model and some models could span two or more subdomains. No matter how many models you have you will find that they will need to interact to fulfill the behaviors of a system. 
+
+- it is vital to protect the integrity of each model and clearly define the boundaries of their responsibility in code. This is achieved by binding a model to a specific context, known as a bounded context.
+
+## The Challenges of a Single Model
+
+- One of the epiphanies that DDD practitioners have is the realization that some concepts in a system are very similar—they might even have the same name. Yet actually, they mean very different things to different parts of the business. 
+
+- When a physical entity, such as a product, actually represents multiple domain concepts, it is often modeled as a single concept by developers. Unfortunately, it’s very easy to fall into the trap of thinking that because a product can be a physical item that it should be modeled as a single class in code. This leads to coupling, as each model shares the same product class
+
+- when multiple contexts are coupled, code can become excessively complex and the collaboration overhead between teams can become excessively costly. The shared class, in this example product, also violates the Single Responsibility Principle (SRP), since there are four contexts that all want it to change for completely different reasons.
+
+- A better solution that reduces the coupling would be for each context—Promotion, Allocation, Loyalty, and Shipping—to have its own model. Each model would then contain a unique representation of a product that only satisfies the needs of the model’s context.
+
+- Another reason to prefer smaller models is that integrating with legacy code or third parties can be less problematic.
+
+- Having a single model of the entire system is useful in some scenarios, including business information (BI) and reporting.
+
+## Use Bounded Contexts to Divide and Conquer a Large Model
+
+- A bounded context defines the applicability of a model. It gives clarity on what a model is used for, where it should be consistent, and what it should ignore. 
+
+- Each model has a context implicitly defined within a subdomain. 
+
+- The context defines the scope of the model, limiting the boundaries of the problem space, enabling the team to focus without distractions.
+
+- The bounded context enforces communication in such a manner as to not lessen the purity of the model.
+
+- A bounded context is first and foremost a linguistic boundary. When talking with domain experts, if you feel a sentence requires a context, this is a big hint that you need to isolate that model within a bounded context.
+
+- Treat bounded contexts like the borders of a country. Nothing should pass into the bounded context unless it goes through the border control and is valid. Just like countries where people speak a different language, so does the code within your bounded context. 
+
+- One of the most important parts of DDD is the protection of boundaries. A model is defined in a context. This should be followed through to the implementation in the code; otherwise, you will find yourself in a BBoM. 
+
+-  It is important when developing the application that you isolate models within bounded contexts to avoid the blurring of responsibilities that can lead to code that resembles a BBoM.
+
+- Business capabilities are often easy to discern but can be misleading. For example, if a business has a Sales department and a Customer Service department, there is very likely to be a sales and customer bounded context. But that’s not always true, so it’s important not to blindly model business capabilities.
+
+- No absolute or relative value can tell you how many classes or lines of code you need. A bounded context’s size is dependent mostly on aspects of the problem domain. 
+
+- context boundaries can be influenced by the following:
+
+- Ambiguity in terminology and concepts of the domain
+- Alignment to subdomains and business capabilities
+- Team organization and physical location
+- Legacy code base
+- Third party integration
+
+- multiple models will be at play in your domain. You need to enforce linguistic boundaries to protect the validity of a domain term. Therefore, linguistic boundaries are bounded context boundaries. 
+
+- An organization is an ecosystem of interdependent services, each with its own vocabulary. Hence business capabilities are often strong indicators of linguistic boundaries. 
+
+- What actually is a business capability? A business capability is a grouping of people in an organization that collaborate on business processes made up of lower-level capabilities.
+
+- The main rationale for aligning teams with bounded contexts is that independence allows teams to both move faster and make better decisions. 
+
+- communication between teams is sometimes a good thing, so don’t completely avoid it; just limit it to when it’s useful. One example of useful cross-team communication is knowledge and skill sharing.
+
+- Unlike a subdomain, a bounded context is a concrete technical implementation that enforces boundaries between models within an application. Bounded contexts exist in the solution space and are represented as explicit domain models in a context.
+
+## The Salient Points
+
+- Trying to use a single model for a complex problem domain will often cause code to result in a Big Ball of Mud.
+- A monolithic model increases collaboration overhead amongst teams and reduces their efficiency at delivering business value.
+- For each model at play within an application, you must explicitly define its context and communicate it to other teams.
+- A bounded context is a linguistic boundary. It isolates models to remove ambiguity within UL.
+- A bounded context protects the integrity of the domain model.
+- Identifying and creating bounded contexts is one of the most important aspects of Domain-Driven Design.
+- There are no rules for defining the boundaries of a model and therefore bounded contexts. Instead you should base bounded contexts around linguistic boundaries, team organization, subdomains and physical deployments.
+- Subdomains are used in the problem space to partition the problem domain. Bounded contexts are used to define the applicability of a model in the solution space.
+- A single team should own a bounded context.
+- Architectural patterns apply at the bounded context level, not at the application level. If you don’t have complex logic in a bounded context, use a simple create, read, update, and delete (CRUD) architecture.
+- Speak a ubiquitous language within an explicitly bounded context.
+- A bounded context should be autonomous—owning the entire code stack from presentation through domain logic and onto the database and schema.
+

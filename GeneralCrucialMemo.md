@@ -168,3 +168,19 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - Model-Driven Design differs from DDD in that it is focused on implementation and any constraints that may require changes to an initial model, whereas DDD focuses on language, collaboration, and domain knowledge.
 
 - The true value of following the Domain-Driven Design (DDD) philosophy is in the collaboration of developers and domain experts to produce a better understanding of the domain
+
+- The usefulness of creating a UL has an impact that goes beyond its application to the current product under development. It helps define explicitly what the business does, it reveals deeper insights into the process and logic of the business, and it improves business communication.
+
+- A common misunderstanding is that a domain model should match reality; in fact, you should not look to model real life at all but rather model useful abstractions within the problem domain.
+
+- At a low level we should avoid abstraction and instead favor composition of behavior from explicit concrete objects. Abstraction creates a dependency between classes and more dependencies equate to higher code coupling.
+
+- Always challenge yourself and ask the questions, “Am I working within the core subdomain? Does this problem require a rich domain? Does the business care about this area of the application? Will it make a difference? Is it important to the business and do they have high expectations of it or do they just want it to work?”
+
+- Try not to create a rich language for your entire domain because many of your supporting and generic domains do not require one and are a waste of effort. Focus your efforts on what gives you value. Try not to create a UL for everything. Areas and subdomains that are not complex will not benefit from a UL, so don’t spread yourself too thin. A core domain is small; focus on it. Creating a UL is costly.
+
+- Treat bounded contexts like the borders of a country. Nothing should pass into the bounded context unless it goes through the border control and is valid. Just like countries where people speak a different language, so does the code within your bounded context. 
+
+- One of the most important parts of DDD is the protection of boundaries. A model is defined in a context. This should be followed through to the implementation in the code; otherwise, you will find yourself in a BBoM. 
+
+- communication between teams is sometimes a good thing, so don’t completely avoid it; just limit it to when it’s useful. One example of useful cross-team communication is knowledge and skill sharing.
