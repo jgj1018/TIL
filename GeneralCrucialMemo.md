@@ -91,12 +91,13 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 
 #### Robert L. Glass, 소프트웨어 공학의 사실과 오해
 
-- 바로 여기에 문제가 있다. 만약 설계자가 코더보다 높은 수준의 기본단위를 사용한다면, 결과로 나오는 설계는 코더가 작업을 시작하는데 부적절할 것이다. 따라서 코더는 코딩을 하기 전에 적절한 수준의 설계를 추가하기 위해 시간을 소모해야 할 것이다. 이런 경우 코더는 설계자가 기대한 완전한 설계 솔루션과는 다르게 작업할 수 있으므로, 설계에서 코딩으로의 전환은 최상의 경우라도 불편할 테고, 보통은 많은 문제를 야기할 것이다.
-반대의 경우도 동일한 문제가 발생한다. 만약 설계자의 경험이 부족하다면 설계자는 매우 상세한 수준의 설계를 만들 것이다. 그러나 이 설계자보다 경험이 많은 코더는 지나치게 상세한 수준의 설계를 받아들이지 않고 자신의 설계 아이디어로 대체할 것이다. 이는 설계자가 코더보다 똑똑하거나 숙련된 사람이어야 하는가에 대한 문제가 아니라, 그들이 같은 경험과 기본 단위를 가지고 있는가에 대한 문제이다.
+- 바로 여기에 문제가 있다. 만약 설계자가 코더보다 높은 수준의 기본단위를 사용한다면, 결과로 나오는 설계는 코더가 작업을 시작하는데 부적절할 것이다. 따라서 코더는 코딩을 하기 전에 적절한 수준의 설계를 추가하기 위해 시간을 소모해야 할 것이다. 이런 경우 코더는 설계자가 기대한 완전한 설계 솔루션과는 다르게 작업할 수 있으므로, 설계에서 코딩으로의 전환은 최상의 경우라도 불편할 테고, 보통은 많은 문제를 야기할 것이다. 반대의 경우도 동일한 문제가 발생한다. 만약 설계자의 경험이 부족하다면 설계자는 매우 상세한 수준의 설계를 만들 것이다. 그러나 이 설계자보다 경험이 많은 코더는 지나치게 상세한 수준의 설계를 받아들이지 않고 자신의 설계 아이디어로 대체할 것이다. 이는 설계자가 코더보다 똑똑하거나 숙련된 사람이어야 하는가에 대한 문제가 아니라, 그들이 같은 경험과 기본 단위를 가지고 있는가에 대한 문제이다.
 
 #### Pete McBreen, 소프트웨어 장인 정신
+
 - 작업이 더 작은 단계로 세분화될수록, 한 사람에서 또 다른 사람으로 정보를 전달하는 데에 더 많은 시간이 걸린다. 생산라인 접근 방식은 수작업 노동에는 잘 맞을 수 있다. 그러나 지적인 작업에는 형편없이 실패한다.
-소프트웨어 개발은 팀원들의 머리에서 일어난다. 사람들을 특정 활동에 전문화시킴으로써 간단한 프로젝트의 딜리버리도 여러 경로를 통해야 한다. 각 경로는 실수와 결함에의 잠재성을 갖고 있는 값비싼 과정이다.
+
+- 소프트웨어 개발은 팀원들의 머리에서 일어난다. 사람들을 특정 활동에 전문화시킴으로써 간단한 프로젝트의 딜리버리도 여러 경로를 통해야 한다. 각 경로는 실수와 결함에의 잠재성을 갖고 있는 값비싼 과정이다.
 
 #### Robert L. Glass 소프트웨어 컨플릭트 2.0
 
@@ -108,10 +109,9 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 
 - 만약 설계 모델의 일부가 적용 기술 내에서 구현 불가능하다면 설계 모델을 변경해야 한다. 프로그래밍 과정 동안 설계의 실현 가능성과 정확성이 검증되고 테스트되며 그 결과 잘못된 설계가 수정되거나 새로운 설계로 대체된다. 따라서 프로그래밍은 설계의 한 과정이며 설계는 프로그래밍을 통해 개선된다.
 
-- 애자일의 권고는 „설계하지 말라‟가 아니라 „언제나 설계하라‟다. 피드백 주기가 길어지는 사전 설계 Big Up-front Design 대싞 피드백 주기가 짧은 TDDTest-Driven Development 를
-적용하라. 그리고 리팩토링 Refactoring 을 통해 설계와 코드를 지속적으로 개선함으로써 코드를 항상 최상의 상태로 유지하라. 점진적인 설계 사이클을 도입함으로써 설계와 구현을 독립적인 활동이 아닊 상호 영향을 주고 받는 유기적인 절차로 바라볼 수 있게 되었다. 따라서 경험을 기반으로 한 지속적인 리팩토링을 통해 최적의 소프트웨어의 설계를 얻을 수 있다
+- 애자일의 권고는 „설계하지 말라‟가 아니라 „언제나 설계하라‟다. 피드백 주기가 길어지는 사전 설계 Big Up-front Design 대신 피드백 주기가 짧은 TDDTest-Driven Development 를 적용하라. 그리고 리팩토링 Refactoring 을 통해 설계와 코드를 지속적으로 개선함으로써 코드를 항상 최상의 상태로 유지하라. 점진적인 설계 사이클을 도입함으로써 설계와 구현을 독립적인 활동이 아닌 상호 영향을 주고 받는 유기적인 절차로 바라볼 수 있게 되었다. 따라서 경험을 기반으로 한 지속적인 리팩토링을 통해 최적의 소프트웨어의 설계를 얻을 수 있다
 
-- 구현하기 전 설계하기의 대안은 구현한 후 설계 하기다. 어느 정도의 초기 설계가 필요하긴 하지만, 최초 구현을 시작할 수 있는 정도만 설계하면 된다. 그 이상의 설계는 구현이 자리를 잡고 설계의 진짜 제약들이 불명하게 보일 때 하도록 한다. „아무것도 설계하지 말라‟와 정반대로, XP 의 전략은 „언제나 설계하라‟다. (Kent Beck, 익스트림 프로그래밍 2nd Edition)
+- 구현하기 전 설계하기의 대안은 구현한 후 설계 하기다. 어느 정도의 초기 설계가 필요하긴 하지만, 최초 구현을 시작할 수 있는 정도만 설계하면 된다. 그 이상의 설계는 구현이 자리를 잡고 설계의 진짜 제약들이 불명하게 보일 때 하도록 한다. "아무것도 설계하지 말라"와 정반대로, XP 의 전략은 "언제나 설계하라"다. (Kent Beck, 익스트림 프로그래밍 2nd Edition)
 
 - 사실과 완전히 동일한 모델을 만드는 것은 바람직하지 않다. 모델은 현실이라는 기반 위에 해결하고자 하는 문제에 적합한 새로운 추상화 계층을 창조하는 과정이다.
 
@@ -121,11 +121,11 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 
 - 모델과 핵심 설계는 상호 영향을 주고 받으며 구체화된다. : 모델과 구현 간의 긴밀한 연결과 피드백을 통해 모델이 의미를 가지도록 하고 최종 산출물인 동작하는 프로그램이 사용자의 요구사항을 만족시킬 수 있도록 보장한다. 모델과 구현을 연결 시키는 것은 분석/설계/구현을 동일한 사이클로 묶음으로써 달성된다. 애자일의 언제나 설계하기 사상, 즉 리팩토링을 통한 점진적인 설계는 모델과 구현의 불일치를 예방하기 위한 프로세스적인 장치다. 모델과 구현이 일치하기 위해서는 모델과 코드의 표현적 차이가 적어야 한다. 코드가 인프라스트럭처에 대해 강하게 의존할 경우 모델과 코드 간의 표현적 차이가 커진다. POJO 기반의 경량 프레임워크 기술이 인프라스트럭처의 늪에서 코드를 구원한다. 모델을 기반으로 분석/설계/구현을 통합하고 피드백을 통해 개선시키는 과정을 MODEL-DRIVEN DESIGN 이라고 한다.
 - 모델은 모든 팀 구성원들이 사용하는 언어의 근간을 이룬다. : 모델은 소프트웨어 지식의 집합체이며 정보 흐름의 통로다. 이해관계자들 간의 의사소통에 사용되는 언어에 변화가 생기면 모델의 용어가 변경되고, 모델의 용어가 변경되면 코드가 수정된다. 반대로 코드가 변경될 경우 모델과 의사소통에 사용되는 용어가 변경된다. 모델은 이해관계자들의 공통 언어인 UBIQUITOUS LANGUAGE 를 구성하는 기반이다.
-- 모델은 불순물을 걸러낸 핵심 지식만을 포함한다. : 효과적인 도메인 모델은 끊임없는 지식 탐구 활동과 개선을 통해 얻어진다. 수많은 모델을 시도하고, 버리고, 변형한 끝에 도메인의 모든 세부 사항에 적절한 일련의 추상적 개념들을 발겫함으로써 적절한 도메인 모델을 얻게 된다. 지식 탐구 활동은 개발자와 도메인 전문가 간의 긴밀한 협력이 전제되어야 한다. UBIQUITOUS LANGUAGE 가 빛을 발휘하는 때다. 지식 탐구 활동은 끊임없이 모델과 코드를 개선하는 정제 과정이다. 모델과 코드를 긴밀히 연결함으로써 새로운 통찰이 모델과 코드에 반영되도록 할 수 있다. MODEL-DRIVEN DESIGN 이 우리를 정제의 길로 인도한다. 끊임없는 정제가 가능하기 위해서는 소스 코드를 항상 깨끗하고 안정적인 상태로 유지해야 한다. 애자일의 언제나 설계하기 사상과 불석/설계/구현 사이클의 통합, 리팩토링을 통한 점진적인 설계 방식은 이를 가능하게 한다.
+- 모델은 불순물을 걸러낸 핵심 지식만을 포함한다. : 효과적인 도메인 모델은 끊임없는 지식 탐구 활동과 개선을 통해 얻어진다. 수많은 모델을 시도하고, 버리고, 변형한 끝에 도메인의 모든 세부 사항에 적절한 일련의 추상적 개념들을 발견함으로써 적절한 도메인 모델을 얻게 된다. 지식 탐구 활동은 개발자와 도메인 전문가 간의 긴밀한 협력이 전제되어야 한다. UBIQUITOUS LANGUAGE 가 빛을 발휘하는 때다. 지식 탐구 활동은 끊임없이 모델과 코드를 개선하는 정제 과정이다. 모델과 코드를 긴밀히 연결함으로써 새로운 통찰이 모델과 코드에 반영되도록 할 수 있다. MODEL-DRIVEN DESIGN 이 우리를 정제의 길로 인도한다. 끊임없는 정제가 가능하기 위해서는 소스 코드를 항상 깨끗하고 안정적인 상태로 유지해야 한다. 애자일의 언제나 설계하기 사상과 불석/설계/구현 사이클의 통합, 리팩토링을 통한 점진적인 설계 방식은 이를 가능하게 한다.
 
-- 모델과 코드의 개념적 거리가 멀어지면 멀어질수록 소프트웨어는 도메인과 멀어지고, 도메인 전문가와 개발자는 서로 간의 개념을 일치시키기 위해 번역 과정을 거쳐야 하므로 의사소통이 어려워지고 유지보수가 어려운 코드를 얻게 된다. 모델을 기반으로 코드를 작성하되 모델과 코드를 동기화하기 위해 모든 노력을 쏟아라.
+- <span style="color:red">모델과 코드의 개념적 거리가 멀어지면 멀어질수록 소프트웨어는 도메인과 멀어지고, 도메인 전문가와 개발자는 서로 간의 개념을 일치시키기 위해 번역 과정을 거쳐야 하므로 의사소통이 어려워지고 유지보수가 어려운 코드를 얻게 된다. 모델을 기반으로 코드를 작성하되 모델과 코드를 동기화하기 위해 모든 노력을 쏟아라.</span>
 
-- 구현에 관여하는 사람들은 모델링 작업에 직접 참여해야 한다. 두 역할을 불리할 경우 모델링 작업에서 얻어지는 지식이 코드에 반영되지 못한 찿 소리 없이 사라져 버리게 된다. 또한 구현 과정에서 얻어지는 통찰을 모델에 반영할 수 없게 되므로 결과적으로 코드와 모델 간의 연결 고리가 점점 약해지게 된다. 코드는 모델이며, 모델은 코드다. 극단적인 흑백논리는 소프트웨어 개발에 있어 최대의 적이다.
+- 구현에 관여하는 사람들은 모델링 작업에 직접 참여해야 한다. 두 역할을 불리할 경우 모델링 작업에서 얻어지는 지식이 코드에 반영되지 못한 채 소리 없이 사라져 버리게 된다. 또한 구현 과정에서 얻어지는 통찰을 모델에 반영할 수 없게 되므로 결과적으로 코드와 모델 간의 연결 고리가 점점 약해지게 된다. 코드는 모델이며, 모델은 코드다. 극단적인 흑백논리는 소프트웨어 개발에 있어 최대의 적이다.
 
 - 모델을 언어의 기반으로 삼아라. 팀에서 이루어지는 모든 의사소통과 코드에 적극적으로 공통의 언어를 적용하라. 다이어그램과, 문서화, 특히 대화에 동일한 언어를 사용하라. (Eric Evans, Domain-Driven Design)
 
@@ -133,9 +133,9 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 
 - UBIQUITOUS LANGUAGE 의 변경은 곧 모델의 변경이라는 사실을 인식하자. (Eric Evans, Domain-Driven Design)
 
-- UBIQUITOUS LANGUAGE 상의 용어에 변경이 발생하면 곧 모델, 코드에 대한 변경으로 파급되어야 한다. 역으로 코드에 사용된 어떤 용어가 수정될 경우 변경 사항은 모델과 UBIQUITOUS LANGUAGE 로 파급되어야 한다.
+- <span style="color:red">UBIQUITOUS LANGUAGE 상의 용어에 변경이 발생하면 곧 모델, 코드에 대한 변경으로 파급되어야 한다. 역으로 코드에 사용된 어떤 용어가 수정될 경우 변경 사항은 모델과 UBIQUITOUS LANGUAGE 로 파급되어야 한다.</span>
 
-- 개발자들이 도메인에 대한 통찰을 얻기 위해 적용할 수 있는 체계적인 사고 방법이 존재한다. 무질서하게 뻗어 나가는 소프트웨어 애플리케이션에 질서를 부여할 수 있는 설계 기법 역시 존재한다. 이럮 기술을 연맀한다면 익숙하지 않은 도메인을 접하게 될 경우에도 더 가치 있는 개발자로 발전할 수 있게 될 것이다. (Eric Evans, Domain-Driven Design)
+- 개발자들이 도메인에 대한 통찰을 얻기 위해 적용할 수 있는 체계적인 사고 방법이 존재한다. 무질서하게 뻗어 나가는 소프트웨어 애플리케이션에 질서를 부여할 수 있는 설계 기법 역시 존재한다. 이런 기술을 연습한다면 익숙하지 않은 도메인을 접하게 될 경우에도 더 가치 있는 개발자로 발전할 수 있게 될 것이다. (Eric Evans, Domain-Driven Design)
 
 #### Patterns, Principles and Practices of the Domain-Driven Design
 
@@ -192,3 +192,37 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - In many ways, the communication between bounded contexts, both technical and organizational, is more important for teams starting out on a project than the bounded contexts themselves. Information that context maps provide can enable teams to make important strategic decisions that improve the success of a project.
 
 - Domain-Driven Design (DDD) focuses on managing the challenges of building applications with complex domain logic by isolating the business complexities from the technical concerns
+
+- DDD is about discovering what you need to write, why you need to write it, and how much effort you should use. 
+
+-  The true value of DDD lies in the creation of a shared language, specific to a context that enables developers and domain experts to collaborate on solutions effectively. Code is a by-product of this collaboration. The removal of ambiguity in conversations and effortless communication is the goal. 
+
+- - The biggest issue that contributes to legacy code and technical debt is how it’s organized. Code is easy to write, but without due care and attention to how it is structured, it can become extremely hard to read. Understanding about context enables you to isolate unrelated concepts so that models are more pure and focused. (...) Code that is easier to maintain and read will allow teams to deliver value faster, which is the essence of DDD.
+
+- Don’t be afraid to use the same concepts and names in different contexts. The most important thing teams need to know about is that they should protect their boundaries.
+
+- Without a shared language, you cannot create a shared model. This shared vision of the problem enables the capturing of implicit concepts and collaborative problem solving. The process of creating a language is a direct result of collaboration between the development team and domain experts.
+
+- Trying to collaborate on knowledge crunching with anyone other than a domain expert can be a wasted effort.
+
+- Simple problems require simple solutions
+
+- Of course, you are free to talk to your stakeholders about DDD, but it’s best to focus on the need for collaboration. The success of a product falls on the commitment level of the business and its experts; this is how you sell DDD.
+
+- the key to applying DDD is to start simple. Do the simplest thing possible until you encounter complexity or ambiguity. 
+
+- Understanding the state of the software solutions already in production is essential to making informed decisions on how you will integrate your product. The best way to capture the landscape is by creating a context map.
+
+- It is important for the stakeholder to trust the domain expert and regard this person as an expert.
+
+- The result of tackling a problem from various angles is not the creation of a perfect model but instead the learning and discovery of concepts in the problem domain. This is far more valuable and leads to a team able to produce a useful model at each iteration.
+
+- The mental model that was created between you and your domain expert should be reflected in code with the same terminology, language, and concepts. Once it turns the mental model into code, the development team may find that the model does not meet the needs of the scenario, and it needs to make a new concept or change an existing one. Because of the use of the UL and the shared understanding of the model throughout the team, communication with the domain expert is easy, and the new solution can be validated in collaboration and without translation. The update to the code model is reflected in the mental model, and the two models evolve together.
+
+- <span style="color:red">If you are working in a legacy codebase or are integrating with a legacy code, it is vital to ensure that your code is not contaminated by the mess that already exists. (If there is mess; remember that legacy doesn’t mean bad code!) It may be tempting to clean up the legacy codebase, but this is a task that can quickly become time consuming and distract from your real goal of introducing new functionality. Instead, lean on the anticorruption layer pattern to create a boundary between your new code and the existing code. This protection boundary enables you to create a clean model that is isolated from other teams’ influences.</span>
+
+- Don’t strive for perfect code; strive for perfect boundaries. 
+
+- be careful of premature refactoring. Don’t refactor until you know enough about the domain, and don’t become preoccupied with applying design patterns. Delaying refactoring can also reveal which areas of the code change most often and why. With this knowledge, you can make more informed design changes to your codebase.
+
+- Passion is contagious; if you commit to spend time with your domain experts to understand a domain at a deeper level and can show how this results in a more expressive codebase then your team will follow.

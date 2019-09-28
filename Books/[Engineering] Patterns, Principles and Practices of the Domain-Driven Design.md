@@ -134,7 +134,7 @@ P- lan to change your model; don’t get too attached as a breakthrough in knowl
 - Leverage Eric Evans’ Model Exploration Whirlpool when you need guidance on how to explore models. The activities in the whirlpool are particularly helpful when you are having communication breakdowns, overly complex designs, or when the team is entering an area of the problem domain of which they don’t have much knowledge.
 
 
-# Focusing on the Core Domain
+# 3. Focusing on the Core Domain
 
 - During knowledge crunching with domain experts, it’s important to reduce the noise of what’s unimportant to enable you to focus on what is important. Model-Driven Design is hard and should only be reserved to the areas of your systems that are vital to its success.
 
@@ -540,3 +540,197 @@ P- lan to change your model; don’t get too attached as a breakthrough in knowl
 - Application services are based around business use cases; they are the clients of the domain layer. They delegate to the domain layer to fulfill the use cases.
 - Application services should remain ignorant to the clients that consume them. Clients should adapt to the API of the application, which enables the support of discrepant clients.
 - The application service layer is the concrete implementation of the bounded context boundary.
+
+# 9. Common Problems for Teams Starting Out with Domain-Driven Design
+
+- Domain-Driven Design (DDD) is a philosophy born out of a need to realign the focus of development teams writing software for complex domains. It is not a framework or a set of predefined templates that you can apply to a project. Although there is value in design patterns and frameworks, DDD emphasizes the value in collaboration, exploration, and learning between the business and development team to produce useful and relevant software. Teams should embrace the problem domain they are working within and look outside of their technical tunnel vision. The most fundamental point to being a great software craftsman is to understand the problem domain you work within and value this as much as you value your technical expertise.
+
+## Overemphasizing the Importance of Tactical Patterns
+
+- The code is an artifact of developers and domain experts working together and modeling the problem domain. The code represents the end of the process of collaboration and discovery. 
+
+- Architectures are bounded context and not application specific.
+
+- DDD is about discovering what you need to write, why you need to write it, and how much effort you should use. 
+
+- DDD does prescribe a set of design best practices, patterns, and building blocks that are often mistakenly thought to be core to applying DDD to a product. Instead, think of these design artifacts as merely a means to an end used to represent the conceptual model. The heart of DDD lies deep in the collaboration between the development team and domain experts to produce a useful model.
+
+## Missing the Real Value of DDD: Collaboration, Communication, and Context
+
+-  The true value of DDD lies in the creation of a shared language, specific to a context that enables developers and domain experts to collaborate on solutions effectively. Code is a by-product of this collaboration. The removal of ambiguity in conversations and effortless communication is the goal. 
+
+- Understanding where contexts end and begin is the responsibility of a context map. Without the notion of context and a context map to guide you, teams cannot deliver value because they are constantly fighting the unorganized mess of their codebase.
+
+- The biggest issue that contributes to legacy code and technical debt is how it’s organized. Code is easy to write, but without due care and attention to how it is structured, it can become extremely hard to read. Understanding about context enables you to isolate unrelated concepts so that models are more pure and focused. (...) Code that is easier to maintain and read will allow teams to deliver value faster, which is the essence of DDD.
+
+- Recognize when domain experts are talking in a different context but still using the same terms. If the same terms are used within the business, it is easy to fall into the trap of thinking that the models can be reused. Beware implicit models that are used for more than one context. It’s better to create explicit models. Apply the principle of Don’t Repeat Yourself (DRY) to a bounded context only and not a system. Don’t be afraid to use the same concepts and names in different contexts. The most important thing teams need to know about is that they should protect their boundaries.
+
+- Without a shared language, you cannot create a shared model. This shared vision of the problem enables the capturing of implicit concepts and collaborative problem solving. The process of creating a language is a direct result of collaboration between the development team and domain experts. Being able to easily solve problems and understand the problem domain is where the payoff comes from.
+
+- Without a UL, contexts are hard to discover, because a bounded context is primarily defined by the applicability of language. Models created without context and explicit language quickly turn into a BBoM as concepts with the same name are modeled as one.
+
+- Collaboration is all about getting lots of people with different points of view working on creating a model of the problem domain that can be used to solve problems. No one has the authority on a good idea, and no suggestion is stupid.
+
+- Trying to collaborate on knowledge crunching with anyone other than a domain expert can be a wasted effort.
+
+## Spending Too Much Time on What’s Not Important
+
+- The design of software will suffer without a clear and shared vision of the goal of the product, often captured using a domain vision statement. Well-informed and educated design decisions can be made when developers understand the intent behind business users’ requirements. Missing the intent of the business and blindly developing leads to poor results.
+
+- Accepting that not all of a system will be well designed and that not all of a system needs to be well designed is a big step forward for a team. Without a focus on the key aspects of a system, talented members of a team may be distracted by frameworks and instead want to work on the latest JavaScript framework at the presentation layer instead of the core aspects of a product.
+
+## Making Simple Problems Complex
+
+- Applying techniques designed to manage complex problems to domains with little or no complexity will result in at best wasted effort and at worst needlessly complicated solutions that are difficult to maintain due to the multiple layers of abstractions
+
+- Simple problems require simple solutions
+
+- Problems with a low business expectation should be tackled in a no-thrills manner. This is not to say that they should be built in a haphazard manner. On the contrary, they should be built to be performant and maintainable, but problems that have little logic need straightforward solutions.
+
+- The domain model pattern is useful for complex or frequently changing models. The effort required to employ the domain model pattern for models that are generic or lack domain logic will be far greater than any value that will be gained. Utilize model-driven design and the domain model pattern for the core domain, and use other domain logic patterns for simpler parts of your system.
+
+## Underestimating the Cost of Applying DDD
+
+- Applying the principles of DDD is hard and costly both in time and resource. It makes sense to only fully apply them to the most important areas of your system: your core domain. The principles hang on a business willing to work with you on solutions rather than have you work in isolation. DDD often is more valuable to the nontechnical parts of product design.
+
+- Remember: DDD isn’t a silver bullet. Just as switching from an upfront waterfall approach to a more agile/XP project methodology didn’t solve all your software development problems, opting to follow DDD won’t suddenly produce better software. The common denominator in any successful project is a team of clever people who are passionate about what they are doing and who care about it succeeding.
+
+- If a development team is working alongside domain experts who are not invested in the project or do not understand the intent or vision, they will unlikely discover a useful model, create a UL, and work as an effective team. 
+
+- Don’t try to strive for perfection in areas that don’t need it. For generic or supporting subdomains, keep things simple, straightforward, and uncomplicated. Use CRUD and simple domain logic patterns. Get the code written so it works; then move on to the core domain. The core domain is the area where you can strive for perfection. Small balls of mud are sometimes better in bounded contexts that are unimportant;
+
+- It is far better to have small balls of mud, isolated from other contexts that can easily be replaced, rather than trying to strive for beautiful code everywhere.
+
+## The Salient Points
+
+- The tactical patterns of DDD can guide you toward creating an effective domain model; however, this area of DDD is evolving, and the implementation details have been overemphasized. The patterns may have value, but this is not where the value of DDD lies.
+- DDD is far more than coding. Collaboration with domain experts to knowledge crunch and have a shared understanding of the problem domain expressed in a ubiquitous language are the pillars of DDD.
+- Context is everything; context and isolation retain the integrity of your code. It reduces cognitive load and makes a model specific.
+- You need a smart dedicated team willing to learn about the domain.
+- You need access to a domain expert. Teams can’t reveal deeper insights without them.
+- Use CRUD for bounded contexts with low complexity. You are not a bad programmer if you don’t have a domain model.
+- Bounded context and the ubiquitous language are the foundation of DDD.
+- DDD is about the process of learning, refining, experimenting, and exploring in the quest to discover a useful model in collaboration.
+
+
+# 10. Applying the Principles, Practices, and Patterns of DDD
+
+## Selling DDD
+
+- it is a powerful and extremely effective philosophy when used in the correct circumstances, such as these: (Without these key ingredients, applying the principles and practices of DDD will overcomplicate your development effort rather than simplify it)
+- You have a skilled, motivated, and passionate team that is eager to learn.
+- You have a nontrivial problem domain that is important to your business.
+- You have access to domain experts who are aligned to the vision of the project.
+- You are following an iterative development methodology.
+
+- Don’t sell DDD as a project methodology; instead, understand and apply the principles appropriately and where you can gain value. Just as design patterns are best arrived at when you refactor, the principles and practices of DDD should be used only when necessary, and with each on its own merit.
+
+- Technology is not the solution to business problems; it is merely an implementation detail. Problem solving is achieved through collaboration with domain experts who hold the key to discovering a useful model.
+
+- Of course, you are free to talk to your stakeholders about DDD, but it’s best to focus on the need for collaboration. The success of a product falls on the commitment level of the business and its experts; this is how you sell DDD.
+
+
+## Applying the Principles of DDD
+
+- the key to applying DDD is to start simple. Do the simplest thing possible until you encounter complexity or ambiguity. 
+
+- When you find ambiguity during conversation, explicitly define it within the ubiquitous language (UL). When your model is becoming too large, decompose the complexity and apply the strategic patterns of code organization and modeling techniques. If you keep things simple and arrive at applying the principles and practices rather than trying to crack a nut with a sledgehammer, you will get immense value from DDD.
+
+- What is the business goal/driver for this product?
+- What value will this product bring to the business?
+- How will you know if this is a success? What does good look like?
+- How is this different from what has been done before?
+
+- By listening to the stakeholder answering your questions, you can identify the most important part of the product—the area of the software that is the fundamental reason you are building it. 
+
+- An effective way to engage stakeholders when gathering requirements is to apply the behavior-driven development (BDD) methodology. BDD is a shared language that helps you capture the behaviors of a system. You can think of it as a UL for requirements.
+
+- What you are capturing from the stakeholders are use-cases, inputs, and outputs. These business use cases form your application services. If they are complex, they drive the decision on what domain logic pattern you will implement. During requirements gathering, focus on what the stakeholder wants, when, and why. The why part is essential. 
+
+- If you find that the problem domain is becoming too large to manage, you can ease cognitive load by abstracting the problem to a higher level by creating subdomains.
+
+- The core domain should directly support the overall vision that the stakeholders have; if it does not, you may have incorrectly identified the core domain, or you may need to clarify the vision with your stakeholders.
+
+- Understanding the state of the software solutions already in production is essential to making informed decisions on how you will integrate your product. The best way to capture the landscape is by creating a context map.
+
+- This is your war map. It should be simple enough for all to draw quickly, so don’t spend too much time on UML diagrams.
+
+- Before starting to model a solution and applying the principles of DDD, you need to ensure the product you are about to provide a solution for meets the following criteria:
+- Is a complex problem or has complexity in a subdomain
+- Is important to the business and has high expectations of it
+- Has accessibility to a domain expert
+- Has a motivated and smart team
+
+- A domain expert is a subject matter expert with deep knowledge of the problem domain. Whereas a stakeholder defines what the system needs to do, a domain expert collaborates with the development team, using his insight, expertise, and experience to model a solution that satisfies the behaviors.
+
+- The point is that the term domain expert does not refer to a title; it’s anyone in the business who can offer expertise in the problem domain.
+
+- A domain expert will have a day job; her time will be precious, so it is vital that you utilize time with her wisely.
+
+- Business analysts are not invalid. They hold skills that developers and domain experts may not possess. Business analysts can facilitate conversations with domain experts and can help the team capture terminology that forms the UL.
+
+- It is important for the stakeholder to trust the domain expert and regard this person as an expert.
+
+- Try to collocate your project team with the business. Your team should be able to access the domain experts and users easily and regularly to ensure constant feedback. 
+
+- When working in the solution space, ensure that you focus on satisfying the behaviors of the product rather than trying to model the entire problem domain.
+
+- Modeling in the complicated areas that are at the heart of the product is exactly what the principles of DDD were made for.
+
+- The UL is formed from the knowledge crunching exercise between domain experts and the development team as they start to model a solution to the more important and trickier parts of a product. Clear and unambiguous communication between the development team and the domain expert is vital to enable discoveries and to reduce translation cost between the team’s code model and the domain expert’s mental model.
+
+- Sometimes while modeling, you become stagnant; your solution may have painted you into a corner, and a new scenario cannot be fulfilled with the current model. This is fine. Instead of trying to make the scenario fit the model, make a new model that is useful for the existing and new scenarios.
+
+- The result of tackling a problem from various angles is not the creation of a perfect model but instead the learning and discovery of concepts in the problem domain. This is far more valuable and leads to a team able to produce a useful model at each iteration.
+
+- The mental model that was created between you and your domain expert should be reflected in code with the same terminology, language, and concepts. Once it turns the mental model into code, the development team may find that the model does not meet the needs of the scenario, and it needs to make a new concept or change an existing one. Because of the use of the UL and the shared understanding of the model throughout the team, communication with the domain expert is easy, and the new solution can be validated in collaboration and without translation. The update to the code model is reflected in the mental model, and the two models evolve together.
+
+- If you are working in a legacy codebase or are integrating with a legacy code, it is vital to ensure that your code is not contaminated by the mess that already exists. (If there is mess; remember that legacy doesn’t mean bad code!) It may be tempting to clean up the legacy codebase, but this is a task that can quickly become time consuming and distract from your real goal of introducing new functionality. Instead, lean on the anticorruption layer pattern to create a boundary between your new code and the existing code. This protection boundary enables you to create a clean model that is isolated from other teams’ influences.
+
+- Even if the technical design of the code has been modified to increase clarity, the names and methods of classes, along with the namespaces, should continue to be updated to reflect the more insightful abstractions that are discovered through knowledge-crunching sessions. This continued investment in the model helps keep it relevant and match the vision and intent of the domain experts.
+
+- Don’t strive for perfect code; strive for perfect boundaries. 
+
+- A model is constantly evolving and changing; you cannot effectively utilize the practices and patterns of DDD without embracing evolution.
+
+- As a developer, it is your job to continuously challenge the effectiveness and simplicity of your model design as iterations change and evolve it to meet the new behaviors of the stakeholders.
+
+## Exploration and Experimentation
+
+- The activity of modeling happens whenever you need it; it is not a step in a project methodology.
+
+- Don’t get attached to ideas; trial and error is required to reveal concepts in the domain that will help you solve business problems. 
+
+- be careful of premature refactoring. Don’t refactor until you know enough about the domain, and don’t become preoccupied with applying design patterns. Delaying refactoring can also reveal which areas of the code change most often and why. With this knowledge, you can make more informed design changes to your codebase.
+
+## Making the Implicit Explicit
+
+- If domain experts talk about it, make it explicit. If domain experts hint at a concept, make it explicit. If you talk about something that puzzles domain experts, maybe you have misunderstood something they have said and you need to work on your UL. Give things a name, and if you can’t think of a good name, defer it and call it the blue policy until you can think of something more meaningful.
+
+- A domain model should communicate the intent of the business. Ensure that you take care in naming all methods and properties of your classes. Try to describe the behaviors by involving the UL. Don’t leave your code design up to interpretation. Help yourself and other developers by writing code that is insightful, revealing the rich language of the domain.
+
+## A Problem Solver First, A Technologist Second
+
+- Code is a product of DDD, not the process
+
+- All problems are not created equal; some are complex and are of little business value, so it makes no sense to waste effort in finding automated solutions for them.
+
+## How Do I Know That I Am Doing It Right?
+
+- Unlike becoming a scrum master, there is no certificate awarded when applying the principles and practices of DDD. Your reward from your investment will result in a product that is easily understood, straightforward to maintain, meets the expectations of your stakeholders, and is fun to work on.
+
+- Passion is contagious; if you commit to spend time with your domain experts to understand a domain at a deeper level and can show how this results in a more expressive codebase then your team will follow.
+
+## The Salient Points
+
+- Don’t sell DDD as a silver bullet. Focus on the alignment with the business and learning more about the domain you are building software for.
+Apply the principles of DDD only when they are needed. Don’t use them as a tool for all problems.
+- Decompose the problem space and focus on the core domain. All interesting conversations will happen here. This is where you apply the principles of DDD to maximize value and where you should apply the most effort.
+- Before modeling a solution, capture the reality of the landscape, and understand other models and contexts in play. Who owns these? What relationships do you have with them? What and how is data exchanged?
+- Build a model to satisfy feature scenarios. Start with the most risky or complex. Utilize your domain expert’s time here, and don’t bother him with simple data management.
+- If you are working in a legacy environment, ensure that you protect yourself from external code, don’t trust anyone, and enforce your borders. - Carve out an area to add new functionality. Don’t try to clean up everything.
+- Constantly integrate, refine, and challenge your model. Don’t stop at your first good idea. Explore and experiment, and validate good ideas by trying new models and solutions. Have at least three useful models.
+- Don’t assume anything, keep things simple, delay large design decisions, and wait for complexity or new behaviors to challenge your solution. Then refactor toward strategic patterns when you need to.
+- Modeling is a team activity, and one that should happen whenever the team is stuck, encounters an area it is unsure of, or needs clarification. It should not be confined to a predefined step in a project time line.
+- The model and the language evolve together. A model that cannot be communicated and talked about with ease will have limited usefulness and will be hard to evolve.
+- You will also find that your team members understand the business better. You will notice that they will be able to talk more fluently with stakeholders and offer solutions to problems that the business didn’t know it had or maybe did not have a solution for.
