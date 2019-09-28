@@ -438,3 +438,105 @@ P- lan to change your model; don’t get too attached as a breakthrough in knowl
 - Speak a ubiquitous language within an explicitly bounded context.
 - A bounded context should be autonomous—owning the entire code stack from presentation through domain logic and onto the database and schema.
 
+
+# 7. Context Mapping
+
+- Often, teams that manage other contexts are not motivated by the same forces, or they have different priorities. For projects to succeed, teams usually need to manage changes in these situations at a political rather than technical level.
+
+## A Reality Map
+
+- A context map (...)  its responsibility is to ensure that boundaries between various contexts of the system are defined explicitly and that each team understands the contact points between them.
+
+- A context map is not a highly detailed document created in some kind of enterprise architecture tool, it is a high-level, hand drawn diagram that communicates a holistic picture of the contexts in play. A context map should be simple enough to be understood by domain experts and development teams alike. As well as clearly labelling the contexts the teams understand, the diagram should also show areas of the system that are not well understood to reflect the messy and often unintelligible reality of the codebase.
+
+- It is extremely important that context maps reflect reality, showing the code in the present state rather than an ideal future state. Context maps need not show the detail of a model; instead, they must demonstrate the integration points and the flow of data between bounded contexts. Like the code model and analysis model, the context map should change only when code changes so it does not give a false impression of the landscape. The map should show the stark reality; only then will it be useful.
+
+- Teams that are not on the same project might find release schedules and development priorities need to be aligned if a change is required to a bounded context outside their ownership. 
+
+## Recognising the Relationships between Bounded Contexts
+
+
+- In order to avoid corruption and protect your model from external influences you can create an isolation layer that contains an interface written in terms of your model. The interface adapts and translates to the interface of the other context. This isolation layer is known as an anticorruption layer.
+
+- it’s important not to compromise the integrity of your bounded context to match the API of another.
+
+- If you have a system that resembles a BBoM and you need to introduce additional functionality it is tempting to simply add code to it and in turn add to the mess; alternatively you can request to rewrite the entire system at the same time as adding the new feature. Neither of these two options is practical as it can be time consuming and risky to rewrite a large application, and simply adding to the mess can increase the maintenance nightmare. A more pragmatic option is to lean on the anticorruption layer, which can be used to isolate the new context from the existing code mess. Using an anticorruption layer in this context is a great refactoring practice because you are able to create clear boundaries without needing to update the mess of code that lives within a context.
+
+- it may be better to collaborate and to share part of the model to ease integration. This shared model is known as a shared kernel. The pattern is of particular use if you have two bounded contexts in the same subdomain that share a subset of domain logic.
+
+- Because there is a shared code dependency, a shared kernel can be more risky due to the tighter coupling that leads to one team being able to break another team’s system. It’s important that everyone on both teams understands this and that a continuous integrated test system verifies the behavior of both models when the common model is modified.
+
+- If the cost of integration between contexts is too great due to technical complexities or political ones, a decision can be made to not integrate contexts at all and simply have teams implement separately from one another. Integration can instead be achieved via user interfaces or manual processes.
+
+- The customer-supplier relationship emphasizes that the customer team’s bounded context relies on the supplier team’s bounded context, but not vice versa. Sometimes there is no opportunity to form a collaborative relationship with an upstream context and so the downstream context must conform to the upstream context’s integration points.
+
+-If an upstream context is not able to collaborate then the downstream context will need to conform to the upstream context when integrating. The most common occurrence of the conformist relationship is integrating with external suppliers.
+
+- The most obvious downside to the conformist relationship is that the downstream team, which works to the requirements of the upstream team, may have to sacrifice clarity of its domain model because it must align to the model of the upstream context even though it may be conceptually different than your own view. Alternatively, an anticorruption layer can be used to retain the integrity so that changes to a contact point don’t affect the underlying model.
+
+## The Strategic Importance of Context Maps
+
+- In many ways, the communication between bounded contexts, both technical and organizational, is more important for teams starting out on a project than the bounded contexts themselves. Information that context maps provide can enable teams to make important strategic decisions that improve the success of a project. A context map is a powerful artifact that can bring new team members up to speed quickly and provide an early warning for potential trouble hot spots. Context maps can also reveal issues with communication and work flows within the business.
+
+- All development teams in the organization need to understand the context map. Teams don’t need to understand the inner workings of each bounded context; instead, they need to be aware of those other contexts—the application programming interface (API) they expose, the relationships they have, and, most importantly, the conceptual models they are responsible for. With this information, teams can prevent blurring the lines of responsibility and ensure that all contexts retain their integrity.
+
+- Retaining integrity is important to keep your codebase focused on a single model. This enables the code to become supple because any change affects only a single bounded context and doesn’t have a rippling effect across multiple areas of your domain. It’s this suppleness that enables you to alter code and to adapt quickly and confidently when the business needs a change to process or logic.
+
+- Context mapping is about investigation and clarification; you may not be able to draw a clear context map straight away, but the process of clarifying responsibility, explicitly defining blurred lines, and understanding communication flow while mapping contexts is as important as the finished artifact.
+
+## The Salient Points
+
+- A context map reflects the way things are right now. It provides a holistic view of the technical integration methods and relationships between bounded contexts. Without them, models can be compromised, and bounded contexts can quickly change to balls of mud as integration blurs the lines of a model’s applicability.
+- An anticorruption layer provides isolation for a model when interfacing with another context. The layer ensures integrity is not compromised by providing translation from one context to another.
+- Integration using the shared kernel pattern is for contexts that have an overlap and shared a common model.
+- Integration via an open host service exposes an external API instead of requiring clients to transform from one model to another. Typically, this creates a published language for clients to work with.
+- Relationships between bounded contexts can be understood in terms of being upstream or downstream of one another. Upstream context have influence over downstream contexts.
+- Collaboration between two teams not working to a common goal or not on the same project is known as a customer-supplier relationship. Downstream customers can collaborate with their upstream suppliers to integrate contexts.
+- The conformist pattern describes the relationship between an upstream and downstream team where the upstream team will not collaborate with the downstream team. This is often the case when the upstream team is a third-party.
+- The partnership relationship pattern describes two teams that have a common goal and a usually on the same project but working on two different contexts.
+- Separate ways should be followed if bounded contexts are too costly to integrate and other nontechnical methods can be found.
+
+# 8. Application Architecture
+
+- Domain-Driven Design (DDD) focuses on managing the challenges of building applications with complex domain logic by isolating the business complexities from the technical concerns
+
+## Application Architecture
+
+- Developing software while following the principles of DDD does not require you to use any particular application architecture style. But one thing that your architecture must support is the isolation of your domain logic.
+
+- To avoid turning your codebase into a Big Ball of Mud (BBoM) and thus weakening the integrity and ultimately the usefulness of a domain model, it is vital that the structure of an application supports the separation of technical complexities from the complexities of the domain.
+
+- a domain model represents a conceptual abstract view of the problem domain created to fulfill the needs of the business use cases. The domain layer containing the abstract model does not depend on anything else and is agnostic to the technicalities of the clients it serves and data stores that persist the domain objects.
+
+- Coordinating the retrieval of domain objects from a data store, delegating work to them, and then saving the updated state is the responsibility of the application service layer. Application service layers are also responsible for coordinating notifications to other systems when significant events occur within the domain. All these interfaces with external resources are defined within the application service layer but are implemented in the infrastructural layer.
+
+- The application service layer enables the support of disparate clients without compromising the domain layer’s integrity. New clients must adapt to the input defined by the application’s contract—its API. They must also transform the output of the application service into a format that is suitable for them. In this way, the application layer can be thought of as an anticorruption layer, ensuring that the domain layer stays pure and unaffected by external technical details.
+
+- The infrastructural layers of an application are the technical details that enable it to function. Whereas the application and domain layers are focused on modeling behavior and business logic, respectively, the infrastructural layers are concerned with purely technical capabilities, such as enabling the application to be consumed, whether by humans via a user interface or by applications via a set of web service or message endpoints.
+
+- In addition, the infrastructural layer can provide capabilities for logging, security, notification, and integration with other bounded contexts and applications.
+
+- To avoid tight coupling of layers, higher layers must communicate with lower layers by adapting to their message types. This again keeps the lower layers isolated and loosely coupled to any external layers
+
+- you should favor application or bounded context databases over integration databases. Just as you apply context boundaries within the domain model, you must do the same for the persistence model. This helps to force clients to integrate through the well-defined application service layer, protecting the integrity of your model and ensuring invariants are met.
+
+## Application Services
+
+- Application services contain application logic only. This logic covers security, transaction management, and communication with other technical capabilities such as e-mail and web services. They are the clients of the domain layer and delegate all work to that layer. No domain logic should be found within the application services; instead,
+
+- Application logic is all about coordination and orchestration through delegation to domain and infrastructural services. The application services don’t do any work, but they understand who to talk to to complete the task. Domain logic, on the other hand, is focused only on domain rules, concepts, information, and work flows. Domain logic is free from technical details, including persistence.
+
+- Your application service methods can reveal whether a domain model is required at all. If you find that all your business use cases are simply updating, adding, or deleting data, then it’s a good bet that the domain is lacking any real logic and can be kept simple by employing a transaction script or data wrapper pattern
+
+## Application Clients
+
+## The Salient Points
+
+- DDD does not require a specific architecture—only one that can separate the technical concerns from the business concerns.
+- Separate the concerns of your application, and isolate business complexity from technical complexity by layering your application.
+- Outer layers depend on inner layers. Inner layers expose interfaces that outer layers must adapt to and implement. This form of dependency inversion protects the integrity of the domain and application layers.
+- The domain layer is at the heart of your application. It is isolated from technical complexities by the application layer.
+- Application services expose the capabilities of a system by abstracting the domain logic to a higher level.
+- Application services are based around business use cases; they are the clients of the domain layer. They delegate to the domain layer to fulfill the use cases.
+- Application services should remain ignorant to the clients that consume them. Clients should adapt to the API of the application, which enables the support of discrepant clients.
+- The application service layer is the concrete implementation of the bounded context boundary.

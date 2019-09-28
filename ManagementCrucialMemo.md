@@ -5,21 +5,15 @@
 
 -  The central purpose of this stage is to align the project’s purpose with the business needs and the organization’s business strategy on one hand and with the stakeholders’ expectations on the other.
 
-- The processes in this group(EXECUTING THE PROJECT) are used to accomplish a three-pronged goal: Coordinate people and resources used to perform the project activities. Integrate and manage the project activities being performed. Ensure the implementation of the project scope and approved changes.
-
 - In general, the execution of the project needs to be monitored and controlled to ensure the project stays on the planned track.
 
 - Identifying the environmental factors is only part of the job, as you must effectively use the positive factors to help the project and try to take action to minimize the effect of negative factors on the project. Note that environmental factors can be internal to the performing organization, such as the organization’s culture, or external to the organization, such as market conditions.
 
 - Project stakeholders are individuals and organizations whose interests are affected (positively or negatively) by the project execution and completion. 
 
-- If we consider, for simplicity, only two cases: a project stakeholder has something to gain from the project or something to lose to the project. Accordingly, these stakeholders fall into two categories—positive stakeholders, who will normally benefit from the success of the project, and negative stakeholders, who will see some kind of disadvantage coming from the project.
-
 - Visionary. Visualize the product and how it fits into the big picture of the organization’s strategy, and be able to translate this vision for the team. Have a holistic big-picture view of the project , accounting for all internal and external factors.
 
 - The project charter is a document that contains the high-level project information, such as the project’s purpose, objectives, and preapproved financial resources. The single most important reason why this document is produced—using the Develop Project Charter process—is to receive the formal authorization for the project. To accomplish this, it is necessary that the charter clearly shows the business need for the project and that the project objectives align with the organization’s strategic objectives. For this purpose,
-
-- The project charter is the document that formally authorizes a project, and includes naming the project manager, determining the authority level of the project manager, and allowing the project manager to start using organizational resources on the project.
 
 - Project Charter. It is a high-level document that summarizes information about the project and its intended outcome.
 
@@ -100,8 +94,6 @@
 - To lay the foundations of your project’s success, you must negotiate to acquire 1) the individuals with the right skills and capability of performing the project work effectively and efficiently; and 2) the best options of physical resources.
 
 - It is critical for the project’s success to develop and manage the group of individuals to be a high-performing team.
-
-- Estimating project costs means estimating the costs required to complete the project scope by executing activities. Therefore, you need the scope baseline to ensure all the needed information is accounted for when estimating costs. Recall that the scope baseline is constituted by the scope statement, WBS, and WBS dictionary. All these components of the scope baseline are useful in estimating the project costs. The scope statement will provide the cost-relevant information, such as project- and product-acceptance criteria, assumptions and constraints, product scope description, and project boundaries around the scope.
 
 - Determining the project budget is the process of aggregating the cost estimates for all project activities and assigning a timeline to it.
 

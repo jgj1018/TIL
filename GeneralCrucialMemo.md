@@ -184,3 +184,11 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - One of the most important parts of DDD is the protection of boundaries. A model is defined in a context. This should be followed through to the implementation in the code; otherwise, you will find yourself in a BBoM. 
 
 - communication between teams is sometimes a good thing, so don’t completely avoid it; just limit it to when it’s useful. One example of useful cross-team communication is knowledge and skill sharing.
+
+- It is extremely important that context maps reflect reality, showing the code in the present state rather than an ideal future state. Context maps need not show the detail of a model;
+
+- If you have a system that resembles a BBoM and you need to introduce additional functionality it is tempting to simply add code to it and in turn add to the mess; alternatively you can request to rewrite the entire system at the same time as adding the new feature. Neither of these two options is practical as it can be time consuming and risky to rewrite a large application, and simply adding to the mess can increase the maintenance nightmare. A more pragmatic option is to lean on the anticorruption layer, which can be used to isolate the new context from the existing code mess. Using an anticorruption layer in this context is a great refactoring practice because you are able to create clear boundaries without needing to update the mess of code that lives within a context.
+
+- In many ways, the communication between bounded contexts, both technical and organizational, is more important for teams starting out on a project than the bounded contexts themselves. Information that context maps provide can enable teams to make important strategic decisions that improve the success of a project.
+
+- Domain-Driven Design (DDD) focuses on managing the challenges of building applications with complex domain logic by isolating the business complexities from the technical concerns
