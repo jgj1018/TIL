@@ -226,3 +226,18 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - be careful of premature refactoring. Don’t refactor until you know enough about the domain, and don’t become preoccupied with applying design patterns. Delaying refactoring can also reveal which areas of the code change most often and why. With this knowledge, you can make more informed design changes to your codebase.
 
 - Passion is contagious; if you commit to spend time with your domain experts to understand a domain at a deeper level and can show how this results in a more expressive codebase then your team will follow.
+
+#### Microservices Patterns
+
+- An application has two categories of requirements. The first category includes the functional requirements, which define what the application must do. They’re usually in the form of use cases or user stories. Architecture has very little to do with the functional requirements. You can implement functional requirements with almost any architecture, even a big ball of mud.
+
+- Architecture is important because it enables an application to satisfy the second category of requirements: its quality of service requirements.
+
+- The quality of service requirements define the runtime qualities such as scalability and reliability. They also define development time qualities including maintainability, testability, and deployability. The architecture you choose for your application determines how well it meets these quality requirements.
+
+- The requirement for services to be loosely coupled and to collaborate only via APIs prohibits services from communicating via a database.
+
+- if you constantly need to change a service because of changes to other services or if it’s triggering changes in other services, that’s a sign that it’s not loosely coupled. You might even have built a distributed monolith.
+
+- There are several obstacles to decomposition. The first is network latency. Another obstacle to decomposition is that synchronous communication between services reduces availability. The third obstacle is the requirement to maintain data consistency across services. The fourth and final obstacle to decomposition is so-called god classes, which are used throughout an application. 
+

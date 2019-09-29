@@ -456,3 +456,78 @@ Services in a microservice architecture are organized around business concerns�
 - An architecture that uses synchronous protocols must include a service discovery mechanism in order for clients to determine the network location of a service instance. The simplest approach is to use the service discovery mechanism implemented by the deployment platform: the Server-side discovery and 3rd party registration patterns. But an alternative approach is to implement service discovery at the application level: the Client-side discovery and Self registration patterns. It’s more work, but it does handle the scenario where services are running on multiple deployment platforms.
 - A good way to design a messaging-based architecture is to use the messages and channels model, which abstracts the details of the underlying messaging system. You can then map that design to a specific messaging infrastructure, which is typically message broker–based.
 - One key challenge when using messaging is atomically updating the database and publishing a message. A good solution is to use the Transactional outbox pattern and first write the message to the database as part of the database transaction. A separate process then retrieves the message from the database using either the Polling publisher pattern or the Transaction log tailing pattern and publishes it to the message broker.
+
+
+# Chapter 4. Managing transactions with sagas
+
+- Instead of an ACID transactions, an operation that spans services must use what’s known as a saga, a message-driven sequence of local transactions, to maintain data consistency. One challenge with sagas is that they are ACD (Atomicity, Consistency, Durability). They lack the isolation feature of traditional ACID transactions. 
+
+## 4.1. TRANSACTION MANAGEMENT IN A MICROSERVICE ARCHITECTURE
+
+### 4.1.2. The trouble with distributed transactions
+
+- Another problem with distributed transactions is that they are a form of synchronous IPC, which reduces availability. In order for a distributed transaction to commit, all the participating services must be available
+
+- There is even Eric Brewer’s CAP theorem, which states that a system can only have two of the following three properties: consistency, availability, and partition tolerance (...) Today, architects prefer to have a system that’s available rather than one that’s consistent.
+
+### 4.1.3. Using the Saga pattern to maintain data consistency
+
+- Sagas are mechanisms to maintain data consistency in a microservice architecture (...) A saga is a sequence of local transactions.
+
+- The system operation initiates the first step of the saga. The completion of a local transaction triggers the execution of the next local transaction. (...) An important benefit of asynchronous messaging is that it ensures that all the steps of a saga are executed, even if one or more of the saga’s participants is temporarily unavailable.
+
+- if the recipient of a message is temporarily unavailable, the message broker buffers the message until it can be delivered.
+
+- It’s important to note that not all steps need compensating transactions. Read-only steps don’t need compensating transactions. 
+
+## 4.2. COORDINATING SAGAS
+
+- If any local transaction fails, the saga must execute the compensating transactions in reverse order. 
+
+### 4.2.1. Choreography-based sagas
+
+- Choreography-based sagas have several benefits:
+- Simplicity— Services publish events when they create, update, or delete business objects.
+- Loose coupling— The participants subscribe to events and don’t have direct knowledge of each other.
+
+- And there are some drawbacks:
+- More difficult to understand— Unlike with orchestration, there isn’t a single place in the code that defines the saga. Instead, choreography distributes the implementation of the saga among the services. Consequently, it’s sometimes difficult for a developer to understand how a given saga works.
+- Cyclic dependencies between the services— The saga participants subscribe to each other’s events, which often creates cyclic dependencies. For example, if you carefully examine figure 4.4, you’ll see that there are cyclic dependencies, such as Order Service → Accounting Service → Order - Service. Although this isn’t necessarily a problem, cyclic dependencies are considered a design smell.
+- Risk of tight coupling— Each saga participant needs to subscribe to all events that affect them. For example, Accounting Service must subscribe to all events that cause the consumer’s credit card to be charged or refunded. As a result, there’s a risk that it would need to be updated in lockstep with the order lifecycle implemented by Order Service.
+- Choreography can work well for simple sagas, but because of these drawbacks it’s often better for more complex sagas to use orchestration.
+
+### 4.2.2. Orchestration-based sagas
+
+- Orchestration-based sagas have several benefits:
+- Simpler dependencies— One benefit of orchestration is that it doesn’t introduce cyclic dependencies. 
+- Less coupling— Each service implements an API that is invoked by the orchestrator, so it does not need to know about the events published by the saga participants.
+- Improves separation of concerns and simplifies the business logic— The saga coordination logic is localized in the saga orchestrator. The domain objects are simpler and have no knowledge of the sagas that they participate in. 
+
+- Orchestration also has a drawback: the risk of centralizing too much business logic in the orchestrator. (...) you can avoid this problem by designing orchestrators that are solely responsible for sequencing and don’t contain any other business logic.I recommend using orchestration for all but the simplest sagas.
+
+## 4.3. HANDLING THE LACK OF ISOLATION
+
+- The challenge with using sagas is that they lack the isolation property of ACID transactions. That’s because the updates made by each of a saga’s local transactions are immediately visible to other sagas once that transaction commits (...) But in practice, it’s common for developers to accept reduced isolation in return for higher performance.
+
+### 4.3.2. Countermeasures for handling the lack of isolation
+
+- Semantic lock— An application-level lock.
+- Commutative updates— Design update operations to be executable in any order.
+- Pessimistic view— Reorder the steps of a saga to minimize business risk.
+- Reread value— Prevent dirty writes by rereading data to verify that it’s unchanged before overwriting it.
+- Version file— Record the updates to a record so that they can be reordered.
+- By value— Use each request’s business risk to dynamically select the concurrency mechanism.
+
+
+- a saga consists of three types of transactions:
+- Compensatable transactions— Transactions that can potentially be rolled back using a compensating transaction.
+- Pivot transaction— The go/no-go point in a saga. If the pivot transaction commits, the saga will run until completion. A pivot transaction can be a transaction that’s neither compensatable nor retriable. Alternatively, it can be the last compensatable transaction or the first retriable transaction.
+- Retriable transactions— Transactions that follow the pivot transaction and are guaranteed to succeed.
+
+## SUMMARY
+
+- Some system operations need to update data scattered across multiple services. Traditional, XA/2PC-based distributed transactions aren’t a good fit for modern applications. A better approach is to use the Saga pattern. A saga is sequence of local transactions that are coordinated using messaging. Each local transaction updates data in a single service. Because each local transaction commits its changes, if a saga must roll back due to the violation of a business rule, it must execute compensating transactions to explicitly undo changes.
+
+- You can use either choreography or orchestration to coordinate the steps of a saga. In a choreography-based saga, a local transaction publishes events that trigger other participants to execute local transactions. In an orchestration-based saga, a centralized saga orchestrator sends command messages to participants telling them to execute local transactions. You can simplify development and testing by modeling saga orchestrators as state machines. Simple sagas can use choreography, but orchestration is usually a better approach for complex sagas.
+
+- Designing saga-based business logic can be challenging because, unlike ACID transactions, sagas aren’t isolated from one another. You must often use countermeasures, which are design strategies that prevent concurrency anomalies caused by the ACD transaction model. An application may even need to use locking in order to simplify the business logic, even though that risks deadlocks.
