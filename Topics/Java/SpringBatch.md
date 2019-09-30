@@ -1,2 +1,3 @@
 - [@StepScope 사용시 주의사항](https://jojoldu.tistory.com/132)
 - [영속성 컨텍스트 문제(processor에서 lazyException 발생할때)](https://jojoldu.tistory.com/146)
+- [스프링 배치(스프링 Boot 기반)삽질기 3탄 - 싱글톤 빈을 이용한 step간 데이터 공유](https://wckhg89.github.io/archivers/springbatch3)

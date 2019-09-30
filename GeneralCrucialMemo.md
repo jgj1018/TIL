@@ -1,22 +1,25 @@
-##### (Books) The Site Reliability Workbook
+#### (Books) The Site Reliability Workbook
 
 - You can bring SREs on board to build a shell of abstracted APIs, automation, configuration management, monitoring, and testing around these legacy systems that will offload work from SAs. The legacy system remains brittle to change, but now you can at least reliably identify misbehavior and roll back when appropriate. This tactic is still avoidance, but is a bit like refinancing high-interest technical debt into low-interest technical debt. It’s usually a stopgap measure to prepare for an incremental replacement.
 
-##### (Blog) https://medium.com/@muneeb.ahmed20/building-a-reporting-service-in-microservice-architecture-8d5bf3b90fb7
+#### (Blog) https://medium.com/@muneeb.ahmed20/building-a-reporting-service-in-microservice-architecture-8d5bf3b90fb7
 
 - Reporting service is never bounded to timely consistent data it moreover bounded towards availability of data if talking in terms of CAP theorem. In a microservice architecture, if designed correctly whenever the state of an application changed an event is published to event processor (Kafka) and consumed by multiple application. First and foremost thing is to design a reporting database correctly and then write a master listener which reads from each topic in Kafka and update the reporting database correctly. These master listeners are just workers that read messages from different topics in Kafka and update the database with the right information. As already discussed reporting database requires availability instead of consistency. Information will be consistent after some time depending on the workers’ throughput.
 
-##### (Blog) https://martinfowler.com/bliki/MonolithFirst.html
+#### (Blog) https://martinfowler.com/bliki/MonolithFirst.html
 
 - A more common approach is to start with a monolith and gradually peel off microservices at the edges. Such an approach can leave a substantial monolith at the heart of the microservices architecture, but with most new development occurring in the microservices while the monolith is relatively quiescent. 
 
 
-##### (Blog) https://medium.com/swlh/how-to-avoid-common-agile-pitfalls-350a4534544b
+#### (Blog) https://medium.com/swlh/how-to-avoid-common-agile-pitfalls-350a4534544b
 
 - Like anyone new to Agile, to start off with it was all a big illusion. Buzz words and phrases are being thrown around like “death of documentation”, “no more governance and red tape” and “we’re reacting because we’re agile now”. When looking back at this, no-one had no idea what it meant and none of these things were particularly true. However they are said so often, usually by people who don’t understand or really want it to take off, that people start to take them as gospel. One reason this can happen is because Agile is imposed on a team without them understanding why. No team is going to do something just because they are told they must, it should be an organic process where the benefits of Agile make the team want to use it.
 
+#### (Books) The art of software testing
 
-##### (Books) Site Reliability Engineering
+- This discussion shows that exhaustive input testing is impossible. Two important implications of this: (1) You cannot test a program to guarantee that it is error free; and (2) a fundamental consideration in program testing is one of economics. Thus, since exhaustive testing is out of the question, the objective should be to maximize the yield on the testing investment by maximizing the number of errors found by a finite number of test cases.
+
+#### (Books) Site Reliability Engineering
 
 ```
 
@@ -32,6 +35,21 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 ```
 
 - You can’t “fix” people, but you can fix systems and processes to better support people making the right choices when designing and maintaining complex systems.
+
+#### (Books) The Site Reliability Workbook
+
+- DevOps is a broad set of principles about whole-lifecycle collaboration between operations and product development. SRE is a job role, a set of practices (described next) we’ve found to work, and some beliefs that animate those practices. If you think of DevOps as a philosophy and an approach to working, you can argue that SRE implements some of the philosophy that DevOps describes, and is somewhat closer to a concrete definition of a job or role than, say, “DevOps engineer.”8 So, in a way, class SRE implements interface DevOps.
+
+- (DevOps: No More Silos) The first key idea is no more silos.
+
+- (DevOps: Accidents Are Normal) The second key idea is that accidents are not just a result of the isolated actions of an individual, but rather result from missing safeguards for when things inevitably go wrong. (...) it is more profitable to focus on speeding recovery than preventing accidents.
+
+- (SRE: Manage by Service Level Objectives (SLOs)) SRE does not attempt to give everything 100% availability. Instead, the product team and the SRE team select an appropriate availability target for the service and its user base, and the service is managed to that SLO
+
+- (SRE: Work to Minimize Toil) For SRE, any manual, structurally mandated operational task is abhorrent. For SRE in the Google context, toil is not the job—it can’t be. Any time spent on operational tasks means time not spent on project work—and project work is how we make our services more reliable and scalable.
+
+- (SRE: Move Fast by Reducing the Cost of Failure) One of the main benefits of SRE engagement is not necessarily increased reliability, although obviously that does happen; it is actually improved product development output. Why? Well, a reduced mean time to repair (MTTR) for common faults results in increased product developer velocity, as engineers don’t have to waste time and focus cleaning up after these issues. This follows from the well-known fact that the later in the product lifecycle a problem is discovered, the more expensive it is to fix.
+
 
 #### 디지털 마케팅 개론 - 김진&최정아
 
@@ -137,7 +155,7 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 
 - 개발자들이 도메인에 대한 통찰을 얻기 위해 적용할 수 있는 체계적인 사고 방법이 존재한다. 무질서하게 뻗어 나가는 소프트웨어 애플리케이션에 질서를 부여할 수 있는 설계 기법 역시 존재한다. 이런 기술을 연습한다면 익숙하지 않은 도메인을 접하게 될 경우에도 더 가치 있는 개발자로 발전할 수 있게 될 것이다. (Eric Evans, Domain-Driven Design)
 
-#### Patterns, Principles and Practices of the Domain-Driven Design
+#### (Books) Patterns, Principles and Practices of the Domain-Driven Design
 
 - Be wary of customers asking for enhancements to existing software, because they will often give you requirements that are based on the constraints of the current systems rather than what they really desire. 
 
@@ -227,7 +245,7 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 
 - Passion is contagious; if you commit to spend time with your domain experts to understand a domain at a deeper level and can show how this results in a more expressive codebase then your team will follow.
 
-#### Microservices Patterns
+#### (Books) Microservices Patterns
 
 - An application has two categories of requirements. The first category includes the functional requirements, which define what the application must do. They’re usually in the form of use cases or user stories. Architecture has very little to do with the functional requirements. You can implement functional requirements with almost any architecture, even a big ball of mud.
 
@@ -240,4 +258,3 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - if you constantly need to change a service because of changes to other services or if it’s triggering changes in other services, that’s a sign that it’s not loosely coupled. You might even have built a distributed monolith.
 
 - There are several obstacles to decomposition. The first is network latency. Another obstacle to decomposition is that synchronous communication between services reduces availability. The third obstacle is the requirement to maintain data consistency across services. The fourth and final obstacle to decomposition is so-called god classes, which are used throughout an application. 
-
