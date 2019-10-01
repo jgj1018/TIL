@@ -8,3 +8,4 @@
 - [Why is swap being used even though I have plenty of free RAM?](https://askubuntu.com/questions/157793/why-is-swap-being-used-even-though-i-have-plenty-of-free-ram)
 - [Linuxでのswap領域の解放、メモリのキャッシュ領域の解放](http://atomiyama.com/linux/page/swap-and-mem-chahe-kaihou/)
 - [Linux의 Segmentation Fault(Segfault) 분석 방법](https://doitnow-man.tistory.com/98)
+- [How Operating Systems Work: 10 Concepts you Should Know as a Developer](https://medium.com/cracking-the-data-science-interview/how-operating-systems-work-10-concepts-you-should-know-as-a-developer-8d63bb38331f)
