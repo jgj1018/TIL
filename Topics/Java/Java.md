@@ -7,3 +7,6 @@
 - [Spring Batch - Reference Documentation](https://docs.spring.io/spring-batch/4.1.x/reference/html/index.html)
 - [스프링부트 애노테이션 정리, annotation 간단 요약 (자세한 내용은 검색해서 확인하고 용도 파악하기)](https://jeong-pro.tistory.com/151)
 - [JVM 동작원리 및 기본개념](https://steady-snail.tistory.com/67)
+- [DAO, DTO, Entity Class의 차이](https://gmlwjd9405.github.io/2018/12/25/difference-dao-dto-entity.html)
+- [Entity, DTO, 그 사이의 ModelMapper 이야기](https://yonguri.tistory.com/entry/Entity-DTO-%EA%B7%B8-%EC%82%AC%EC%9D%B4%EC%9D%98-ModelMapper-%EC%9D%B4%EC%95%BC%EA%B8%B0)
+- [SpringDataJPA - 스프링 캠프](https://www.slideshare.net/zipkyh/spring-datajpa?next_slideshow=1)
