@@ -14,3 +14,4 @@
 - [HTTPS Tutorial](https://www.tutorialsteacher.com/https)
 - [How To Use nslookup Command & Dig Command For DNS Check Test](https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/troubleshooting-dns-with-dig-and-nslookup)
 - [SSL(Secure Sockets Layer)을 사용하여 통신 보안](https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_9.0.5/com.ibm.websphere.base.doc/ae/csec_sslsecurecom.html)
+- [SPI 통신이란?](http://blog.daum.net/_blog/BlogTypeView.do?blogid=050RH&articleno=12108902&categoryId=10&regdt=20120501145632)
