@@ -56,3 +56,5 @@
 - [데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024)
 - [Gradle の compile, api, implementation とかについて](https://qiita.com/opengl-8080/items/6ad642e0b016465891de)
 - [GraphQL 개념잡기](https://tech.kakao.com/2019/08/01/graphql-basic/)
+
+- [5 Beginner Friendly Steps to Learn Machine Learning and Data Science with Python](https://towardsdatascience.com/5-beginner-friendly-steps-to-learn-machine-learning-and-data-science-with-python-bf69e211ade5)
