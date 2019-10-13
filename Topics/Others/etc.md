@@ -58,3 +58,4 @@
 - [GraphQL 개념잡기](https://tech.kakao.com/2019/08/01/graphql-basic/)
 
 - [5 Beginner Friendly Steps to Learn Machine Learning and Data Science with Python](https://towardsdatascience.com/5-beginner-friendly-steps-to-learn-machine-learning-and-data-science-with-python-bf69e211ade5)
+- [The Reason Why Facebook Develops Stablecoin](https://medium.com/decon-lab/the-reason-why-facebook-develops-stablecoin-af77d3303c5f)
