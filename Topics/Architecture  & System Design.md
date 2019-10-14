@@ -5,3 +5,4 @@
 - [Cold Storage 소개](https://d2.naver.com/helloworld/526125)
 - [5 Key Principles of Software Architecture](https://towardsdatascience.com/5-key-principles-of-software-architecture-e5379cb10fd5)
 - [CQRS란 무엇인가?](https://justhackem.wordpress.com/2016/09/17/what-is-cqrs/)
+- [What is an API and how do you design it?](https://www.youtube.com/watch?v=_YlYuNMTCc8)
