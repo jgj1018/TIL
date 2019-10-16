@@ -31,3 +31,4 @@
 - [단위 테스트란 무엇인가? 왜 단위 테스트를 해야하는가? 왜 pytest를 사용해야 하는가?](https://cjh5414.github.io/why-pytest/)
 - [The Difference Between Mocks and Stubs](https://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs)
 - [ContractTest](https://martinfowler.com/bliki/ContractTest.html)
+- [13 Tips for Writing Useful Unit Tests](https://medium.com/better-programming/13-tips-for-writing-useful-unit-tests-ca20706b5368)
