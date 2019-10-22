@@ -24,3 +24,4 @@
 - [Domain Driven Design - Modeling](https://bcho.tistory.com/360)
 - [각 마이크로 서비스의 도메인 모델 경계 식별](https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/architect-microservice-container-applications/identify-microservice-domain-model-boundaries)
 - [분산 데이터 관리를 위한 과제 및 해결 방법](https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management)
+- [Flexibility With Traps in Kafka](https://medium.com/synerise/flexibility-with-traps-in-kafka-3ba5568ae4dc)
