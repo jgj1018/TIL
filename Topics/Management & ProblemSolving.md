@@ -14,3 +14,4 @@
 - [PMI PMBOK과 Agile Practice Guide Glossary/용어해설 통합본](https://projectresearch.co.kr/2018/01/13/pmi-pmbok과-agile-practice-guide-glossary-용어해설-통합본/)
 - [Five easy ways to avoid project delays](https://www.advaiya.com/blog/5-easy-ways-avoid-project-delays/)
 - [실리콘밸리 엔지니어가 말하는 한국 기업 문화가 달라져야 하는 이유](https://www.youtube.com/watch?v=rORYcBrtZ2A)
+- [Principles of Engineering Management](https://medium.com/swlh/principles-of-engineering-management-c9cae1b34a8b)
