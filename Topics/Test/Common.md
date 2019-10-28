@@ -32,3 +32,4 @@
 - [The Difference Between Mocks and Stubs](https://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs)
 - [ContractTest](https://martinfowler.com/bliki/ContractTest.html)
 - [13 Tips for Writing Useful Unit Tests](https://medium.com/better-programming/13-tips-for-writing-useful-unit-tests-ca20706b5368)
+- [What is the difference between QA and UAT?](https://www.ssipeople.com/2017/07/04/difference-qa-uat/)
