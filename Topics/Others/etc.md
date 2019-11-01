@@ -61,3 +61,4 @@
 - [The Reason Why Facebook Develops Stablecoin](https://medium.com/decon-lab/the-reason-why-facebook-develops-stablecoin-af77d3303c5f)
 - [DynamoDB vs. Hadoop vs. MongoDB](https://medium.com/better-programming/dynamodb-vs-hadoop-vs-mongodb-4f05714312b2)
 - [Software Quality, Bugs and SLAs](https://medium.com/swlh/software-quality-bugs-and-slas-3d4a6bf7aa5e)
+- [My Top 4 Patterns for Writing Simple Code](https://medium.com/@dangoslen/my-top-4-patterns-for-writing-simple-code-466705ac0b97)
