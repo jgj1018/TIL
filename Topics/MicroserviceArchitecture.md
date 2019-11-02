@@ -26,3 +26,4 @@
 - [분산 데이터 관리를 위한 과제 및 해결 방법](https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management)
 - [Flexibility With Traps in Kafka](https://medium.com/synerise/flexibility-with-traps-in-kafka-3ba5568ae4dc)
 - [How to protect APIs with JWT and API Gateway Lambda Authorizer](https://medium.com/swlh/how-to-protect-apis-with-jwt-and-api-gateway-lambda-authorizer-1110ff035df1)
+- [Maintaining Resiliency in a Microservice Architecture](https://medium.com/better-programming/maintaining-resiliency-in-a-microservice-architecture-729021f5369a)
