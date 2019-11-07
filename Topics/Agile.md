@@ -11,3 +11,4 @@
 - [LeSS Agile, More Productive — Part 1: Pain](https://medium.com/responsetap-engineering/less-agile-more-productive-part-1-bd9f354837f8)
 - [About that Scrum Master/Agile Project manager role…](https://medium.com/serious-scrum/about-that-scrum-master-agile-project-manager-role-8200a801f253)
 - [What the Scrum Guide Doesn’t Say](https://medium.com/serious-scrum/what-the-scrum-guide-doesnt-say-56ef9447b961)
+- [Breaking the Product Backlog](https://medium.com/swlh/breaking-the-product-backlog-fe6e2021a46)
