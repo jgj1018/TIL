@@ -64,3 +64,4 @@
 - [My Top 4 Patterns for Writing Simple Code](https://medium.com/@dangoslen/my-top-4-patterns-for-writing-simple-code-466705ac0b97)
 - [How to make your web apps work offline](https://medium.com/swlh/how-to-make-your-web-apps-work-offline-be6f27dd28e)
 - [Don’t buy into the Technical Debt Illusion](https://medium.com/swlh/dont-buy-into-the-technical-debt-illusion-fa78f1eefcd4)
+- [Powering the Internet with Base64](https://medium.com/swlh/powering-the-internet-with-base64-d823ec5df747)
