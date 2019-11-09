@@ -27,3 +27,4 @@
 - [Flexibility With Traps in Kafka](https://medium.com/synerise/flexibility-with-traps-in-kafka-3ba5568ae4dc)
 - [How to protect APIs with JWT and API Gateway Lambda Authorizer](https://medium.com/swlh/how-to-protect-apis-with-jwt-and-api-gateway-lambda-authorizer-1110ff035df1)
 - [Maintaining Resiliency in a Microservice Architecture](https://medium.com/better-programming/maintaining-resiliency-in-a-microservice-architecture-729021f5369a)
+- [Business Continuity & Disaster Recovery in the Microservices world](https://medium.com/walmartlabs/business-continuity-disaster-recovery-in-the-microservices-world-ef2adca363df)
