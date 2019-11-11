@@ -30,3 +30,4 @@
 - [Pythonのデコレータにはwrapsをつけるべきという覚え書き](https://qiita.com/moonwalkerpoday/items/9bd987667a860adf80a2)
 - [36 Amazing Python Open Source Projects (v.2019)](https://medium.mybridge.co/36-amazing-python-open-source-projects-v-2019-2fe058d79450)
 - [9 Amazing Articles on Python Programming](https://medium.com/better-programming/10-great-articles-on-python-development-6f54dd38437f)
+- [25 Useful Python Snippets to Help in Your Day-to-Day Work](https://medium.com/better-programming/25-useful-python-snippets-to-help-in-your-day-to-day-work-d59c636ec1b)
