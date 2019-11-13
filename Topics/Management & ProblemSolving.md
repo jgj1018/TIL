@@ -16,3 +16,4 @@
 - [실리콘밸리 엔지니어가 말하는 한국 기업 문화가 달라져야 하는 이유](https://www.youtube.com/watch?v=rORYcBrtZ2A)
 - [Principles of Engineering Management](https://medium.com/swlh/principles-of-engineering-management-c9cae1b34a8b)
 - [Here’s a Simple Way to Hold Your Team Accountable](https://marker.medium.com/how-to-hold-your-team-accountable-9fa57bfb315d)
+- [The 10 Commandments of Team Communication](https://medium.com/@nandovillalba/the-10-commandments-of-team-communication-eb3da3b41084)
