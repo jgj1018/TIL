@@ -17,3 +17,4 @@
 - [Principles of Engineering Management](https://medium.com/swlh/principles-of-engineering-management-c9cae1b34a8b)
 - [Here’s a Simple Way to Hold Your Team Accountable](https://marker.medium.com/how-to-hold-your-team-accountable-9fa57bfb315d)
 - [The 10 Commandments of Team Communication](https://medium.com/@nandovillalba/the-10-commandments-of-team-communication-eb3da3b41084)
+- [Three Tips for Managing Technical Debt: While Maintaining Developer Velocity (and Sanity)](https://medium.com/appsflyer/three-tips-for-managing-technical-debt-while-maintaining-developer-velocity-and-sanity-f3d4a080052c)
