@@ -66,3 +66,4 @@
 - [Don’t buy into the Technical Debt Illusion](https://medium.com/swlh/dont-buy-into-the-technical-debt-illusion-fa78f1eefcd4)
 - [Powering the Internet with Base64](https://medium.com/swlh/powering-the-internet-with-base64-d823ec5df747)
 - [How To Design Applications For Cloud (SaaS)](https://medium.com/swlh/how-to-design-applications-for-cloud-saas-88eab310ffad)
+- [IntelliJ IDEA Pro Tips](https://medium.com/@andrey_cheptsov/intellij-idea-pro-tips-6da48acafdb7)
