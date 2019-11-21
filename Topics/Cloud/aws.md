@@ -1,0 +1,3 @@
+- [AWS 알아보기](https://whatisthenext.tistory.com/122)
+- [VPC 및 서브넷](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/VPC_Subnets.html)
+- [Simplifying your AWS Network architecture](https://medium.com/swlh/simplifying-your-aws-network-architecture-11c90ae94c74)
