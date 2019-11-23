@@ -229,3 +229,20 @@
 
 
 ### 21. The Whole Is Greater Than the Sum of the Parts
+
+- Prior to a team’s jelling, the individuals on the team might have had a diversity of goals. But as part of the jelling process, they have all bought into the common goal. This corporate goal takes on an enhanced importance because of its significance to the group. Even though the goal itself may seem arbitrary to team members, they pursue it with enormous energy.
+
+
+- While the executive committee may get itself all heated up over a big increase in profits, this same objective is pretty small potatoes to people at the bottom of the heap. 
+
+
+- Getting the system built was an arbitrary goal, but the team had accepted it. It was what they had formed around. From the time of jelling, the team itself had been the real focus for their energies. They were in it for joint success, the pleasure of achieving the goal, any goal, together. Refocusing their attention on the company’s interest in the project didn’t help. It just made success seem trivial and meaningless.
+
+
+- Goals of corporations are always going to seem arbitrary to people—corporations seem arbitrary to people—but the arbitrariness of goals doesn’t mean no one is ever going to accept them.
+
+
+- The purpose of a team is not goal attainment but goal alignment.
+
+
+- A few very characteristic signs indicate that a jelled team has occurred. The most important of these is low turnover during projects and in the middle of well-defined tasks. 
