@@ -3,6 +3,7 @@
 - [이진탐색트리(Binary Search Tree)](https://ratsgo.github.io/data%20structure&algorithm/2017/10/22/bst/)
 - [Binary Heap 구조 구현하기](https://smlee729.github.io/python/data%20structure/2015/03/04/1-heap.html)
 - [Design and Implement Cache Systems with Least Recently Used and Least Frequently Used Policies in C#](https://medium.com/swlh/design-and-implement-cache-systems-with-least-recently-used-and-least-frequently-used-policies-in-1bedc4c7f328)
+- [How Spotify’s Algorithm Knows Exactly What You Want to Listen To](https://onezero.medium.com/how-spotifys-algorithm-knows-exactly-what-you-want-to-listen-to-4b6991462c5c)
 
 #### dynamic programming 동적계획법
 
