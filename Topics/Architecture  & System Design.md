@@ -7,3 +7,4 @@
 - [CQRS란 무엇인가?](https://justhackem.wordpress.com/2016/09/17/what-is-cqrs/)
 - [What is an API and how do you design it?](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Designing Instagram: System Design of News Feed](https://www.youtube.com/watch?v=QmX2NPkJTKg)
+- [The Zero Penny Architecture explained: creating a complete environment composing only free products](https://medium.com/@saniales/the-0-penny-architecture-explained-how-i-created-a-complete-development-environment-composing-4f1318c71a17)
