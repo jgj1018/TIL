@@ -28,3 +28,4 @@
 - [How to protect APIs with JWT and API Gateway Lambda Authorizer](https://medium.com/swlh/how-to-protect-apis-with-jwt-and-api-gateway-lambda-authorizer-1110ff035df1)
 - [Maintaining Resiliency in a Microservice Architecture](https://medium.com/better-programming/maintaining-resiliency-in-a-microservice-architecture-729021f5369a)
 - [Business Continuity & Disaster Recovery in the Microservices world](https://medium.com/walmartlabs/business-continuity-disaster-recovery-in-the-microservices-world-ef2adca363df)
+- [Introduction to Event Streaming with Kafka and Kafdrop](https://medium.com/swlh/introduction-to-event-streaming-with-kafka-and-kafdrop-22afdb4b380a)
