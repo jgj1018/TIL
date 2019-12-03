@@ -14,3 +14,4 @@
 - [The basics of deploying Logstash pipelines to Kubernetes](https://towardsdatascience.com/the-basics-of-deploying-logstash-pipelines-to-kubernetes-94a470ad34d9)
 - [10 Tips for Building and Managing Containers222](https://medium.com/@weaveworks/10-tips-for-building-and-managing-containers-ecf5bc867e13)
 - [Advantages and Disadvantages of Kubernetes — The Business Perspective](https://medium.com/swlh/advantages-and-disadvantages-of-kubernetes-the-business-perspective-5bb81e4eb4cb)
+- [Docker Over SSH](https://itnext.io/docker-over-ssh-51ab25a79f2e)
