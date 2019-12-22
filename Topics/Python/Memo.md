@@ -31,3 +31,4 @@
 - [36 Amazing Python Open Source Projects (v.2019)](https://medium.mybridge.co/36-amazing-python-open-source-projects-v-2019-2fe058d79450)
 - [9 Amazing Articles on Python Programming](https://medium.com/better-programming/10-great-articles-on-python-development-6f54dd38437f)
 - [25 Useful Python Snippets to Help in Your Day-to-Day Work](https://medium.com/better-programming/25-useful-python-snippets-to-help-in-your-day-to-day-work-d59c636ec1b)
+- [How to Use the Booking.com API with Python](https://medium.com/the-era-of-apis/how-to-use-the-booking-com-api-with-python-a4f20d92a3b5)
