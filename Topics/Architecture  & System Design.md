@@ -8,3 +8,4 @@
 - [What is an API and how do you design it?](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Designing Instagram: System Design of News Feed](https://www.youtube.com/watch?v=QmX2NPkJTKg)
 - [The Zero Penny Architecture explained: creating a complete environment composing only free products](https://medium.com/@saniales/the-0-penny-architecture-explained-how-i-created-a-complete-development-environment-composing-4f1318c71a17)
+- [LINE의 인프라 비용을 절감한 6가지 사례](https://engineering.linecorp.com/ko/blog/6-practices-of-reducing-line-infra-costs/)
