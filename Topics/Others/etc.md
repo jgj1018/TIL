@@ -69,3 +69,4 @@
 - [IntelliJ IDEA Pro Tips](https://medium.com/@andrey_cheptsov/intellij-idea-pro-tips-6da48acafdb7)
 - [Vending Machine design — A State design pattern approach](https://medium.com/@animeshgaitonde/vending-machine-design-a-state-design-pattern-approach-5b7e1a026cd2)
 - [Comparing Backend Frameworks written in Java, Swift and Go](https://medium.com/comsystoreply/https-medium-com-max-comsysto-comparing-backend-frameworks-written-in-java-swift-and-go-70acd07d3a8a)
+- [Cache warming: Agility for a stateful service](https://medium.com/netflix-techblog/cache-warming-agility-for-a-stateful-service-2d3b1da82642)
