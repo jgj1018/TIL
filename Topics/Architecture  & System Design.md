@@ -10,3 +10,4 @@
 - [The Zero Penny Architecture explained: creating a complete environment composing only free products](https://medium.com/@saniales/the-0-penny-architecture-explained-how-i-created-a-complete-development-environment-composing-4f1318c71a17)
 - [LINE의 인프라 비용을 절감한 6가지 사례](https://engineering.linecorp.com/ko/blog/6-practices-of-reducing-line-infra-costs/)
 - [Data Compression for Large-Scale Streaming Experimentation](https://medium.com/netflix-techblog/data-compression-for-large-scale-streaming-experimentation-c20bfab8b9ce)
+- [NoUML](https://medium.com/@volodymyrfrolov/nouml-afbb7f07f369)
