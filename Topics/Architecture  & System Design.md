@@ -11,3 +11,4 @@
 - [LINE의 인프라 비용을 절감한 6가지 사례](https://engineering.linecorp.com/ko/blog/6-practices-of-reducing-line-infra-costs/)
 - [Data Compression for Large-Scale Streaming Experimentation](https://medium.com/netflix-techblog/data-compression-for-large-scale-streaming-experimentation-c20bfab8b9ce)
 - [NoUML](https://medium.com/@volodymyrfrolov/nouml-afbb7f07f369)
+- [Rearchitecting a SpringBoot service for Database Migration](https://medium.com/swlh/rearchitecting-a-springboot-service-for-database-migration-cb7b94557a76)
