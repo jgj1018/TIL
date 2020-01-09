@@ -15,4 +15,5 @@
 
 - [해싱, 해시함수, 해시테이블](https://ratsgo.github.io/data%20structure&algorithm/2017/10/25/hash/)
 - [How we implemented consistent hashing efficiently](https://medium.com/ably-realtime/how-to-implement-consistent-hashing-efficiently-fe038d59fff2)
+- [Do you know How Map/HashMap Works Internally in Java? Part 1](https://medium.com/swlh/do-you-know-how-map-hashmap-works-internally-in-java-part-1-def789de4229)
 
