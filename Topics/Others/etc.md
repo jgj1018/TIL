@@ -72,3 +72,4 @@
 - [Cache warming: Agility for a stateful service](https://medium.com/netflix-techblog/cache-warming-agility-for-a-stateful-service-2d3b1da82642)
 - [Typescript Tax](https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b)
 - [Messaging API overview](https://developers.line.biz/en/docs/messaging-api/overview/)
+- [Hadoop is Dead. Long live Hadoop.](https://medium.com/@acmurthy/hadoop-is-dead-long-live-hadoop-f22069b264ac)

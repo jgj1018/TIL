@@ -9,3 +9,4 @@
 - [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
 - [지속적인 통합이란](http://pds16.egloos.com/pds/201002/17/18/1.Continuous_Integration.pdf)
 - [Dynein: Building an Open-source Distributed Delayed Job Queueing System](https://medium.com/airbnb-engineering/dynein-building-a-distributed-delayed-job-queueing-system-93ab10f05f99)
+- [Setup CI/CD Pipeline for AWS Lambda using Github & Travis CI](https://medium.com/swlh/setup-ci-cd-pipeline-for-aws-lambda-using-github-travis-ci-9812c8ef7199)
