@@ -14,3 +14,4 @@
 - [Rearchitecting a SpringBoot service for Database Migration](https://medium.com/swlh/rearchitecting-a-springboot-service-for-database-migration-cb7b94557a76)
 - [Tips for High Availability](https://medium.com/@NetflixTechBlog/tips-for-high-availability-be0472f2599c)
 - [API Design-First vs Code First](https://medium.com/apis-you-wont-hate/api-design-first-vs-code-first-a8e1708dd48b)
+- [Making Diagrams Fun Again with Mermaid](https://medium.com/@ozantunca/making-diagrams-fun-again-with-mermaid-8a2c9ea3e471)
