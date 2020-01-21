@@ -15,3 +15,4 @@
 - [Tips for High Availability](https://medium.com/@NetflixTechBlog/tips-for-high-availability-be0472f2599c)
 - [API Design-First vs Code First](https://medium.com/apis-you-wont-hate/api-design-first-vs-code-first-a8e1708dd48b)
 - [Making Diagrams Fun Again with Mermaid](https://medium.com/@ozantunca/making-diagrams-fun-again-with-mermaid-8a2c9ea3e471)
+- [Eventual Consistency: What, How, and Why](https://levelup.gitconnected.com/eventual-consistency-what-how-and-why-50c942472a0c)
