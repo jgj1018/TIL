@@ -19,3 +19,4 @@
 - [The 10 Commandments of Team Communication](https://medium.com/@nandovillalba/the-10-commandments-of-team-communication-eb3da3b41084)
 - [Three Tips for Managing Technical Debt: While Maintaining Developer Velocity (and Sanity)](https://medium.com/appsflyer/three-tips-for-managing-technical-debt-while-maintaining-developer-velocity-and-sanity-f3d4a080052c)
 - [要件定義をうまくこなすためのポイント――要件定義の完了条件と要求の引き出し方](https://www.atmarkit.co.jp/ait/articles/1507/02/news009.html)
+- [Dev Lead 101: Be a Dev Lead Not a Dev Manager](https://medium.com/it-dead-inside/dev-lead-101-be-a-dev-lead-not-a-dev-manager-df122d9b0b29)
