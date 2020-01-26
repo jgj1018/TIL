@@ -73,3 +73,4 @@
 - [Typescript Tax](https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b)
 - [Messaging API overview](https://developers.line.biz/en/docs/messaging-api/overview/)
 - [Hadoop is Dead. Long live Hadoop.](https://medium.com/@acmurthy/hadoop-is-dead-long-live-hadoop-f22069b264ac)
+- [Let’s Learn About Graph Databases](https://medium.com/better-programming/graph-databases-ad2cbe1570df)
