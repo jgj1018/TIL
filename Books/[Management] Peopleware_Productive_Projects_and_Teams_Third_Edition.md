@@ -246,3 +246,39 @@
 
 
 - A few very characteristic signs indicate that a jelled team has occurred. The most important of these is low turnover during projects and in the middle of well-defined tasks. 
+
+
+### 23. Teamicide
+
+
+- We stopped talking about building teams, and talked instead of growing them. The agricultural image seemed right. Agriculture isn’t entirely controllable. You enrich the soil, you plant seeds, you water according to the latest theory, and you hold your breath. You just might get a crop; you might not. If it all comes up roses, you’ll feel fine, but next year you’ll be sweating it out again. That’s pretty close to how team formation works.
+
+
+- But once you’ve decided to go with a given group, your best tactic is to trust them. Any defensive measure taken to guarantee success in spite of them will only make things worse.
+
+
+- At any point in the project where you don’t interpose your own judgment, your people are more likely to make a mistake. So what? Let them make some mistakes. (...) if the staff comes to believe it’s not allowed to make any errors of its own, the message that you don’t trust them comes through loud and clear. 
+
+
+- The typical steps we take to deliver a product in less time result in lower quality. Often the product’s end user gives willing consent to this trade-off (less quality for earlier, cheaper delivery). But such concessions can be very painful for the developers. Their self-esteem and enjoyment are undermined by the necessity of building a product of clearly lower quality than what they are capable of.
+
+
+- there are certainly cases where a tight but not impossible deadline can constitute an enjoyable challenge to the team. 
+
+
+- Most organizations don’t set out consciously to kill teams. They just act that way.
+
+
+### 24. Teamicide Revisited
+
+
+- These motivational accessories, as they are called (including slogan coffee mugs, plaques, pins, key chains, and awards), are a triumph of form over substance. 
+
+
+- Motivational accessories are phony enough to make most people’s skin crawl. They do harm in healthy organizations. The only place where they do no harm is where they are ignored
+
+
+- When you take into account the way that the team members’ differing abilities to work overtime tends to destroy teams, the case against it becomes persuasive.
+
+
+Most managers have at least a suspicion that overtime doesn’t help, that projects that work a lot of overtime are not much of a credit to their managers’ skills and talents. But they end up allowing or encouraging overtime, anyway. Why is this? Consultant and author Jerry Weinberg has an answer of sorts: He suggests that we don’t work overtime so much to get the work done on time as to shield ourselves from blame when the work inevitably doesn’t get done on time.

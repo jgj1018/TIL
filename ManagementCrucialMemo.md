@@ -266,3 +266,16 @@
 * 아키텍처 위험 (...) 개발자가 기능 몇 개를 구현하기 전까지 아키텍처가 어떻게 동작할지 명확하게 말할 수 없다는 것입니다.
 
 * 테스트 위험: 연속적인 생애주기에서는 개발을 마치고 테스트하기 때문에 어떤 회사에서는 테스터가 코딩이 끝나기 전이나 코딩 중간에 테스트를 시작하면 안 된다고 믿습니다. 이런 생각이 가장 나쁩니다.
+
+
+
+- We stopped talking about building teams, and talked instead of growing them. The agricultural image seemed right. Agriculture isn’t entirely controllable. You enrich the soil, you plant seeds, you water according to the latest theory, and you hold your breath. You just might get a crop; you might not. If it all comes up roses, you’ll feel fine, but next year you’ll be sweating it out again. That’s pretty close to how team formation works.
+
+
+- But once you’ve decided to go with a given group, your best tactic is to trust them. Any defensive measure taken to guarantee success in spite of them will only make things worse.
+
+
+- When you take into account the way that the team members’ differing abilities to work overtime tends to destroy teams, the case against it becomes persuasive.
+
+
+Most managers have at least a suspicion that overtime doesn’t help, that projects that work a lot of overtime are not much of a credit to their managers’ skills and talents. But they end up allowing or encouraging overtime, anyway. Why is this? Consultant and author Jerry Weinberg has an answer of sorts: He suggests that we don’t work overtime so much to get the work done on time as to shield ourselves from blame when the work inevitably doesn’t get done on time.
