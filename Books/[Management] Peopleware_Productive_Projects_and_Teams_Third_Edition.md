@@ -282,3 +282,23 @@
 
 
 Most managers have at least a suspicion that overtime doesn’t help, that projects that work a lot of overtime are not much of a credit to their managers’ skills and talents. But they end up allowing or encouraging overtime, anyway. Why is this? Consultant and author Jerry Weinberg has an answer of sorts: He suggests that we don’t work overtime so much to get the work done on time as to shield ourselves from blame when the work inevitably doesn’t get done on time.
+
+
+### 25. Competition
+
+- There is now a substantial consensus about the ways that parents encourage or discourage sibling competition. Competition is likely to be fostered when children are emotionally undernourished by their parents, when there just isn’t enough time, respect, attention, and affection to go around. Is it possible that internal competition in work teams is fostered by a manager’s lack of time, respect, attention, and affection for his or her people? Though that may be too simplistic, we believe there is an important kernel of truth to the idea.
+
+
+-  We are increasingly convinced that the team members themselves provide most of the coaching. When you observe a well-knit team in action, you’ll see a basic hygienic act of peer-coaching that is going on all the time. Team members sit down in pairs to transfer knowledge. When this happens, there is always one learner and one teacher. Their roles tend to switch back and forth over time with, perhaps, A coaching B about TCP/IP and then B coaching A about implementation of queues. When it works well, the participants are barely even aware of it. They may not even identify it as coaching; to them, it may just seem like work.
+
+
+- Internal competition has the direct effect of making coaching difficult or impossible. Since coaching is essential to the workings of a healthy team, anything the manager does to increase competition within a team has to be viewed as teamicidal.
+
+
+- Any action that rewards team members differentially is likely to foster competition. Managers need to take steps to decrease or counteract this effect.
+
+
+- We have all seen sports teams that succeeded in spite of the failure of one of the individuals. We have also seen individual team members have a great night while their team was losing badly. The success or failure of the individual is thus disconnected from the success or failure of the group as a whole. This is an imperfect situation, one that only exacerbates any incipient tendency toward competition.
+
+
+- So, belatedly, we need to tell you that the musical ensemble would have been a happier metaphor for what we are trying to do in well-jelled work groups. We’re not the only ones, of course, to use the term “team” to describe such a group. Whether you call it a “team” or an “ensemble” or a “harmonious work group” is not what matters; what matters is helping all parties understand that the success of the individual is tied irrevocably to the success of the whole.
