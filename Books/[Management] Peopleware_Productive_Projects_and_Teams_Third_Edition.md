@@ -302,3 +302,38 @@ Most managers have at least a suspicion that overtime doesn’t help, that proje
 
 
 - So, belatedly, we need to tell you that the musical ensemble would have been a happier metaphor for what we are trying to do in well-jelled work groups. We’re not the only ones, of course, to use the term “team” to describe such a group. Whether you call it a “team” or an “ensemble” or a “harmonious work group” is not what matters; what matters is helping all parties understand that the success of the individual is tied irrevocably to the success of the whole.
+
+
+### 26. A Spaghetti Dinner
+
+
+- The common thread is that good managers provide frequent easy opportunities for the team to succeed together. The opportunities may be tiny pilot subprojects, or demonstrations, or simulations, anything that gets the team quickly into the habit of succeeding together. The best success is the one in which there is no evident management, in which the team works as a genial aggregation of peers. The best boss is the one who can manage this over and over again without the team members knowing they’ve been “managed.”
+
+
+### 27. Open Kimono
+
+- When people talk about an organization that you’d have to be “sick” to work for, they’re not referring to physiological sickness. They mean that working in such a place would require them to disregard certain mental survival rules, rules that protect the well-being of the psychological self. The most important of these rules has to do with self-regard. A job situation that hurts your self-regard is itself “sick.”
+
+
+- You give your best shot to putting the right person in the position, but once he or she is there, you don’t second-guess.
+
+
+- This Open Kimono attitude is the exact opposite of defensive management. You take no steps to defend yourself from the people you’ve put into positions of trust. And all the people under you are in positions of trust. A person you can’t trust with any autonomy is of no use to you.
+
+
+- Jerry had taken great pains to hire the best counsel he could find. He’d certainly looked over other instances of the man’s work. This was not the time to be defensive; it was the time to make it clear to everyone that the boss was assuming and depending on competence around him.
+
+
+- It’s heady and a little frightening to know that the boss has put part of his or her reputation into the subordinates’ hands. It brings out the best in everyone. The team has something meaningful to form around. They’re not just getting a job done. They’re making sure that the trust that’s been placed in them is rewarded. It is this kind of Open Kimono management that gives teams their best chance to form.
+
+
+- If you’ve got decent people under you, there is probably nothing you can do to improve their chances of success more dramatically than to get yourself out of their hair occasionally. Any easily separable task is a perfect opportunity. There is no real management required for such work. Send them away. Find a remote office, hire a conference room, borrow somebody’s summer house, or put them up at a hotel
+
+
+- they’ll ask you, that your people aren’t loafing this very minute? How can you be sure they won’t knock off for lunch at eleven and drink away their afternoons? The simple answer is you’ll know by the product they come back with. By their fruits, ye shall know them. If they bring back a carefully thought-out and complete result, they worked. If they don’t, they didn’t. Visual supervision is a joke for development workers. Visual supervision is for prisoners.
+
+
+- Getting away from the office helps in many ways. First of all, it removes your highest-priced resources from the distractions and interruptions that fritter away so much of their time.
+
+
+- In the best organizations, there is natural authority working in all directions. The manager is known to be better at some things, perhaps setting general directions, negotiating, and hiring, and is trusted to do those things. Each of the workers is known to have some special area of expertise, and is trusted by all as a natural authority in that area. In this atmosphere of Open Kimono, the team has its optimal chance to jell.
