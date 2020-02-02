@@ -17,4 +17,4 @@
 - [How we implemented consistent hashing efficiently](https://medium.com/ably-realtime/how-to-implement-consistent-hashing-efficiently-fe038d59fff2)
 - [Do you know How Map/HashMap Works Internally in Java? Part 1](https://medium.com/swlh/do-you-know-how-map-hashmap-works-internally-in-java-part-1-def789de4229)
 - [Back to Basics — Divine Algorithms Vol I: Dijkstra’s Algorithm](https://medium.com/blue-harvest-tech-blog/back-to-basics-divine-algorithms-vol-i-dijkstras-algorithm-bf46705f5578)
-
+- [The beauty that is an AVL Tree](https://medium.com/@istiaq107/the-beauty-that-is-an-avl-tree-64d6134d485c)
