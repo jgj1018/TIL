@@ -18,3 +18,7 @@
 - Markov decision processes (MDPs) provide a mathematical framework for modeling decision making in situations where outcomes are partly random and partly under the control of a decision maker.
 
 - V(s) = maxa(R(s,a)+y sigma P(s,a,s')V(s')) 
+
+
+
+- Plan is when you know exactly what you need to do.
