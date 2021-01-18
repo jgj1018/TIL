@@ -13,7 +13,7 @@
   
 - Input and Considerations when building a roadmap
   - Key problems
-  - Solutions for those problems.
+  - Solutions for those problsems.
   - Goals/OKRs of the product
   - Higher level mission of the company
   
@@ -26,3 +26,4 @@
     - understand what the main goals and objectives are. get those stakeholders engaged early.
     - If you wanna to have a debate, this is the time to have it. you don't want to have it mid-development
     - start big, narrow down the ideas.
+    

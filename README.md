@@ -100,3 +100,13 @@ The links below are my favorite posts.
 ## 2019.09
 
 - [Domain-Driven Design Essence](http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf)
+ 
+
+## 2020.11
+
+- [The Art of Product Management with Sachin Rekhi](https://www.youtube.com/watch?v=huTSPanUlQM) 
+
+## 2021.01
+
+- [How does Netflix recommend movies? Matrix Factorization](https://youtu.be/ZspR5PZemcs)
+- [Machine Learning Zero to Hero (Google I/O'19)](https://youtu.be/VwVg9jCtqaU)
