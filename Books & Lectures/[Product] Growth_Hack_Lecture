@@ -1,0 +1,146 @@
+# 출처: 그로스해킹 (인프런 강의) 
+[강의 링크](https://www.inflearn.com/course/그로스해킹-데이터-실험-성장-서비스/dashboard)
+
+- Product Market fit
+  - 우리가 만든 제품이나 서비스가, 실험을 할 만한 가치가 있는가?
+    - Retention
+    - Conversion
+    - NPS
+    
+- Product Market fit 개선
+  - 해서는 안되는 것
+    - 브레인스토밍
+    - 새로운 기능 추가
+    - Retention, Conversion을 개선하기 위한 실험
+    
+  - 해야 하는 것
+    - 사용자를 직접 만나서 이야기를 듣기
+    - 사용자 데이터 분석
+    
+
+- Task-based 지표
+  - 팀별로 관리되며 서비스/프로덕트 관점에서 최적화되지 않음
+  - 놀지 않았다는 걸 증명하기 위해 지표 사용
+  
+- AARRR
+  - Acquisition: How do users find you?
+  - Activation: Do users have a great first experience?
+  - Retention: Do users come back?
+  - Revenue: How do you make money?
+  - Referral: Do users tell others?
+  
+  - 각 단계별로 풀어야 하는 문제를 확인한다
+  - 각 단계별로 활용되는 주요 지표를 선별하고 측정한다
+  - 측정된 지표가 가지는 의미를 이해한다
+  - 현 단계에서 개선해야 하는 목표 지표를 정하고, 실험을 통해 단계적으로 개선한다.
+  
+- Acquisition
+  - 어떻게 하면 사용자의 유입채널을 정확하게 추적하고 각 채널별 성과를 정확히 판단할 수 있을까?
+  - organic과 unknown을 혼동하지 말자
+  - CAC < LTV: 회사의 생존이 걸려있는 수식. 같은 비율이라면 LTV를 증가시키는 게 CAC를 감소시키는 것보다 효과적
+  - 앱의 경우 앱스토어 이동해서 설치하는 과정에서 parameter 유실, attribution을 사용해야 함. 모바일앱의 마케팅 성과를 판단하기 위해 활용되며 표준화가 되어 있지 않음. 각 서비스에 맞게 커스터마이징해야 함
+    - device ID mapping, install referrer, fingerprinting
+    - attribution window (lookback window) 어느 기간 동안 인정할 것인가
+    - Click-throuth / View-through
+    
+- ROAS는 높을수록 좋다?    
+  - 광고비가 줄어들면 ROAS는 거의 무조건 높아진다
+  - 광고비와 매출이 정비례하지 않기 때문
+  - 반대로 광고비를 증액하면 ROAS는 거의 무조건 낮아진다
+  - 여러 매체에 광고를 집행하는 경우 ROAS는 중복 집계될 수 있다 
+  - 정답이 없고 주관과 철학이 필요한 영역
+  
+- deep link, deferred deep link
+  - 앱안의 특정 화면으로 이동하는 링크 (디퍼드는 딥링크 실행을 앱 설치 이후로 지연)
+  - 향상된 UX
+  - 웹에서의 utm parameter와 유사
+  
+- Content marketing
+  - 많은 경우 지속가능하지 않다
+  - 한 번 터졌을 때 영향력 독보적
+  
+- SEO / ASO
+  - common: 검색어 및 핵심 키워드 선별
+  - app: 잘 정제된 메타데이터 (앱 타이틀 및 설명, 아이콘과 스크린샷, 비디오, 경쟁사 메타데이터, 업데이트 내용)
+  - app: 랜딩페이지, 썸네일 최적화 (A/B테스트 등을 통해)
+  - web: 검색 의도에 부합하는 콘텐츠/사이트 배치
+  - web: 검색엔진이 크롤링하기 좋은 사이트 구조
+  - app: 앱스토어의 영향력 절대적
+  
+- Acquisition
+  - 사업이 실패하는 이유는 제대로 된 채널 하나를 확보하지 못하기 때문
+  - 소수의 채널을 잘 관리하는 게 핵심
+  - 채널 찾기 -> 최적화 -> Saturate -> 확장
+  - 채널은 계속 변함
+  - Organic은 Unknown의 다른 말일지도 모르므로 최대한 집요하게 트래킹해야함
+  - 채널의 성과를 어떻게 평가할 것인가?
+  - attribution tool usage
+  
+  
+- Activation
+  - Acquisition을 통해 데려 온 사용자가 우리 서비스의 핵심 가치를 경험했는가?
+  - Activation의 핵심은 Funnel 분석
+    - 핵심가치를 경험하는 시점과 그곳으로 연결되는 stage를 잘 정의헀는가? (서비스의 마케팅 메시지와 유저 리뷰에서 나오는 키워드가 일치하는가?)
+    - 각 stage 별 전환율을 어떤 기준으로 측정하는가?
+    - cohort를 쪼개서 보고 있는가? (Conversion에 영향을 주는 선행지표를 발견할 수 있다)
+  - 정량데이터는 what은 알려주지만 why는 알려주지 않음. 사용자 인터뷰를 진행해서 파악해야 함
+  - Conversion rate을 높이는 것보다, Stage를 줄이는 게 효과적인 경우도 있음 (사실 매우 많음)
+  - Cohort에 따른 차이와 그 원인을 파악하는 게 핵심
+  - 개인화: AI 안 쓰더라도, Rule Base Recommendation도 먹힘
+  - UI/UX: UI Redesign은 Conversion rate을 변화시키기 위한 대표적인 독립변수
+  - 적절한 개입: 이메일, 푸시, 인앱메시지 등. 맥락을 잘 정의한다면 굉장한 효과, 잘못 사용하면 사용자를 떠나보내는 양날의 검
+  - 전체푸시, 전체이메일은 가장 보수적으로 할 것.
+  
+- Retention
+  - Activation 과정을 통해서 경험한 가치를 꾸준히 계속 경험하도록 하는 것
+  - 일반적으로 재방문을 통해 측정
+  - 서비스의 성공을 예측하는 가장 기본적 지표 중 하나
+  - Engagement = DAU/MAU 비율을 통해 사용자가 특정 서비스에 얼마나 engage되었는지 가늠 가능 (약식 retention, 단 daily use 앱 전제)
+  - key feature를 기준으로 리텐션 모니터링, 단순히 접속이 아니라 핵심기능 사용 등 기준으로 모니터링
+  - 무조건 지금 다시 데려오기보단 추후 필요하다고 느낄 때 데려와도 좋다
+  - 카테고리마다 권장되는 리텐션 수준은 다르다
+  - 보통 AARRR에서 activation과 함께 가장 먼저 개선해야 하는 항목으로 꼽힌다 (activation프로세스 점검, new user experience 개선, 장기적 커뮤니케이션 플랜, 휴면 고객 복귀 이유 만들어주기)
+
+- Revenue
+  - 결국 사업의 성패는 어떤 BM을 가지고 있으며 그게 working하는가 (매출로 돌아오지 않으면 의미가 없다)
+  - ARPU (인당 평균 결재액) revenue / user : monthly로 보는 게 일반적. 
+  - ARPPU 결제자 인당 평균 결재액
+  - Lifetime value 유저 생애 가치. 한 명의 고객이 진입부터 이탈까지 전체 활동기간 동안 누적해서 발생시키는 기대 수익: ARPU x 1 / 고객이탈비율(churn)
+  - LTV는 계산이 어려우므로 LTR(lifetime revenue)를 사용. 한 명의 고객이 진입부터 이탈까지의 전체 활동기간 동안 누적해서 발생시키는 매출.
+  - CAC + 알파 < LTR
+  - LTR은 paid marketing의 성과를 판단하는 데 씀 (CAC 등)
+  - Revenue = 결제자수 x ARPPU
+  - Subscription service라면 MRR(monthly recurring revenue)
+  - RFM (Recency, Frequency, Monetary)
+
+- Referrel
+  - organic 유입의 한 단계, 기존 사용자의 추천과 입소문을 통한 사용자 확대
+  - referral은 애초에 잘 동작하지 않음. 
+  - 초대하는 사람에게도 초대 받는 사람에게도 혜택이 있는 게 좋다
+  - 추천을 해야하는 이유를 만들어 줘야 함 (고객들이 제품의 장점에 대해 소셜미디어에 남기거나 온라인 리뷰를 남길 때 묘사한 언어)
+  
+  
+- 지표 활용
+  - 지표를 명확하게 정의하기
+  - 선행 지표를 찾기 
+    - 도메인 지식과 상상력이 중요
+    - 하나의 데이터를 다양한 각도에서 볼 것
+  - Vanity metric : 실제로 중요한 숫자들과 상관없지만 일하는 건 어필 가능. (고객문의 처리 건수, 버그 처리 갯수 등)
+  - 클릭의 가치가 서로 다를 수 있음. CPC가 싸다고 무조건 좋은 것이 아니다. (팝업 무의식 클릭과 블로그 읽고 클릭 다름)
+  - 집행하는 광고비 금액이 커지면 CPC도 커지는 게 당연
+  - Simpson's paradox
+  - 평균 만능주의 (분포를 먼저 확인해야 어떤 값을 대표로 쓸 지 결정할 수 있다)
+    - 데이터 시각화의 중요성을 일깨워줌
+    
+- 지금 제일 중요한 지표는 무엇인가? 
+- 모든 지표를 관리하는 건 리소스 낭비, 우선순위 명확하지 않으면 서비스 방향을 directing 할 수 없음
+- OMTM (one metric that matters) - 성장을 위해 지금 우리가 집중해야 하는 하나의 지표 (나머지를 무시하라는 의미는 아님)
+- 매출이 omtm이 되어서는 안되는 이유. 
+  - 서비스의 핵심가치와 무관 (매출은 늘지만 서비스가 잘못되는 경우도 있음)
+  - Actionable하지 않음 (매출은 후행지표)
+- OKR 
+  - Objective 도전적인 목표, 정성적인 언어
+  - key result 목표를 달성하기 위한 구체적인 결과지표 (측정가능 모니터링 가능, 하나의 objective에 KR은 3개 이하)
+  - 체크포인트 전사적 align, 투명한 공유, 경영진의 솔선수범, 평가제도와의 연계방안
+  - omtm: 중요한 지표 그 자체
+  - okr:  그 지표를 개선하기 위한 구체적인 action plan
