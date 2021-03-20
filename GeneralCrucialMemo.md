@@ -258,3 +258,12 @@ BEST PRACTICES FOR INCIDENT MANAGEMENT
 - if you constantly need to change a service because of changes to other services or if it’s triggering changes in other services, that’s a sign that it’s not loosely coupled. You might even have built a distributed monolith.
 
 - There are several obstacles to decomposition. The first is network latency. Another obstacle to decomposition is that synchronous communication between services reduces availability. The third obstacle is the requirement to maintain data consistency across services. The fourth and final obstacle to decomposition is so-called god classes, which are used throughout an application. 
+
+
+
+
+- 미래에 대비하는 가장 좋은 방법은 변경을 예측하는 것이 아니라 변경을 수용할 수 있는 선택의 여지를 설계에 마련해 놓는 것이다. 
+
+- 좋은 설계는 나중에라도 변경할 수 있는 여지를 남겨놓은 설계다. 설계를 하는 목적은 나중에 설계하는 것을 이용하는 것이다. 설계의 일차적인 목표는 변경에 소요되는 비용을 낮추는 것이다. 설계를 하는 목적은 나중에 설계하는 것을 허용하는 것이며, 설계의 일차적인 목표는 변경에 소요되는 비용을 낮추는 것이다.
+
+- - 불안정한 기능을 안정적인 구조 안에 담음으로써 변경에 대한 파급효과를 최소화하는 것은 훌륭한 객체지향 설계자가 갖춰야 할 기본적인 설계 능력이다. 도메인 모델은 안정적인 구조를 개념화히기 위해, 유스케이스는 불안정한 기능을 서술하기 위해 가장 일반적으로 사용되는 도구다. 변경에 유연한 소프트웨어를 만들기 위해서는 유스케이스에 정리된 시스템의 기능을 도메인 모델을 기반으로 한 객체들의 책임으로 분배햐아 한다.
