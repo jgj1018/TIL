@@ -110,3 +110,7 @@ The links below are my favorite posts.
 
 - [How does Netflix recommend movies? Matrix Factorization](https://youtu.be/ZspR5PZemcs)
 - [Machine Learning Zero to Hero (Google I/O'19)](https://youtu.be/VwVg9jCtqaU)
+
+## 2021.03
+
+- [How to Overcome Cognitive Bias in User Research](https://xd.adobe.com/ideas/process/user-research/how-to-overcome-cognitive-bias-in-ux-research/)
